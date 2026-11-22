@@ -11,6 +11,7 @@ eleventyComputed:
   description: "{{ resort.theme }} A plain-English guide to {{ resort.name }} for first-time visitors."
 ---
 {% set tier = tiers | findTierByName(resort.tier) %}
+{% set g = resortGuides[resort.slug] or {} %}
 <section class="page-hero">
   <div class="wrap page-hero-row">
     <div class="page-hero-copy">
@@ -18,7 +19,7 @@ eleventyComputed:
       <p class="eyebrow">{{ resort.tier }} resort · {{ resort.area }}</p>
       <h1>{{ resort.name }}</h1>
       <p class="lead">{{ resort.theme }}</p>
-      <p class="byline">By [YOUR NAME] · Facts last checked [DATE]</p>
+      <p class="byline">By {{ g.author or "[YOUR NAME]" }}{% if g.experience %} · {{ g.experience }}{% endif %} · Facts last checked [DATE]</p>
     </div>
     {% set label = resort.short %}
     <div class="hero-soon">{% include "coming-soon.njk" %}</div>
@@ -35,35 +36,35 @@ eleventyComputed:
     {% endif %}
 
     <h2>Our take</h2>
-    <p class="todo">[YOUR FIRST-HAND TAKE: what it felt like to stay here, and the one thing a first-timer should know.]</p>
+    {% if g.take %}{{ g.take | safe }}{% else %}<p class="todo">[YOUR FIRST-HAND TAKE: what it felt like to stay here, and the one thing a first-timer should know.]</p>{% endif %}
 
     <h2>Who it suits</h2>
-    <p class="todo">[WHO THIS RESORT IS BEST FOR, AND WHO SHOULD LOOK ELSEWHERE]</p>
+    {% if g.suits %}{{ g.suits | safe }}{% else %}<p class="todo">[WHO THIS RESORT IS BEST FOR, AND WHO SHOULD LOOK ELSEWHERE]</p>{% endif %}
 
     <h2>Rooms</h2>
-    <p class="todo">[ROOM TYPES, HOW MANY PEOPLE THEY SLEEP, AND WHICH SECTION TO REQUEST. CHECK AGAINST DISNEY'S CURRENT LISTING.]</p>
+    {% if g.rooms %}{{ g.rooms | safe }}{% else %}<p class="todo">[ROOM TYPES, HOW MANY PEOPLE THEY SLEEP, AND WHICH SECTION TO REQUEST. CHECK AGAINST DISNEY'S CURRENT LISTING.]</p>{% endif %}
 
     <h2>Pools and things to do</h2>
-    <p class="todo">[POOLS, PLAY AREAS, AND ACTIVITIES]</p>
+    {% if g.pools %}{{ g.pools | safe }}{% else %}<p class="todo">[POOLS, PLAY AREAS, AND ACTIVITIES]</p>{% endif %}
 
     <h2>Where to eat</h2>
-    <p class="todo">[RESTAURANTS AND QUICK-SERVICE SPOTS ON SITE, AND YOUR FAVORITE]</p>
+    {% if g.dining %}{{ g.dining | safe }}{% else %}<p class="todo">[RESTAURANTS AND QUICK-SERVICE SPOTS ON SITE, AND YOUR FAVORITE]</p>{% endif %}
 
     <h2 id="getting-around">Getting to the parks</h2>
     <ul class="ticks">
       {% for t in resort.transport %}<li>{{ t }}</li>
       {% endfor %}
     </ul>
-    <p class="todo">[HOW LONG IT REALLY TOOK, AND ANY TIPS]</p>
+    {% if g.gettingAround %}{{ g.gettingAround | safe }}{% else %}<p class="todo">[HOW LONG IT REALLY TOOK, AND ANY TIPS]</p>{% endif %}
 
     <h2>Pros and cons</h2>
     <div class="proscons">
-      <div class="card"><h3>Love</h3><ul><li class="todo">[PRO]</li><li class="todo">[PRO]</li><li class="todo">[PRO]</li></ul></div>
-      <div class="card"><h3>Keep in mind</h3><ul><li class="todo">[CON]</li><li class="todo">[CON]</li><li class="todo">[CON]</li></ul></div>
+      <div class="card"><h3>Love</h3><ul class="ticks">{% if g.pros %}{% for x in g.pros %}<li>{{ x }}</li>{% endfor %}{% else %}<li class="todo">[PRO]</li><li class="todo">[PRO]</li><li class="todo">[PRO]</li>{% endif %}</ul></div>
+      <div class="card"><h3>Keep in mind</h3><ul class="ticks">{% if g.cons %}{% for x in g.cons %}<li>{{ x }}</li>{% endfor %}{% else %}<li class="todo">[CON]</li><li class="todo">[CON]</li><li class="todo">[CON]</li>{% endif %}</ul></div>
     </div>
 
     <h2>First-timer tips</h2>
-    <p class="todo">[TWO OR THREE PRACTICAL TIPS]</p>
+    {% if g.tips %}<ul class="ticks">{% for x in g.tips %}<li>{{ x }}</li>{% endfor %}</ul>{% else %}<p class="todo">[TWO OR THREE PRACTICAL TIPS]</p>{% endif %}
   </article>
 
   <aside class="guide-side">
@@ -73,7 +74,7 @@ eleventyComputed:
         <dt>Category</dt><dd><a href="/resorts/#{{ tier.slug }}">{{ resort.tier }}</a></dd>
         <dt>Area</dt><dd>{{ resort.area }}</dd>
         <dt>Getting around</dt><dd>{{ resort.transport | first }}</dd>
-        <dt>Best for</dt><dd class="todo">[BEST FOR]</dd>
+        <dt>Best for</dt>{% if g.bestFor %}<dd>{{ g.bestFor }}</dd>{% else %}<dd class="todo">[BEST FOR]</dd>{% endif %}
         <dt>Facts last checked</dt><dd class="todo">[DATE]</dd>
       </dl>
     </div>
