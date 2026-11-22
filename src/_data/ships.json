@@ -70,7 +70,14 @@
       "Oceaneer Club and Lab",
       "Edge (tweens)",
       "Vibe (teens)"
-    ]
+    ],
+    "photo": {
+      "src": "/images/ships/disney-dream-1600.jpg",
+      "small": "/images/ships/disney-dream-800.jpg",
+      "width": 1600,
+      "height": 1067,
+      "alt": "The Disney Dream anchored off a tropical beach, with snorkelers in turquoise water in the foreground"
+    }
   },
   {
     "slug": "disney-fantasy",
