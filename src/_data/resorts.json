@@ -281,7 +281,43 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/contemporary-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe resort in the Magic Kingdom area. This guide covers the hotel rooms in the Main Tower and Garden Wing. In 2026 a Garden Wing Resort View room ran about $638 to $1,137 a night at full price, tax included. Main Tower Theme Park View rooms ran about $960 to $1,518, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "A walking path and the resort monorail both go to Magic Kingdom. The monorail also goes to EPCOT after a transfer at the Transportation and Ticket Center. Boats connect this resort with Wilderness Lodge and Fort Wilderness. Buses serve Hollywood Studios, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Standard rooms are often listed around 400 to 437 sq ft [verify] and typically sleep up to 5 adults with 2 queen beds and a day bed. Garden Wing rooms sit next to the Main Tower. Main Tower rooms have Water View or Theme Park View. Club Level rooms include lounge access."
+      },
+      {
+        "label": "Best for",
+        "value": "Anyone who wants the shortest walk or monorail ride to Magic Kingdom, and families who need a standard room that can sleep five. It is a weaker pick if you were hoping to avoid construction in 2026 and 2027, or if a quieter, less busy hotel is the goal."
+      },
+      {
+        "label": "Food",
+        "value": "Chef Mickey's is the character buffet for breakfast and dinner. California Grill is the 15th-floor dinner restaurant, with a view of Magic Kingdom. Steakhouse 71 serves breakfast, lunch and dinner. Contempo Cafe is the quick-service spot on the Grand Canyon Concourse."
+      },
+      {
+        "label": "Pools",
+        "value": "The Feature Pool is the main pool, with a 17-foot waterslide. Bay Lake Pool is a quieter leisure pool. There are whirlpool spas, and cabanas may be available to rent."
+      }
+    ],
+    "heads": "Refurbishment work is underway in the atrium, on the Main Tower exterior and at Bay Lake Tower, and it is expected to continue through late 2027. Views and some outdoor paths may be affected, and you may see or hear work during the day. [verify current status]",
+    "photos": {
+      "hero": {
+        "src": "/images/resorts/contemporary/hero.webp",
+        "alt": "The A-frame tower of Disney's Contemporary Resort, seen from the sandy beach with empty lounge chairs in the foreground."
+      }
+    }
   },
   {
     "slug": "grand-floridian",
