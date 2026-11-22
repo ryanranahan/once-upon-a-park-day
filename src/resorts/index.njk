@@ -1,0 +1,69 @@
+---
+layout: layouts/base.njk
+section: resorts
+title: Walt Disney World resort hotels
+description: Every Disney-owned resort hotel at Walt Disney World, grouped by category and area, with a plain-English guide to each.
+---
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <p class="eyebrow">Walt Disney World</p>
+      <h1>Every Disney resort hotel, explained</h1>
+      <p class="lead">All {{ resorts.length }} Disney-owned places to stay at Walt Disney World, grouped from Value to Deluxe. Pick an area to narrow it down.</p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="chips" role="group" aria-label="Filter by area">
+    <button type="button" class="chip" aria-pressed="true" data-area="">All areas</button>
+    {% for a in ["Magic Kingdom area", "Epcot area", "Animal Kingdom area", "Disney Springs area", "Wide World of Sports area"] %}
+    <button type="button" class="chip" aria-pressed="false" data-area="{{ a }}">{{ a | replace(" area", "") }}</button>
+    {% endfor %}
+  </div>
+
+  {% for t in tiers %}
+  <section class="section tier" id="{{ t.slug }}">
+    <h2>{{ t.plural or t.name }}</h2>
+    <p class="tier-blurb">{{ t.blurb }}</p>
+    <div class="grid-3">
+      {% for r in resorts | byTier(t.name) %}
+      {% if r.fullGuide %}
+      <div class="card resort-card has-guide" data-area="{{ r.area }}">
+        <span class="eyebrow">{{ r.area }}</span>
+        <strong><a href="{{ r.fullGuide }}">{{ r.short }}</a></strong>
+        <small>{{ r.theme }}</small>
+        <span class="resort-links"><a href="{{ r.fullGuide }}">Read the full guide</a><a href="/resorts/{{ r.slug }}/">Quick facts</a></span>
+      </div>
+      {% else %}
+      <a class="card resort-card" href="/resorts/{{ r.slug }}/" data-area="{{ r.area }}">
+        <span class="eyebrow">{{ r.area }}</span>
+        <strong>{{ r.short }}</strong>
+        <small>{{ r.theme }}</small>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+
+  <p class="fineprint">Hotels on Disney property that Disney does not run, such as the Swan, Dolphin and Swan Reserve, Shades of Green, and the Disney Springs area hotels, will get their own guides later.</p>
+</div>
+
+<script>
+(function () {
+  var chips = document.querySelectorAll('.chip');
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      var area = chip.getAttribute('data-area');
+      chips.forEach(function (c) { c.setAttribute('aria-pressed', c === chip); });
+      document.querySelectorAll('.resort-card').forEach(function (card) {
+        card.hidden = area && card.getAttribute('data-area') !== area;
+      });
+      document.querySelectorAll('.tier').forEach(function (sec) {
+        sec.hidden = !sec.querySelector('.resort-card:not([hidden])');
+      });
+    });
+  });
+})();
+</script>

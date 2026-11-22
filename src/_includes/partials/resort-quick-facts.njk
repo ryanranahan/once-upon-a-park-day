@@ -1,0 +1,42 @@
+{#- Quick facts page for a resort that has a full guide.
+    Rendered by src/resorts/resort.njk when resorts.json has "fullGuide" for this resort.
+    The page's canonical points at the full guide (set in resort.njk front matter). -#}
+{% set tier = tiers | findTierByName(resort.tier) %}
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/resorts/">Resorts</a> <span aria-hidden="true">›</span> <a href="/resorts/#{{ tier.slug }}">{{ tier.plural or tier.name }}</a></nav>
+      <p class="eyebrow">{{ resort.tier }} resort · {{ resort.area }}</p>
+      <h1>{{ resort.short }} Resort: <em>Quick Facts</em></h1>
+      <p class="lead">The short version of {{ resort.name }}, in six answers. For rooms, transport times and booking tips, read the full guide.</p>
+      <p class="byline">By {{ resort.author }} · Last verified {{ resort.lastVerified }}</p>
+      <a class="btn btn-red" href="{{ resort.fullGuide }}">Read the full guide</a>
+    </div>
+    <div class="placeholder hero-photo">[YOUR PHOTO OF {{ resort.short | upper }}]</div>
+  </div>
+</section>
+
+<div class="wrap section qf-row">
+  <div class="qf-main">
+    <ul class="qf-list">
+      {% for f in resort.quickFacts %}
+      <li class="card qf-item"><h2>{{ f.label }}</h2><p>{{ f.value }}</p></li>
+      {% endfor %}
+    </ul>
+    {% if resort.heads %}<div class="card qf-heads"><strong>Heads up:</strong> {{ resort.heads }}</div>{% endif %}
+    <div class="qf-cta">
+      <div><strong>Want the details?</strong><p>Room-by-room table, Skyliner vs. bus to every park, dining, pools and booking tips.</p></div>
+      <a class="btn btn-red" href="{{ resort.fullGuide }}">Read the full guide</a>
+    </div>
+  </div>
+  <aside class="guide-side">
+    {% set nearby = resorts | byArea(resort.area, resort.slug) %}
+    {% if nearby.length %}
+    <div class="card nearby">
+      <h2>Also in the {{ resort.area | replace(" area", "") }} area</h2>
+      <ul>{% for n in nearby %}<li><a href="/resorts/{{ n.slug }}/">{{ n.short }}</a> <small>{{ n.tier }}</small></li>{% endfor %}</ul>
+    </div>
+    {% endif %}
+    <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+  </aside>
+</div>

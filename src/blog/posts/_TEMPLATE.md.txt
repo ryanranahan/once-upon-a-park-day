@@ -1,0 +1,11 @@
+---
+title: Your post title
+date: 2026-12-01
+category: Trip report
+summary: One sentence that shows under the title on the blog page.
+image: /images/resort-day.svg
+affiliate: false
+draft: true
+---
+
+Write the post here in Markdown. Remove "draft: true" when it's ready to publish.

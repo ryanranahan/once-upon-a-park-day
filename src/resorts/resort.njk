@@ -1,0 +1,93 @@
+---
+layout: layouts/base.njk
+section: resorts
+pagination:
+  data: resorts
+  size: 1
+  alias: resort
+permalink: "/resorts/{{ resort.slug }}/"
+eleventyComputed:
+  title: "{% if resort.fullGuide %}{{ resort.short }} Resort: Quick Facts{% else %}{{ resort.short }}: a first-timer's guide{% endif %}"
+  canonical: "{{ resort.fullGuide or '' }}"
+  description: "{{ resort.theme }} A plain-English guide to {{ resort.name }} for first-time visitors."
+---
+{% if resort.fullGuide %}
+{% include "partials/resort-quick-facts.njk" %}
+{% else %}
+{% set tier = tiers | findTierByName(resort.tier) %}
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/resorts/">Resorts</a> <span aria-hidden="true">›</span> <a href="/resorts/#{{ tier.slug }}">{{ tier.plural or tier.name }}</a></nav>
+      <p class="eyebrow">{{ resort.tier }} resort · {{ resort.area }}</p>
+      <h1>{{ resort.name }}</h1>
+      <p class="lead">{{ resort.theme }}</p>
+      <p class="byline">By [YOUR NAME] · Facts last checked [DATE]</p>
+    </div>
+    <div class="placeholder hero-photo">[YOUR PHOTO OF {{ resort.short | upper }}]</div>
+  </div>
+</section>
+
+<div class="wrap guide-row">
+  <article class="guide">
+    {% if resort.dvc %}
+    <div class="callout">
+      <strong>This is a Disney Vacation Club resort.</strong>
+      <p>You don't need to be a member to stay here. Villas range from studios with a kitchenette to multi-bedroom villas with a full kitchen.{% if resort.host %}{% set host = resorts | findResort(resort.host) %} It shares grounds with <a href="/resorts/{{ host.slug }}/">{{ host.short }}</a>.{% endif %}</p>
+    </div>
+    {% endif %}
+
+    <h2>Our take</h2>
+    <p class="todo">[YOUR FIRST-HAND TAKE: what it felt like to stay here, and the one thing a first-timer should know.]</p>
+
+    <h2>Who it suits</h2>
+    <p class="todo">[WHO THIS RESORT IS BEST FOR, AND WHO SHOULD LOOK ELSEWHERE]</p>
+
+    <h2>Rooms</h2>
+    <p class="todo">[ROOM TYPES, HOW MANY PEOPLE THEY SLEEP, AND WHICH SECTION TO REQUEST. CHECK AGAINST DISNEY'S CURRENT LISTING.]</p>
+
+    <h2>Pools and things to do</h2>
+    <p class="todo">[POOLS, PLAY AREAS, AND ACTIVITIES]</p>
+
+    <h2>Where to eat</h2>
+    <p class="todo">[RESTAURANTS AND QUICK-SERVICE SPOTS ON SITE, AND YOUR FAVORITE]</p>
+
+    <h2 id="getting-around">Getting to the parks</h2>
+    <ul class="ticks">
+      {% for t in resort.transport %}<li>{{ t }}</li>
+      {% endfor %}
+    </ul>
+    <p class="todo">[HOW LONG IT REALLY TOOK, AND ANY TIPS]</p>
+
+    <h2>Pros and cons</h2>
+    <div class="proscons">
+      <div class="card"><h3>Love</h3><ul><li class="todo">[PRO]</li><li class="todo">[PRO]</li><li class="todo">[PRO]</li></ul></div>
+      <div class="card"><h3>Keep in mind</h3><ul><li class="todo">[CON]</li><li class="todo">[CON]</li><li class="todo">[CON]</li></ul></div>
+    </div>
+
+    <h2>First-timer tips</h2>
+    <p class="todo">[TWO OR THREE PRACTICAL TIPS]</p>
+  </article>
+
+  <aside class="guide-side">
+    <div class="card facts">
+      <h2>At a glance</h2>
+      <dl>
+        <dt>Category</dt><dd><a href="/resorts/#{{ tier.slug }}">{{ resort.tier }}</a></dd>
+        <dt>Area</dt><dd>{{ resort.area }}</dd>
+        <dt>Getting around</dt><dd>{{ resort.transport | first }}</dd>
+        <dt>Best for</dt><dd class="todo">[BEST FOR]</dd>
+        <dt>Facts last checked</dt><dd class="todo">[DATE]</dd>
+      </dl>
+    </div>
+    {% set nearby = resorts | byArea(resort.area, resort.slug) %}
+    {% if nearby.length %}
+    <div class="card nearby">
+      <h2>Also in the {{ resort.area | replace(" area", "") }} area</h2>
+      <ul>{% for n in nearby %}<li><a href="/resorts/{{ n.slug }}/">{{ n.short }}</a> <small>{{ n.tier }}</small></li>{% endfor %}</ul>
+    </div>
+    {% endif %}
+    <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+  </aside>
+</div>
+{% endif %}

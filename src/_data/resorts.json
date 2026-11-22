@@ -1,0 +1,472 @@
+[
+  {
+    "slug": "all-star-movies",
+    "name": "Disney's All-Star Movies Resort",
+    "short": "All-Star Movies",
+    "tier": "Value",
+    "area": "Animal Kingdom area",
+    "theme": "Bright, playful buildings decorated with giant icons from classic Disney films.",
+    "transport": [
+      "Buses to all four parks and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "all-star-music",
+    "name": "Disney's All-Star Music Resort",
+    "short": "All-Star Music",
+    "tier": "Value",
+    "area": "Animal Kingdom area",
+    "theme": "Music-themed buildings with oversized instruments, plus family suites for bigger groups.",
+    "transport": [
+      "Buses to all four parks and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "all-star-sports",
+    "name": "Disney's All-Star Sports Resort",
+    "short": "All-Star Sports",
+    "tier": "Value",
+    "area": "Animal Kingdom area",
+    "theme": "Sports-themed buildings with supersized balls, helmets and courts.",
+    "transport": [
+      "Buses to all four parks and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "pop-century",
+    "name": "Disney's Pop Century Resort",
+    "short": "Pop Century",
+    "tier": "Value",
+    "area": "Wide World of Sports area",
+    "theme": "A walk through 20th-century pop culture, decade by decade, across the lake from Art of Animation.",
+    "transport": [
+      "Disney Skyliner gondolas to Epcot and Hollywood Studios",
+      "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null,
+    "fullGuide": "/resorts/pop-century-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Value resort in the Wide World of Sports area. In 2026 a Standard Room ran about $213 to $404 a night at full price, tax included, depending on dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Skyliner gondola to EPCOT and Hollywood Studios, with a quick change at the Caribbean Beach hub. Buses to Magic Kingdom, Animal Kingdom, Disney Springs and the water parks."
+      },
+      {
+        "label": "Room size",
+        "value": "About 260 sq ft [verify], sleeping up to 4 adults. Every room is the same: 1 queen bed plus a queen pull-down bed that folds into a table, or 1 king. The four room categories only change location and view."
+      },
+      {
+        "label": "Best for",
+        "value": "Budget-minded families with young kids who want easy EPCOT and Hollywood Studios days. Tight for four adults, and not the pick if the pool or resort dining is the point of your trip."
+      },
+      {
+        "label": "Food",
+        "value": "Everything POP food court for breakfast, lunch and dinner, plus Petals Pool Bar. There's no table-service restaurant on site."
+      },
+      {
+        "label": "Pools",
+        "value": "Three pools: the flower-shaped Hippy Dippy Pool with a kiddie splash area, plus the smaller Bowling and Computer pools. No hot tubs."
+      }
+    ],
+    "heads": "The Skyliner is closed Jan 24–30, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Pop Century stops running early."
+  },
+  {
+    "slug": "art-of-animation",
+    "name": "Disney's Art of Animation Resort",
+    "short": "Art of Animation",
+    "tier": "Value",
+    "area": "Wide World of Sports area",
+    "theme": "Themed to animated films, with most rooms set up as family suites.",
+    "transport": [
+      "Disney Skyliner gondolas to Epcot and Hollywood Studios",
+      "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "caribbean-beach",
+    "name": "Disney's Caribbean Beach Resort",
+    "short": "Caribbean Beach",
+    "tier": "Moderate",
+    "area": "Epcot area",
+    "theme": "Colorful Caribbean island villages around a lake, and the central hub of the Skyliner.",
+    "transport": [
+      "Disney Skyliner gondolas to Epcot and Hollywood Studios",
+      "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "coronado-springs",
+    "name": "Disney's Coronado Springs Resort",
+    "short": "Coronado Springs",
+    "tier": "Moderate",
+    "area": "Animal Kingdom area",
+    "theme": "Spanish and Mexican-inspired buildings around a large lake, including the Gran Destino Tower.",
+    "transport": [
+      "Buses to all four parks and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "port-orleans-french-quarter",
+    "name": "Disney's Port Orleans Resort – French Quarter",
+    "short": "Port Orleans French Quarter",
+    "tier": "Moderate",
+    "area": "Disney Springs area",
+    "theme": "A compact resort styled after the French Quarter of New Orleans.",
+    "transport": [
+      "Buses to all four parks and Disney Springs",
+      "Boat to Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "port-orleans-riverside",
+    "name": "Disney's Port Orleans Resort – Riverside",
+    "short": "Port Orleans Riverside",
+    "tier": "Moderate",
+    "area": "Disney Springs area",
+    "theme": "Southern riverside mansions and bayou-style buildings along a winding river.",
+    "transport": [
+      "Buses to all four parks and Disney Springs",
+      "Boat to Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "animal-kingdom-lodge",
+    "name": "Disney's Animal Kingdom Lodge",
+    "short": "Animal Kingdom Lodge",
+    "tier": "Deluxe",
+    "area": "Animal Kingdom area",
+    "theme": "An African-inspired lodge where many rooms look out over savannas with live animals.",
+    "transport": [
+      "Buses to all four parks and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "beach-club",
+    "name": "Disney's Beach Club Resort",
+    "short": "Beach Club",
+    "tier": "Deluxe",
+    "area": "Epcot area",
+    "theme": "A breezy New England seaside hotel, sharing a large sand-bottom pool area with the Yacht Club.",
+    "transport": [
+      "Walking paths and Friendship boats to Epcot and Hollywood Studios",
+      "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "boardwalk-inn",
+    "name": "Disney's BoardWalk Inn",
+    "short": "BoardWalk Inn",
+    "tier": "Deluxe",
+    "area": "Epcot area",
+    "theme": "A turn-of-the-century Atlantic seaboard boardwalk on Crescent Lake, with shops and restaurants outside the door.",
+    "transport": [
+      "Walking paths and Friendship boats to Epcot and Hollywood Studios",
+      "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "contemporary",
+    "name": "Disney's Contemporary Resort",
+    "short": "Contemporary",
+    "tier": "Deluxe",
+    "area": "Magic Kingdom area",
+    "theme": "A modern A-frame tower that the monorail runs right through, a short walk from Magic Kingdom.",
+    "transport": [
+      "Walking path to Magic Kingdom",
+      "Monorail to Magic Kingdom and Epcot (Epcot via a transfer at the Transportation and Ticket Center)",
+      "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "grand-floridian",
+    "name": "Disney's Grand Floridian Resort & Spa",
+    "short": "Grand Floridian",
+    "tier": "Deluxe",
+    "area": "Magic Kingdom area",
+    "theme": "A Victorian-style seaside hotel on the Seven Seas Lagoon, and Walt Disney World's flagship resort.",
+    "transport": [
+      "Monorail to Magic Kingdom and Epcot (Epcot via a transfer at the Transportation and Ticket Center)",
+      "Boat to Magic Kingdom",
+      "Walking path to Magic Kingdom",
+      "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "polynesian-village",
+    "name": "Disney's Polynesian Village Resort",
+    "short": "Polynesian Village",
+    "tier": "Deluxe",
+    "area": "Magic Kingdom area",
+    "theme": "A South Pacific island resort on the Seven Seas Lagoon, looking across the water to Magic Kingdom.",
+    "transport": [
+      "Monorail to Magic Kingdom and Epcot (Epcot via a transfer at the Transportation and Ticket Center)",
+      "Boat to Magic Kingdom",
+      "Walking path to the Transportation and Ticket Center for the Epcot monorail",
+      "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "wilderness-lodge",
+    "name": "Disney's Wilderness Lodge",
+    "short": "Wilderness Lodge",
+    "tier": "Deluxe",
+    "area": "Magic Kingdom area",
+    "theme": "A grand national park lodge with a towering lobby, set in the woods on Bay Lake.",
+    "transport": [
+      "Boat to Magic Kingdom",
+      "Buses to Epcot, Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "yacht-club",
+    "name": "Disney's Yacht Club Resort",
+    "short": "Yacht Club",
+    "tier": "Deluxe",
+    "area": "Epcot area",
+    "theme": "A polished New England yacht club, sharing a large sand-bottom pool area with the Beach Club.",
+    "transport": [
+      "Walking paths and Friendship boats to Epcot and Hollywood Studios",
+      "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  },
+  {
+    "slug": "bay-lake-tower",
+    "name": "Bay Lake Tower at Disney's Contemporary Resort",
+    "short": "Bay Lake Tower",
+    "tier": "Deluxe Villa",
+    "area": "Magic Kingdom area",
+    "theme": "A Disney Vacation Club tower next to the Contemporary, linked to it by a skybridge.",
+    "transport": [
+      "Walking path to Magic Kingdom",
+      "Monorail to Magic Kingdom and Epcot (Epcot via a transfer at the Transportation and Ticket Center) via the Contemporary",
+      "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": true,
+    "host": "contemporary"
+  },
+  {
+    "slug": "boulder-ridge-villas",
+    "name": "Boulder Ridge Villas at Disney's Wilderness Lodge",
+    "short": "Boulder Ridge Villas",
+    "tier": "Deluxe Villa",
+    "area": "Magic Kingdom area",
+    "theme": "Disney Vacation Club villas inside the Wilderness Lodge, styled after the railroad era of the American West.",
+    "transport": [
+      "Boat to Magic Kingdom",
+      "Buses to Epcot, Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": true,
+    "host": "wilderness-lodge"
+  },
+  {
+    "slug": "copper-creek-villas",
+    "name": "Copper Creek Villas & Cabins at Disney's Wilderness Lodge",
+    "short": "Copper Creek Villas & Cabins",
+    "tier": "Deluxe Villa",
+    "area": "Magic Kingdom area",
+    "theme": "Disney Vacation Club villas inside the Wilderness Lodge, plus standalone cabins along Bay Lake.",
+    "transport": [
+      "Boat to Magic Kingdom",
+      "Buses to Epcot, Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": true,
+    "host": "wilderness-lodge"
+  },
+  {
+    "slug": "old-key-west",
+    "name": "Disney's Old Key West Resort",
+    "short": "Old Key West",
+    "tier": "Deluxe Villa",
+    "area": "Disney Springs area",
+    "theme": "A laid-back Key West-style resort with roomy villas, near Disney Springs.",
+    "transport": [
+      "Buses to all four parks and Disney Springs",
+      "Boat to Disney Springs"
+    ],
+    "dvc": true,
+    "host": null
+  },
+  {
+    "slug": "saratoga-springs",
+    "name": "Disney's Saratoga Springs Resort & Spa",
+    "short": "Saratoga Springs",
+    "tier": "Deluxe Villa",
+    "area": "Disney Springs area",
+    "theme": "A large resort inspired by the spa and horse-racing towns of upstate New York, across the lake from Disney Springs.",
+    "transport": [
+      "Buses to all four parks and Disney Springs",
+      "Boat and walking path to Disney Springs"
+    ],
+    "dvc": true,
+    "host": null
+  },
+  {
+    "slug": "riviera",
+    "name": "Disney's Riviera Resort",
+    "short": "Riviera",
+    "tier": "Deluxe Villa",
+    "area": "Epcot area",
+    "theme": "An elegant European Riviera-style resort with its own Skyliner station.",
+    "transport": [
+      "Disney Skyliner gondolas to Epcot and Hollywood Studios",
+      "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": true,
+    "host": null
+  },
+  {
+    "slug": "polynesian-villas",
+    "name": "Disney's Polynesian Villas & Bungalows",
+    "short": "Polynesian Villas & Bungalows",
+    "tier": "Deluxe Villa",
+    "area": "Magic Kingdom area",
+    "theme": "Disney Vacation Club villas at the Polynesian, plus bungalows that sit over the Seven Seas Lagoon.",
+    "transport": [
+      "Monorail to Magic Kingdom and Epcot (Epcot via a transfer at the Transportation and Ticket Center)",
+      "Boat to Magic Kingdom",
+      "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": true,
+    "host": "polynesian-village"
+  },
+  {
+    "slug": "island-tower",
+    "name": "Island Tower at Disney's Polynesian Villas & Bungalows",
+    "short": "Island Tower",
+    "tier": "Deluxe Villa",
+    "area": "Magic Kingdom area",
+    "theme": "The newest Disney Vacation Club tower at the Polynesian, on the Seven Seas Lagoon.",
+    "transport": [
+      "Monorail to Magic Kingdom and Epcot (Epcot via a transfer at the Transportation and Ticket Center) via the Polynesian",
+      "Boat to Magic Kingdom",
+      "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": true,
+    "host": "polynesian-village"
+  },
+  {
+    "slug": "grand-floridian-villas",
+    "name": "The Villas at Disney's Grand Floridian Resort & Spa",
+    "short": "Grand Floridian Villas",
+    "tier": "Deluxe Villa",
+    "area": "Magic Kingdom area",
+    "theme": "Disney Vacation Club villas in the same Victorian style as the Grand Floridian next door.",
+    "transport": [
+      "Monorail to Magic Kingdom and Epcot (Epcot via a transfer at the Transportation and Ticket Center)",
+      "Boat to Magic Kingdom",
+      "Walking path to Magic Kingdom",
+      "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": true,
+    "host": "grand-floridian"
+  },
+  {
+    "slug": "kidani-village",
+    "name": "Disney's Animal Kingdom Villas – Kidani Village",
+    "short": "Kidani Village",
+    "tier": "Deluxe Villa",
+    "area": "Animal Kingdom area",
+    "theme": "Disney Vacation Club villas next to Animal Kingdom Lodge, with their own savanna views.",
+    "transport": [
+      "Buses to all four parks and Disney Springs"
+    ],
+    "dvc": true,
+    "host": "animal-kingdom-lodge"
+  },
+  {
+    "slug": "beach-club-villas",
+    "name": "Disney's Beach Club Villas",
+    "short": "Beach Club Villas",
+    "tier": "Deluxe Villa",
+    "area": "Epcot area",
+    "theme": "Disney Vacation Club villas attached to the Beach Club, with access to the same pool area.",
+    "transport": [
+      "Walking paths and Friendship boats to Epcot and Hollywood Studios",
+      "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": true,
+    "host": "beach-club"
+  },
+  {
+    "slug": "boardwalk-villas",
+    "name": "Disney's BoardWalk Villas",
+    "short": "BoardWalk Villas",
+    "tier": "Deluxe Villa",
+    "area": "Epcot area",
+    "theme": "Disney Vacation Club villas on the BoardWalk, sharing the building with the BoardWalk Inn.",
+    "transport": [
+      "Walking paths and Friendship boats to Epcot and Hollywood Studios",
+      "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": true,
+    "host": "boardwalk-inn"
+  },
+  {
+    "slug": "cabins-at-fort-wilderness",
+    "name": "The Cabins at Disney's Fort Wilderness Resort",
+    "short": "Cabins at Fort Wilderness",
+    "tier": "Deluxe Villa",
+    "area": "Magic Kingdom area",
+    "theme": "Disney Vacation Club cabins tucked into the woods at Fort Wilderness.",
+    "transport": [
+      "Boat to Magic Kingdom",
+      "Internal buses around Fort Wilderness",
+      "Buses to Epcot, Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": true,
+    "host": null
+  },
+  {
+    "slug": "fort-wilderness",
+    "name": "Disney's Fort Wilderness Resort & Campground",
+    "short": "Fort Wilderness Campground",
+    "tier": "Campground",
+    "area": "Magic Kingdom area",
+    "theme": "Wooded campsites for tents and RVs on Bay Lake, with trails, horses and campfire evenings.",
+    "transport": [
+      "Boat to Magic Kingdom",
+      "Internal buses around Fort Wilderness",
+      "Buses to Epcot, Hollywood Studios, Animal Kingdom, and Disney Springs"
+    ],
+    "dvc": false,
+    "host": null
+  }
+]
