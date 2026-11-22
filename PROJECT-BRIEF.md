@@ -6,7 +6,7 @@ Read this before making any change to the site. It records what has been decided
 
 - An independent Disney information and blog site for people planning a stay at Disney resorts, a Disney Cruise Line sailing, and related trips.
 - Main audience: first-time visitors who need the basics explained in plain English.
-- Owner: Ryan. He directs the work in chat; Claude writes and edits everything.
+- Owner: Ryan.
 - Earlier working name was "The Resort Compass". The current name is "Once Upon A Park Day".
 
 ## How it makes money
