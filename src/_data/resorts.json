@@ -586,7 +586,51 @@
       "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/riviera-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa resort in the EPCOT area, and a Disney Vacation Club resort. In 2026 a Tower Studio ran about $519 to $966 a night at full cash price, tax included. A Deluxe Studio with a Resort View ran about $742 to $1,290, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "A Disney Skyliner station is at the resort. The line runs directly to EPCOT's International Gateway. Hollywood Studios takes a transfer at Caribbean Beach. Buses serve Magic Kingdom, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "A Tower Studio is about 255 sq ft [verify] and sleeps 2, with a queen-size pull-down bed. A Deluxe Studio is often listed around 423 sq ft [verify] and sleeps 5, with a queen bed, a queen-size pull-down and a single pull-down. One-, two- and three-bedroom villas are also on the rate sheet."
+      },
+      {
+        "label": "Best for",
+        "value": "Anyone who wants a Skyliner ride to EPCOT or Hollywood Studios, and families who like having a character breakfast and a Signature dinner at Topolino's Terrace. A Tower Studio is a weaker pick if you need space for more than two people."
+      },
+      {
+        "label": "Food",
+        "value": "Topolino's Terrace is the rooftop restaurant, with a character breakfast and a Signature dinner. Primo Piatto is the quick-service spot. Le Petit Cafe is a lobby cafe. Bar Riva is the pool bar."
+      },
+      {
+        "label": "Pools",
+        "value": "The Riviera Pool is the family pool, with a slide that winds around a column tower and the S'il Vous Play water-play area. Beau Soleil Pool is the quieter pool. Towels are free at both."
+      }
+    ],
+    "heads": "Disney Skyliner is scheduled to close for refurbishment from January 24 through January 30, 2027. Disney says complimentary bus service will be available during that week.",
+    "photos": {
+      "hero": {
+        "src": "/images/resorts/riviera/hero.webp",
+        "alt": "The courtyard and main pool at Disney's Riviera Resort at night, with guest-room balconies lit around the water."
+      },
+      "room": {
+        "src": "/images/resorts/riviera/room.webp",
+        "alt": "A Deluxe Studio at Disney's Riviera Resort, with a queen bed, a sitting area and a balcony beyond the curtains."
+      },
+      "pool": {
+        "src": "/images/resorts/riviera/pool.webp",
+        "alt": "The quieter Beau Soleil Pool at Disney's Riviera Resort at night, with fountain jets in the water and no guests on the deck."
+      }
+    }
   },
   {
     "slug": "polynesian-villas",
