@@ -749,6 +749,466 @@ Useful press-kit pages (high-res is behind Brandfolder):
 
 ---
 
+
+## Copper Creek Villas & Cabins
+
+**Ryan’s photos already in use:** hero, a holiday great-room still (`222A0112.jpg` from `Documents/disney_/resorts/copper_creek`). The second file in that folder is a smaller export of the same scene, so it was not used twice. No exterior or pool still was suitable.
+
+**Photo slots still open**
+
+- [ ] An exterior or grounds shot that is clearly Copper Creek, not the existing Wilderness Lodge waterfall hero
+- [ ] A second villa or cabin interior (kitchen, bedroom, or a cabin great room that is not the same as the hero)
+- [ ] Copper Creek Springs Pool, or the slide in the rocks
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the villa or cabin felt like
+- [ ] Boat time to Magic Kingdom, and the walk from the unit to the dock
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool you used, and whether the cabin-to-pool walk mattered
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including whether you’d spend the extra for a cabin
+
+**Fact-check / `[verify]`**
+
+- [ ] Current villa and cabin square footage
+- [ ] Current in-room appliances
+- [ ] Whether cabins have any additional food option
+- [ ] Buses to the other parks and Springs are still direct
+- [ ] Exterior work listed through late 2026 is still underway, or finished
+- [ ] Hours at Whispering Canyon, Roaring Fork and Geyser Point
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Grand Floridian Villas
+
+**Ryan’s photos already in use:** hero, a villa living room (`222A3776.jpg`), and a soaking-tub still (`222A3753.jpg`) from the Grand Floridian OneDrive set. These are villa interiors, not standard hotel rooms. A vanity still (`222A3757.jpg`) was reviewed and held back. The 1-bedroom villa video was over the 100 MB pull limit, so no stills were taken from it.
+
+**Photo slots still open**
+
+- [ ] An exterior of the villas building
+- [ ] Beach Pool or Courtyard Pool
+- [ ] Optional: the held vanity still, if you want a second bathroom photo
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the villa felt like (kitchen, pull-downs or day bed)
+- [ ] Monorail, boat or walking time to Magic Kingdom
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool you used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including whether Theme Park View was worth it
+
+**Fact-check / `[verify]`**
+
+- [ ] Current villa square footage
+- [ ] Current in-room appliances
+- [ ] Any hotel-wide work notices that also affect the villas
+- [ ] Hours at the shared Grand Floridian restaurants
+- [ ] Buses to Hollywood Studios, Animal Kingdom, Springs and the water parks are still direct
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Bay Lake Tower
+
+**Ryan’s photos already in use:** none. Contemporary-folder lake wides that show the tower were reviewed earlier; watermarked dusk frames and parking-lot shots with cars or bystanders were not used.
+
+**Photo slots still open**
+
+- [ ] Hero (the tower from the lake or the skybridge; no watermark, no bystanders)
+- [ ] A studio or villa interior
+- [ ] Feature Pool, Bay Lake Pool, or a tower pool if there is one
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the villa felt like, including the view you booked
+- [ ] Walk or monorail time to Magic Kingdom, and how the skybridge felt
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool you used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including whether you’d pay for Theme Park View
+
+**Fact-check / `[verify]`**
+
+- [ ] Current villa square footage
+- [ ] Current in-room appliances
+- [ ] Whether Bay Lake Tower has its own pool
+- [ ] Whether the tower has its own grab-and-go
+- [ ] Refurbishment work described through late 2027 is still underway
+- [ ] Buses are still direct
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Boulder Ridge Villas
+
+**Ryan’s photos already in use:** none. There is no dedicated Boulder Ridge folder. Wilderness Lodge grounds should not be reused as this building’s hero.
+
+**Photo slots still open**
+
+- [ ] Hero (Boulder Ridge Villas or Cove Pool; not the lodge waterfall hero)
+- [ ] A studio or villa interior
+- [ ] Boulder Ridge Cove Pool
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the villa felt like (pull-down vs sleeper sofa)
+- [ ] Boat time to Magic Kingdom, and the walk from the villa to the dock
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool you used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including how you’d choose between Boulder Ridge and Copper Creek
+
+**Fact-check / `[verify]`**
+
+- [ ] Current villa square footage
+- [ ] Current in-room appliances
+- [ ] Exterior work listed through late 2026 is still underway, or finished
+- [ ] Hours at the shared lodge restaurants
+- [ ] Buses are still direct
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Polynesian Villas & Bungalows
+
+**Ryan’s photos already in use:** none on this page. Possible suite stills in the `poly` folder were not used here, to avoid mixing hotel-room or Island Tower frames with longhouse villas or bungalows. Suite videos over the 100 MB pull limit were skipped.
+
+**Photo slots still open**
+
+- [ ] Hero (a longhouse or a bungalow over the lagoon; not the Polynesian Village hotel-room hero)
+- [ ] A Deluxe Studio or bungalow interior
+- [ ] The Lava Pool, or the lagoon in front of the bungalows
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the studio or bungalow felt like
+- [ ] Monorail or boat time to Magic Kingdom
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool you used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including whether you’d book a bungalow
+
+**Fact-check / `[verify]`**
+
+- [ ] Current studio and bungalow square footage
+- [ ] Bungalow kitchen layout and appliances
+- [ ] Current pool list for villa and bungalow guests
+- [ ] Lunch and dinner hours at Wailulu
+- [ ] Hours at the shared Polynesian Village restaurants
+- [ ] Buses are still direct
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Island Tower
+
+**Ryan’s photos already in use:** none. Island Tower opened in 2024, and no tower-specific stills were in the OneDrive set used here.
+
+**Photo slots still open**
+
+- [ ] Hero (the tower from the lagoon, or the lobby)
+- [ ] A Duo Studio, Deluxe Studio or villa interior
+- [ ] A pool used from the tower, or the lagoon from the tower
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the tower room felt like, including a Duo Studio if you stayed in one
+- [ ] Walk from the tower to the Polynesian monorail or boat
+- [ ] Go-to meal at Wailulu or next door
+- [ ] Which pool you used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including whether a Duo Studio felt big enough
+
+**Fact-check / `[verify]`**
+
+- [ ] Current room square footage
+- [ ] Current in-room appliances
+- [ ] Whether Island Tower has its own pool
+- [ ] Lunch and dinner hours at Wailulu
+- [ ] Hours at the shared Polynesian Village restaurants
+- [ ] Whether a two-bedroom villa is sold at cash rates in views other than Theme Park
+- [ ] Buses are still direct
+- [ ] Current resort-wide notices
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Old Key West
+
+**Ryan’s photos already in use:** none. There is no Old Key West folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (Hospitality House, a villa building, or Sandcastle Pool)
+- [ ] A studio or villa interior
+- [ ] Sandcastle Pool or the slide
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the villa felt like, and how far you were from Hospitality House
+- [ ] Boat time to Disney Springs, and time from your building to the dock or bus stop
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool you used, and whether the walk from your building mattered
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including which section you’d book again
+
+**Fact-check / `[verify]`**
+
+- [ ] Current street address
+- [ ] Current villa square footage
+- [ ] Current in-room appliances
+- [ ] Internal bus around the resort
+- [ ] Hours at Olivia’s Cafe, Good’s Food To Go and Turtle Shack
+- [ ] Buses to the four parks are still direct
+- [ ] Current resort-wide notices
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Saratoga Springs
+
+**Ryan’s photos already in use:** none. There is no Saratoga Springs folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (the Carriage House, High Rock Spring Pool, or the walk to Disney Springs)
+- [ ] A studio, villa or Treehouse interior
+- [ ] High Rock Spring Pool or the Paddock Pool slide
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the villa or Treehouse felt like, and how far you were from the Carriage House or Springs
+- [ ] Walk or boat time to Disney Springs
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool you used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including whether Preferred or a Treehouse was worth it
+
+**Fact-check / `[verify]`**
+
+- [ ] Current street address
+- [ ] Current villa and Treehouse square footage
+- [ ] Current in-room appliances
+- [ ] Hours at The Artist’s Palette, The Paddock Grill, The Turf Club and the pool bars
+- [ ] Whether The Paddock Grill is seasonal
+- [ ] Buses to the four parks are still direct
+- [ ] Current resort-wide notices
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Kidani Village
+
+**Ryan’s photos already in use:** none. There is no dedicated Kidani folder. Animal Kingdom Lodge savanna or Jambo House architecture should not be used as a Kidani hero unless the frame is clearly Kidani or a shared savanna and is captioned honestly.
+
+**Photo slots still open**
+
+- [ ] Hero (Kidani Village, a savanna view from this building, or Samawati Springs Pool)
+- [ ] A studio or villa interior, or a savanna view from a room
+- [ ] Samawati Springs Pool or Uwanja Camp
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the villa felt like, including whether Savanna View was worth it
+- [ ] Bus times from Kidani, and the walk from the villa to the stop
+- [ ] Go-to meal at Sanaa or at Jambo House
+- [ ] Which pool you used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including whether Savanna View was worth it
+
+**Fact-check / `[verify]`**
+
+- [ ] Kidani street address
+- [ ] Current villa square footage
+- [ ] Current in-room appliances
+- [ ] Shared dining access at Jambo House
+- [ ] Current Sanaa hours
+- [ ] Hours at the shared Jambo House restaurants
+- [ ] Buses are still direct
+- [ ] Current resort-wide notices
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Beach Club Villas
+
+**Ryan’s photos already in use:** none. There is no Beach Club or Villa folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (Beach Club Villas, Stormalong Bay, or the walk toward EPCOT)
+- [ ] A studio or villa interior
+- [ ] Stormalong Bay or the villas leisure pool
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the villa felt like
+- [ ] Walk or boat time to EPCOT or Hollywood Studios
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool you used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including how you’d choose between a villa and a Beach Club hotel room
+
+**Fact-check / `[verify]`**
+
+- [ ] Current villa square footage
+- [ ] Current in-room appliances
+- [ ] Current leisure-pool details
+- [ ] Hours at the shared Beach Club and Yacht Club restaurants
+- [ ] Buses are still direct
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## BoardWalk Villas
+
+**Ryan’s photos already in use:** none. The `boardwalk` folder has a villa video and only thin unique stills; the Inn hero (Crest O’ The Wave) and bystander promenade frames were not reused here. The villa video was not used for stills in this pass.
+
+**Photo slots still open**
+
+- [ ] Hero (BoardWalk Villas, the BoardWalk, or the Villas Pool; not the Inn sign)
+- [ ] A studio or villa interior
+- [ ] Luna Park Pool or the Villas Pool
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the villa felt like, including a Boardwalk View if you had one
+- [ ] Walk or boat time to EPCOT or Hollywood Studios
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool you used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including whether a Boardwalk View was worth it
+
+**Fact-check / `[verify]`**
+
+- [ ] Current villa square footage
+- [ ] Current in-room appliances
+- [ ] Current 2-bedroom cash availability (not in the 2026 MouseSavers cash-rate table we used)
+- [ ] Hours at the shared BoardWalk restaurants
+- [ ] Buses are still direct
+- [ ] Luna Park closure dates still current
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Cabins at Fort Wilderness
+
+**Ryan’s photos already in use:** none. There is no cabins folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (a cabin exterior or interior)
+- [ ] A cabin interior, including the kitchen or the bunk
+- [ ] A Fort Wilderness pool or a cabin porch
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on the cabin row
+- [ ] What the cabin felt like (pull-down, bunk, walk to the internal bus)
+- [ ] Internal-bus plus boat time to Magic Kingdom
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool or trail you used, and how far it was from the cabin
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including whether you’d book a cabin again
+
+**Fact-check / `[verify]`**
+
+- [ ] Current street address
+- [ ] Current cabin square footage and view wording
+- [ ] Current in-cabin appliances
+- [ ] Full current dining list beyond Trail’s End and Meadow Snack Bar
+- [ ] Trail’s End hours still current; Meadow Snack Bar hours
+- [ ] Current pool names, hours and features
+- [ ] Internal-bus plus park-bus transfers
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Fort Wilderness Campground
+
+**Ryan’s photos already in use:** none. There is no campground folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (a campsite, the Settlement, or the Magic Kingdom boat dock)
+- [ ] A site or the loop it sits on
+- [ ] The Meadow pool, the marina, or a trail
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each site-table row
+- [ ] What the site felt like (hook-ups, shade, distance to a bus stop or the marina)
+- [ ] Internal-bus plus boat time to Magic Kingdom
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool, trail or evening activity you used
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip, including which site type you’d book again
+
+**Fact-check / `[verify]`**
+
+- [ ] Current street address
+- [ ] Full current dining list beyond Trail’s End and Meadow Snack Bar
+- [ ] Trail’s End hours still current; Meadow Snack Bar hours
+- [ ] Current pool names, hours and features
+- [ ] Current golf-cart rules
+- [ ] Internal-bus plus park-bus transfers
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
 ## Site-wide
 
 ### Photos still to shoot or find

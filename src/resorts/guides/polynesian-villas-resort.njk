@@ -1,0 +1,177 @@
+---
+layout: layouts/base.njk
+section: resorts
+resortSlug: polynesian-villas
+permalink: "/resorts/polynesian-villas-resort/"
+title: "Polynesian Villas & Bungalows Resort: The Full Guide"
+description: "The full guide to Disney's Polynesian Villas & Bungalows: longhouse Deluxe Studios that sleep five, lagoon bungalows that sleep eight, a monorail and boat to Magic Kingdom, and shared Polynesian dining. Island Tower has its own page. Last verified Nov 2026."
+---
+{% set resort = resorts | findResort(resortSlug) %}{% set tier = tiers | findTierByName(resort.tier) %}
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/resorts/">Resorts</a> <span aria-hidden="true">›</span> <a href="/resorts/#{{ tier.slug }}">{{ tier.plural or tier.name }}</a> <span aria-hidden="true">›</span> <a href="{{ resort.slug | resortUrl }}">{{ resort.short }}</a></nav>
+      <p class="eyebrow">Walt Disney World · {{ resort.tier }} resort guide</p>
+      <h1>{{ resort.short }} Resort: <em>The Full Guide</em></h1>
+      <p class="lead">These are the Disney Vacation Club studios in the Polynesian longhouses, plus the bungalows over Seven Seas Lagoon. Studios sleep five; bungalows sleep eight. The Island Tower next door has its own page. You share the Polynesian's monorail, the boat to Magic Kingdom, and the hotel restaurants.</p>
+      <p class="byline">By {{ resort.author }} · [X] min read</p>
+      <div class="fg-hero-actions">
+        <span class="verified"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Last verified: {{ resort.lastVerified }}</span>
+        <a class="fg-quick-link" href="{{ resort.slug | resortUrl }}">Just want the quick facts? →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap section guide-layout">
+<article class="guide-main">
+
+  <div class="placeholder photo-ph">[RYAN'S PHOTO: a Polynesian villa longhouse or a bungalow over the lagoon, your own photo only. Do not use the hotel-room hero from the Polynesian Village guide as if it were a villa.]</div>
+
+  <section class="card glance" id="glance" aria-labelledby="glance-h">
+    <h2 id="glance-h">At a glance</h2>
+    <dl>
+      <dt>Resort type</dt><dd>Deluxe Villa resort at Disney's Polynesian Village Resort, in the Magic Kingdom Resort Area. Disney Vacation Club inventory is mixed with cash bookings.</dd>
+      <dt>Address</dt><dd>1600 Seven Seas Drive, Lake Buena Vista, FL 32830 (same campus as the Polynesian; confirm check-in location on your reservation)</dd>
+      <dt>Size</dt><dd>Deluxe Studios are in the Polynesian longhouses. The bungalows sit over Seven Seas Lagoon. Island Tower is a separate building with its own guide.</dd>
+      <dt>Rooms</dt><dd>Deluxe Studios sleep 5; bungalows sleep 8. A single child under 3 in a crib does not count toward the maximum.</dd>
+      <dt>Beds</dt><dd>Studio: 1 queen, 1 queen-size pull-down and 1 single pull-down. Bungalow: 1 king, 1 queen, 1 queen-size pull-down and 2 single pull-downs. Lake view on the bungalows.</dd>
+      <dt>Getting around</dt><dd>Monorail to Magic Kingdom, and to EPCOT via a transfer at the Transportation and Ticket Center; boat to Magic Kingdom. Buses to Hollywood Studios, Animal Kingdom, the water parks and Disney Springs</dd>
+      <dt>Food</dt><dd>Shared with the Polynesian Village hotel. Island Tower's Wailulu Bar &amp; Grill is also on the same campus; see that guide for hours we confirmed on Disney's official page.</dd>
+      <dt>Pools</dt><dd>Shared with the Polynesian, including the Lava Pool. Confirm current pool details on the hotel guide. <span class="verify">[verify current pool list for villa guests]</span></dd>
+      <dt>Our take</dt><dd><span class="ryan" style="margin:0">[Ryan: one-sentence verdict, e.g. who you'd send here and who you wouldn't]</span></dd>
+    </dl>
+  </section>
+
+  <div class="placeholder" style="min-height:110px">[AD SPACE: wide banner, reserved so the page does not jump when ads load]</div>
+
+  <section id="best-for">
+    <h2>Who Polynesian Villas &amp; Bungalows are best for</h2>
+    <ul>
+      <li><strong>Families who want a monorail to Magic Kingdom and a fifth bed in a studio,</strong> without booking a hotel room. Official 2026 listings put these longhouse Deluxe Studios at five adults.</li>
+      <li><strong>Groups who specifically want a bungalow on the water.</strong> They sleep eight and look at the lagoon. They are priced in a different range than a studio.</li>
+      <li><strong>People who already like the Polynesian and want a kitchenette or a full bungalow kitchen</strong> on the same monorail loop. <span class="verify">[verify bungalow kitchen layout]</span></li>
+    </ul>
+    <h3>Think twice if…</h3>
+    <ul>
+      <li><strong>You meant to book Island Tower.</strong> Duo Studios, Tower Deluxe Studios, tower villas and penthouses are on the <a href="/resorts/island-tower-resort/">Island Tower</a> page. A Tower Deluxe Studio sleeps four, not five.</li>
+      <li><strong>The bungalow rate is a shock after looking at studios.</strong> In 2026 a bungalow ran about $3,662 to $7,045 a night at full price, tax included.</li>
+      <li><strong>You want a standalone villa resort with no hotel next door.</strong> This is still the Polynesian campus, with the same crowds at the monorail and the main pool.</li>
+    </ul>
+    <span class="ryan">[Ryan: who you think this resort is really for, from your own stays. Two or three sentences.]</span>
+  </section>
+
+  <section id="rooms">
+    <h2>Room types, sizes and beds</h2>
+    <p>This guide covers the longhouse Deluxe Studios and the bungalows at Disney's Polynesian Villas &amp; Bungalows. <a href="/resorts/island-tower-resort/">Island Tower</a> and the hotel rooms at <a href="/resorts/polynesian-village-resort/">Polynesian Village</a> have their own pages. Guests share the monorail, the boat dock and the hotel restaurants. Studios typically have a kitchenette. There is no extra-adult charge up to the occupancy limit.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Room type</th><th scope="col">Size</th><th scope="col">Sleeps</th><th scope="col">Beds</th><th scope="col">View and location</th><th scope="col">Sq ft per guest</th><th scope="col">Our take</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Deluxe Studio – Resort View</strong></td><td>— <span class="verify">[verify]</span></td><td>Up to 5 adults</td><td>1 queen, 1 queen-size pull-down and 1 single pull-down</td><td>Landscaping or parking, in the longhouses</td><td>—</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Deluxe Studio – Preferred View</strong></td><td>— <span class="verify">[verify]</span></td><td>Up to 5 adults</td><td>1 queen, 1 queen-size pull-down and 1 single pull-down</td><td>Landscaping or the lake, in the longhouses</td><td>—</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Bungalow</strong></td><td>— <span class="verify">[verify]</span></td><td>Up to 8 adults</td><td>1 king, 1 queen, 1 queen-size pull-down and 2 single pull-downs</td><td>Lake view, over Seven Seas Lagoon</td><td>—</td><td>[Ryan: your take]</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>In 2026, at full price with 12.5% tax included, Deluxe Studios ran about $771 to $1,648, and bungalows about $3,662 to $7,045, depending on the view and the dates.</p>
+    <div class="placeholder photo-ph small">[RYAN'S PHOTO: a longhouse Deluxe Studio or a bungalow interior, your own photo only]</div>
+    <span class="ryan">[Ryan: what the studio or bungalow felt like, including the pull-down beds and the lagoon, from a stay of your own.]</span>
+  </section>
+
+  <section id="transport">
+    <h2>Getting to the parks</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Destination</th><th scope="col">How you get there</th><th scope="col">Transfer?</th><th scope="col">Typical time</th><th scope="col">Ease</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Magic Kingdom</strong></td><td>Monorail or boat</td><td>No</td><td><span class="ryan">[Ryan: time it]</span></td><td><span class="rate">5</span></td></tr>
+          <tr><td><strong>EPCOT</strong></td><td>Monorail</td><td>Yes, at the Transportation and Ticket Center</td><td><span class="ryan">[Ryan: time it]</span></td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Hollywood Studios</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td><span class="ryan">[Ryan: time it]</span></td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Animal Kingdom</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td><span class="ryan">[Ryan: time it]</span></td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Disney Springs</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. Buses run until 11 PM from Disney Springs</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Water parks</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published</td><td><span class="rate">3</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note"><strong>How we rate ease:</strong> 5 is door-to-gate with no change, on a monorail that stops at the resort or a short boat ride we still need to time. 3 is a transfer at the TTC, or a shared bus whose wait and travel time we haven't timed yet. These ratings are provisional until we time each trip ourselves. Boat hours can change with weather and water conditions.</p>
+    <span class="ryan">[Ryan: your monorail or boat time to Magic Kingdom, with the date you went, and how long the walk from your longhouse or bungalow felt.]</span>
+  </section>
+
+  <section id="dining">
+    <h2>Dining</h2>
+    <p>Longhouse and bungalow guests use the Polynesian Village restaurants. See the <a href="/resorts/polynesian-village-resort/">Polynesian Village full guide</a> for the current list, including 'Ohana, Kona Cafe and Capt. Cook's. Hours change; check Disney's official pages before you book. <span class="verify">[verify hours still current]</span></p>
+    <p>On the same campus, <strong>Wailulu Bar &amp; Grill</strong> is in the Island Tower lobby. Disney's official page lists a quick-service breakfast from 7:00 a.m. to 11:00 a.m., and table-service lunch and dinner from an all-day menu, with indoor and outdoor seating. Check-in is at the podium in the Island Tower lobby. Official text says parking for dining reservations is at the Polynesian Village hotel, not at Island Tower. <span class="verify">[verify lunch and dinner hours]</span></p>
+    <span class="ryan">[Ryan: your go-to meal here, and one thing you'd skip.]</span>
+  </section>
+
+  <section id="pools">
+    <h2>Pools and things to do</h2>
+    <p>Villa and bungalow guests use the Polynesian pools, including the Lava Pool described on the hotel guide. We did not get a clean official pool page load for the villas themselves when we checked. <span class="verify">[verify current pool list and whether bungalow guests have any additional water access]</span></p>
+    <div class="placeholder photo-ph small">[RYAN'S PHOTO: the Lava Pool or the lagoon in front of the bungalows, your own photo only]</div>
+    <span class="ryan">[Ryan: which pool you actually used, and why.]</span>
+  </section>
+
+  <section class="procon" id="pros-cons">
+    <div class="card">
+      <h2>Pros</h2>
+      <ul>
+        <li>Monorail and boat to Magic Kingdom</li>
+        <li>Longhouse studios that sleep five</li>
+        <li>Bungalows on the lagoon for groups of eight, if the rate works</li>
+        <li>Shared access to the Polynesian restaurants, plus Wailulu at Island Tower</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Cons</h2>
+      <ul>
+        <li>Bungalows are among the highest cash rates on property</li>
+        <li>Easy to confuse these studios with Island Tower categories, which sleep fewer in a Deluxe Studio</li>
+        <li>EPCOT is a monorail transfer; the other parks are buses</li>
+      </ul>
+    </div>
+    <span class="ryan">[Ryan: one pro and one con from your own stay that a first-time guest would miss.]</span>
+  </section>
+
+  <section id="booking">
+    <h2>Booking and value tips</h2>
+    <ul>
+      <li><strong>Check the word "Tower" on the room name.</strong> If it says Tower, you are in Island Tower, not a longhouse studio.</li>
+      <li><strong>A bungalow is a different product from a two-bedroom villa at another resort.</strong> Compare occupancy, the lagoon setting and the rate before you assume it is the better deal.</li>
+      <li><strong>Disney Vacation Club members book with points; cash rates are full rack prices,</strong> tax included, from the 2026 published ranges above.</li>
+    </ul>
+    <p class="fg-callout"><span class="ryan">[Ryan: your booking tip, including whether you'd book a bungalow or stay in a longhouse studio.]</span></p>
+  </section>
+
+  <section id="changes">
+    <h2>What's changed recently</h2>
+    <ul>
+      <li>Island Tower is the newer building on this campus (opened 2024). It is covered on its own page so the longhouse studios and bungalows are not mixed in with Duo Studios and tower villas.</li>
+    </ul>
+  </section>
+
+  <p class="note">Last verified: {{ resort.lastVerified }} · Researched and written by {{ resort.author }} · Next review: [DATE] · Spot an error? [CORRECTIONS CONTACT]</p>
+
+  <aside class="card disclaimer">
+    <strong>Not affiliated with Disney.</strong> Once Upon A Park Day is an independent guide. It is not affiliated with, endorsed by, or sponsored by The Walt Disney Company. Resort, attraction and company names are used only to identify them. Prices, hours and policies change; check Disney's official site before you book.
+  </aside>
+
+</article>
+
+<aside class="fg-side">
+  <nav class="card toc" aria-label="On this page">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#glance">At a glance</a></li>
+      <li><a href="#best-for">Who it's best for</a></li>
+      <li><a href="#rooms">Rooms and sizes</a></li>
+      <li><a href="#transport">Getting to the parks</a></li>
+      <li><a href="#dining">Dining</a></li>
+      <li><a href="#pools">Pools and things to do</a></li>
+      <li><a href="#pros-cons">Pros and cons</a></li>
+      <li><a href="#booking">Booking tips</a></li>
+    </ol>
+  </nav>
+  <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+</aside>
+</div>

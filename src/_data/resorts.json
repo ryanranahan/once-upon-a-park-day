@@ -40,7 +40,8 @@
         "value": "Fantasia Pool is the main pool, with a kiddie pool nearby. Duck Pond Pool is the second pool, officially listed at 105,438 gallons."
       }
     ],
-    "heads": "Official pages say guest rooms at All-Star Movies are under planned refurbishment through January 2027. Guests may see or hear construction and may need to use alternate paths. The resort remains open."  },
+    "heads": "Official pages say guest rooms at All-Star Movies are under planned refurbishment through January 2027. Guests may see or hear construction and may need to use alternate paths. The resort remains open."
+  },
   {
     "slug": "all-star-music",
     "name": "Disney's All-Star Music Resort",
@@ -81,7 +82,8 @@
         "label": "Pools",
         "value": "Calypso Pool is the main pool, officially listed at 251,418 gallons, with a kiddie pool behind Melody Hall. Piano Pool is the quieter leisure pool, listed at 106,036 gallons."
       }
-    ]  },
+    ]
+  },
   {
     "slug": "all-star-sports",
     "name": "Disney's All-Star Sports Resort",
@@ -122,7 +124,8 @@
         "label": "Pools",
         "value": "Surfboard Bay Pool is the main pool, officially listed at 242,471 gallons, with a kiddie pool behind Stadium Hall. Grand Slam Pool is the second pool."
       }
-    ]  },
+    ]
+  },
   {
     "slug": "pop-century",
     "name": "Disney's Pop Century Resort",
@@ -165,7 +168,7 @@
         "value": "Three pools: the flower-shaped Hippy Dippy Pool with a kiddie splash area, plus the smaller Bowling and Computer pools. No hot tubs."
       }
     ],
-    "heads": "The Skyliner is closed Jan 24\u201330, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Pop Century stops running early.",
+    "heads": "The Skyliner is closed Jan 24–30, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Pop Century stops running early.",
     "photos": {
       "hero": {
         "src": "/images/resorts/pop-century/hero.webp",
@@ -215,7 +218,7 @@
         "value": "Three pools: the Big Blue Pool in the Finding Nemo courtyard, which Disney calls the largest hotel pool at Walt Disney World, plus the Cozy Cone Pool in the Cars courtyard and the Flippin' Fins Pool in the Little Mermaid courtyard."
       }
     ],
-    "heads": "The Skyliner is closed Jan 24\u201330, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Art of Animation stops running early.",
+    "heads": "The Skyliner is closed Jan 24–30, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Art of Animation stops running early.",
     "photos": {
       "hero": {
         "src": "/images/resorts/art-of-animation/hero.webp",
@@ -269,7 +272,8 @@
         "value": "Fuentes del Morro Pool is the main pool, with two slides (including one 102 feet long) and a 12-person spa. There are also 5 leisure pools, one in each village."
       }
     ],
-    "heads": "Official pages say the Skyliner will be closed for routine refurbishment January 24 through 30, 2027, and January 24 through February 2, 2028. Complimentary bus service will be available."  },
+    "heads": "Official pages say the Skyliner will be closed for routine refurbishment January 24 through 30, 2027, and January 24 through February 2, 2028. Complimentary bus service will be available."
+  },
   {
     "slug": "coronado-springs",
     "name": "Disney's Coronado Springs Resort",
@@ -311,10 +315,11 @@
         "value": "The Lost City of Cibola Pool at the Dig Site is the main pool, with a 123-foot slide and a 22-person hot tub. There are also 3 leisure pools in the Casitas, Ranchos and Cabanas."
       }
     ],
-    "heads": "Official pages say the convention center is under planned refurbishment from August 10, 2026, through late September 2027. The El Centro Corridor and surrounding areas have related work. Guests may see or hear construction."  },
+    "heads": "Official pages say the convention center is under planned refurbishment from August 10, 2026, through late September 2027. The El Centro Corridor and surrounding areas have related work. Guests may see or hear construction."
+  },
   {
     "slug": "port-orleans-french-quarter",
-    "name": "Disney's Port Orleans Resort \u2013 French Quarter",
+    "name": "Disney's Port Orleans Resort – French Quarter",
     "short": "Port Orleans French Quarter",
     "tier": "Moderate",
     "area": "Disney Springs area",
@@ -354,10 +359,11 @@
         "value": "Doubloon Lagoon is the main pool, with the 51-foot Scales sea-serpent slide. Guests can also use Ol' Man Island at Port Orleans Riverside."
       }
     ],
-    "heads": "Official pages say Scat Cat's Club – Café and Scat Cat's Club – Lounge closed for refurbishment beginning October 6, 2026. The café is expected to reopen in December 2026, and the lounge in January 2027."  },
+    "heads": "Official pages say Scat Cat's Club – Café and Scat Cat's Club – Lounge closed for refurbishment beginning October 6, 2026. The café is expected to reopen in December 2026, and the lounge in January 2027."
+  },
   {
     "slug": "port-orleans-riverside",
-    "name": "Disney's Port Orleans Resort \u2013 Riverside",
+    "name": "Disney's Port Orleans Resort – Riverside",
     "short": "Port Orleans Riverside",
     "tier": "Moderate",
     "area": "Disney Springs area",
@@ -397,7 +403,8 @@
         "value": "Ol' Man Island is the main pool, with a 95-foot slide, a kiddie pool and a whirlpool spa. There are also 5 leisure pools. Guests can use Doubloon Lagoon at French Quarter too."
       }
     ],
-    "heads": "Official pages say guest rooms and select public areas are under refurbishment through mid-2027. Guests may see or hear daytime construction, and alternate paths of travel may be in place."  },
+    "heads": "Official pages say guest rooms and select public areas are under refurbishment through mid-2027. Guests may see or hear daytime construction, and alternate paths of travel may be in place."
+  },
   {
     "slug": "animal-kingdom-lodge",
     "name": "Disney's Animal Kingdom Lodge",
@@ -489,7 +496,8 @@
         "value": "Stormalong Bay is the shared main pool. There are also 3 leisure pools, including one at Beach Club Villas."
       }
     ],
-    "heads": "Official pages say Beach Club will have visible exterior maintenance through late 2027, which may impact some views and, at times, require alternate paths during daytime hours. The Skyliner is also closed January 24–30, 2027, and January 24–February 2, 2028, with buses filling in."  },
+    "heads": "Official pages say Beach Club will have visible exterior maintenance through late 2027, which may impact some views and, at times, require alternate paths during daytime hours. The Skyliner is also closed January 24–30, 2027, and January 24–February 2, 2028, with buses filling in."
+  },
   {
     "slug": "boardwalk-inn",
     "name": "Disney's BoardWalk Inn",
@@ -628,7 +636,7 @@
       },
       {
         "label": "Food",
-        "value": "This is one of the biggest dining resorts on property. 1900 Park Fare is the character buffet for breakfast and dinner. Grand Floridian Cafe, C\u00edtricos, Narcoossee's and Victoria & Albert's are table service. Gasparilla Island Grill is the quick-service spot, and Enchanted Rose and Garden View Lounge are the lounges."
+        "value": "This is one of the biggest dining resorts on property. 1900 Park Fare is the character buffet for breakfast and dinner. Grand Floridian Cafe, Cítricos, Narcoossee's and Victoria & Albert's are table service. Gasparilla Island Grill is the quick-service spot, and Enchanted Rose and Garden View Lounge are the lounges."
       },
       {
         "label": "Pools",
@@ -827,7 +835,8 @@
         "value": "Stormalong Bay is the shared main pool. There are also 3 leisure pools, including one at Beach Club Villas that official pages say Yacht Club guests may use."
       }
     ],
-    "heads": "Official pages say the Skyliner will be closed for routine refurbishment January 24 through 30, 2027, and January 24 through February 2, 2028. Complimentary bus service will be available. Beach Club next door has visible exterior maintenance through late 2027."  },
+    "heads": "Official pages say the Skyliner will be closed for routine refurbishment January 24 through 30, 2027, and January 24 through February 2, 2028. Complimentary bus service will be available. Beach Club next door has visible exterior maintenance through late 2027."
+  },
   {
     "slug": "bay-lake-tower",
     "name": "Bay Lake Tower at Disney's Contemporary Resort",
@@ -841,7 +850,37 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "contemporary"
+    "host": "contemporary",
+    "fullGuide": "/resorts/bay-lake-tower-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa tower next to the Contemporary, linked by a skybridge. In 2026 a Deluxe Studio ran about $719 to $1,524 a night at full price, tax included, depending on the view. One-bedroom villas ran about $1,068 to $2,080, two-bedroom villas about $1,392 to $3,548, and Grand Villas about $3,170 to $6,084."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Walking path or monorail to Magic Kingdom, via the Contemporary. Monorail to EPCOT with a transfer at the Transportation and Ticket Center. Buses to Hollywood Studios, Animal Kingdom, the water parks and Disney Springs. Boats also connect the Contemporary with Wilderness Lodge and Fort Wilderness."
+      },
+      {
+        "label": "Room size",
+        "value": "Deluxe Studios sleep 4 (a queen and a double-size pull-down). One-bedroom villas sleep 5. Two-bedroom villas sleep 9. Grand Villas sleep 12. Resort View can mean parking or an obstructed view; Preferred is Bay Lake; Theme Park is Magic Kingdom. Room sizes were not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want a walk or monorail to Magic Kingdom plus a kitchen, especially if a Theme Park View matters. A weaker pick if you need a fifth bed in a studio — Contemporary hotel rooms often sleep five, and these studios do not."
+      },
+      {
+        "label": "Food",
+        "value": "Shared with the Contemporary: Chef Mickey's, California Grill, Steakhouse 71 and Contempo Cafe. Disney's official site did not have a separate Bay Lake Tower dining page when we checked."
+      },
+      {
+        "label": "Pools",
+        "value": "Tower guests use the Contemporary Feature Pool, with a 17-foot slide, and the quieter Bay Lake Pool. Whether the tower has a separate pool of its own is still unverified [verify]."
+      }
+    ],
+    "heads": "A May 2026 planDisney answer described refurbishment work in the Contemporary atrium, on the Main Tower exterior and at Bay Lake Tower, expected to continue through late 2027. Views and some outdoor travel may be affected, and guests may see or hear work during the day. [verify current status]"
   },
   {
     "slug": "boulder-ridge-villas",
@@ -855,7 +894,37 @@
       "Buses to Epcot, Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "wilderness-lodge"
+    "host": "wilderness-lodge",
+    "fullGuide": "/resorts/boulder-ridge-villas-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa wing at Wilderness Lodge. In 2026 a Deluxe Studio ran about $573 to $1,052 a night at full price, tax included. One-bedroom villas ran about $862 to $1,518, and two-bedroom villas about $1,389 to $2,756. There is no Grand Villa in the 2026 cash-rate table we used."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Boat to Magic Kingdom. Official water-transportation listings also show boats that connect Wilderness Lodge with the Contemporary and Fort Wilderness. Buses to EPCOT, Hollywood Studios, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Deluxe Studios sleep 5. One-bedroom villas sleep 4. Two-bedroom villas sleep 8. Some rooms are listed with a pull-down or a sleeper sofa. Room sizes were not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who need a fifth bed in a studio at Wilderness Lodge — Copper Creek studios are listed as sleeping four. A weaker pick if you need a Grand Villa, a cabin, or a fifth bed in a one-bedroom."
+      },
+      {
+        "label": "Food",
+        "value": "Shared with the lodge: Whispering Canyon Cafe, Story Book Dining at Artist Point, Roaring Fork and Geyser Point Bar & Grill."
+      },
+      {
+        "label": "Pools",
+        "value": "Boulder Ridge Cove Pool is the quieter zero-entry pool at this wing. Guests can also use Copper Creek Springs Pool, the main pool with a 67-foot slide."
+      }
+    ],
+    "heads": "Disney has listed exterior renovation work at Wilderness Lodge and Copper Creek Villas & Cabins through late 2026. Boulder Ridge sits on the same campus; views and paths may be affected, and you may see or hear work during the day. [verify if this work is still underway]"
   },
   {
     "slug": "copper-creek-villas",
@@ -869,7 +938,43 @@
       "Buses to Epcot, Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "wilderness-lodge"
+    "host": "wilderness-lodge",
+    "fullGuide": "/resorts/copper-creek-villas-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa resort at Wilderness Lodge, on Bay Lake. Disney Vacation Club inventory is mixed with cash bookings. In 2026 a Deluxe Studio ran about $569 to $1,052 a night at full price, tax included. One-bedroom villas ran about $924 to $1,578, two-bedroom villas about $1,444 to $2,829, cabins about $2,823 to $5,440, and Grand Villas about $2,995 to $5,745."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Boat to Magic Kingdom. Official water-transportation listings also show boats that connect Wilderness Lodge with the Contemporary and Fort Wilderness. Buses to EPCOT, Hollywood Studios, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Deluxe Studios and one-bedroom villas sleep 4. Two-bedroom villas and two-bedroom cabins sleep 8. Grand Villas sleep 12. There is no extra-adult charge up to those limits. Room sizes were not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want a kitchen and the Wilderness Lodge boat to Magic Kingdom. Cabins sit on Bay Lake and cost much more than a two-bedroom villa at full price. Studios and one-bedrooms sleep four, not five."
+      },
+      {
+        "label": "Food",
+        "value": "Shared with the lodge: Whispering Canyon Cafe, Story Book Dining at Artist Point, Roaring Fork and Geyser Point Bar & Grill."
+      },
+      {
+        "label": "Pools",
+        "value": "Copper Creek Springs Pool is the main pool, with a 67-foot slide. Guests can also use Boulder Ridge Cove Pool, a quieter zero-entry pool."
+      }
+    ],
+    "heads": "Disney has listed exterior renovation work at Wilderness Lodge and Copper Creek Villas & Cabins through late 2026. Views may be affected, most amenities were planned to stay available, and you may see or hear work during the day. [verify if this work is still underway]",
+    "photos": {
+      "hero": {
+        "src": "/images/resorts/copper-creek-villas/hero.webp",
+        "alt": "The great room of a Copper Creek villa, with a stone fireplace, a timber ceiling, a dining table and a Christmas tree by the windows."
+      }
+    }
   },
   {
     "slug": "old-key-west",
@@ -883,7 +988,37 @@
       "Boat to Disney Springs"
     ],
     "dvc": true,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/old-key-west-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa resort in the Disney Springs area. In 2026 a Deluxe Studio ran about $500 to $845 a night at full price, tax included. One-bedroom villas ran about $682 to $1,202, two-bedroom villas about $992 to $1,906, and Grand Villas about $2,092 to $3,366."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Sassagoula River Cruise boat to Disney Springs — not a Friendship boat to EPCOT or Hollywood Studios. Buses to all four parks, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Deluxe Studios sleep 4, with two queen beds and no pull-down listed. One-bedroom villas sleep 5, two-bedroom villas sleep 9, and Grand Villas sleep 12. Room sizes were not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want more space than a Moderate room, at a lower Deluxe Villa rack range than the monorail villas, and who will use the boat to Disney Springs. A weaker pick if you need a fifth bed in a studio, or a short walk to a theme park. The resort is spread out."
+      },
+      {
+        "label": "Food",
+        "value": "Olivia's Cafe, Good's Food To Go and Turtle Shack Poolside Snacks, all listed on Disney's official Old Key West dining page."
+      },
+      {
+        "label": "Pools",
+        "value": "Sandcastle Pool near Hospitality House, with a 125-foot slide and 149,600 gallons, plus three leisure pools at Old Turtle Pond, South Point and Miller's Road."
+      }
+    ],
+    "heads": "No unique official closure for Old Key West turned up when we checked in November 2026. Confirm current notices on Disney's official pages before you travel. [verify current notices]"
   },
   {
     "slug": "saratoga-springs",
@@ -897,7 +1032,37 @@
       "Boat and walking path to Disney Springs"
     ],
     "dvc": true,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/saratoga-springs-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa resort in the Disney Springs area. In 2026 a Deluxe Studio ran about $494 to $963 a night at full price, tax included, depending on Preferred location. One-bedroom villas ran about $675 to $1,341, two-bedroom villas about $986 to $2,218, Treehouse Villas about $1,226 to $2,332, and Grand Villas about $2,080 to $3,800."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Walking path and Sassagoula River Cruise boat to Disney Springs — not a Friendship boat to EPCOT or Hollywood Studios. Buses to all four parks, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Deluxe Studios sleep 4. One-bedroom villas sleep 5. Two-bedroom villas and Treehouse Villas sleep 9. Grand Villas sleep 12. Preferred rooms are listed as closer to Disney Springs or to the Carriage House and dining. Room sizes were not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want a Deluxe Villa near Disney Springs, and groups who specifically want a Treehouse Villa. A weaker pick if you need a fifth bed in a studio, or if a far building would make the walk to the Carriage House or to Springs a chore."
+      },
+      {
+        "label": "Food",
+        "value": "The Artist's Palette, The Paddock Grill, The Turf Club Bar and Grill, On the Rocks Pool Bar and Backstretch Pool Bar, all listed on Disney's official Saratoga Springs dining page."
+      },
+      {
+        "label": "Pools",
+        "value": "High Rock Spring Pool (128-foot slide) and the Paddock Pool (146-foot slide), plus three leisure pools at the Treehouse Villas, Congress Park and The Grandstand."
+      }
+    ],
+    "heads": "No unique official closure for Saratoga Springs turned up when we checked in November 2026. Confirm current notices on Disney's official pages before you travel. [verify current notices]"
   },
   {
     "slug": "riviera",
@@ -970,7 +1135,37 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "polynesian-village"
+    "host": "polynesian-village",
+    "fullGuide": "/resorts/polynesian-villas-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa studios in the Polynesian longhouses, plus bungalows over Seven Seas Lagoon. Island Tower has its own page. In 2026 a Deluxe Studio ran about $771 to $1,648 a night at full price, tax included. Bungalows ran about $3,662 to $7,045."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Monorail to Magic Kingdom, and to EPCOT via a transfer at the Transportation and Ticket Center. Boat to Magic Kingdom. Buses to Hollywood Studios, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Longhouse Deluxe Studios sleep 5 (a queen, a queen-size pull-down and a single pull-down). Bungalows sleep 8 and have a lake view. Room sizes were not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want a monorail to Magic Kingdom and a fifth bed in a studio, or groups who specifically want a bungalow on the lagoon. A weaker pick if you meant to book Island Tower — Tower Deluxe Studios sleep four, not five."
+      },
+      {
+        "label": "Food",
+        "value": "Shared with Polynesian Village, including 'Ohana, Kona Cafe and Capt. Cook's. Wailulu Bar & Grill is in the Island Tower lobby on the same campus, with an official quick-service breakfast from 7:00 a.m. to 11:00 a.m. and table-service lunch and dinner."
+      },
+      {
+        "label": "Pools",
+        "value": "Shared with the Polynesian, including the Lava Pool. We did not get a clean official villas pool page when we checked [verify current pool list]."
+      }
+    ],
+    "heads": "Island Tower is the newer building on this campus (opened 2024) and is covered on its own page, so longhouse studios and bungalows are not mixed in with Duo Studios and tower villas."
   },
   {
     "slug": "island-tower",
@@ -985,7 +1180,37 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "polynesian-village"
+    "host": "polynesian-village",
+    "fullGuide": "/resorts/island-tower-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "The newer Deluxe Villa tower at the Polynesian, opened in 2024. In 2026 a Duo Studio ran about $575 to $1,276 a night at full price, tax included. Tower Deluxe Studios ran about $771 to $1,855, one-bedroom villas about $1,110 to $2,465, the listed two-bedroom Theme Park View villa about $1,904 to $3,386, and penthouses about $2,861 to $6,182."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Monorail to Magic Kingdom, and to EPCOT via a transfer at the Transportation and Ticket Center, via the Polynesian. Boat to Magic Kingdom. Buses to Hollywood Studios, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Duo Studios sleep 2 (one queen-size pull-down). Tower Deluxe Studios sleep 4. One-bedroom villas sleep 5. Two-bedroom villas sleep 9. Penthouses sleep 8. Room sizes were not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Two adults who want a newer monorail-area room, or families who want a Theme Park View from the tower and will use Wailulu in the lobby. A weaker pick if you need a fifth bed in a studio — that is a longhouse Deluxe Studio, not a Tower Deluxe Studio."
+      },
+      {
+        "label": "Food",
+        "value": "Wailulu Bar & Grill in the Island Tower lobby: official quick-service breakfast 7:00 a.m. to 11:00 a.m., and table-service lunch and dinner from an all-day menu. Official text says parking for reservations is at the Polynesian Village hotel, not at the tower, and fireworks viewing is not guaranteed. Polynesian Village restaurants are also on the same campus."
+      },
+      {
+        "label": "Pools",
+        "value": "Guests can use the Polynesian pools, including the Lava Pool. Whether the tower has its own pool is still unverified [verify]."
+      }
+    ],
+    "heads": "Official dining text says parking for Wailulu reservations is at Disney's Polynesian Village Resort, not at Island Tower, and that Magic Kingdom nighttime entertainment is not guaranteed with a Wailulu reservation."
   },
   {
     "slug": "grand-floridian-villas",
@@ -1001,11 +1226,47 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "grand-floridian"
+    "host": "grand-floridian",
+    "fullGuide": "/resorts/grand-floridian-villas-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa resort at the Grand Floridian, in the Magic Kingdom area. In 2026 a Deluxe or Resort Studio ran about $832 to $1,793 a night at full price, tax included, depending on the view. One-bedroom villas ran about $1,182 to $2,257, two-bedroom villas about $1,882 to $3,599, and Grand Villas about $3,664 to $6,518."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Monorail to Magic Kingdom, and to EPCOT via a transfer at the Transportation and Ticket Center. Boat to Magic Kingdom, plus a walking path. Buses to Hollywood Studios, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Deluxe Studios, Resort Studios and one-bedroom villas sleep 5. Two-bedroom villas sleep 9. Grand Villas sleep 12. A Resort Studio has two queens and a day bed; a Deluxe Studio has pull-down beds. Room sizes were not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want a monorail to Magic Kingdom and a kitchen, including a fifth bed in a studio. A weaker pick if the nightly rate is the deciding factor, or if you wanted a standalone villa resort with its own restaurant."
+      },
+      {
+        "label": "Food",
+        "value": "Shared with the Grand Floridian, including Citricos, Narcoossee's, Grand Floridian Cafe and Gasparilla Island Grill. There is no separate villas restaurant."
+      },
+      {
+        "label": "Pools",
+        "value": "Beach Pool, 111,261 gallons, with a 181-foot slide and zero-depth entry, overlooking Seven Seas Lagoon. Courtyard Pool is the quieter leisure pool behind the main building."
+      }
+    ],
+    "heads": "No official closure unique to the villas turned up when we checked in November 2026. Confirm any hotel-wide work on Disney's official pages before you travel. [verify current notices]",
+    "photos": {
+      "hero": {
+        "src": "/images/resorts/grand-floridian-villas/hero.webp",
+        "alt": "The living room of a Grand Floridian villa, with a sofa and armchair around a coffee table, and the kitchen visible through an opening at the back."
+      }
+    }
   },
   {
     "slug": "kidani-village",
-    "name": "Disney's Animal Kingdom Villas \u2013 Kidani Village",
+    "name": "Disney's Animal Kingdom Villas – Kidani Village",
     "short": "Kidani Village",
     "tier": "Deluxe Villa",
     "area": "Animal Kingdom area",
@@ -1014,7 +1275,37 @@
       "Buses to all four parks and Disney Springs"
     ],
     "dvc": true,
-    "host": "animal-kingdom-lodge"
+    "host": "animal-kingdom-lodge",
+    "fullGuide": "/resorts/kidani-village-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa village next to Animal Kingdom Lodge. In 2026 a Deluxe Studio ran about $516 to $1,227 a night at full price, tax included, depending on the view. One-bedroom villas ran about $853 to $1,783, two-bedroom villas about $1,284 to $3,121, and Grand Villas about $2,751 to $4,989."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Buses to all four parks, the water parks and Disney Springs. There is no monorail, boat or Skyliner from this resort."
+      },
+      {
+        "label": "Room size",
+        "value": "Deluxe Studios sleep 4. One-bedroom villas sleep 5. Two-bedroom villas sleep 9. Grand Villas sleep 12. Savanna View looks at one of the animal savannas; Resort View can mean the pool or parking. Room sizes were not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want a savanna view and a kitchen, and who will use Sanaa and Samawati Springs Pool. A weaker pick if you need a fifth bed in a studio, or a short ride to Magic Kingdom or EPCOT."
+      },
+      {
+        "label": "Food",
+        "value": "Sanaa, in Kidani Village, with a quick-service breakfast and table-service lunch and dinner. Guests typically can also use the restaurants at Jambo House [verify shared dining access]."
+      },
+      {
+        "label": "Pools",
+        "value": "Samawati Springs Pool at Kidani, with a 128-foot slide, zero-depth entry and the Uwanja Camp water playground. Official pages also describe Uzima Springs Pool at Jambo House."
+      }
+    ],
+    "heads": "No unique official closure for Kidani Village turned up when we checked in November 2026. Confirm current notices on Disney's official pages before you travel. [verify current notices]"
   },
   {
     "slug": "beach-club-villas",
@@ -1028,7 +1319,37 @@
       "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "beach-club"
+    "host": "beach-club",
+    "fullGuide": "/resorts/beach-club-villas-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa rooms attached to Beach Club. In 2026 a Deluxe Studio ran about $650 to $1,162 a night at full price, tax included. One-bedroom villas ran about $918 to $1,555, and two-bedroom villas about $1,376 to $2,670. There is no Grand Villa in the 2026 cash-rate table we used."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Walking paths and Friendship boats to EPCOT and Hollywood Studios. The EPCOT Skyliner station is a walk through the International Gateway. Buses to Magic Kingdom, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Deluxe Studios sleep 5. One-bedroom villas sleep 4. Two-bedroom villas sleep 8. Room sizes were not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want a kitchen and a fifth bed in a studio, within a short walk or boat of EPCOT and Hollywood Studios, and who will use Stormalong Bay. A weaker pick if you need a fifth bed in a one-bedroom, or if Magic Kingdom is your main park."
+      },
+      {
+        "label": "Food",
+        "value": "Shared with Beach Club and Yacht Club, including Cape May Cafe and Beaches & Cream Soda Shop."
+      },
+      {
+        "label": "Pools",
+        "value": "Stormalong Bay, plus leisure pools that include one at Beach Club Villas. Official Beach Club pages list three leisure pools in all."
+      }
+    ],
+    "heads": "Official pages say Beach Club will have visible exterior maintenance through late 2027, which may impact some views and, at times, require alternate paths during daytime hours. The Skyliner is also closed January 24–30, 2027, and January 24–February 2, 2028, with buses filling in."
   },
   {
     "slug": "boardwalk-villas",
@@ -1042,7 +1363,37 @@
       "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "boardwalk-inn"
+    "host": "boardwalk-inn",
+    "fullGuide": "/resorts/boardwalk-villas-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa rooms in the BoardWalk complex. In 2026 a Deluxe Studio ran about $686 to $1,287 a night at full price, tax included, depending on the view. One-bedroom villas ran about $900 to $1,568, and Grand Villas about $3,016 to $5,383. The 2026 cash-rate table we used did not list a standalone two-bedroom category [verify current 2-bedroom cash availability]."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Walking paths and Friendship boats to EPCOT and Hollywood Studios. Buses to Magic Kingdom, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Deluxe Studios sleep 5. One-bedroom villas sleep 4. Grand Villas sleep 12. Room sizes were not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want a kitchenette and a fifth bed in a studio on the BoardWalk, or groups who need a Grand Villa. A weaker pick if you need a fifth bed in a one-bedroom, or if you are staying mid-January through April 2027 and were counting on Luna Park Pool."
+      },
+      {
+        "label": "Food",
+        "value": "Shared with BoardWalk Inn and the promenade restaurants. Leaping Horse Libations is scheduled to close with Luna Park Pool from January 11 through April 2027."
+      },
+      {
+        "label": "Pools",
+        "value": "Luna Park Pool, with a 200-foot slide, plus two leisure pools. Official pages say Luna Park, the Crazy Play Area and Leaping Horse Libations close January 11 through April 2027; the Villas Pool and the Inn Pool are planned to stay open."
+      }
+    ],
+    "heads": "Official pages say the Luna Park Pool, the Luna Park Crazy Play Area and Leaping Horse Libations will close January 11, 2027, through April 2027 for routine maintenance. The Inn Pool and the Villas Pool are planned to stay open, and guests may see or hear work during the day."
   },
   {
     "slug": "cabins-at-fort-wilderness",
@@ -1057,7 +1408,37 @@
       "Buses to Epcot, Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/cabins-at-fort-wilderness-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe Villa cabins at Fort Wilderness, not campsites and not the old Moderate cabin product. In 2026 a 1 Bedroom Cabin ran about $526 to $1,041 a night at full price, tax included."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Internal bus around the resort, then a boat to Magic Kingdom. Official water-transportation listings also show boats that connect Fort Wilderness with the Contemporary and Wilderness Lodge. Buses to EPCOT, Hollywood Studios, Animal Kingdom, the water parks and Disney Springs, usually after an internal bus."
+      },
+      {
+        "label": "Room size",
+        "value": "One category: a 1 Bedroom Cabin that sleeps 6, with 1 queen, 1 queen-size pull-down and 1 bunk bed. There is no extra-adult charge up to that limit. Cabin size was not confirmed on a current official page we opened [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families of six who want a kitchen and a cabin in the woods, with a boat to Magic Kingdom. A weaker pick if you want to walk out to a monorail, or if a bunk bed does not work for your group."
+      },
+      {
+        "label": "Food",
+        "value": "Trail's End Restaurant, listed on Disney's official page with hours of 7:30 a.m. to 9:45 p.m. when we checked, and Meadow Snack Bar, an official quick-service kiosk. Confirm any other campground food stands before you go [verify the full current dining list]."
+      },
+      {
+        "label": "Pools",
+        "value": "Cabin guests use the Fort Wilderness pools, including the Meadow Swimmin' Pool area. Official pool pages we tried did not load a full description [verify current pool names and features]."
+      }
+    ],
+    "heads": "These cabins are the current Disney Vacation Club cabin product at Fort Wilderness. Official pool details after work at the Meadow earlier in 2026 were not on a page we could fully load. [verify current pool status]"
   },
   {
     "slug": "fort-wilderness",
@@ -1072,6 +1453,36 @@
       "Buses to Epcot, Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/fort-wilderness-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Campground on Bay Lake, not a hotel. In 2026 a tent or pop-up site ran about $82 to $222 a night at full price, tax included. Full Hook-Up ran about $125 to $271, Preferred about $138 to $297, Premium about $148 to $313, and Premium Meadow about $156 to $348."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Internal bus around the resort, then a boat to Magic Kingdom. Official water-transportation listings also show boats that connect Fort Wilderness with the Contemporary and Wilderness Lodge. Buses to EPCOT, Hollywood Studios, Animal Kingdom, the water parks and Disney Springs, usually after an internal bus."
+      },
+      {
+        "label": "Room size",
+        "value": "Campsites, not hotel rooms. Every 2026 category is listed as sleeping up to 8 adults, with no extra-adult charge up to that limit. Pad sizes range from 10 by 25 feet on tent or pop-up sites to 18 by 60 feet on Premium and Premium Meadow sites. Preferred sites are listed as closer to the marina."
+      },
+      {
+        "label": "Best for",
+        "value": "People who already camp or travel with an RV and want official Disney resort transportation, including a boat to Magic Kingdom. A weaker pick if you want a hotel room — look at the cabins page instead — or if you dislike internal buses."
+      },
+      {
+        "label": "Food",
+        "value": "Trail's End Restaurant, listed on Disney's official page with hours of 7:30 a.m. to 9:45 p.m. when we checked, and Meadow Snack Bar, an official quick-service kiosk. Confirm any other campground food stands before you go [verify the full current dining list]."
+      },
+      {
+        "label": "Pools",
+        "value": "The Meadow Swimmin' Pool area is the main pool complex. Official pool pages we tried did not load a full description [verify current pool names and features]."
+      }
+    ],
+    "heads": "Recent reports described work at the Meadow Swimmin' Pool earlier in 2026. Official pool pages we tried did not load a full current description. [verify current pool status]"
   }
 ]
