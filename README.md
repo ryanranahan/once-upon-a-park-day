@@ -6,7 +6,9 @@ Read `PROJECT-BRIEF.md` before making changes.
 
 ## How it's built
 
-The site uses [Eleventy](https://www.11ty.dev/), which turns templates and Markdown into plain HTML. Everything you edit is in `src/`; the build writes the finished site to `public/` (not committed).
+The site uses [Eleventy](https://www.11ty.dev/), which turns templates and Markdown into plain HTML. Everything you edit is in `src/`; the build writes the finished site to `public/`.
+
+**Important:** `public/` is committed to the repo, and Cloudflare publishes it as-is (no build step on Cloudflare). After changing anything in `src/`, run `npm run build` and commit the updated `public/` folder too, or the change won't show on the live site.
 
 | What | Where |
 |---|---|
@@ -27,7 +29,7 @@ The site uses [Eleventy](https://www.11ty.dev/), which turns templates and Markd
 
 Cloudflare Pages builds and publishes the site on every push to `main`.
 
-- Build command: `npm run build`
+- Build command: `exit 0` (nothing to build, `public/` is already built)
 - Build output directory: `public`
 
 Not affiliated with, endorsed by, or sponsored by The Walt Disney Company.
