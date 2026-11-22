@@ -266,7 +266,43 @@
       "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/boardwalk-inn-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe resort in the EPCOT area. This guide covers the hotel rooms at BoardWalk Inn. In 2026 a Resort View room ran about $686 to $1,185 a night at full price, tax included. Water View rooms ran about $820 to $1,267, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Walking paths and Friendship boats go to EPCOT and Hollywood Studios. Buses serve Magic Kingdom, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Standard rooms are often listed around 434 sq ft [verify]. Many sleep up to 5 adults, though the bed setup varies: some rooms have 2 queen beds and a day bed, and others have 2 queens or a king, with or without a day bed. Views are Resort or Water. Club Level rooms include lounge access."
+      },
+      {
+        "label": "Best for",
+        "value": "Anyone who wants to walk or take a boat to EPCOT or Hollywood Studios, and people who like having the BoardWalk shops and restaurants outside the door. It is a weaker pick if you need a guaranteed 5-person bed setup, because not every standard room includes a day bed."
+      },
+      {
+        "label": "Food",
+        "value": "BoardWalk Deli is the quick-service spot. Trattoria al Forno serves breakfast and dinner. Flying Fish is the Signature dinner restaurant. The Cake Bake Shop and other BoardWalk restaurants are a short walk from the hotel."
+      },
+      {
+        "label": "Pools",
+        "value": "Luna Park Pool is the main pool, at 184,217 gallons, with a 200-foot slide, a kiddie pool and a whirlpool spa. There are also two quieter leisure pools, often called the Inn Pool and the Villas Pool. Official pages say Luna Park Pool, the Luna Park Crazy Play Area and Leaping Horse Libations will close January 11 through April 2027 for maintenance."
+      }
+    ],
+    "heads": "Official Disney pages say the Luna Park Pool, the Luna Park Crazy Play Area and Leaping Horse Libations will be closed for routine maintenance from January 11, 2027, through April 2027. The Inn Pool and the Villas Pool are planned to stay open, and guests may see or hear work during the day.",
+    "photos": {
+      "hero": {
+        "src": "/images/resorts/boardwalk-inn/hero.webp",
+        "alt": "The Crest O' The Wave building at Disney's BoardWalk Inn at night, with lit guest-room balconies under a wave-shaped roofline."
+      }
+    }
   },
   {
     "slug": "contemporary",
