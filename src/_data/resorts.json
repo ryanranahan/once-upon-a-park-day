@@ -80,7 +80,7 @@
         "value": "Three pools: the flower-shaped Hippy Dippy Pool with a kiddie splash area, plus the smaller Bowling and Computer pools. No hot tubs."
       }
     ],
-    "heads": "The Skyliner is closed Jan 24–30, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Pop Century stops running early."
+    "heads": "The Skyliner is closed Jan 24\u201330, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Pop Century stops running early."
   },
   {
     "slug": "art-of-animation",
@@ -124,7 +124,7 @@
         "value": "Three pools: the Big Blue Pool in the Finding Nemo courtyard, which Disney calls the largest hotel pool at Walt Disney World, plus the Cozy Cone Pool in the Cars courtyard and the Flippin' Fins Pool in the Little Mermaid courtyard."
       }
     ],
-    "heads": "The Skyliner is closed Jan 24–30, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Art of Animation stops running early.",
+    "heads": "The Skyliner is closed Jan 24\u201330, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Art of Animation stops running early.",
     "photos": {
       "hero": {
         "src": "/images/resorts/art-of-animation/hero.webp",
@@ -165,7 +165,7 @@
   },
   {
     "slug": "port-orleans-french-quarter",
-    "name": "Disney's Port Orleans Resort – French Quarter",
+    "name": "Disney's Port Orleans Resort \u2013 French Quarter",
     "short": "Port Orleans French Quarter",
     "tier": "Moderate",
     "area": "Disney Springs area",
@@ -179,7 +179,7 @@
   },
   {
     "slug": "port-orleans-riverside",
-    "name": "Disney's Port Orleans Resort – Riverside",
+    "name": "Disney's Port Orleans Resort \u2013 Riverside",
     "short": "Port Orleans Riverside",
     "tier": "Moderate",
     "area": "Disney Springs area",
@@ -277,7 +277,51 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/polynesian-village-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe resort in the Magic Kingdom area, on the Seven Seas Lagoon. In 2026 a Resort View room ran about $771 to $1,371 a night at full price, tax included. Water View rooms ran about $876 to $1,446, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Resort monorail to Magic Kingdom, and to EPCOT with a change at the Transportation and Ticket Center. A walking path also leads to the TTC. A boat (the Gold Launch) runs to Magic Kingdom and also serves the Grand Floridian. Buses go to Hollywood Studios, Animal Kingdom and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Standard hotel rooms are about 415 sq ft [verify] and sleep up to 5 adults. Most are set up with 2 queen beds and a day bed. Some Resort View rooms have 1 king bed and a day bed, or 2 queen beds. Honeymoon Club Level rooms sleep 2, with 1 king bed."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want monorail or boat access to Magic Kingdom, and anyone who cares about on-site dining. Theme Park View rooms look across the lagoon toward the park. It is a Deluxe price, so it is not the pick if you are mainly watching the nightly rate."
+      },
+      {
+        "label": "Food",
+        "value": "This is a dining resort. 'Ohana serves a character breakfast with Lilo and Stitch, plus a family-style dinner without characters. Kona Cafe is table service for breakfast, lunch and dinner. Capt. Cook's and Chip 'n' Dale's Deli are the quick-service spots, and Pineapple Lanai is the walk-up window for pineapple soft-serve. Trader Sam's Grog Grotto is the themed bar."
+      },
+      {
+        "label": "Pools",
+        "value": "The Lava Pool is the main pool, with a volcano, a waterfall, a 142-foot slide and zero-depth entry. The Oasis Pool is a quieter garden pool. Guests can also use the Cove Pool and Moana's Voyage splash area at Island Tower."
+      }
+    ],
+    "heads": "Disney has listed construction on the front drive and bus area from May 2025 through 2026, and exterior maintenance starting Jan 15, 2026, that may block lagoon views from 'Ohana. Restaurants, pools and amenities were planned to stay open. [verify if this work is still underway]",
+    "photos": {
+      "hero": {
+        "src": "/images/resorts/polynesian-village/hero.webp",
+        "alt": "A garden path and lit tiki torch lead toward the longhouses at Disney's Polynesian Village Resort."
+      },
+      "room": {
+        "src": "/images/resorts/polynesian-village/room.webp",
+        "alt": "A standard guest room at Disney's Polynesian Village Resort, with two queen beds, a floral wall mural, and a lanai looking out to palms."
+      },
+      "pool": {
+        "src": "/images/resorts/polynesian-village/pool.webp",
+        "alt": "The Lava Pool at Disney's Polynesian Village Resort, with its rock volcano, waterfall, and umbrellas along the deck."
+      }
+    }
   },
   {
     "slug": "wilderness-lodge",
@@ -440,7 +484,7 @@
   },
   {
     "slug": "kidani-village",
-    "name": "Disney's Animal Kingdom Villas – Kidani Village",
+    "name": "Disney's Animal Kingdom Villas \u2013 Kidani Village",
     "short": "Kidani Village",
     "tier": "Deluxe Villa",
     "area": "Animal Kingdom area",
