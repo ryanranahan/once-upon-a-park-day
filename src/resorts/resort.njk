@@ -7,9 +7,9 @@ pagination:
   alias: resort
 permalink: "/resorts/{{ resort.slug }}/"
 eleventyComputed:
-  title: "{% if resort.fullGuide %}{{ resort.short }} Resort: Quick Facts{% else %}{{ resort.short }}: a first-timer's guide{% endif %}"
+  title: "{% if resort.fullGuide %}{{ resort.short | safe }} Resort: Quick Facts{% else %}{{ resort.short | safe }}: a first-timer's guide{% endif %}"
   canonical: "{{ resort.fullGuide or '' }}"
-  description: "{{ resort.theme }} A plain-English guide to {{ resort.name }} for first-time visitors."
+  description: "{{ resort.theme | safe }} A plain-English guide to {{ resort.name | safe }} for first-time visitors."
 ---
 {% if resort.fullGuide %}
 {% include "partials/resort-quick-facts.njk" %}
