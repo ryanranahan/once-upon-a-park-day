@@ -76,8 +76,13 @@ Both show publicly, so clear them before merging to `main`.
 
 - Byline is "Ryan" only. No sources section on the page (keep research notes off-site).
 - Every fact must come from a page actually opened while writing, preferably Disney's official site. If it can't be confirmed, mark it `[verify]`; never guess.
-- No Disney logos, characters or Disney-owned photos. Use Ryan's own photos only.
+- Ryan's own photos are the priority. Never replace a slot that already uses one of his stills. Character icons that are part of resort scenery are fine; don't use Disney logos, the castle, or ears as the focal point of a photo.
+- Disney press photos from [the Walt Disney World News Room](https://disneyexperiences.com/disneyworld-press/) are **not** in the pages yet. The News Room's [Supplemental Terms of Use](https://disneyexperiences.com/supplemental-terms-of-use/) limit use to editorial news, forbid modifying the files, and say travel-guidebook authors (including electronic guides on the internet) must contact Disney PR before using the assets. See `docs/NEEDS-LIST.md` for the full caveat, the credit format to use if PR clears it (`Photo: Disney` or `Photo: Disney (Name, photographer)`), and which slots are still empty.
 - The footer disclaimer comes from `base.njk`; the guide also has its own disclaimer box.
+
+## Needs list
+
+Open photo slots, `[Ryan: …]` opinion blanks, `[verify]` facts, page-level placeholders, and site-wide decisions are tracked in [`docs/NEEDS-LIST.md`](NEEDS-LIST.md). Update that list when a pair is added or a marker is cleared.
 
 ## Canonical URLs
 
