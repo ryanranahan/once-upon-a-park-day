@@ -30,7 +30,7 @@ Useful press-kit pages (high-res is behind Brandfolder):
 | Pop Century | [Disney’s Pop Century Resort](https://disneyexperiences.com/disneyworld-press/asset/disneys-pop-century-resort/) | not listed on the page we opened |
 | Art of Animation | [Disney’s Art of Animation Resort](https://disneyexperiences.com/disneyworld-press/asset/disneys-art-of-animation-resort/) | Abigail Nilsson |
 | Polynesian Village | [Disney’s Polynesian Village Resort](https://disneyexperiences.com/disneyworld-press/asset/disneys-polynesian-village-resort/) | Kent Phillips (Moana-themed rooms; we already use Ryan’s room photo) |
-| Grand Floridian | [Lobby / Perch](https://disneyexperiences.com/disneyworld-press/asset/disneys-grand-floridian-resort-spa-lobby/) | “Disney” on several frames; we already use Ryan’s hero, room, and pool |
+| Grand Floridian | [Lobby / Perch](https://disneyexperiences.com/disneyworld-press/asset/disneys-grand-floridian-resort-spa-lobby/) | “Disney” on several frames; we already use Ryan’s photos for hero, rooms, pool, monorail, and grounds. Still missing a lobby or dining interior from Ryan. |
 | Animal Kingdom Lodge | [Disney’s Animal Kingdom Lodge](https://disneyexperiences.com/disneyworld-press/asset/disneys-animal-kingdom-lodge/) | Harrison Cooney |
 | Wilderness Lodge | [Disney’s Wilderness Lodge](https://disneyexperiences.com/disneyworld-press/asset/disneys-wilderness-lodge-2/) | not listed on the page we opened |
 | Contemporary | [Reimagined Guest Rooms](https://disneyexperiences.com/disneyworld-press/asset/reimagined-guest-rooms-at-disneys-contemporary-resort/) | Kent Phillips (rooms; Incredibles artwork is the motif — check whether that is too character-forward). Lobby/Steakhouse 71 frames: David Roark |
@@ -168,7 +168,22 @@ Useful press-kit pages (high-res is behind Brandfolder):
 
 ## Grand Floridian
 
-**Ryan’s photos already in use:** hero, room, and pool. No photo placeholders left. (A press page of the lobby and The Perch exists; do not replace Ryan’s photos.)
+**Ryan’s photos already in use** on the full guide (and the same hero, room, and pool on quick facts):
+
+- Hero: boat dock at dusk (`222A3624`) — kept; later night lawn frames had bystanders
+- Room: two queens and a balcony (`rooms/222A7941`), plus a second angle with the balcony doors open (`rooms/222A7930`)
+- Pool: Beach Pool waterfall and zero entry (`222A3719`), plus a second Beach Pool angle looking at the buildings and fountain jets (`222A3714`)
+- Transport: monorail on the beam over the water (`222A3683`)
+- Around the resort: daytime main building from the sand and dock (`1J1A1024`); sunset at the marina (`222A3583`); sunrise over the lagoon toward the Contemporary (`222A3654`)
+
+(A press page of the lobby and The Perch exists; do not replace Ryan’s photos, and do not add press stills unless PR clears guidebook use.)
+
+**Photo slots still open**
+
+- [ ] Lobby (none in the shared Grand Floridian folder)
+- [ ] A dining interior — Narcoossee’s, 1900 Park Fare, Grand Floridian Cafe, or a lounge (none in the folder)
+- [ ] Courtyard Pool (the stills we have are the Beach Pool)
+- [ ] Optional later: a people-free night exterior of the main building (the Feb. 2022 night frames had bystanders on the lawn). Villa interiors (`222A3776`, `222A3753`) are in the folder and should wait for a Villas page.
 
 **Ryan’s opinion blanks**
 

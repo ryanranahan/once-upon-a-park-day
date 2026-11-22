@@ -418,6 +418,30 @@
       "pool": {
         "src": "/images/resorts/grand-floridian/pool.webp",
         "alt": "The Beach Pool at Disney's Grand Floridian Resort & Spa, with its rock waterfall, zero-depth entry, and the pool bar beyond the water."
+      },
+      "roomBalcony": {
+        "src": "/images/resorts/grand-floridian/room-balcony.webp",
+        "alt": "Another angle of a standard guest room at Disney's Grand Floridian Resort & Spa, with two queen beds and balcony doors open toward the lagoon."
+      },
+      "poolFountains": {
+        "src": "/images/resorts/grand-floridian/pool-fountains.webp",
+        "alt": "The Beach Pool at Disney's Grand Floridian Resort & Spa, looking back at the guest buildings, with fountain jets and empty lounge chairs."
+      },
+      "monorail": {
+        "src": "/images/resorts/grand-floridian/monorail.webp",
+        "alt": "A monorail crossing the beam over the water near Disney's Grand Floridian Resort & Spa, under a pink early-morning sky."
+      },
+      "exterior": {
+        "src": "/images/resorts/grand-floridian/exterior.webp",
+        "alt": "The main building at Disney's Grand Floridian Resort & Spa, seen from the sand and boat dock on a clear afternoon."
+      },
+      "sunset": {
+        "src": "/images/resorts/grand-floridian/sunset.webp",
+        "alt": "Sunset over the marina at Disney's Grand Floridian Resort & Spa, with the main building reflected in the lagoon and the monorail beam at right."
+      },
+      "view": {
+        "src": "/images/resorts/grand-floridian/view.webp",
+        "alt": "Sunrise over the Seven Seas Lagoon from the Grand Floridian shoreline, looking toward the Contemporary, with a porch at right."
       }
     }
   },
