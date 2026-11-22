@@ -1,0 +1,204 @@
+---
+layout: layouts/base.njk
+section: resorts
+resortSlug: all-star-music
+permalink: "/resorts/all-star-music-resort/"
+title: "All-Star Music Resort: The Full Guide"
+description: "The full guide to Disney's All-Star Music Resort: standard rooms and family suites that sleep six, buses to the parks, Intermission Food Court, and the Calypso and Piano Pools. Last verified Nov 2026."
+---
+
+{% set resort = resorts | findResort(resortSlug) %}{% set tier = tiers | findTierByName(resort.tier) %}
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/resorts/">Resorts</a> <span aria-hidden="true">›</span> <a href="/resorts/#{{ tier.slug }}">{{ tier.plural or tier.name }}</a> <span aria-hidden="true">›</span> <a href="{{ resort.slug | resortUrl }}">{{ resort.short }}</a></nav>
+      <p class="eyebrow">Walt Disney World · {{ resort.tier }} resort guide</p>
+      <h1>{{ resort.short }} Resort: <em>The Full Guide</em></h1>
+      <p class="lead">This is the All-Star with family suites. Standard rooms are a typical Value room; the suites sleep six and add a second bathroom. Buses are the way to every park.</p>
+      <p class="byline">By {{ resort.author }} · [X] min read</p>
+      <div class="fg-hero-actions">
+        <span class="verified"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Last verified: {{ resort.lastVerified }}</span>
+        <a class="fg-quick-link" href="{{ resort.slug | resortUrl }}">Just want the quick facts? →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap section guide-layout">
+<article class="guide-main">
+
+  <div class="placeholder photo-ph">[RYAN'S PHOTO: the Calypso courtyard or Melody Hall, your own photo only]</div>
+
+  <section class="card glance" id="glance" aria-labelledby="glance-h">
+    <h2 id="glance-h">At a glance</h2>
+    <dl>
+      <dt>Resort type</dt><dd>Value Resort, in Disney's Animal Kingdom Resort Area</dd>
+      <dt>Address</dt><dd>1801 West Buena Vista Drive, Lake Buena Vista, FL 32830</dd>
+      <dt>Size</dt><dd>More than 1,700 guest rooms, including family suites, in themed buildings around Melody Hall <span class="verify">[verify current count]</span></dd>
+      <dt>Rooms</dt><dd>Standard and Preferred rooms sleep 4, about 260 sq ft <span class="verify">[verify]</span>. Family Suites sleep 6, about 520 sq ft <span class="verify">[verify]</span>, with a second bathroom and a kitchenette.</dd>
+      <dt>Beds</dt><dd>Standard and Preferred: 1 queen bed and 1 queen-size table bed. Family Suites: 1 queen bed and 2 queen-size pull-down beds.</dd>
+      <dt>Getting around</dt><dd>Buses to all four theme parks, the water parks and Disney Springs</dd>
+      <dt>Food</dt><dd>Intermission Food Court and Singing Spirits Pool Bar. No table-service restaurant on site</dd>
+      <dt>Pools</dt><dd>Calypso Pool (main pool, 251,418 gallons) and Piano Pool (106,036 gallons), plus a kiddie pool behind Melody Hall</dd>
+      <dt>Our take</dt><dd><span class="ryan" style="margin:0">[Ryan: one-sentence verdict, e.g. who you'd send here and who you wouldn't]</span></dd>
+    </dl>
+  </section>
+
+  <div class="placeholder" style="min-height:110px">[AD SPACE: wide banner, reserved so the page does not jump when ads load]</div>
+
+  <section id="best-for">
+    <h2>Who All-Star Music is best for</h2>
+    <ul>
+      <li><strong>Families of five or six who want a Value rate.</strong> The family suites sleep up to six, with a second bathroom and a kitchenette. In 2026 a Family Suite ran about $375 to $731 a night at full price, tax included.</li>
+      <li><strong>Smaller parties watching the nightly rate.</strong> A Standard Room ran about $152 to $311 in 2026, in the same range as the other All-Stars.</li>
+      <li><strong>Anyone who wants the largest Value-resort pool.</strong> Official pages list the guitar-shaped Calypso Pool at 251,418 gallons.</li>
+    </ul>
+    <h3>Think twice if…</h3>
+    <ul>
+      <li><strong>You want a sit-down restaurant at the hotel.</strong> There's a food court and a pool bar, and that's it.</li>
+      <li><strong>You want Extended Evening Hours.</strong> Value resort guests don't get them.</li>
+      <li><strong>You don't want to walk, and you booked a standard room.</strong> Preferred rooms sit closer to Melody Hall. Family suites are their own product; confirm the building when you book if the walk matters.</li>
+    </ul>
+    <span class="ryan">[Ryan: who you think this resort is really for, from your own stays. Two or three sentences.]</span>
+  </section>
+
+  <section id="rooms">
+    <h2>Room types, sizes and beds</h2>
+    <p>All-Star Music is two products in one resort. Standard and Preferred rooms are a typical Value room. Family Suites are larger, with a separate sleeping area, two bathrooms and a kitchenette. Official room listings describe standard and Preferred views of the courtyard, pool or parking area. Preferred rooms are listed as close to Melody Hall, dining, shopping and transportation. Family Suites are listed with views of the pool, courtyard or parking area.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Room type</th><th scope="col">Size</th><th scope="col">Sleeps</th><th scope="col">Beds</th><th scope="col">View and location</th><th scope="col">Sq ft per guest</th><th scope="col">Our take</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Standard Room</strong></td><td>About 260 sq ft <span class="verify">[verify]</span></td><td>Up to 4 adults</td><td>1 queen bed and 1 queen-size table bed</td><td>Courtyard, pool or parking. Farther from Melody Hall</td><td>65</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Preferred Room</strong></td><td>About 260 sq ft <span class="verify">[verify]</span></td><td>Up to 4 adults</td><td>1 queen bed and 1 queen-size table bed</td><td>Courtyard, pool or parking. Closer to Melody Hall, the food court and the buses</td><td>65</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Family Suite</strong></td><td>About 520 sq ft <span class="verify">[verify]</span></td><td>Up to 6 adults</td><td>1 queen bed and 2 queen-size pull-down beds</td><td>Pool, courtyard or parking</td><td>87</td><td>[Ryan: your take]</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Categories, beds, occupancy and the Preferred-location note come from Disney's official room listings and from MouseSavers' October 2026 compilation of Disney's rate categories. The 260 and 520 sq ft figures come from a Disney travel-agent overview. That overview is stale on some bed setups, so we used the current official listings for beds and marked the square footage <span class="verify">[verify]</span>. Sq ft per guest is our math, using 260 divided by 4 and 520 divided by 6, rounded to 87. MouseSavers also notes that a single child under 3 in a crib does not count toward the maximum <span class="verify">[verify still current]</span>. Official amenity listings for the standard rooms include free Wi-Fi, a beverage cooler, an in-room safe, a hairdryer and an iron. Confirm the current kitchenette list in a family suite <span class="verify">[verify current suite amenities]</span>.</p>
+    <h3>What's in the room</h3>
+    <p>In a standard room, the queen-size table bed folds down from a table. In a family suite, official listings show one queen and two queen-size pull-down beds, which is how the room sleeps six. We have not confirmed a current, complete in-room list of our own for either product <span class="verify">[verify current in-room amenities]</span>.</p>
+    <p>Accessible rooms exist, but we haven't confirmed their layouts or bed options yet <span class="verify">[verify]</span>.</p>
+    <div class="placeholder photo-ph small">[RYAN'S PHOTO: a standard room, or a family suite living area, your own photo only]</div>
+    <span class="ryan">[Ryan: what the room or suite felt like for your party. Was four people workable in a standard room? Was six workable in a suite?]</span>
+  </section>
+
+  <section id="transport">
+    <h2>Getting to the parks</h2>
+    <p>Buses are the only free Disney transportation from All-Star Music. They run to all four theme parks, the water parks and Disney Springs. There is no Skyliner, monorail or boat from this resort. The bus stop is at Melody Hall.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">To</th><th scope="col">How</th><th scope="col">Change?</th><th scope="col">Time in the air or on the road</th><th scope="col">Ease (provisional)</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Magic Kingdom</strong></td><td>Bus</td><td>No <span class="verify">[verify whether this bus is shared with the other All-Stars]</span></td><td>Disney doesn't publish this. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>EPCOT</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Hollywood Studios</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Animal Kingdom</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. This is the closest theme park. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Disney Springs</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Water parks</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published</td><td><span class="rate">3</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note"><strong>How we rate ease:</strong> 5 is door-to-gate with no change and little waiting. 4 is a direct ride that is slower or less frequent. 3 is a transfer, or a shared bus whose wait we haven't timed yet. These ratings are provisional until we time each trip ourselves. All-Star resorts sometimes share buses with each other; confirm the current setup when you ride. [Ryan: time the walk from your building to the bus stop.]</p>
+    <span class="ryan">[Ryan: your bus times, with the date you rode, and how long the walk from your building felt.]</span>
+  </section>
+
+  <section id="dining">
+    <h2>Dining</h2>
+    <ul>
+      <li><strong>Intermission Food Court</strong> is the quick-service restaurant, in Melody Hall. It is the only place on site for a full breakfast, lunch or dinner.</li>
+      <li><strong>Singing Spirits Pool Bar</strong> sits by the Calypso Pool.</li>
+      <li>There is no table-service restaurant at this resort.</li>
+      <li>You can use mobile ordering in the My Disney Experience app at the quick-service spots.</li>
+      <li><strong>Park dining reservations:</strong> Disney resort guests can book their whole stay (up to 10 nights) starting 60 days before arrival.</li>
+    </ul>
+    <span class="ryan">[Ryan: your go-to meal here, and one thing you'd skip.]</span>
+  </section>
+
+  <section id="pools">
+    <h2>Pools and things to do</h2>
+    <ul>
+      <li><strong>Calypso Pool</strong> is the main pool. Official pages list it at 251,418 gallons and describe a guitar-shaped pool with a Three Caballeros fountain in the center. A kiddie pool is behind Melody Hall. Official pages also mention movies under the stars at this pool on select nights.</li>
+      <li><strong>Piano Pool</strong> is the quieter leisure pool, shaped like a grand piano. Official pages list it at 106,036 gallons.</li>
+      <li>Towels are free at the pools. Hours and lifeguard coverage vary and can change.</li>
+    </ul>
+    <div class="placeholder photo-ph small">[RYAN'S PHOTO: Calypso Pool or Piano Pool, your own photo only]</div>
+    <span class="ryan">[Ryan: which pool your family actually used and why.]</span>
+  </section>
+
+  <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+
+  <section id="pros-cons">
+    <h2>Pros and cons</h2>
+    <div class="procon">
+      <div class="card">
+        <h3>Pros</h3>
+        <ul>
+          <li>Family suites that sleep six at a Value resort price</li>
+          <li>The largest listed pool at any Disney Value resort, at 251,418 gallons</li>
+          <li>Standard-room rates in line with the other All-Stars</li>
+          <li>A short bus ride to Animal Kingdom, relative to most of the property</li>
+          <li>[Ryan: one pro from your own stay]</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Cons</h3>
+        <ul>
+          <li>Standard rooms are about 260 sq ft with one bathroom for up to four adults <span class="verify">[verify size]</span></li>
+          <li>Food court only, no table-service restaurant</li>
+          <li>Every park is a bus ride</li>
+          <li>Family suites cost roughly double a standard room at full price</li>
+          <li>[Ryan: one con from your own stay]</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Booking and value tips</h2>
+    <ul>
+      <li><strong>Book a Standard Room if four people is enough and you don't mind walking.</strong> In 2026 those rooms ran about $152 to $311 a night at full price including tax, depending on dates. Preferred rooms ran about $199 to $364.</li>
+      <li><strong>Book a Family Suite only if you will use the extra beds and the second bathroom.</strong> In 2026 those suites ran about $375 to $731. Compare that with two standard rooms, or with a family suite at Art of Animation, before you decide.</li>
+      <li><strong>Extra adults cost more in the standard rooms.</strong> Value rates assume two adults. Each extra adult adds $15 a night plus tax, and kids under 18 are free. Tax at the All-Star resorts is 13.5%.</li>
+      <li><strong>Check Disney's own offers page first.</strong> Disney points to <a href="https://disneyworld.disney.go.com/special-offers/">its special offers page</a> for discounts. Our deals hub will track current ones.</li>
+      <li><strong>Lightning Lane head start:</strong> Disney resort guests can buy Lightning Lane passes up to 7 days before their stay.</li>
+    </ul>
+    <div class="fg-callout">
+      <h3>Rates change</h3>
+      <p style="margin:0">The rate range above is MouseSavers' October 2026 snapshot of Disney's full prices, not a deal. Always check the live price on Disney's site before you book. Prices at this resort include 13.5% tax, which is higher than the 12.5% charged at most other Disney-owned Walt Disney World hotels.</p>
+    </div>
+    <span class="ryan">[Ryan: your own booking tip, e.g. when you booked and what you paid.]</span>
+  </section>
+
+  <section id="changes">
+    <h2>What's changed recently</h2>
+    <ul>
+      <li>We did not find a current room-refurbishment notice for All-Star Music when we checked in November 2026. All-Star Movies, next door, does have rooms under refurbishment through January 2027.</li>
+    </ul>
+  </section>
+
+  <p class="note">Last verified: {{ resort.lastVerified }} · Researched and written by {{ resort.author }} · Next review: [DATE] · Spot an error? [CORRECTIONS CONTACT]</p>
+
+  <aside class="card disclaimer">
+    <strong>Not affiliated with Disney.</strong> Once Upon A Park Day is an independent guide. It is not affiliated with, endorsed by, or sponsored by The Walt Disney Company. Resort, attraction and company names are used only to identify them. Prices, hours and policies change; check Disney's official site before you book.
+  </aside>
+
+</article>
+
+<aside class="fg-side">
+  <nav class="card toc" aria-label="On this page">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#glance">At a glance</a></li>
+      <li><a href="#best-for">Who it's best for</a></li>
+      <li><a href="#rooms">Rooms and sizes</a></li>
+      <li><a href="#transport">Getting to the parks</a></li>
+      <li><a href="#dining">Dining</a></li>
+      <li><a href="#pools">Pools and things to do</a></li>
+      <li><a href="#pros-cons">Pros and cons</a></li>
+      <li><a href="#booking">Booking tips</a></li>
+    </ol>
+  </nav>
+  <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+</aside>
+</div>

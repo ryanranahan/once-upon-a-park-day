@@ -413,6 +413,119 @@ Useful press-kit pages (high-res is behind Brandfolder):
 
 ---
 
+
+## All-Star Movies
+
+**Ryan’s photos already in use:** none. There is no All-Star folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (Fantasia courtyard or Cinema Hall)
+- [ ] Standard room, with the table bed down or folded up as a table
+- [ ] Fantasia Pool or Duck Pond Pool
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the room felt like
+- [ ] Time the bus trips still marked “[Ryan: time it]”
+- [ ] Bus times, with the date, and the walk from your building to the stop
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool your family actually used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip
+
+**Fact-check / `[verify]`**
+
+- [ ] Current guest-room count (more than 1,900)
+- [ ] Standard room size, about 260 sq ft (glance, table, and a con)
+- [ ] Child under 3 in a crib still does not count toward the maximum
+- [ ] Current in-room look during the refurbishment through January 2027
+- [ ] Accessible-room layouts and bed options
+- [ ] Buses to each park, Springs, and the water parks are still direct, and whether they are shared with the other All-Stars
+- [ ] The official shop-refurbishment note for Donald’s Double Feature (“through mid-September”) is still current
+- [ ] Quick-facts JSON: 260 sq ft
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## All-Star Music
+
+**Ryan’s photos already in use:** none. There is no All-Star folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (Calypso courtyard or Melody Hall)
+- [ ] A standard room, or a family suite living area
+- [ ] Calypso Pool or Piano Pool
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the room or suite felt like (was four workable in a standard room? was six workable in a suite?)
+- [ ] Time the bus trips still marked “[Ryan: time it]”
+- [ ] Bus times, with the date, and the walk from your building to the stop
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool your family actually used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip
+
+**Fact-check / `[verify]`**
+
+- [ ] Current guest-room count (more than 1,700, including suites)
+- [ ] Standard room size, about 260 sq ft, and family-suite size, about 520 sq ft
+- [ ] Child under 3 in a crib still does not count toward the maximum
+- [ ] Current in-room amenities, and the current suite kitchenette list
+- [ ] Accessible-room layouts and bed options
+- [ ] Buses to each park, Springs, and the water parks are still direct, and whether they are shared with the other All-Stars
+- [ ] Quick-facts JSON: 260 and 520 sq ft
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## All-Star Sports
+
+**Ryan’s photos already in use:** none. There is no All-Star folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (Surfboard Bay courtyard or Stadium Hall)
+- [ ] Standard room, with the table bed down or folded up as a table
+- [ ] Surfboard Bay Pool or Grand Slam Pool
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the room felt like
+- [ ] Time the bus trips still marked “[Ryan: time it]”
+- [ ] Bus times, with the date, and the walk from your building to the stop
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool your family actually used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip
+
+**Fact-check / `[verify]`**
+
+- [ ] Current guest-room count (more than 1,900)
+- [ ] Standard room size, about 260 sq ft (glance, table, and a con)
+- [ ] Child under 3 in a crib still does not count toward the maximum
+- [ ] Current in-room amenities
+- [ ] Accessible-room layouts and bed options
+- [ ] Buses to each park, Springs, and the water parks are still direct, and whether they are shared with the other All-Stars
+- [ ] Quick-facts JSON: 260 sq ft
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
 ## Site-wide
 
 ### Photos still to shoot or find

@@ -10,8 +10,37 @@
       "Buses to all four parks and Disney Springs"
     ],
     "dvc": false,
-    "host": null
-  },
+    "host": null,
+    "fullGuide": "/resorts/all-star-movies-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Value resort in the Animal Kingdom area. In 2026 a Standard Room ran about $153 to $311 a night at full price, tax included. Preferred rooms ran about $194 to $359, depending on the dates. Tax at the All-Star resorts is 13.5%."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Buses to all four theme parks, the water parks and Disney Springs. There is no Skyliner, monorail or boat from this resort."
+      },
+      {
+        "label": "Room size",
+        "value": "Standard and Preferred rooms are the same layout, about 260 sq ft [verify], and sleep up to 4 adults. Most have 1 queen bed and 1 queen-size table bed; some have a king instead. Preferred rooms are closer to Cinema Hall."
+      },
+      {
+        "label": "Best for",
+        "value": "Families watching the nightly rate who can live with a food court and a bus. A weaker pick if you want a sit-down restaurant, or if construction noise through January 2027 would bother you."
+      },
+      {
+        "label": "Food",
+        "value": "World Premiere Food Court and Silver Screen Spirits Pool Bar. No table-service restaurant on site."
+      },
+      {
+        "label": "Pools",
+        "value": "Fantasia Pool is the main pool, with a kiddie pool nearby. Duck Pond Pool is the second pool, officially listed at 105,438 gallons."
+      }
+    ],
+    "heads": "Official pages say guest rooms at All-Star Movies are under planned refurbishment through January 2027. Guests may see or hear construction and may need to use alternate paths. The resort remains open."  },
   {
     "slug": "all-star-music",
     "name": "Disney's All-Star Music Resort",
@@ -23,8 +52,36 @@
       "Buses to all four parks and Disney Springs"
     ],
     "dvc": false,
-    "host": null
-  },
+    "host": null,
+    "fullGuide": "/resorts/all-star-music-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Value resort in the Animal Kingdom area. In 2026 a Standard Room ran about $152 to $311 a night at full price, tax included. Preferred rooms ran about $199 to $364. Family Suites ran about $375 to $731, depending on the dates. Tax at the All-Star resorts is 13.5%."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Buses to all four theme parks, the water parks and Disney Springs. There is no Skyliner, monorail or boat from this resort."
+      },
+      {
+        "label": "Room size",
+        "value": "Standard and Preferred rooms sleep 4, about 260 sq ft [verify], with 1 queen bed and 1 queen-size table bed. Family Suites sleep 6, about 520 sq ft [verify], with 1 queen bed and 2 queen-size pull-down beds, plus a second bathroom and a kitchenette."
+      },
+      {
+        "label": "Best for",
+        "value": "Families of five or six who want a Value-rate suite, and smaller parties who want All-Star pricing. A weaker pick if you want a sit-down restaurant at the hotel."
+      },
+      {
+        "label": "Food",
+        "value": "Intermission Food Court and Singing Spirits Pool Bar. No table-service restaurant on site."
+      },
+      {
+        "label": "Pools",
+        "value": "Calypso Pool is the main pool, officially listed at 251,418 gallons, with a kiddie pool behind Melody Hall. Piano Pool is the quieter leisure pool, listed at 106,036 gallons."
+      }
+    ]  },
   {
     "slug": "all-star-sports",
     "name": "Disney's All-Star Sports Resort",
@@ -36,8 +93,36 @@
       "Buses to all four parks and Disney Springs"
     ],
     "dvc": false,
-    "host": null
-  },
+    "host": null,
+    "fullGuide": "/resorts/all-star-sports-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Value resort in the Animal Kingdom area. In 2026 a Standard Room ran about $149 to $311 a night at full price, tax included. Preferred rooms ran about $187 to $354, depending on the dates. Tax at the All-Star resorts is 13.5%."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Buses to all four theme parks, the water parks and Disney Springs. There is no Skyliner, monorail or boat from this resort."
+      },
+      {
+        "label": "Room size",
+        "value": "Standard and Preferred rooms are the same layout, about 260 sq ft [verify], and sleep up to 4 adults, with 1 queen bed and 1 queen-size table bed. Preferred rooms are closer to Stadium Hall. There are no family suites at this resort."
+      },
+      {
+        "label": "Best for",
+        "value": "Families watching the nightly rate who can live with a food court and a bus. A weaker pick if you need to sleep five or six in one room, or if you want a sit-down restaurant at the hotel."
+      },
+      {
+        "label": "Food",
+        "value": "End Zone Food Court and Grandstand Spirits Pool Bar. No table-service restaurant on site."
+      },
+      {
+        "label": "Pools",
+        "value": "Surfboard Bay Pool is the main pool, officially listed at 242,471 gallons, with a kiddie pool behind Stadium Hall. Grand Slam Pool is the second pool."
+      }
+    ]  },
   {
     "slug": "pop-century",
     "name": "Disney's Pop Century Resort",
