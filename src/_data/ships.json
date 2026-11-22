@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "disney-magic",
+    "name": "Disney Magic",
+    "cls": "Magic class",
+    "year": 1998,
+    "size": "about 84,000 gross tons",
+    "sailed": true,
+    "summary": "Disney's original ship, with a classic Art Deco look and a cozier size than the newer ships.",
+    "water": "AquaDunk drop slide",
+    "rotation": [
+      "Animator's Palate",
+      "Lumière's",
+      "Rapunzel's Royal Table"
+    ],
+    "adult": [
+      "Palo"
+    ],
+    "kids": [
+      "It's a Small World Nursery",
+      "Oceaneer Club and Lab",
+      "Edge (tweens)",
+      "Vibe (teens)"
+    ]
+  },
+  {
+    "slug": "disney-wonder",
+    "name": "Disney Wonder",
+    "cls": "Magic class",
+    "year": 1999,
+    "size": "about 84,000 gross tons",
+    "sailed": false,
+    "summary": "The Magic's sister ship, with an Art Nouveau look and the same classic, smaller-ship feel.",
+    "water": "AquaLab splash zone",
+    "rotation": [
+      "Animator's Palate",
+      "Tiana's Place",
+      "Arendelle"
+    ],
+    "adult": [
+      "Palo"
+    ],
+    "kids": [
+      "It's a Small World Nursery",
+      "Oceaneer Club and Lab",
+      "Edge (tweens)",
+      "Vibe (teens)"
+    ]
+  },
+  {
+    "slug": "disney-dream",
+    "name": "Disney Dream",
+    "cls": "Dream class",
+    "year": 2011,
+    "size": "about 130,000 gross tons",
+    "sailed": true,
+    "summary": "The first of the larger ships, which introduced the AquaDuck water coaster and virtual portholes in inside staterooms.",
+    "water": "AquaDuck water coaster",
+    "rotation": [
+      "Animator's Palate",
+      "Enchanted Garden",
+      "Royal Palace"
+    ],
+    "adult": [
+      "Palo",
+      "Remy"
+    ],
+    "kids": [
+      "It's a Small World Nursery",
+      "Oceaneer Club and Lab",
+      "Edge (tweens)",
+      "Vibe (teens)"
+    ]
+  },
+  {
+    "slug": "disney-fantasy",
+    "name": "Disney Fantasy",
+    "cls": "Dream class",
+    "year": 2012,
+    "size": "about 130,000 gross tons",
+    "sailed": true,
+    "summary": "The Dream's sister ship, with an Art Nouveau look, often sailing longer Caribbean itineraries.",
+    "water": "AquaDuck water coaster",
+    "rotation": [
+      "Animator's Palate",
+      "Enchanted Garden",
+      "Royal Court"
+    ],
+    "adult": [
+      "Palo",
+      "Remy"
+    ],
+    "kids": [
+      "It's a Small World Nursery",
+      "Oceaneer Club and Lab",
+      "Edge (tweens)",
+      "Vibe (teens)"
+    ]
+  },
+  {
+    "slug": "disney-wish",
+    "name": "Disney Wish",
+    "cls": "Wish class",
+    "year": 2022,
+    "size": "about 144,000 gross tons",
+    "sailed": false,
+    "summary": "The first of the newest generation of ships, with a grand fairy-tale atrium and new themed dining.",
+    "water": "AquaMouse water ride",
+    "rotation": [
+      "Arendelle",
+      "Worlds of Marvel",
+      "1923"
+    ],
+    "adult": [
+      "Palo Trattoria",
+      "Enchanté"
+    ],
+    "kids": [
+      "It's a Small World Nursery",
+      "Oceaneer Club",
+      "Edge (tweens)",
+      "Vibe (teens)"
+    ]
+  },
+  {
+    "slug": "disney-treasure",
+    "name": "Disney Treasure",
+    "cls": "Wish class",
+    "year": 2024,
+    "size": "about 144,000 gross tons",
+    "sailed": false,
+    "summary": "The Wish's sister ship, themed around adventure and exploration.",
+    "water": "AquaMouse water ride",
+    "rotation": [
+      "Plaza de Coco",
+      "Worlds of Marvel",
+      "1923"
+    ],
+    "adult": [
+      "Palo Trattoria",
+      "Enchanté"
+    ],
+    "kids": [
+      "It's a Small World Nursery",
+      "Oceaneer Club",
+      "Edge (tweens)",
+      "Vibe (teens)"
+    ]
+  },
+  {
+    "slug": "disney-destiny",
+    "name": "Disney Destiny",
+    "cls": "Wish class",
+    "year": 2025,
+    "size": "about 144,000 gross tons",
+    "sailed": false,
+    "summary": "The third Wish-class ship, themed around heroes and villains.",
+    "water": "AquaMouse water ride",
+    "rotation": [
+      "[VERIFY]"
+    ],
+    "adult": [
+      "Palo Trattoria",
+      "Enchanté"
+    ],
+    "kids": [
+      "It's a Small World Nursery",
+      "Oceaneer Club",
+      "Edge (tweens)",
+      "Vibe (teens)"
+    ]
+  },
+  {
+    "slug": "disney-adventure",
+    "name": "Disney Adventure",
+    "cls": "Global class",
+    "year": 2026,
+    "size": "[VERIFY]",
+    "sailed": false,
+    "summary": "Disney's largest ship, built for sailings from Singapore.",
+    "water": "[VERIFY]",
+    "rotation": [
+      "[VERIFY]"
+    ],
+    "adult": [
+      "[VERIFY]"
+    ],
+    "kids": [
+      "[VERIFY]"
+    ]
+  }
+]

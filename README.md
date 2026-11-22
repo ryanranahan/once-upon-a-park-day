@@ -18,6 +18,9 @@ The site uses [Eleventy](https://www.11ty.dev/), which turns templates and Markd
 | Resort facts (one entry per resort) | `src/_data/resorts.json` |
 | Resort categories and their intros | `src/_data/tiers.json` |
 | Resort page template | `src/resorts/resort.njk` |
+| Ship facts (one entry per ship) | `src/_data/ships.json` |
+| Ship page template | `src/cruises/ship.njk` |
+| Cruises page and comparison table | `src/cruises/index.njk` |
 | Blog posts (one Markdown file each) | `src/blog/posts/` |
 | Images | `src/images/` |
 

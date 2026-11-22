@@ -1,0 +1,136 @@
+---
+layout: layouts/base.njk
+section: cruises
+pagination:
+  data: ships
+  size: 1
+  alias: ship
+permalink: "/cruises/{{ ship.slug }}/"
+eleventyComputed:
+  title: "{{ ship.name }}: a first-timer's ship guide"
+  description: "{{ ship.summary }} A plain-English guide to the {{ ship.name }} for first-time cruisers."
+---
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/cruises/">Cruises</a> <span aria-hidden="true">›</span> <a href="/cruises/#ships">Ships</a></nav>
+      <p class="eyebrow">{{ ship.cls }} · Entered service {{ ship.year }}</p>
+      <h1>{{ ship.name }}</h1>
+      <p class="lead">{{ ship.summary }}</p>
+      {% if ship.sailed %}<p class="badge">We've sailed this ship</p>{% endif %}
+      <p class="byline">By [YOUR NAME] · Facts last checked [DATE]</p>
+    </div>
+    <div class="placeholder hero-photo">[YOUR PHOTO OF THE {{ ship.name | upper }}]</div>
+  </div>
+</section>
+
+<div class="wrap guide-row">
+  <article class="guide">
+    <nav class="toc card" aria-label="On this page">
+      <strong>On this page</strong>
+      <ol>
+        <li><a href="#overview">Overview and who it suits</a></li>
+        <li><a href="#facts">Ship facts</a></li>
+        <li><a href="#staterooms">Staterooms</a></li>
+        <li><a href="#dining">Dining</a></li>
+        <li><a href="#kids-teens-adults">Kids, teens and adults</a></li>
+        <li><a href="#pools">Pools and water features</a></li>
+        <li><a href="#entertainment">Shows and entertainment</a></li>
+        <li><a href="#decks">Deck by deck</a></li>
+        <li><a href="#itineraries">Itineraries and ports</a></li>
+        <li><a href="#pros-cons">Pros, cons and tips</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="overview">Overview and who it suits</h2>
+    <p class="todo">[YOUR TAKE{% if ship.sailed %} FROM YOUR SAILING: when you sailed, the itinerary, and what stood out{% endif %}. WHO THIS SHIP IS BEST FOR, AND WHO MIGHT PREFER ANOTHER SHIP.]</p>
+
+    <h2 id="facts">Ship facts</h2>
+    <div class="card facts facts-inline">
+      <dl>
+        <dt>Class</dt><dd>{{ ship.cls }}</dd>
+        <dt>Entered service</dt><dd>{{ ship.year }}</dd>
+        <dt>Size</dt><dd>{{ ship.size }}</dd>
+        <dt>Staterooms</dt><dd class="todo">[VERIFY]</dd>
+        <dt>Guests</dt><dd class="todo">[VERIFY]</dd>
+        <dt>Home ports</dt><dd class="todo">[VERIFY CURRENT HOME PORTS]</dd>
+      </dl>
+    </div>
+
+    <h2 id="staterooms">Staterooms</h2>
+    <p>Disney Cruise Line rooms fall into four main groups. Here's how they play out on the {{ ship.name }}.</p>
+    <div class="rooms">
+      <div class="card"><h3>Inside</h3><p class="todo">[WHAT THEY'RE LIKE ON THIS SHIP AND WHO THEY SUIT]</p></div>
+      <div class="card"><h3>Oceanview</h3><p class="todo">[WHAT THEY'RE LIKE ON THIS SHIP AND WHO THEY SUIT]</p></div>
+      <div class="card"><h3>Verandah</h3><p class="todo">[WHAT THEY'RE LIKE ON THIS SHIP AND WHO THEY SUIT]</p></div>
+      <div class="card"><h3>Concierge</h3><p class="todo">[WHAT THEY'RE LIKE ON THIS SHIP AND WHO THEY SUIT]</p></div>
+    </div>
+    <p class="todo">[WHICH ROOMS OR DECKS TO BOOK, AND WHICH TO AVOID]</p>
+
+    <h2 id="dining">Dining</h2>
+    <h3>Main dining rotation</h3>
+    <p>Most nights you rotate between the main restaurants, and your servers move with you.</p>
+    <ul class="ticks">{% for r in ship.rotation %}<li>{% if r == "[VERIFY]" %}<span class="todo">[VERIFY RESTAURANTS]</span>{% else %}{{ r }}{% endif %}</li>{% endfor %}</ul>
+    <p class="todo">[WHAT EACH ONE IS LIKE, AND YOUR FAVORITE]</p>
+    <h3>Adult-only dining</h3>
+    <ul class="ticks">{% for r in ship.adult %}<li>{% if r == "[VERIFY]" %}<span class="todo">[VERIFY]</span>{% else %}{{ r }}{% endif %}</li>{% endfor %}</ul>
+    <p class="todo">[IS IT WORTH THE EXTRA COST? CHECK CURRENT PRICES BEFORE MENTIONING THEM.]</p>
+    <h3>Quick-service and snacks</h3>
+    <p class="todo">[POOL DECK FOOD, COFFEE, ROOM SERVICE TIPS]</p>
+
+    <h2 id="kids-teens-adults">Kids, teens and adults</h2>
+    <h3>Kids and teens</h3>
+    <ul class="ticks">{% for k in ship.kids %}<li>{% if k == "[VERIFY]" %}<span class="todo">[VERIFY]</span>{% else %}{{ k }}{% endif %}</li>{% endfor %}</ul>
+    <p class="todo">[AGES FOR EACH CLUB, AND WHAT YOUR KIDS THOUGHT]</p>
+    <h3>Adults</h3>
+    <p class="todo">[ADULT-ONLY POOL, LOUNGES, SPA, AND QUIET SPOTS]</p>
+
+    <h2 id="pools">Pools and water features</h2>
+    <p><strong>Signature water ride:</strong> {% if ship.water == "[VERIFY]" %}<span class="todo">[VERIFY]</span>{% else %}{{ ship.water }}{% endif %}</p>
+    <p class="todo">[FAMILY POOLS, SPLASH AREAS, ADULT POOL, AND HOW BUSY THEY GET]</p>
+
+    <h2 id="entertainment">Shows and entertainment</h2>
+    <p class="todo">[STAGE SHOWS, DECK PARTIES, FIREWORKS AT SEA, MOVIES, CHARACTER MEET-AND-GREETS. CHECK THE CURRENT SHOW LINEUP.]</p>
+
+    <h2 id="decks">Deck by deck</h2>
+    <div class="table-scroll">
+      <table class="deck-table">
+        <thead><tr><th scope="col">Deck</th><th scope="col">What's there</th></tr></thead>
+        <tbody>
+          <tr><th scope="row" class="todo">[DECK]</th><td class="todo">[WHAT'S ON THIS DECK]</td></tr>
+          <tr><th scope="row" class="todo">[DECK]</th><td class="todo">[WHAT'S ON THIS DECK]</td></tr>
+          <tr><th scope="row" class="todo">[DECK]</th><td class="todo">[WHAT'S ON THIS DECK]</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="itineraries">Itineraries and ports</h2>
+    <p class="todo">[WHERE THIS SHIP SAILS NOW, TYPICAL LENGTHS, AND WHICH PRIVATE ISLAND STOPS ARE INCLUDED. CHECK DISNEY'S CURRENT SCHEDULE.]</p>
+
+    <h2 id="pros-cons">Pros, cons and tips</h2>
+    <div class="proscons">
+      <div class="card"><h3>Love</h3><ul><li class="todo">[PRO]</li><li class="todo">[PRO]</li><li class="todo">[PRO]</li></ul></div>
+      <div class="card"><h3>Keep in mind</h3><ul><li class="todo">[CON]</li><li class="todo">[CON]</li><li class="todo">[CON]</li></ul></div>
+    </div>
+    <h3>First-timer tips</h3>
+    <p class="todo">[TWO OR THREE PRACTICAL TIPS FOR THIS SHIP]</p>
+  </article>
+
+  <aside class="guide-side">
+    <div class="card facts">
+      <h2>At a glance</h2>
+      <dl>
+        <dt>Class</dt><dd>{{ ship.cls }}</dd>
+        <dt>Entered service</dt><dd>{{ ship.year }}</dd>
+        <dt>Water ride</dt><dd>{{ ship.water }}</dd>
+        <dt>Facts last checked</dt><dd class="todo">[DATE]</dd>
+      </dl>
+      <a class="btn btn-outline-dark compare-link" href="/cruises/#compare">Compare all ships</a>
+    </div>
+    <div class="card nearby">
+      <h2>Other ships</h2>
+      <ul>{% for s in ships %}{% if s.slug != ship.slug %}<li><a href="/cruises/{{ s.slug }}/">{{ s.name }}</a> <small>{{ s.cls }}</small></li>{% endif %}{% endfor %}</ul>
+    </div>
+    <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+  </aside>
+</div>

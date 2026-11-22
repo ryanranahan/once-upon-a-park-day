@@ -63,6 +63,14 @@ The site now follows the "Once Upon A Park Day" logo. The earlier "Sunny Boardwa
 - Everything first-hand (our take, rooms, dining, pros and cons, tips) is a [BRACKETED] placeholder to fill from interviews with Ryan.
 - Not yet covered: Swan, Dolphin and Swan Reserve, Shades of Green, Disney Springs area hotels.
 
+## Cruise ship guides
+
+- One page per Disney Cruise Line ship (8 pages) at `/cruises/<ship>/`, generated from `src/_data/ships.json` and `src/cruises/ship.njk`.
+- `/cruises/` lists the fleet by class and has a side-by-side comparison table.
+- Ryan has sailed the Magic, Dream and Fantasy. Those pages show "We've sailed this ship" and get first-hand notes first.
+- Sections on each ship page: overview and who it suits, ship facts, staterooms, dining, kids/teens/adults, pools and water features, shows, deck by deck, itineraries and ports, pros/cons/tips.
+- Ship facts (year, size, dining names, water ride, clubs) came from general knowledge and must be verified. Anything uncertain is marked [VERIFY]. Home ports change often, so they are always [VERIFY] until checked.
+
 ## Blog
 
 - Lives at `/blog/`. One Markdown file per post in `src/blog/posts/`. A starter welcome post is in place with placeholders.

@@ -36,7 +36,7 @@
     </form>
     <nav class="main-nav" id="main-nav" aria-label="Main">
       <a href="/resorts/"{% if section == "resorts" %} aria-current="page"{% endif %}>Resorts</a>
-      <a href="#">Cruises</a>
+      <a href="/cruises/"{% if section == "cruises" %} aria-current="page"{% endif %}>Cruises</a>
       <a href="#">Planning</a>
       <a href="/blog/"{% if section == "blog" %} aria-current="page"{% endif %}>Blog</a>
       <a class="btn btn-red" href="/#start">Start here</a>
@@ -60,6 +60,7 @@
       <img src="/images/logo-light.svg" alt="Once Upon A Park Day" width="240" height="64">
       <nav class="footer-nav" aria-label="Footer">
         <a href="/resorts/">Resorts</a>
+        <a href="/cruises/">Cruises</a>
         <a href="/blog/">Blog</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
@@ -74,7 +75,7 @@
 <nav class="tabbar" aria-label="Quick navigation">
   <a href="/"{% if section == "home" %} aria-current="page"{% endif %}><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg>Home</a>
   <a href="/resorts/"{% if section == "resorts" %} aria-current="page"{% endif %}><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M5 20V9l7-5 7 5v11M10 20v-6h4v6"/></svg>Resorts</a>
-  <a href="#"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15h18l-2 5H5zM6 15V9h12v6M10 9V5h4v4"/></svg>Cruises</a>
+  <a href="/cruises/"{% if section == "cruises" %} aria-current="page"{% endif %}><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15h18l-2 5H5zM6 15V9h12v6M10 9V5h4v4"/></svg>Cruises</a>
   <a href="/blog/"{% if section == "blog" %} aria-current="page"{% endif %}><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h11l3 3v13H5z"/><path d="M9 10h6M9 14h6M9 18h3"/></svg>Blog</a>
 </nav>
 
