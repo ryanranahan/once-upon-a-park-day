@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>Beach Club Villas are Disney Vacation Club rooms attached to the Beach Club, with full access to Stormalong Bay and a short walk to Epcot.</p>",
+  "suits": "<p>Families who want villa space within walking distance of Epcot.</p>",
+  "rooms": "<p>As a Disney Vacation Club resort, rooms range from studios with a kitchenette to multi-bedroom villas with a full kitchen and washer and dryer. You don't need to be a member to stay; you can book with cash like a regular hotel.</p>",
+  "pools": "<p>Guests can use <strong>Stormalong Bay</strong> and the quieter <strong>Dunes Cove</strong> pool.</p>",
+  "dining": "<p>Guests use the Beach Club and Yacht Club restaurants, including <strong>Beaches &amp; Cream</strong> and <strong>Cape May Cafe</strong>.</p>",
+  "gettingAround": null,
+  "pros": [
+    "Walk to Epcot",
+    "Stormalong Bay",
+    "Villa space with a kitchen"
+  ],
+  "cons": [
+    "High price",
+    "Buses to Magic Kingdom and Animal Kingdom",
+    "Fewer villa sizes than some resorts"
+  ],
+  "tips": [
+    "Walk to Epcot's International Gateway for a quiet entrance.",
+    "Use Dunes Cove when Stormalong Bay is crowded."
+  ],
+  "bestFor": "Families who want villa space near Epcot."
+}

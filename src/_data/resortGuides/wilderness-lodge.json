@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>Wilderness Lodge is a Deluxe resort inspired by grand national park lodges, with a towering timber lobby and a geyser by the lake. It's on Bay Lake with a boat to Magic Kingdom.</p>",
+  "suits": "<p>Families and couples who want a cozy, rustic Deluxe resort at a lower price than the monorail hotels.</p>",
+  "rooms": "<p>Standard rooms sleep four, and many have balconies overlooking the courtyard or the woods.</p>",
+  "pools": "<p><strong>Copper Creek Springs Pool</strong> is fed by a creek that starts in the lobby, with a waterslide nearby.</p>",
+  "dining": "<p><strong>Whispering Canyon Cafe</strong> is known for its playful servers, and <strong>Story Book Dining at Artist Point</strong> is a character dinner. <strong>Geyser Point Bar &amp; Grill</strong> sits on the lake.</p>",
+  "gettingAround": null,
+  "pros": [
+    "Beautiful lobby and grounds",
+    "Boat to Magic Kingdom",
+    "Usually cheaper than the monorail Deluxe resorts"
+  ],
+  "cons": [
+    "Buses to every park except Magic Kingdom",
+    "Smaller rooms than some Deluxe resorts",
+    "Boat service can pause in bad weather"
+  ],
+  "tips": [
+    "Watch the Fire Rock Geyser erupt by the lake.",
+    "Use the walking path to Fort Wilderness for a change of scenery."
+  ],
+  "bestFor": "Families and couples who want a cozy Deluxe stay."
+}

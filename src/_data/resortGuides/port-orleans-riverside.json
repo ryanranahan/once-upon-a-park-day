@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>Port Orleans Riverside is a Moderate resort split into two areas: grand Southern mansions and rustic bayou-style buildings, all along a winding river.</p>",
+  "suits": "<p>Families of five who want a Moderate room with space, and anyone who likes a peaceful riverside setting.</p>",
+  "rooms": "<p>Standard rooms sleep four. Rooms in Alligator Bayou can sleep five with a trundle bed. The Royal Guest Rooms add princess-inspired decor.</p>",
+  "pools": "<p>The main pool, on <strong>Ol' Man Island</strong>, has a waterslide and a fishing hole. Several smaller pools are spread across the resort.</p>",
+  "dining": "<p><strong>Boatwright's Dining Hall</strong> is the table-service restaurant and <strong>Riverside Mill Food Court</strong> is the quick-service option. The <strong>River Roost</strong> lounge often has live entertainment.</p>",
+  "gettingAround": "<p>Buses go to every park, and a boat goes to Disney Springs.</p>",
+  "pros": [
+    "Rooms that sleep five",
+    "Pretty river views and walking paths",
+    "Boat to Disney Springs"
+  ],
+  "cons": [
+    "Large and spread out",
+    "Bus-only transportation to the parks",
+    "Some rooms are far from the main building"
+  ],
+  "tips": [
+    "Request a room near the main building or a bus stop.",
+    "Rent a bike or surrey to explore the river paths."
+  ],
+  "bestFor": "Families of five and anyone who wants a peaceful setting."
+}

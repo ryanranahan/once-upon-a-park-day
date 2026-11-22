@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>Kidani Village is a Disney Vacation Club resort next to Animal Kingdom Lodge, with its own savanna and animals outside many villas.</p>",
+  "suits": "<p>Families who love the Animal Kingdom Lodge experience and want villa space.</p>",
+  "rooms": "<p>As a Disney Vacation Club resort, rooms range from studios with a kitchenette to multi-bedroom villas with a full kitchen and washer and dryer. You don't need to be a member to stay; you can book with cash like a regular hotel.</p><p>Savanna-view villas cost more but have the best animal views.</p>",
+  "pools": "<p><strong>Samawati Springs</strong> is the main pool, with a waterslide and a splash area.</p>",
+  "dining": "<p><strong>Sanaa</strong> is the table-service restaurant, with savanna views. Guests can also use the restaurants at Jambo House next door.</p>",
+  "gettingAround": "<p>Every park is reached by Disney bus.</p>",
+  "pros": [
+    "Animals outside your window",
+    "Villa space with a kitchen",
+    "Sanaa's food and views"
+  ],
+  "cons": [
+    "Bus-only transportation",
+    "Far from Magic Kingdom and Epcot",
+    "Limited quick-service food on site"
+  ],
+  "tips": [
+    "Grab breakfast at Jambo House if you want more options.",
+    "Visit the savanna overlooks early and late, when animals are most active."
+  ],
+  "bestFor": "Families who want villa space with animals."
+}

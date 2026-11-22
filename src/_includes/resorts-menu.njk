@@ -1,0 +1,21 @@
+<div class="nav-drop" id="resorts-drop">
+  <button type="button" class="nav-drop-btn" id="resorts-btn" aria-expanded="false" aria-controls="resorts-menu"{% if section in ["resorts","disneyland","universal"] %} aria-current="page"{% endif %}>Resorts <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
+  <div class="mega" id="resorts-menu">
+    <div class="wrap mega-row">
+      <div class="mega-col mega-wdw">
+        <a class="mega-head" href="/resorts/">Walt Disney World <span aria-hidden="true">›</span></a>
+        <div class="mega-list">
+          {% for t in tiers %}<div class="mega-group"><p class="mega-tier">{{ t.plural or t.name }}</p><ul>{% for r in resorts | byTier(t.name) %}<li><a href="/resorts/{{ r.slug }}/">{{ r.short }}</a></li>{% endfor %}</ul></div>
+          {% endfor %}
+        </div>
+      </div>
+      {% for dest in [disneyland, universal] %}
+      <div class="mega-col">
+        <a class="mega-head" href="{{ dest.url }}">{{ dest.name }} <span aria-hidden="true">›</span></a>
+        {% for t in dest.tiers %}<div class="mega-group"><p class="mega-tier">{{ t.plural or t.name }}</p><ul>{% for r in dest.hotels | byTier(t.name) %}<li><a href="{{ dest.url }}hotels/{{ r.slug }}/">{{ r.short }}</a></li>{% endfor %}</ul></div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

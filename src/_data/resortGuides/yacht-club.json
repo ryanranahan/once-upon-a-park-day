@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>The Yacht Club is a Deluxe resort styled after a polished New England yacht club. Like its sister, the Beach Club, it's a short walk from Epcot and shares Stormalong Bay.</p>",
+  "suits": "<p>Couples and families who want a walkable Deluxe resort and a slightly quieter feel than the Beach Club.</p>",
+  "rooms": "<p>Standard rooms sleep four or five. Lagoon-view rooms overlook Crescent Lake.</p>",
+  "pools": "<p><strong>Stormalong Bay</strong> is a three-acre, sand-bottom pool area with a shipwreck slide and a lazy river.</p>",
+  "dining": "<p><strong>Yachtsman Steakhouse</strong> is the signature restaurant, and <strong>Ale &amp; Compass</strong> serves comfort food and breakfast.</p>",
+  "gettingAround": null,
+  "pros": [
+    "Walk to Epcot and Hollywood Studios",
+    "Stormalong Bay",
+    "Polished, quieter atmosphere"
+  ],
+  "cons": [
+    "High price",
+    "Buses to Magic Kingdom and Animal Kingdom",
+    "Long hallways to some rooms"
+  ],
+  "tips": [
+    "Use the Friendship boats as a relaxing ride to Hollywood Studios.",
+    "Walk to Epcot early for a quiet start at the International Gateway."
+  ],
+  "bestFor": "Couples and families who want to walk to Epcot."
+}

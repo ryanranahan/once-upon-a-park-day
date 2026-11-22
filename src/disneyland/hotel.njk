@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+section: disneyland
+pagination:
+  data: disneyland.hotels
+  size: 1
+  alias: resort
+permalink: "/disneyland/hotels/{{ resort.slug }}/"
+eleventyComputed:
+  title: "{{ resort.short }}: a first-timer's guide"
+  description: "{{ resort.theme }} A plain-English guide to {{ resort.name }} for first-time visitors."
+---
+{% set dest = disneyland %}
+{% include "hotel-page.njk" %}

@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>All-Star Music is a Value resort themed to music, with giant instruments and jukeboxes around the courtyards. It's the All-Star resort with Family Suites, which makes it popular with bigger families.</p>",
+  "suits": "<p>Families on a budget, especially groups of five or six who want a Family Suite instead of two rooms.</p>",
+  "rooms": "<p>Standard rooms are compact and sleep up to four, with two queen beds or one queen plus a pull-down bed in refreshed rooms. Check the latest room setup when you book.</p><p><strong>Family Suites</strong> sleep up to six, with a separate bedroom, two bathrooms and a kitchenette.</p>",
+  "pools": "<p>The guitar-shaped <strong>Calypso Pool</strong> is the main pool, and the <strong>Piano Pool</strong> is the quieter second option.</p>",
+  "dining": "<p>Dining is the <strong>Intermission Food Court</strong> plus a pool bar. There's no table-service restaurant on site.</p>",
+  "gettingAround": "<p>Every park is reached by Disney bus.</p>",
+  "pros": [
+    "Family Suites at a Value-level resort",
+    "Low price for a Disney-owned hotel",
+    "Fun music theming"
+  ],
+  "cons": [
+    "Bus-only transportation",
+    "No table-service dining",
+    "Can be busy and loud around the pools"
+  ],
+  "tips": [
+    "If you book a Family Suite, compare its price against two standard rooms; sometimes the suite is the better deal.",
+    "Mobile order from the food court to skip the line at breakfast."
+  ],
+  "bestFor": "Budget-minded families, especially groups of five or six."
+}

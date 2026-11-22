@@ -1,0 +1,1 @@
+<p class="byline">{% if g.author %}By {{ g.author }}{% if g.experience %} · {{ g.experience }}{% endif %}{% elif g.researched %}<span class="badge badge-researched">Researched guide</span> First-hand notes coming soon{% else %}By [YOUR NAME]{% endif %} · Facts last checked {{ g.checked or "[DATE]" }}</p>

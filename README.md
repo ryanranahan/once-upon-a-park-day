@@ -37,3 +37,11 @@ Cloudflare Pages builds and publishes the site on every push to `main`.
 - Build output directory: `public`
 
 Not affiliated with, endorsed by, or sponsored by The Walt Disney Company.
+
+## Destinations (added November 2026)
+
+- **Walt Disney World**: `src/_data/resorts.json` + one guide per resort in `src/_data/resortGuides/<slug>.json`. Pages at `/resorts/<slug>/`.
+- **Disneyland Resort**: everything in `src/_data/disneyland.json` (hotels, tiers, guest benefits). Pages at `/disneyland/` and `/disneyland/hotels/<slug>/`.
+- **Universal Orlando Resort**: everything in `src/_data/universal.json`. Pages at `/universal-orlando/` and `/universal-orlando/hotels/<slug>/`.
+- Guides with `"researched": true` are written from research, not a stay. They show a "Researched guide" badge and an Overview section instead of "Our take". To make one your own, add `"author"`, `"experience"` and `"take"` to its guide, and remove `"researched"`.
+- The Resorts menu (`src/_includes/resorts-menu.njk`) lists every hotel automatically from those data files.

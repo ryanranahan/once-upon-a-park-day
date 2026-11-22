@@ -1,0 +1,341 @@
+{
+  "name": "Universal Orlando Resort",
+  "short": "Universal Orlando",
+  "slug": "universal-orlando",
+  "url": "/universal-orlando/",
+  "where": "Orlando, Florida",
+  "lead": "Universal Orlando has eleven on-site hotels in three categories. Every hotel guest gets Early Park Admission, and the top-tier hotels add perks like free Universal Express Unlimited.",
+  "benefits": [
+    "Early Park Admission up to an hour before opening at select attractions. Valid park admission is required.",
+    "Free transportation by shuttle bus or water taxi from select hotels, plus walking paths.",
+    "Charge purchases to your room key across the parks, hotels and CityWalk.",
+    "Free delivery of purchases from select park stores to your hotel (not on check-out day)."
+  ],
+  "benefitsNote": "Universal Express Unlimited is included only at Loews Portofino Bay, Hard Rock Hotel and Loews Royal Pacific. It works at select rides at Universal Studios Florida and Islands of Adventure, not at Volcano Bay or Epic Universe.",
+  "tiers": [
+    {
+      "name": "Signature Collection",
+      "slug": "signature-collection",
+      "blurb": "The top tier. Three of these hotels include free Universal Express Unlimited, and four have water taxis to the parks."
+    },
+    {
+      "name": "Prime Value",
+      "slug": "prime-value",
+      "blurb": "Mid-priced hotels with modern style. Stella Nova has a walking path to Epic Universe."
+    },
+    {
+      "name": "Value Inns & Suites",
+      "slug": "value",
+      "plural": "Value Inns & Suites",
+      "blurb": "The lowest-priced on-site hotels, with family suites at several of them."
+    }
+  ],
+  "fineprint": "Prices, perks and transportation change. We checked Universal's and Loews' benefit pages in November 2026; confirm details with Universal before you book.",
+  "hotels": [
+    {
+      "slug": "portofino-bay",
+      "name": "Loews Portofino Bay Hotel",
+      "short": "Portofino Bay",
+      "tier": "Signature Collection",
+      "theme": "An Italian seaside village by the water, modeled on the town of Portofino.",
+      "transport": [
+        "Water taxi to Universal Studios Florida and Islands of Adventure",
+        "Walking paths to the parks"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>Portofino Bay recreates an Italian harbor town, with pastel buildings around a bay. It's one of three hotels that include free Universal Express Unlimited.</p>",
+        "suits": "<p>Families and couples who want the full set of perks and a quieter, more elegant setting.</p>",
+        "pros": [
+          "Free Express Unlimited",
+          "Water taxi to the parks",
+          "A relaxing, upscale feel"
+        ],
+        "cons": [
+          "Among the most expensive hotels at Universal",
+          "Express doesn't cover Volcano Bay or Epic Universe"
+        ],
+        "bestFor": "Guests who want Express Unlimited and a calmer stay.",
+        "tips": [
+          "Take the water taxi at least once; it's the most scenic way in.",
+          "Link your reservation in the app and check in online so your Express pass appears."
+        ],
+        "perks": [
+          "Free Universal Express Unlimited for everyone in the room (select rides at Universal Studios Florida and Islands of Adventure)",
+          "Priority seating at select restaurants, booked through the concierge"
+        ]
+      }
+    },
+    {
+      "slug": "hard-rock-hotel",
+      "name": "Hard Rock Hotel",
+      "short": "Hard Rock Hotel",
+      "tier": "Signature Collection",
+      "theme": "A music-themed hotel filled with rock memorabilia, closest of the Signature hotels to the main parks.",
+      "transport": [
+        "A short walk to Universal Studios Florida, Islands of Adventure and CityWalk",
+        "Water taxi"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>The Hard Rock Hotel leans into rock-and-roll, with music memorabilia around the property. It's a quick walk to the parks and includes free Universal Express Unlimited.</p>",
+        "suits": "<p>Groups and families who want to walk to the parks and get Express Unlimited.</p>",
+        "pros": [
+          "Free Express Unlimited",
+          "A quick walk to the parks",
+          "A lively, music-filled vibe"
+        ],
+        "cons": [
+          "Top-tier pricing",
+          "Not the place for a quiet, low-key stay"
+        ],
+        "bestFor": "Thrill fans who want to walk to the rides.",
+        "tips": [
+          "Walking is often faster than the water taxi from here.",
+          "Link your reservation and check in online so your Express pass shows up in the app."
+        ],
+        "perks": [
+          "Free Universal Express Unlimited for everyone in the room (select rides at Universal Studios Florida and Islands of Adventure)",
+          "Priority seating at select restaurants, booked through the concierge"
+        ]
+      }
+    },
+    {
+      "slug": "royal-pacific",
+      "name": "Loews Royal Pacific Resort",
+      "short": "Royal Pacific",
+      "tier": "Signature Collection",
+      "theme": "A South Pacific island escape with lush, tropical grounds.",
+      "transport": [
+        "Water taxi to Universal Studios Florida and Islands of Adventure",
+        "Walking paths to the parks"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>Royal Pacific has a South Seas, tropical look. It's the third hotel that includes free Universal Express Unlimited, and it's often the lowest-priced of those three. That price point is our general read, so check current rates.</p>",
+        "suits": "<p>Families who want Express Unlimited at the best value they can find.</p>",
+        "pros": [
+          "Free Express Unlimited",
+          "Water taxi and walking paths",
+          "Tropical, relaxing grounds"
+        ],
+        "cons": [
+          "Still a premium price",
+          "A longer walk than the Hard Rock"
+        ],
+        "bestFor": "Families who want Express without the highest price.",
+        "perks": [
+          "Free Universal Express Unlimited for everyone in the room (select rides at Universal Studios Florida and Islands of Adventure)",
+          "Priority seating at select restaurants, booked through the concierge"
+        ]
+      }
+    },
+    {
+      "slug": "sapphire-falls",
+      "name": "Loews Sapphire Falls Resort",
+      "short": "Sapphire Falls",
+      "tier": "Signature Collection",
+      "theme": "A Caribbean island resort built around waterfalls and a lagoon.",
+      "transport": [
+        "Water taxi to Universal Studios Florida and Islands of Adventure",
+        "Walking path to Volcano Bay"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>Sapphire Falls has a Caribbean theme with waterfalls and a lagoon. It's in the Signature Collection but doesn't include Express Unlimited, which usually makes it cheaper than the three hotels that do.</p>",
+        "suits": "<p>Families who want a Signature-level hotel and water taxi but don't need Express.</p>",
+        "pros": [
+          "Water taxi to the parks",
+          "Walking path to Volcano Bay",
+          "Lower price than the Express hotels"
+        ],
+        "cons": [
+          "No free Express Unlimited"
+        ],
+        "bestFor": "Families who want a nicer hotel without paying for Express."
+      }
+    },
+    {
+      "slug": "helios-grand",
+      "name": "Universal Helios Grand Hotel, a Loews Hotel",
+      "short": "Helios Grand",
+      "tier": "Signature Collection",
+      "theme": "A celestial-themed grand hotel inside Epic Universe, with its own entrance into the park.",
+      "transport": [
+        "Dedicated entrance into Epic Universe (park admission required)"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>Helios Grand is the only hotel with its own entrance into Epic Universe. It doesn't include Express Unlimited, and Express isn't valid at Epic Universe anyway.</p>",
+        "suits": "<p>Fans planning several days at Epic Universe who want to come and go easily.</p>",
+        "pros": [
+          "Its own entrance into Epic Universe",
+          "Easy midday breaks during an Epic day"
+        ],
+        "cons": [
+          "No free Express Unlimited",
+          "Far from the original two parks"
+        ],
+        "bestFor": "Epic Universe fans."
+      }
+    },
+    {
+      "slug": "aventura",
+      "name": "Universal Aventura Hotel",
+      "short": "Aventura",
+      "tier": "Prime Value",
+      "theme": "A sleek, modern high-rise with a rooftop bar.",
+      "transport": [
+        "Walking path to Volcano Bay (closed seasonally)",
+        "Shuttle bus or a walk to the Sapphire Falls water taxi"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>Aventura is a modern, minimalist hotel with a rooftop bar, Bar 17. It's walking distance to Volcano Bay, and guests can walk over to Sapphire Falls to catch the water taxi.</p>",
+        "suits": "<p>Couples and smaller families who want a stylish room at a mid-range price.</p>",
+        "pros": [
+          "Modern rooms and a rooftop bar",
+          "A walk to Volcano Bay"
+        ],
+        "cons": [
+          "No Express Unlimited",
+          "Fewer resort-style amenities than the bigger hotels"
+        ],
+        "bestFor": "Couples and small families."
+      }
+    },
+    {
+      "slug": "stella-nova",
+      "name": "Universal Stella Nova Resort",
+      "short": "Stella Nova",
+      "tier": "Prime Value",
+      "theme": "A space-age hotel inspired by the stars and constellations, next to Epic Universe. Opened in 2025.",
+      "transport": [
+        "Walking path to Epic Universe (park admission required)"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>Stella Nova opened in 2025 next to Epic Universe, with a cosmic, futuristic theme. Universal lists a walking path straight to Epic Universe.</p>",
+        "suits": "<p>Families who want to walk to Epic Universe at a mid-range price.</p>",
+        "pros": [
+          "Walking path to Epic Universe",
+          "Newer hotel"
+        ],
+        "cons": [
+          "No Express Unlimited",
+          "Farther from the original two parks"
+        ],
+        "bestFor": "Families focused on Epic Universe."
+      }
+    },
+    {
+      "slug": "terra-luna",
+      "name": "Universal Terra Luna Resort",
+      "short": "Terra Luna",
+      "tier": "Prime Value",
+      "theme": "Stella Nova's twin, with a bright, otherworldly look near Epic Universe.",
+      "transport": [
+        "Resort transportation (check Universal for current options)"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>Terra Luna is the companion hotel to Stella Nova near Epic Universe. Universal doesn't list the same walking path to Epic for Terra Luna, so check how you'll get to the parks.</p>",
+        "suits": "<p>Families who want a newer mid-range hotel near Epic Universe.</p>",
+        "pros": [
+          "Newer hotel",
+          "Close to Epic Universe"
+        ],
+        "cons": [
+          "No Epic Universe walking path listed",
+          "No Express Unlimited"
+        ],
+        "bestFor": "Families on a mid-range budget."
+      }
+    },
+    {
+      "slug": "cabana-bay",
+      "name": "Universal Cabana Bay Beach Resort",
+      "short": "Cabana Bay",
+      "tier": "Value Inns & Suites",
+      "theme": "A retro 1950s and 1960s beach-motel look, with family suites and plenty to do.",
+      "transport": [
+        "Walking path to Volcano Bay (closed seasonally)",
+        "Shuttle bus to the parks (check current routes)"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>Cabana Bay has a retro mid-century look. It has two pools, a lazy river and a bowling alley, and Volcano Bay is a short walk away.</p>",
+        "suits": "<p>Families on a budget who want lots to do at the hotel.</p>",
+        "pros": [
+          "Two pools and a lazy river",
+          "A bowling alley",
+          "A walk to Volcano Bay"
+        ],
+        "cons": [
+          "No Express Unlimited",
+          "It's a big, busy property"
+        ],
+        "bestFor": "Budget-minded families."
+      }
+    },
+    {
+      "slug": "endless-summer-surfside",
+      "name": "Universal Endless Summer Resort – Surfside Inn and Suites",
+      "short": "Surfside",
+      "tier": "Value Inns & Suites",
+      "theme": "A laid-back surf and beach theme at one of Universal's lowest prices.",
+      "transport": [
+        "Resort transportation (check Universal for current options)"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>Surfside is one half of the Endless Summer Resort, with a beachy, surf-town theme. It's one of the lowest-priced ways to stay on site and still get Early Park Admission.</p>",
+        "suits": "<p>Families who want the on-site perks at the lowest price.</p>",
+        "pros": [
+          "Low price",
+          "Still gets Early Park Admission"
+        ],
+        "cons": [
+          "No Express Unlimited",
+          "Farther from the parks than most hotels"
+        ],
+        "bestFor": "Families on a tight budget."
+      }
+    },
+    {
+      "slug": "endless-summer-dockside",
+      "name": "Universal Endless Summer Resort – Dockside Inn and Suites",
+      "short": "Dockside",
+      "tier": "Value Inns & Suites",
+      "theme": "Surfside's sister hotel, with the same beachy theme and value pricing.",
+      "transport": [
+        "Resort transportation (check Universal for current options)"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>Dockside is the other half of the Endless Summer Resort. Like Surfside, it's one of the cheapest on-site options and comes with Early Park Admission.</p>",
+        "suits": "<p>Families who want to stay on site for less.</p>",
+        "pros": [
+          "Low price",
+          "Still gets Early Park Admission"
+        ],
+        "cons": [
+          "No Express Unlimited",
+          "Farther from the parks than most hotels"
+        ],
+        "bestFor": "Families on a tight budget."
+      }
+    }
+  ]
+}

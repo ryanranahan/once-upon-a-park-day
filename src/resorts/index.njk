@@ -1,20 +1,27 @@
 ---
 layout: layouts/base.njk
 section: resorts
-title: Walt Disney World resort hotels
-description: Every Disney-owned resort hotel at Walt Disney World, grouped by category and area, with a plain-English guide to each.
+title: Resort hotels at Walt Disney World, Disneyland and Universal Orlando
+description: Guides to every on-site hotel at Walt Disney World, Disneyland Resort and Universal Orlando Resort, grouped by category, for first-time visitors.
 ---
 <section class="page-hero">
   <div class="wrap page-hero-row">
     <div class="page-hero-copy">
-      <p class="eyebrow">Walt Disney World</p>
-      <h1>Every Disney resort hotel, explained</h1>
-      <p class="lead">All {{ resorts.length }} Disney-owned places to stay at Walt Disney World, grouped from Value to Deluxe. Pick an area to narrow it down.</p>
+      <p class="eyebrow">Resorts</p>
+      <h1>Every resort hotel, explained</h1>
+      <p class="lead">Plain-English guides to the on-site hotels at Walt Disney World, Disneyland Resort and Universal Orlando Resort. Pick a destination, then a hotel.</p>
     </div>
   </div>
 </section>
 
 <div class="wrap">
+  <nav class="dest-strip" aria-label="Choose a destination">
+    <a class="card dest-card" href="/resorts/" aria-current="page"><span class="eyebrow">Orlando, Florida</span><strong>Walt Disney World</strong><small>{{ resorts.length }} Disney resort hotels</small></a>
+    <a class="card dest-card" href="/disneyland/"><span class="eyebrow">{{ disneyland.where }}</span><strong>Disneyland Resort</strong><small>{{ disneyland.hotels.length }} Disney hotels and villas</small></a>
+    <a class="card dest-card" href="/universal-orlando/"><span class="eyebrow">{{ universal.where }}</span><strong>Universal Orlando Resort</strong><small>{{ universal.hotels.length }} on-site hotels</small></a>
+  </nav>
+
+  <h2 class="dest-title" id="walt-disney-world">Walt Disney World</h2>
   <div class="chips" role="group" aria-label="Filter by area">
     <button type="button" class="chip" aria-pressed="true" data-area="">All areas</button>
     {% for a in ["Magic Kingdom area", "Epcot area", "Animal Kingdom area", "Disney Springs area", "Wide World of Sports area"] %}

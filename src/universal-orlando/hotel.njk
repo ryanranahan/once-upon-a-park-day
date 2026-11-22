@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+section: universal
+pagination:
+  data: universal.hotels
+  size: 1
+  alias: resort
+permalink: "/universal-orlando/hotels/{{ resort.slug }}/"
+eleventyComputed:
+  title: "{{ resort.short }}: a first-timer's guide"
+  description: "{{ resort.theme }} A plain-English guide to {{ resort.name }} for first-time visitors."
+---
+{% set dest = universal %}
+{% include "hotel-page.njk" %}
