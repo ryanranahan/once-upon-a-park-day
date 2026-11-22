@@ -1129,7 +1129,8 @@ Useful press-kit pages (high-res is behind Brandfolder):
 
 - [ ] Current villa square footage
 - [ ] Current in-room appliances
-- [ ] Current 2-bedroom cash availability (not in the 2026 MouseSavers cash-rate table we used)
+- [ ] Current 2-bedroom cash availability and rack rates (the category is on Disney's 2026 points chart and now in the rooms table; it was not in the 2026 MouseSavers cash-rate table we used)
+- [ ] Current two-bedroom bed layout (typically a lock-off of a one-bedroom and a studio)
 - [ ] Hours at the shared BoardWalk restaurants
 - [ ] Buses are still direct
 - [ ] Luna Park closure dates still current
