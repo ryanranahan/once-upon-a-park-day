@@ -459,8 +459,37 @@
       "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
-  },
+    "host": null,
+    "fullGuide": "/resorts/beach-club-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe resort in the EPCOT area, sharing grounds and Stormalong Bay with Yacht Club. In 2026 a Resort View room ran about $650 to $1,162 a night at full price, tax included. Water View rooms ran about $772 to $1,231, and Deluxe Rooms ran about $836 to $1,318, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Walking path and Friendship boats to EPCOT and Hollywood Studios. The EPCOT Skyliner station is a walk through the International Gateway. Buses to Magic Kingdom, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Resort View and Water View rooms sleep up to 5, about 400 sq ft [verify]. Deluxe Rooms sleep 6 and are larger than a standard room. Club Level rooms include lounge access. Confirm the bed setup if you need a day bed."
+      },
+      {
+        "label": "Best for",
+        "value": "Anyone who wants to walk or boat to EPCOT or Hollywood Studios, and families of five who will use Stormalong Bay. A weaker pick if Magic Kingdom is your main park, or if exterior work through late 2027 would bother you."
+      },
+      {
+        "label": "Food",
+        "value": "Cape May Cafe and Beaches & Cream Soda Shop at Beach Club, plus Ale & Compass, Yachtsman Steakhouse and The Market at Ale & Compass at Yacht Club next door."
+      },
+      {
+        "label": "Pools",
+        "value": "Stormalong Bay is the shared main pool. There are also 3 leisure pools, including one at Beach Club Villas."
+      }
+    ],
+    "heads": "Official pages say Beach Club will have visible exterior maintenance through late 2027, which may impact some views and, at times, require alternate paths during daytime hours. The Skyliner is also closed January 24–30, 2027, and January 24–February 2, 2028, with buses filling in."  },
   {
     "slug": "boardwalk-inn",
     "name": "Disney's BoardWalk Inn",
@@ -768,8 +797,37 @@
       "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
-  },
+    "host": null,
+    "fullGuide": "/resorts/yacht-club-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe resort in the EPCOT area, sharing grounds and Stormalong Bay with Beach Club. In 2026 a Resort View room ran about $648 to $1,138 a night at full price, tax included. Water View rooms ran about $760 to $1,236, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Walking path and Friendship boats to EPCOT and Hollywood Studios. The EPCOT Skyliner station is a walk through the International Gateway. Buses to Magic Kingdom, Animal Kingdom, the water parks and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Resort View and Water View rooms sleep up to 5, about 400 sq ft [verify]. Club Level rooms include lounge access. Confirm the bed setup if you need a day bed. Suites, including turret rooms, are also offered."
+      },
+      {
+        "label": "Best for",
+        "value": "Anyone who wants to walk or boat to EPCOT or Hollywood Studios, with Yachtsman Steakhouse and Ale & Compass in the hotel. A weaker pick if Magic Kingdom is your main park, or if you want Beach Club's Deluxe Room that sleeps six."
+      },
+      {
+        "label": "Food",
+        "value": "Ale & Compass Restaurant, Yachtsman Steakhouse and The Market at Ale & Compass, plus Cape May Cafe and Beaches & Cream at Beach Club next door."
+      },
+      {
+        "label": "Pools",
+        "value": "Stormalong Bay is the shared main pool. There are also 3 leisure pools, including one at Beach Club Villas that official pages say Yacht Club guests may use."
+      }
+    ],
+    "heads": "Official pages say the Skyliner will be closed for routine refurbishment January 24 through 30, 2027, and January 24 through February 2, 2028. Complimentary bus service will be available. Beach Club next door has visible exterior maintenance through late 2027."  },
   {
     "slug": "bay-lake-tower",
     "name": "Bay Lake Tower at Disney's Contemporary Resort",

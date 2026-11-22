@@ -675,6 +675,80 @@ Useful press-kit pages (high-res is behind Brandfolder):
 
 ---
 
+
+## Beach Club
+
+**Ryan’s photos already in use:** none. There is no Beach Club or Yacht Club folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (Beach Club exterior, Crescent Lake, or Stormalong Bay)
+- [ ] A standard room
+- [ ] Stormalong Bay or a leisure pool
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the room felt like (five people, day bed, Water View)
+- [ ] Time the walk, boat, Skyliner and bus trips still marked “[Ryan: time it]”
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool your family actually used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip
+
+**Fact-check / `[verify]`**
+
+- [ ] Current Beach Club room count (the 1,400+ figure is combined with Yacht Club)
+- [ ] Standard room size, about 400 sq ft, and Deluxe Room size
+- [ ] Child under 3 in a crib still does not count toward the maximum
+- [ ] Current in-room amenities
+- [ ] Accessible-room layouts
+- [ ] Buses to Magic Kingdom, Animal Kingdom, Springs, and the water parks are still direct
+- [ ] Cape May Cafe dinner service and current hours
+- [ ] Quick-facts JSON: 400 sq ft
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Yacht Club
+
+**Ryan’s photos already in use:** none. There is no Beach Club or Yacht Club folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (Yacht Club exterior, Crescent Lake, or Stormalong Bay)
+- [ ] A standard room
+- [ ] Stormalong Bay or the Yacht Club leisure pool
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the room felt like (five people, day bed, Water View)
+- [ ] Time the walk, boat, Skyliner and bus trips still marked “[Ryan: time it]”
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool your family actually used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip
+
+**Fact-check / `[verify]`**
+
+- [ ] Current Yacht Club room count (the 1,400+ figure is combined with Beach Club)
+- [ ] Standard room size, about 400 sq ft
+- [ ] Child under 3 in a crib still does not count toward the maximum
+- [ ] Current in-room amenities
+- [ ] Accessible-room layouts
+- [ ] Buses to Magic Kingdom, Animal Kingdom, Springs, and the water parks are still direct
+- [ ] Quick-facts JSON: 400 sq ft
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
 ## Site-wide
 
 ### Photos still to shoot or find
