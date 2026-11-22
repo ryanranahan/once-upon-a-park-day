@@ -1,0 +1,209 @@
+---
+layout: layouts/base.njk
+section: resorts
+resortSlug: port-orleans-riverside
+permalink: "/resorts/port-orleans-riverside-resort/"
+title: "Port Orleans Riverside Resort: The Full Guide"
+description: "The full guide to Disney's Port Orleans Resort – Riverside: Magnolia Bend and Alligator Bayou rooms, Royal Guest Rooms, the boat to Disney Springs, Ol' Man Island, and the room refurbishment through mid-2027. Last verified Nov 2026."
+---
+
+{% set resort = resorts | findResort(resortSlug) %}{% set tier = tiers | findTierByName(resort.tier) %}
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/resorts/">Resorts</a> <span aria-hidden="true">›</span> <a href="/resorts/#{{ tier.slug }}">{{ tier.plural or tier.name }}</a> <span aria-hidden="true">›</span> <a href="{{ resort.slug | resortUrl }}">{{ resort.short }}</a></nav>
+      <p class="eyebrow">Walt Disney World · {{ resort.tier }} resort guide</p>
+      <h1>{{ resort.short }} Resort: <em>The Full Guide</em></h1>
+      <p class="lead">This is the larger side of Port Orleans, with Magnolia Bend and Alligator Bayou rooms, a table-service restaurant, and a boat to Disney Springs. Rooms are under refurbishment through mid-2027.</p>
+      <p class="byline">By {{ resort.author }} · [X] min read</p>
+      <div class="fg-hero-actions">
+        <span class="verified"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Last verified: {{ resort.lastVerified }}</span>
+        <a class="fg-quick-link" href="{{ resort.slug | resortUrl }}">Just want the quick facts? →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap section guide-layout">
+<article class="guide-main">
+
+  <div class="placeholder photo-ph">[RYAN'S PHOTO: the Sassagoula River, a Magnolia Bend or Alligator Bayou building, or Ol' Man Island, your own photo only]</div>
+
+  <section class="card glance" id="glance" aria-labelledby="glance-h">
+    <h2 id="glance-h">At a glance</h2>
+    <dl>
+      <dt>Resort type</dt><dd>Moderate Resort, in Disney's Downtown Disney / Disney Springs Resort Area <span class="verify">[verify the official area name]</span></dd>
+      <dt>Address</dt><dd>1251 Riverside Drive, Lake Buena Vista, FL 32830</dd>
+      <dt>Size</dt><dd>A larger Moderate next to Port Orleans French Quarter, with rooms in Magnolia Bend and Alligator Bayou</dd>
+      <dt>Rooms</dt><dd>Most rooms sleep 4, about 314 sq ft <span class="verify">[verify]</span>, with 2 queen beds. Alligator Bayou "5th Sleeper" rooms add a child-size pull-down bed. King rooms sleep 2. Royal Guest Rooms are a more themed category in Magnolia Bend.</dd>
+      <dt>Beds</dt><dd>Most rooms: 2 queen beds. Fifth-sleeper rooms: 2 queen beds and 1 child-size pull-down bed. King rooms: 1 king bed.</dd>
+      <dt>Getting around</dt><dd>Sassagoula River Cruise boat to Disney Springs and to Port Orleans French Quarter; buses to all four theme parks and the water parks</dd>
+      <dt>Food</dt><dd>Riverside Mill Food Court and Boatwright's Dining Hall, plus Muddy Rivers at the main pool</dd>
+      <dt>Pools</dt><dd>Ol' Man Island (main pool, with a 95-foot slide) and 5 leisure pools</dd>
+      <dt>Our take</dt><dd><span class="ryan" style="margin:0">[Ryan: one-sentence verdict, e.g. who you'd send here and who you wouldn't]</span></dd>
+    </dl>
+  </section>
+
+  <div class="placeholder" style="min-height:110px">[AD SPACE: wide banner, reserved so the page does not jump when ads load]</div>
+
+  <section id="best-for">
+    <h2>Who Port Orleans Riverside is best for</h2>
+    <ul>
+      <li><strong>Families who want two queens, and maybe a child-size pull-down bed.</strong> The Alligator Bayou "5th Sleeper" rooms officially sleep four adults and add a child-size pull-down bed. In 2026 those rooms ran about $361 to $541 a night at full price, tax included.</li>
+      <li><strong>Anyone who wants a boat to Disney Springs</strong> and a table-service restaurant (Boatwright's) on site.</li>
+      <li><strong>People who like the idea of a Royal Guest Room</strong> in Magnolia Bend, at a higher nightly rate than a standard room.</li>
+    </ul>
+    <h3>Think twice if…</h3>
+    <ul>
+      <li><strong>You want a compact resort.</strong> Riverside is larger than French Quarter, and a Standard Location room in Magnolia Bend can mean a walk to the food court and the boat dock. Preferred rooms are closer to the Sassagoula Steamboat Company, dining, shopping and transportation.</li>
+      <li><strong>Construction would bother you.</strong> Official pages say guest rooms and select public areas are under refurbishment through mid-2027. Guests may see or hear daytime construction, and alternate paths may be in place.</li>
+      <li><strong>Your parks are the main event and you want a Skyliner or monorail.</strong> Theme parks are buses from here.</li>
+    </ul>
+    <span class="ryan">[Ryan: who you think this resort is really for, from your own stays. Two or three sentences.]</span>
+  </section>
+
+  <section id="rooms">
+    <h2>Room types, sizes and beds</h2>
+    <p>Rooms are in two neighborhoods. Official listings put Standard Location rooms in Magnolia Bend, and put the "5th Sleeper" rooms in Alligator Bayou. Preferred rooms can be in either neighborhood and are listed as close to the Sassagoula Steamboat Company, dining, shopping and transportation. Royal Guest Rooms are a more themed category in Magnolia Bend. King rooms can be in either neighborhood.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Room type</th><th scope="col">Size</th><th scope="col">Sleeps</th><th scope="col">Beds</th><th scope="col">View and location</th><th scope="col">Sq ft per guest</th><th scope="col">Our take</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Standard Location</strong></td><td>About 314 sq ft <span class="verify">[verify]</span></td><td>Up to 4 adults</td><td>2 queen beds</td><td>Landscaping, courtyard, garden, bayou, riverfront, courtyard pool or parking. Magnolia Bend</td><td>78</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Standard Location – 5th Sleeper</strong></td><td>About 314 sq ft <span class="verify">[verify]</span></td><td>Up to 4 adults, plus a child-size pull-down bed</td><td>2 queen beds and 1 child-size pull-down bed</td><td>Same kinds of views. Alligator Bayou</td><td>78</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Preferred Location</strong></td><td>About 314 sq ft <span class="verify">[verify]</span></td><td>Up to 4 adults</td><td>2 queen beds, or 2 queen beds and 1 child-size pull-down bed</td><td>Closer to the boat dock, dining, shopping and transportation. Alligator Bayou or Magnolia Bend</td><td>78</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Royal Guest Room</strong></td><td>About 314 sq ft <span class="verify">[verify]</span></td><td>Up to 4 adults</td><td>2 queen beds</td><td>Same kinds of views. Magnolia Bend. A more themed room</td><td>78</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>King Bed</strong></td><td>About 314 sq ft <span class="verify">[verify]</span></td><td>Up to 2 adults</td><td>1 king bed</td><td>Alligator Bayou or Magnolia Bend</td><td>157</td><td>[Ryan: your take]</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Categories, beds, occupancy and locations come from Disney's official room listings and from MouseSavers' October 2026 compilation of Disney's rate categories. Official listings describe the fifth-sleeper category as sleeping up to four adults, with the extra bed listed as child-size; do not count on it as a fifth adult bed. The 314 sq ft figure comes from a Disney travel-agent overview. Sq ft per guest is our math, using 314 divided by 4, or by 2 for a king room. MouseSavers also notes that a single child under 3 in a crib does not count toward the maximum <span class="verify">[verify still current]</span>. Rooms are under refurbishment through mid-2027, so the finishes you get may depend on when you stay <span class="verify">[verify current in-room look]</span>.</p>
+    <h3>What's in the room</h3>
+    <p>We have not confirmed a current, complete in-room amenities list of our own <span class="verify">[verify current in-room amenities]</span>.</p>
+    <p>Accessible rooms exist, but we haven't confirmed their layouts or bed options yet <span class="verify">[verify]</span>.</p>
+    <div class="placeholder photo-ph small">[RYAN'S PHOTO: a Magnolia Bend room, an Alligator Bayou fifth-sleeper room, or a Royal Guest Room, your own photo only]</div>
+    <span class="ryan">[Ryan: what the room felt like for your party. Did you stay in Magnolia Bend or Alligator Bayou, and was the pull-down bed useful?]</span>
+  </section>
+
+  <section id="transport">
+    <h2>Getting to the parks</h2>
+    <p>The Sassagoula River Cruise is the fun advantage here. Official water transportation listings show boat service from Riverside and French Quarter to Disney Springs, and the two resorts also connect to each other along the river. Theme parks and the water parks are buses.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">To</th><th scope="col">How</th><th scope="col">Change?</th><th scope="col">Time in the air or on the road</th><th scope="col">Ease (provisional)</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Disney Springs</strong></td><td>Sassagoula River Cruise</td><td>No</td><td>Not published. Official pages say guests boarding at Disney Springs toward a resort may be asked for a room key or a reservation, and may board up to 2 hours before a dining or experience reservation. [Ryan: time it]</td><td><span class="rate">4</span></td></tr>
+          <tr><td><strong>Port Orleans French Quarter</strong></td><td>Boat or walking path</td><td>No</td><td>A short hop. [Ryan: time the walk and the boat]</td><td><span class="rate">5</span></td></tr>
+          <tr><td><strong>Magic Kingdom</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Disney doesn't publish this. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>EPCOT</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Hollywood Studios</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Animal Kingdom</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Water parks</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published</td><td><span class="rate">3</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note"><strong>How we rate ease:</strong> 5 is door-to-gate with no change and little waiting. 4 is a direct ride that is slower or less frequent. 3 is a transfer, or a bus whose wait we haven't timed yet. These ratings are provisional until we time each trip ourselves. Add walking time from a far Magnolia Bend building. [Ryan: time that walk from your building.]</p>
+    <span class="ryan">[Ryan: your boat and bus times, with the date you rode, and how long the walk from your building felt.]</span>
+  </section>
+
+  <section id="dining">
+    <h2>Dining</h2>
+    <ul>
+      <li><strong>Riverside Mill Food Court</strong> is the quick-service restaurant for breakfast, lunch and dinner.</li>
+      <li><strong>Boatwright's Dining Hall</strong> is the table-service restaurant, listed for dinner in a Disney travel-agent overview. Confirm current hours before you go <span class="verify">[verify hours still current]</span>.</li>
+      <li><strong>Muddy Rivers</strong> is the pool bar at Ol' Man Island.</li>
+      <li>Port Orleans French Quarter, next door, has its own food court. Scat Cat's Club on that side is under refurbishment into late 2026 and early 2027.</li>
+      <li>You can use mobile ordering in the My Disney Experience app at the quick-service spots.</li>
+      <li><strong>Park dining reservations:</strong> Disney resort guests can book their whole stay (up to 10 nights) starting 60 days before arrival.</li>
+    </ul>
+    <span class="ryan">[Ryan: your go-to meal here, and one thing you'd skip.]</span>
+  </section>
+
+  <section id="pools">
+    <h2>Pools and things to do</h2>
+    <ul>
+      <li><strong>Ol' Man Island</strong> is the main pool, a 3.5-acre area reached by three wooden bridges. Official pages describe a 95-foot rustic waterslide, a whirlpool spa, a kiddie pool, the Muddy Rivers pool bar, and a campfire and movie on select nights.</li>
+      <li><strong>Five leisure pools</strong> are spread through the resort, including pools in Alligator Bayou and Magnolia Bend.</li>
+      <li>Official pool pages also say Riverside guests can use Doubloon Lagoon at French Quarter.</li>
+      <li>Towels are free at the pools. Hours and lifeguard coverage vary and can change.</li>
+    </ul>
+    <div class="placeholder photo-ph small">[RYAN'S PHOTO: Ol' Man Island or a leisure pool, your own photo only]</div>
+    <span class="ryan">[Ryan: which pool your family actually used and why.]</span>
+  </section>
+
+  <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+
+  <section id="pros-cons">
+    <h2>Pros and cons</h2>
+    <div class="procon">
+      <div class="card">
+        <h3>Pros</h3>
+        <ul>
+          <li>Boat to Disney Springs and to French Quarter</li>
+          <li>Alligator Bayou rooms with a child-size pull-down bed, if you need that fifth (child) sleeper</li>
+          <li>A table-service restaurant on site, plus a large feature pool</li>
+          <li>[Ryan: one pro from your own stay]</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Cons</h3>
+        <ul>
+          <li>Larger and more spread out than French Quarter</li>
+          <li>Theme parks are buses</li>
+          <li>Room and public-area refurbishment is scheduled through mid-2027, with possible daytime noise and detours</li>
+          <li>[Ryan: one con from your own stay]</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Booking and value tips</h2>
+    <ul>
+      <li><strong>Book a Standard Location room if four people is enough and you don't mind walking.</strong> In 2026 those rooms ran about $322 to $483 a night at full price including tax, depending on dates.</li>
+      <li><strong>Book a 5th Sleeper room only if you will use the child-size pull-down bed.</strong> In 2026 those rooms ran about $361 to $541. Official listings still cap occupancy at four adults.</li>
+      <li><strong>Pay for Preferred if the shorter walk to the food court and the boat dock matters,</strong> or for a Royal Guest Room only if the themed room is the point. In 2026 Preferred rooms ran about $414 to $613, and Royal Guest Rooms ran about $408 to $579.</li>
+      <li><strong>Extra adults cost more.</strong> Moderate rates assume two adults. Each extra adult adds $25 a night plus tax, and kids under 18 are free.</li>
+      <li><strong>Check Disney's own offers page first.</strong> Disney points to <a href="https://disneyworld.disney.go.com/special-offers/">its special offers page</a> for discounts. Our deals hub will track current ones.</li>
+      <li><strong>If construction bothers you, wait until after mid-2027</strong> or look at French Quarter, which did not have a matching room-refurbishment notice when we checked.</li>
+      <li><strong>Lightning Lane head start:</strong> Disney resort guests can buy Lightning Lane passes up to 7 days before their stay.</li>
+    </ul>
+    <div class="fg-callout">
+      <h3>Rates change</h3>
+      <p style="margin:0">The rate range above is MouseSavers' October 2026 snapshot of Disney's full prices, not a deal. Always check the live price on Disney's site before you book.</p>
+    </div>
+    <span class="ryan">[Ryan: your own booking tip, e.g. when you booked and what you paid.]</span>
+  </section>
+
+  <section id="changes">
+    <h2>What's changed recently</h2>
+    <ul>
+      <li><strong>Through mid-2027:</strong> Official pages say guest rooms and select public areas are under refurbishment. Guests may see or hear daytime construction, and alternate paths of travel may be in place.</li>
+    </ul>
+  </section>
+
+  <p class="note">Last verified: {{ resort.lastVerified }} · Researched and written by {{ resort.author }} · Next review: [DATE] · Spot an error? [CORRECTIONS CONTACT]</p>
+
+  <aside class="card disclaimer">
+    <strong>Not affiliated with Disney.</strong> Once Upon A Park Day is an independent guide. It is not affiliated with, endorsed by, or sponsored by The Walt Disney Company. Resort, attraction and company names are used only to identify them. Prices, hours and policies change; check Disney's official site before you book.
+  </aside>
+
+</article>
+
+<aside class="fg-side">
+  <nav class="card toc" aria-label="On this page">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#glance">At a glance</a></li>
+      <li><a href="#best-for">Who it's best for</a></li>
+      <li><a href="#rooms">Rooms and sizes</a></li>
+      <li><a href="#transport">Getting to the parks</a></li>
+      <li><a href="#dining">Dining</a></li>
+      <li><a href="#pools">Pools and things to do</a></li>
+      <li><a href="#pros-cons">Pros and cons</a></li>
+      <li><a href="#booking">Booking tips</a></li>
+    </ol>
+  </nav>
+  <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+</aside>
+</div>

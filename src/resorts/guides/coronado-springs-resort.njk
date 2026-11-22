@@ -1,0 +1,208 @@
+---
+layout: layouts/base.njk
+section: resorts
+resortSlug: coronado-springs
+permalink: "/resorts/coronado-springs-resort/"
+title: "Coronado Springs Resort: The Full Guide"
+description: "The full guide to Disney's Coronado Springs Resort: village rooms and Gran Destino Tower, dining, the Lost City of Cibola pool, buses to the parks, and the convention-center refurbishment through late 2027. Last verified Nov 2026."
+---
+
+{% set resort = resorts | findResort(resortSlug) %}{% set tier = tiers | findTierByName(resort.tier) %}
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/resorts/">Resorts</a> <span aria-hidden="true">›</span> <a href="/resorts/#{{ tier.slug }}">{{ tier.plural or tier.name }}</a> <span aria-hidden="true">›</span> <a href="{{ resort.slug | resortUrl }}">{{ resort.short }}</a></nav>
+      <p class="eyebrow">Walt Disney World · {{ resort.tier }} resort guide</p>
+      <h1>{{ resort.short }} Resort: <em>The Full Guide</em></h1>
+      <p class="lead">This Moderate resort has village rooms around the lake and a separate tower, Gran Destino. Dining is one of the stronger Moderate lineups, and the only free transportation is the bus.</p>
+      <p class="byline">By {{ resort.author }} · [X] min read</p>
+      <div class="fg-hero-actions">
+        <span class="verified"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Last verified: {{ resort.lastVerified }}</span>
+        <a class="fg-quick-link" href="{{ resort.slug | resortUrl }}">Just want the quick facts? →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap section guide-layout">
+<article class="guide-main">
+
+  <div class="placeholder photo-ph">[RYAN'S PHOTO: Gran Destino Tower, the lake, or the Dig Site pool, your own photo only]</div>
+
+  <section class="card glance" id="glance" aria-labelledby="glance-h">
+    <h2 id="glance-h">At a glance</h2>
+    <dl>
+      <dt>Resort type</dt><dd>Moderate Resort, in Disney's Animal Kingdom Resort Area, with a convention center and Gran Destino Tower</dd>
+      <dt>Address</dt><dd>1001 West Buena Vista Drive, Lake Buena Vista, FL 32830</dd>
+      <dt>Size</dt><dd>More than 1,900 guest rooms in village sections (Casitas, Ranchos and Cabanas) and in Gran Destino Tower <span class="verify">[verify current count]</span></dd>
+      <dt>Rooms</dt><dd>Village and Tower rooms with 2 queens sleep 4. King rooms sleep 2. Village standard rooms are about 314 sq ft <span class="verify">[verify]</span>. Club Access rooms in the Tower include lounge access. Suites are also offered.</dd>
+      <dt>Beds</dt><dd>Most standard rooms: 2 queen beds, or 1 king bed.</dd>
+      <dt>Getting around</dt><dd>Buses to all four theme parks, the water parks and Disney Springs</dd>
+      <dt>Food</dt><dd>Toledo – Tapas, Steak &amp; Seafood, Maya Grill, Rix Sports Bar &amp; Grill, Three Bridges Bar &amp; Grill, Café Rix and additional quick-service options <span class="verify">[verify the current full dining list]</span></dd>
+      <dt>Pools</dt><dd>The Lost City of Cibola Pool at the Dig Site (main pool, with a 123-foot slide) and 3 leisure pools, in the Casitas, Ranchos and Cabanas</dd>
+      <dt>Our take</dt><dd><span class="ryan" style="margin:0">[Ryan: one-sentence verdict, e.g. who you'd send here and who you wouldn't]</span></dd>
+    </dl>
+  </section>
+
+  <div class="placeholder" style="min-height:110px">[AD SPACE: wide banner, reserved so the page does not jump when ads load]</div>
+
+  <section id="best-for">
+    <h2>Who Coronado Springs is best for</h2>
+    <ul>
+      <li><strong>Families who want Moderate pricing with more dining than a typical Moderate.</strong> In 2026 a Village Standard Location room ran about $294 to $470 a night at full price, tax included, which is the lowest starting Moderate rate in this batch.</li>
+      <li><strong>People who want a tower room, a club lounge, or a water view</strong> without moving up to a Deluxe resort. Gran Destino Tower is a different product from the village rooms.</li>
+      <li><strong>Convention-goers</strong> who want to stay on site, with the caveat below.</li>
+    </ul>
+    <h3>Think twice if…</h3>
+    <ul>
+      <li><strong>You want the Skyliner, a monorail or a boat.</strong> Buses are the only free Disney transportation from here.</li>
+      <li><strong>Construction around El Centro would bother you.</strong> Official pages say the convention center is under planned refurbishment from August 10, 2026, through late September 2027, with related work in the El Centro Corridor. Guests may see or hear construction.</li>
+      <li><strong>You want a compact resort.</strong> The village sections are spread around the lake. Preferred village rooms are closer to El Centro.</li>
+    </ul>
+    <span class="ryan">[Ryan: who you think this resort is really for, from your own stays. Two or three sentences.]</span>
+  </section>
+
+  <section id="rooms">
+    <h2>Room types, sizes and beds</h2>
+    <p>This resort is really two products: village rooms in the Casitas, Ranchos and Cabanas, and rooms in Gran Destino Tower. Official listings describe village views of the courtyard, garden, landscaping, lake, pool or parking. Preferred village rooms are close to El Centro, dining, shopping and transportation. Tower rooms are listed as Resort View or Water View, with a Club Access category that includes lounge access.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Room type</th><th scope="col">Size</th><th scope="col">Sleeps</th><th scope="col">Beds</th><th scope="col">View and location</th><th scope="col">Sq ft per guest</th><th scope="col">Our take</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Village – Standard Location</strong></td><td>About 314 sq ft <span class="verify">[verify]</span></td><td>Up to 4 adults</td><td>2 queen beds</td><td>Courtyard, garden, landscaping, lake, pool or parking. Farther from El Centro</td><td>78</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Village – Preferred Location</strong></td><td>About 314 sq ft <span class="verify">[verify]</span></td><td>Up to 4 adults</td><td>2 queen beds</td><td>Same views. Closer to El Centro, dining, shopping and transportation</td><td>78</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Village – King Bed</strong> (Standard or Preferred)</td><td>About 314 sq ft <span class="verify">[verify]</span></td><td>Up to 2 adults</td><td>1 king bed</td><td>Same village views; Preferred is closer to El Centro</td><td>157</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Tower – Resort View</strong></td><td>Not confirmed <span class="verify">[verify Tower room size]</span></td><td>Up to 4 adults</td><td>2 queen beds</td><td>Courtyard, landscaping or parking. Gran Destino Tower</td><td>—</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Tower – Water View</strong></td><td>Not confirmed <span class="verify">[verify]</span></td><td>Up to 4 adults</td><td>2 queen beds</td><td>Water views. Gran Destino Tower</td><td>—</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Tower – King Bed</strong> (Resort or Water View)</td><td>Not confirmed <span class="verify">[verify]</span></td><td>Up to 2 adults</td><td>1 king bed</td><td>Gran Destino Tower</td><td>—</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Tower – Resort View – Club Access</strong></td><td>Not confirmed <span class="verify">[verify]</span></td><td>Up to 4 adults</td><td>2 queen beds or 1 king bed</td><td>Includes lounge access</td><td>—</td><td>[Ryan: your take]</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Categories, beds, occupancy and the Preferred-location note come from Disney's official room listings and from MouseSavers' October 2026 compilation of Disney's rate categories. The 314 sq ft figure is from a Disney travel-agent overview of village rooms. We have not confirmed a current official size for Tower rooms. Sq ft per guest for village rooms is our math, using 314 divided by 4, or by 2 for a king. MouseSavers also notes that a single child under 3 in a crib does not count toward the maximum <span class="verify">[verify still current]</span>. Larger village and Tower suites are on the rate sheet; we have not confirmed current layouts or sizes for those.</p>
+    <h3>What's in the room</h3>
+    <p>Official amenity listings for standard rooms include free Wi-Fi, a beverage cooler, a coffee machine, an in-room safe, a hairdryer and an iron. We have not confirmed a current, complete list of our own, or whether Tower rooms differ <span class="verify">[verify current in-room amenities]</span>.</p>
+    <p>Accessible rooms exist, but we haven't confirmed their layouts or bed options yet <span class="verify">[verify]</span>.</p>
+    <div class="placeholder photo-ph small">[RYAN'S PHOTO: a village room or a Tower room, your own photo only]</div>
+    <span class="ryan">[Ryan: what the room felt like for your party. Did you stay in a village or the Tower, and was four people workable?]</span>
+  </section>
+
+  <section id="transport">
+    <h2>Getting to the parks</h2>
+    <p>Buses are the only free Disney transportation from Coronado Springs. They run to all four theme parks, the water parks and Disney Springs. There is no Skyliner, monorail or boat from this resort.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">To</th><th scope="col">How</th><th scope="col">Change?</th><th scope="col">Time in the air or on the road</th><th scope="col">Ease (provisional)</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Magic Kingdom</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Disney doesn't publish this. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>EPCOT</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Hollywood Studios</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Animal Kingdom</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. This is the closest theme park. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Disney Springs</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Water parks</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published</td><td><span class="rate">3</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note"><strong>How we rate ease:</strong> 5 is door-to-gate with no change and little waiting. 4 is a direct ride that is slower or less frequent. 3 is a transfer, or a bus whose wait we haven't timed yet. These ratings are provisional until we time each trip ourselves. [Ryan: time the walk from your building or the Tower to the bus stop.]</p>
+    <span class="ryan">[Ryan: your bus times, with the date you rode, and how long the walk from your room felt.]</span>
+  </section>
+
+  <section id="dining">
+    <h2>Dining</h2>
+    <ul>
+      <li><strong>Toledo – Tapas, Steak &amp; Seafood</strong> is the Signature restaurant in Gran Destino Tower.</li>
+      <li><strong>Maya Grill</strong> and <strong>Rix Sports Bar &amp; Grill</strong> are table-service options in the El Centro area, based on a Disney travel-agent overview. Confirm hours and menus before you go <span class="verify">[verify still current]</span>.</li>
+      <li><strong>Three Bridges Bar &amp; Grill</strong> sits on the lake, reached by walkways.</li>
+      <li><strong>Café Rix</strong> is a quick-service / café option listed in the same overview.</li>
+      <li>You can use mobile ordering in the My Disney Experience app at the quick-service spots.</li>
+      <li><strong>Park dining reservations:</strong> Disney resort guests can book their whole stay (up to 10 nights) starting 60 days before arrival.</li>
+    </ul>
+    <span class="ryan">[Ryan: your go-to meal here, and one thing you'd skip.]</span>
+  </section>
+
+  <section id="pools">
+    <h2>Pools and things to do</h2>
+    <ul>
+      <li><strong>The Lost City of Cibola Pool</strong> is the main pool at the Dig Site. Official pages describe a Mayan-ruins theme, a 123-foot waterslide, the largest hot tub on Walt Disney World property (room for 22), a kiddie pool, a white-sand volleyball court, the Iguana Arcade and Siesta's pool bar.</li>
+      <li><strong>Three leisure pools</strong> sit in the Casitas, Ranchos and Cabanas villages.</li>
+      <li>Towels are free at the pools. Hours and lifeguard coverage vary and can change.</li>
+    </ul>
+    <div class="placeholder photo-ph small">[RYAN'S PHOTO: the Lost City of Cibola Pool or a village leisure pool, your own photo only]</div>
+    <span class="ryan">[Ryan: which pool your family actually used and why.]</span>
+  </section>
+
+  <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+
+  <section id="pros-cons">
+    <h2>Pros and cons</h2>
+    <div class="procon">
+      <div class="card">
+        <h3>Pros</h3>
+        <ul>
+          <li>One of the lower Moderate nightly rates, especially in a Village Standard room</li>
+          <li>More table-service dining than most Moderate resorts, including a Signature restaurant in the Tower</li>
+          <li>A large feature pool with a 123-foot slide, plus quieter village pools</li>
+          <li>Club Access and water-view rooms in Gran Destino Tower if you want to spend more</li>
+          <li>[Ryan: one pro from your own stay]</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Cons</h3>
+        <ul>
+          <li>Buses only, with no Skyliner, monorail or boat</li>
+          <li>The village layout is spread out around the lake</li>
+          <li>Convention-center and El Centro Corridor work is scheduled through late September 2027, with possible noise</li>
+          <li>[Ryan: one con from your own stay]</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Booking and value tips</h2>
+    <ul>
+      <li><strong>Start with a Village Standard Location room if the Tower is not the point.</strong> In 2026 those rooms ran about $294 to $470 a night at full price including tax, depending on dates. Preferred village rooms ran about $426 to $573.</li>
+      <li><strong>Pay more for the Tower only if you will use it.</strong> In 2026 a Tower Resort View room ran about $376 to $670. Water View and Club Access rooms were higher. Compare that with a Deluxe resort before you book.</li>
+      <li><strong>Extra adults cost more.</strong> Moderate rates assume two adults. Each extra adult adds $25 a night plus tax, and kids under 18 are free.</li>
+      <li><strong>Check Disney's own offers page first.</strong> Disney points to <a href="https://disneyworld.disney.go.com/special-offers/">its special offers page</a> for discounts. Our deals hub will track current ones.</li>
+      <li><strong>Lightning Lane head start:</strong> Disney resort guests can buy Lightning Lane passes up to 7 days before their stay.</li>
+    </ul>
+    <div class="fg-callout">
+      <h3>Rates change</h3>
+      <p style="margin:0">The rate range above is MouseSavers' October 2026 snapshot of Disney's full prices, not a deal. Always check the live price on Disney's site before you book.</p>
+    </div>
+    <span class="ryan">[Ryan: your own booking tip, e.g. when you booked and what you paid.]</span>
+  </section>
+
+  <section id="changes">
+    <h2>What's changed recently</h2>
+    <ul>
+      <li><strong>August 10, 2026, through late September 2027:</strong> Official pages say the convention center is under planned refurbishment. The El Centro Corridor and surrounding areas have related work. Guests may see or hear construction.</li>
+    </ul>
+  </section>
+
+  <p class="note">Last verified: {{ resort.lastVerified }} · Researched and written by {{ resort.author }} · Next review: [DATE] · Spot an error? [CORRECTIONS CONTACT]</p>
+
+  <aside class="card disclaimer">
+    <strong>Not affiliated with Disney.</strong> Once Upon A Park Day is an independent guide. It is not affiliated with, endorsed by, or sponsored by The Walt Disney Company. Resort, attraction and company names are used only to identify them. Prices, hours and policies change; check Disney's official site before you book.
+  </aside>
+
+</article>
+
+<aside class="fg-side">
+  <nav class="card toc" aria-label="On this page">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#glance">At a glance</a></li>
+      <li><a href="#best-for">Who it's best for</a></li>
+      <li><a href="#rooms">Rooms and sizes</a></li>
+      <li><a href="#transport">Getting to the parks</a></li>
+      <li><a href="#dining">Dining</a></li>
+      <li><a href="#pools">Pools and things to do</a></li>
+      <li><a href="#pros-cons">Pros and cons</a></li>
+      <li><a href="#booking">Booking tips</a></li>
+    </ol>
+  </nav>
+  <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+</aside>
+</div>

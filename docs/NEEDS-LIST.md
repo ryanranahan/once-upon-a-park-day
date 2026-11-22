@@ -526,6 +526,155 @@ Useful press-kit pages (high-res is behind Brandfolder):
 
 ---
 
+
+## Caribbean Beach
+
+**Ryan’s photos already in use:** none. There is no Caribbean Beach folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (a village exterior, the lake, or the Skyliner station)
+- [ ] A standard room with two queens
+- [ ] Fuentes del Morro Pool or a village leisure pool
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the room felt like, and the walk from your village
+- [ ] Time the Skyliner and bus trips still marked “[Ryan: time it]”
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool your family actually used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip
+
+**Fact-check / `[verify]`**
+
+- [ ] Official resort-area name
+- [ ] Current guest-room count (more than 1,500)
+- [ ] Standard room size, about 300 sq ft
+- [ ] Child under 3 in a crib still does not count toward the maximum
+- [ ] Current in-room amenities, and which rooms include the child-size pull-down bed
+- [ ] Accessible-room layouts
+- [ ] Skyliner transfers / direct lines as described, and whether buses are still direct
+- [ ] Quick-facts JSON: 300 sq ft
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Coronado Springs
+
+**Ryan’s photos already in use:** none. There is no Coronado Springs folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (Gran Destino Tower, the lake, or the Dig Site pool)
+- [ ] A village room or a Tower room
+- [ ] The Lost City of Cibola Pool or a village leisure pool
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the room felt like (village vs. Tower)
+- [ ] Time the bus trips still marked “[Ryan: time it]”
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool your family actually used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip
+
+**Fact-check / `[verify]`**
+
+- [ ] Current guest-room count (more than 1,900)
+- [ ] Village room size, about 314 sq ft, and Tower room sizes
+- [ ] Child under 3 in a crib still does not count toward the maximum
+- [ ] Current in-room amenities, including any Tower differences
+- [ ] Accessible-room layouts
+- [ ] Buses to each park, Springs, and the water parks are still direct
+- [ ] Current full dining list (Toledo, Maya Grill, Rix, Three Bridges, Café Rix)
+- [ ] Quick-facts JSON: 314 sq ft and Tower sizes; dining list
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Port Orleans French Quarter
+
+**Ryan’s photos already in use:** none. There is no Port Orleans folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (courtyard, river, or Doubloon Lagoon)
+- [ ] A standard room
+- [ ] Doubloon Lagoon or the sea-serpent slide
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the room felt like
+- [ ] Time the boat and bus trips still marked “[Ryan: time it]”
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool your family actually used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip
+
+**Fact-check / `[verify]`**
+
+- [ ] Official resort-area name
+- [ ] Standard room size, about 314 sq ft
+- [ ] Child under 3 in a crib still does not count toward the maximum
+- [ ] Current in-room amenities
+- [ ] Accessible-room layouts
+- [ ] Buses to each park and the water parks are still direct
+- [ ] Scat Cat’s Club café (December 2026) and lounge (January 2027) reopenings
+- [ ] Quick-facts JSON: 314 sq ft
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
+## Port Orleans Riverside
+
+**Ryan’s photos already in use:** none. There is no Port Orleans folder in `Documents/disney_/resorts`.
+
+**Photo slots still open**
+
+- [ ] Hero (the river, a Magnolia Bend or Alligator Bayou building, or Ol’ Man Island)
+- [ ] A Magnolia Bend room, an Alligator Bayou fifth-sleeper room, or a Royal Guest Room
+- [ ] Ol’ Man Island or a leisure pool
+
+**Ryan’s opinion blanks**
+
+- [ ] One-sentence verdict
+- [ ] Who this resort is really for (two or three sentences)
+- [ ] Your take on each room-table row
+- [ ] What the room felt like (neighborhood, and whether the pull-down bed helped)
+- [ ] Time the boat and bus trips still marked “[Ryan: time it]”
+- [ ] Go-to meal, and one thing you’d skip
+- [ ] Which pool your family actually used, and why
+- [ ] One pro and one con from your own stay
+- [ ] Booking tip
+
+**Fact-check / `[verify]`**
+
+- [ ] Official resort-area name
+- [ ] Standard room size, about 314 sq ft, and current in-room look during the mid-2027 refurbishment
+- [ ] Child under 3 in a crib still does not count toward the maximum
+- [ ] Current in-room amenities
+- [ ] Accessible-room layouts
+- [ ] Buses to each park and the water parks are still direct
+- [ ] Boatwright’s Dining Hall hours
+- [ ] Quick-facts JSON: 314 sq ft
+
+**Page-level placeholders:** [X] min read · next review [DATE] · [CORRECTIONS CONTACT] · 3 ad boxes
+
+---
+
 ## Site-wide
 
 ### Photos still to shoot or find

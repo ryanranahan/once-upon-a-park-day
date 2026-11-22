@@ -239,8 +239,37 @@
       "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
-  },
+    "host": null,
+    "fullGuide": "/resorts/caribbean-beach-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Moderate resort with a Skyliner station on property. In 2026 a Standard Location room ran about $310 to $523 a night at full price, tax included. Preferred Location rooms ran about $396 to $627, and King rooms ran about $374 to $590, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Skyliner gondolas to EPCOT, Hollywood Studios, and Pop Century / Art of Animation. Buses to Magic Kingdom, Animal Kingdom, the water parks and Disney Springs. Official pages say the Skyliner is closed January 24–30, 2027, and January 24–February 2, 2028, with buses filling in."
+      },
+      {
+        "label": "Room size",
+        "value": "Standard and Preferred rooms sleep 4, about 300 sq ft [verify], with 2 queen beds. Some rooms also have a child-size pull-down bed. King rooms sleep 2. Preferred rooms are closer to Centertown."
+      },
+      {
+        "label": "Best for",
+        "value": "Anyone who wants the Skyliner at a Moderate rate, and families who can live with a spread-out village layout. A weaker pick if Magic Kingdom is your main park, or if you don't want to walk."
+      },
+      {
+        "label": "Food",
+        "value": "Centertown Market and Spyglass Grill are quick service. Sebastian's Bistro is table service. Banana Cabana is the pool bar at Fuentes del Morro."
+      },
+      {
+        "label": "Pools",
+        "value": "Fuentes del Morro Pool is the main pool, with two slides (including one 102 feet long) and a 12-person spa. There are also 5 leisure pools, one in each village."
+      }
+    ],
+    "heads": "Official pages say the Skyliner will be closed for routine refurbishment January 24 through 30, 2027, and January 24 through February 2, 2028. Complimentary bus service will be available."  },
   {
     "slug": "coronado-springs",
     "name": "Disney's Coronado Springs Resort",
@@ -252,8 +281,37 @@
       "Buses to all four parks and Disney Springs"
     ],
     "dvc": false,
-    "host": null
-  },
+    "host": null,
+    "fullGuide": "/resorts/coronado-springs-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Moderate resort with village rooms and Gran Destino Tower. In 2026 a Village Standard Location room ran about $294 to $470 a night at full price, tax included. Preferred village rooms ran about $426 to $573. Tower Resort View rooms ran about $376 to $670, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Buses to all four theme parks, the water parks and Disney Springs. There is no Skyliner, monorail or boat from this resort."
+      },
+      {
+        "label": "Room size",
+        "value": "Village rooms with 2 queens sleep 4, about 314 sq ft [verify]. King rooms sleep 2. Tower rooms are a separate product, with Resort View, Water View and Club Access categories. Suites are also offered. Tower room sizes are not confirmed [verify]."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want Moderate pricing and more dining than a typical Moderate, or guests who want a Tower or club room. A weaker pick if you want the Skyliner or a compact layout, or if convention-center construction through late 2027 would bother you."
+      },
+      {
+        "label": "Food",
+        "value": "Toledo – Tapas, Steak & Seafood in the Tower, plus Maya Grill, Rix Sports Bar & Grill, Three Bridges Bar & Grill and Café Rix [verify the current full dining list]."
+      },
+      {
+        "label": "Pools",
+        "value": "The Lost City of Cibola Pool at the Dig Site is the main pool, with a 123-foot slide and a 22-person hot tub. There are also 3 leisure pools in the Casitas, Ranchos and Cabanas."
+      }
+    ],
+    "heads": "Official pages say the convention center is under planned refurbishment from August 10, 2026, through late September 2027. The El Centro Corridor and surrounding areas have related work. Guests may see or hear construction."  },
   {
     "slug": "port-orleans-french-quarter",
     "name": "Disney's Port Orleans Resort \u2013 French Quarter",
@@ -266,8 +324,37 @@
       "Boat to Disney Springs"
     ],
     "dvc": false,
-    "host": null
-  },
+    "host": null,
+    "fullGuide": "/resorts/port-orleans-french-quarter-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "A compact Moderate resort next to Port Orleans Riverside. In 2026 a Standard Location room ran about $322 to $483 a night at full price, tax included. Preferred Location rooms ran about $356 to $557, and King rooms ran about $375 to $578, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Sassagoula River Cruise boat to Disney Springs and to Port Orleans Riverside. Buses to all four theme parks and the water parks."
+      },
+      {
+        "label": "Room size",
+        "value": "Standard and Preferred rooms sleep 4, about 314 sq ft [verify], with 2 queen beds. King rooms sleep 2. Preferred rooms are closer to the lobby, the food court and the boat dock."
+      },
+      {
+        "label": "Best for",
+        "value": "People who want a smaller Moderate with a boat to Disney Springs. A weaker pick if you need a fifth (child) sleeper or a Royal Guest Room — those are on the Riverside side."
+      },
+      {
+        "label": "Food",
+        "value": "Sassagoula Floatworks and Food Factory is the food court. Scat Cat's Club – Café is scheduled to reopen in December 2026; the Lounge is scheduled to reopen in January 2027."
+      },
+      {
+        "label": "Pools",
+        "value": "Doubloon Lagoon is the main pool, with the 51-foot Scales sea-serpent slide. Guests can also use Ol' Man Island at Port Orleans Riverside."
+      }
+    ],
+    "heads": "Official pages say Scat Cat's Club – Café and Scat Cat's Club – Lounge closed for refurbishment beginning October 6, 2026. The café is expected to reopen in December 2026, and the lounge in January 2027."  },
   {
     "slug": "port-orleans-riverside",
     "name": "Disney's Port Orleans Resort \u2013 Riverside",
@@ -280,8 +367,37 @@
       "Boat to Disney Springs"
     ],
     "dvc": false,
-    "host": null
-  },
+    "host": null,
+    "fullGuide": "/resorts/port-orleans-riverside-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "A larger Moderate resort next to Port Orleans French Quarter. In 2026 a Standard Location room ran about $322 to $483 a night at full price, tax included. 5th Sleeper rooms ran about $361 to $541. Preferred rooms ran about $414 to $613, and Royal Guest Rooms ran about $408 to $579, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Sassagoula River Cruise boat to Disney Springs and to Port Orleans French Quarter. Buses to all four theme parks and the water parks."
+      },
+      {
+        "label": "Room size",
+        "value": "Most rooms sleep 4, about 314 sq ft [verify], with 2 queen beds. Alligator Bayou 5th Sleeper rooms add a child-size pull-down bed (still listed as sleeping 4 adults). Royal Guest Rooms are a more themed category in Magnolia Bend. King rooms sleep 2."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want two queens, maybe a child-size pull-down bed, a table-service restaurant and a boat to Disney Springs. A weaker pick if you want a compact layout, or if construction through mid-2027 would bother you."
+      },
+      {
+        "label": "Food",
+        "value": "Riverside Mill Food Court and Boatwright's Dining Hall, plus Muddy Rivers at the main pool."
+      },
+      {
+        "label": "Pools",
+        "value": "Ol' Man Island is the main pool, with a 95-foot slide, a kiddie pool and a whirlpool spa. There are also 5 leisure pools. Guests can use Doubloon Lagoon at French Quarter too."
+      }
+    ],
+    "heads": "Official pages say guest rooms and select public areas are under refurbishment through mid-2027. Guests may see or hear daytime construction, and alternate paths of travel may be in place."  },
   {
     "slug": "animal-kingdom-lodge",
     "name": "Disney's Animal Kingdom Lodge",
