@@ -12,7 +12,13 @@
       <p class="byline">By {{ resort.author }} · Last verified {{ resort.lastVerified }}</p>
       <a class="btn btn-red" href="{{ resort.fullGuide }}">Read the full guide</a>
     </div>
+    {% if resort.photos and resort.photos.hero %}
+    <figure class="hero-photo-real">
+      <img src="{{ resort.photos.hero.src }}" alt="{{ resort.photos.hero.alt }}" width="800" height="533">
+    </figure>
+    {% else %}
     <div class="placeholder hero-photo">[YOUR PHOTO OF {{ resort.short | upper }}]</div>
+    {% endif %}
   </div>
 </section>
 

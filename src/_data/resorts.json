@@ -94,7 +94,47 @@
       "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/art-of-animation-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Value resort in the Wide World of Sports area, next to Pop Century. In 2026 a Little Mermaid Standard Room ran about $251 to $443 a night at full price, tax included. Family Suites ran about $519 to $992, depending on the theme and dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Skyliner gondola to EPCOT and Hollywood Studios, with a change at the Caribbean Beach hub. The station is on the Generation Gap Bridge and is shared with Pop Century. Buses to Magic Kingdom, Animal Kingdom, Disney Springs and the water parks leave from Animation Hall."
+      },
+      {
+        "label": "Room size",
+        "value": "Little Mermaid rooms are about 277 sq ft [verify] and sleep up to 4 adults, with 1 king bed or 2 queen beds. Family Suites in the Cars, Finding Nemo and Lion King sections are about 565 sq ft [verify], sleep up to 6, and have two bathrooms, a kitchenette, a queen bed, a double sleeper sofa and a double pull-down bed."
+      },
+      {
+        "label": "Best for",
+        "value": "Families of five or six who want suite space and two bathrooms at a Value price, especially if EPCOT and Hollywood Studios are high on the list. The Little Mermaid rooms suit smaller parties on a tighter budget, but they are a longer walk from the lobby."
+      },
+      {
+        "label": "Food",
+        "value": "Landscape of Flavors is the food court in Animation Hall, open for breakfast, lunch and dinner. The Drop Off pool bar sits by the Big Blue Pool. There's no table-service restaurant on site; Everything POP at Pop Century is a walk across the bridge."
+      },
+      {
+        "label": "Pools",
+        "value": "Three pools: the Big Blue Pool in the Finding Nemo courtyard, which Disney calls the largest hotel pool at Walt Disney World, plus the Cozy Cone Pool in the Cars courtyard and the Flippin' Fins Pool in the Little Mermaid courtyard."
+      }
+    ],
+    "heads": "The Skyliner is closed Jan 24–30, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Art of Animation stops running early.",
+    "photos": {
+      "hero": {
+        "src": "/images/resorts/art-of-animation/hero.webp",
+        "alt": "Desert-colored guest buildings in the Cars courtyard at Disney's Art of Animation Resort, beside the Ornament Valley sign."
+      },
+      "pool": {
+        "src": "/images/resorts/art-of-animation/pool.webp",
+        "alt": "The Big Blue Pool in the Finding Nemo courtyard at Disney's Art of Animation Resort, with the blue-and-white guest buildings beyond the fence."
+      }
+    }
   },
   {
     "slug": "caribbean-beach",

@@ -1,0 +1,228 @@
+---
+layout: layouts/base.njk
+section: resorts
+resortSlug: art-of-animation
+permalink: "/resorts/art-of-animation-resort/"
+title: "Art of Animation Resort: The Full Guide"
+description: "The full guide to Disney's Art of Animation Resort: Little Mermaid rooms and family suites, Skyliner vs. bus to each park, dining, pools, and booking tips. Last verified Nov 2026."
+---
+{% set resort = resorts | findResort(resortSlug) %}{% set tier = tiers | findTierByName(resort.tier) %}
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/resorts/">Resorts</a> <span aria-hidden="true">›</span> <a href="/resorts/#{{ tier.slug }}">{{ tier.plural or tier.name }}</a> <span aria-hidden="true">›</span> <a href="{{ resort.slug | resortUrl }}">{{ resort.short }}</a></nav>
+      <p class="eyebrow">Walt Disney World · {{ resort.tier }} resort guide</p>
+      <h1>{{ resort.short }} Resort: <em>The Full Guide</em></h1>
+      <p class="lead">Most rooms here are family suites, with two bathrooms and space for six. The Little Mermaid rooms are a standard Value room, and everyone shares a Skyliner station with Pop Century next door.</p>
+      <p class="byline">By {{ resort.author }} · [X] min read</p>
+      <div class="fg-hero-actions">
+        <span class="verified"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Last verified: {{ resort.lastVerified }}</span>
+        <a class="fg-quick-link" href="{{ resort.slug | resortUrl }}">Just want the quick facts? →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap section guide-layout">
+<article class="guide-main">
+
+  <figure class="guide-photo">
+    <img src="{{ resort.photos.hero.src }}" alt="{{ resort.photos.hero.alt }}" width="1600" height="1067">
+    <figcaption>The Cars courtyard, one of three family-suite sections at Art of Animation.</figcaption>
+  </figure>
+
+  <section class="card glance" id="glance" aria-labelledby="glance-h">
+    <h2 id="glance-h">At a glance</h2>
+    <dl>
+      <dt>Resort type</dt><dd>Value Resort, in Disney's Wide World of Sports Resort Area</dd>
+      <dt>Address</dt><dd>1850 Animation Way, Lake Buena Vista, FL 32830</dd>
+      <dt>Size</dt><dd>About 1,984 guest rooms and suites, including 1,120 family suites <span class="verify">[verify current count]</span></dd>
+      <dt>Rooms</dt><dd>Little Mermaid standard rooms sleep 4, about 277 sq ft <span class="verify">[verify]</span>. Family Suites in the Cars, Finding Nemo and Lion King sections sleep 6, about 565 sq ft <span class="verify">[verify]</span>, with two bathrooms and a kitchenette</dd>
+      <dt>Beds</dt><dd>Little Mermaid: 1 king or 2 queens. Suites: 1 queen bed, 1 double-size sleeper sofa and 1 double-size pull-down table bed</dd>
+      <dt>Getting around</dt><dd>Skyliner gondola, shared with Pop Century, to EPCOT and Hollywood Studios; buses to Magic Kingdom, Animal Kingdom, water parks and Disney Springs</dd>
+      <dt>Food</dt><dd>Landscape of Flavors food court and The Drop Off Pool Bar. No table-service restaurant on site</dd>
+      <dt>Pools</dt><dd>Three: Big Blue (main pool), Cozy Cone and Flippin' Fins</dd>
+      <dt>Our take</dt><dd><span class="ryan" style="margin:0">[Ryan: one-sentence verdict, e.g. who you'd send here and who you wouldn't]</span></dd>
+    </dl>
+  </section>
+
+  <div class="placeholder" style="min-height:110px">[AD SPACE: wide banner, reserved so the page does not jump when ads load]</div>
+
+  <section id="best-for">
+    <h2>Who Art of Animation is best for</h2>
+    <ul>
+      <li><strong>Families of five or six.</strong> The family suites sleep up to six, with two bathrooms and a kitchenette, at a Value resort price.</li>
+      <li><strong>Anyone who wants the Skyliner at a Value rate.</strong> The station is on the Generation Gap Bridge, shared with Pop Century, and it goes to EPCOT and Hollywood Studios.</li>
+      <li><strong>Smaller parties watching their budget.</strong> The Little Mermaid rooms cost less than the suites. They're a standard Value room, just a longer walk from Animation Hall.</li>
+    </ul>
+    <h3>Think twice if…</h3>
+    <ul>
+      <li><strong>The pool or resort dining is the point of your trip.</strong> There's a food court, not a sit-down restaurant. The Big Blue Pool is huge, and it can feel crowded.</li>
+      <li><strong>You want Extended Evening Hours.</strong> Value resort guests don't get them, and on those EPCOT nights the Skyliner route to Art of Animation shuts down early.</li>
+      <li><strong>Your trip falls on Jan 24–30, 2027.</strong> The Skyliner is closed for refurbishment then, and buses fill in.</li>
+      <li><strong>You're in a Little Mermaid room and you'd rather not walk.</strong> That section sits farthest from the lobby, food court and Skyliner.</li>
+    </ul>
+    <span class="ryan">[Ryan: who you think this resort is really for, from your own stays. Two or three sentences.]</span>
+  </section>
+
+  <section id="rooms">
+    <h2>Room types, sizes and beds</h2>
+    <p>Art of Animation is really two products in one resort. The Little Mermaid section has standard Value rooms. The Cars, Finding Nemo and Lion King sections are family suites. Disney also sells a "Family Suites" category where the theme is assigned at check-in, usually at a slightly lower price than picking Finding Nemo yourself.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Room type</th><th scope="col">Size</th><th scope="col">Sleeps</th><th scope="col">Beds</th><th scope="col">View and location</th><th scope="col">Sq ft per guest</th><th scope="col">Our take</th></tr></thead>
+        <tbody>
+          <tr><td><strong>The Little Mermaid Standard Room</strong></td><td>About 277 sq ft <span class="verify">[verify]</span></td><td>Up to 4 adults</td><td>1 king, or 2 queen beds</td><td>Courtyard, pool or parking. Farthest from Animation Hall</td><td>69</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Family Suites</strong> (theme assigned at check-in)</td><td>About 565 sq ft <span class="verify">[verify]</span></td><td>Up to 6 adults</td><td>1 queen, 1 double sleeper sofa and 1 double pull-down bed</td><td>Courtyard, pool or parking. Theme assigned when you arrive</td><td>94</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Cars Family Suites</strong></td><td>Same suite</td><td>Up to 6 adults</td><td>Same layout</td><td>Cars courtyard, near the Cozy Cone Pool</td><td>94</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>The Lion King Family Suites</strong></td><td>Same suite</td><td>Up to 6 adults</td><td>Same layout</td><td>Lion King courtyard, with its own playground</td><td>94</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Finding Nemo Family Suites</strong></td><td>Same suite</td><td>Up to 6 adults</td><td>Same layout</td><td>Closest to Animation Hall, the food court and the Big Blue Pool</td><td>94</td><td>[Ryan: your take]</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Categories, views, beds and occupancy are from Disney's room listings. Disney's live page doesn't list square footage. The 277 and 565 sq ft figures come from independent 2026 room write-ups. Sq ft per guest is our math: Little Mermaid size divided by 4, suite size divided by 6. MouseSavers also notes that a single child under 3 in a crib does not count toward the maximum <span class="verify">[verify still current]</span>.</p>
+
+    <h3>What's in the room</h3>
+    <p>Disney lists a coffee maker, hairdryer, in-room safe, free Wi-Fi, iron and ironing board, and a phone with voicemail in both room types. Little Mermaid rooms have a mini-refrigerator. Family suites add a kitchenette with a microwave, plus a second bathroom and a separate sleeping area. We have not confirmed every item on a current in-room list of our own <span class="verify">[verify current in-room amenities]</span>.</p>
+    <p>Accessible rooms exist, but we haven't confirmed their layouts or bed options yet <span class="verify">[verify]</span>.</p>
+    <p>We don't have a still photo of a guest room to show you yet. Ryan has suite walk-through video from a past stay, and a room photo can go here once it's picked.</p>
+    <div class="placeholder photo-ph small">[RYAN'S PHOTO: a family suite living area or a Little Mermaid room, your own photo only]</div>
+    <span class="ryan">[Ryan: what the suite or Little Mermaid room felt like for your party. Was six people workable? Where did the luggage go?]</span>
+  </section>
+
+  <section id="transport">
+    <h2>Getting to the parks</h2>
+    <p>Art of Animation has two free options: the Disney Skyliner gondola and Disney buses. The bus stop is outside Animation Hall. The Skyliner station sits on the Generation Gap Bridge and is shared with Pop Century.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">To</th><th scope="col">How</th><th scope="col">Change?</th><th scope="col">Time in the air or on the road</th><th scope="col">Ease (provisional)</th></tr></thead>
+        <tbody>
+          <tr><td><strong>EPCOT</strong> (International Gateway)</td><td>Skyliner</td><td>Yes, at the Caribbean Beach hub</td><td>4–7 min to the hub, then 12–15 min to EPCOT, not counting waits</td><td><span class="rate">4</span></td></tr>
+          <tr><td><strong>Hollywood Studios</strong></td><td>Skyliner</td><td>Yes, at the Caribbean Beach hub</td><td>4–7 min to the hub, then 5–7 min to the park</td><td><span class="rate">4</span></td></tr>
+          <tr><td><strong>Magic Kingdom</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Disney doesn't publish this. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Animal Kingdom</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Disney doesn't publish this. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Disney Springs</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. Buses run until 11 PM from Disney Springs</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Water parks</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published</td><td><span class="rate">3</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note"><strong>How we rate ease:</strong> 5 is door-to-gate with no change and little waiting. 4 is a quick change inside the same system. 3 is a shared bus whose wait we haven't timed yet. These ratings are provisional until we time each trip ourselves. The Skyliner times are the same ones we use for Pop Century, because the two resorts share a station.</p>
+
+    <h3>Skyliner vs. bus: the honest version</h3>
+    <ul>
+      <li><strong>Hours:</strong> the Skyliner opens an hour before Early Theme Park Entry at EPCOT or Hollywood Studios and closes 90 minutes after those parks close. Buses and other resort transportation start 45 minutes before park opening and run up to an hour after closing.</li>
+      <li><strong>The EPCOT late-night catch:</strong> on nights when EPCOT has Extended Evening Hours, the Skyliner only runs between EPCOT and the Riviera. The route serving Caribbean Beach, Pop Century and Art of Animation isn't available, so plan on a bus.</li>
+      <li><strong>Weather:</strong> it keeps running in light rain but stops for lightning or high wind. In summer storm season, keep the bus in mind as a backup.</li>
+      <li><strong>Annual closure:</strong> Jan 24–30, 2027, with free buses instead.</li>
+      <li><strong>Pop Century is next door.</strong> The Generation Gap Bridge links the two resorts, so you can walk over for Everything POP or hop a Pop Century bus if it arrives first.</li>
+    </ul>
+    <span class="ryan">[Ryan: your take on the Skyliner walk. How long from your building to the station, and what was the line like at rope drop?]</span>
+    <span class="ryan">[Ryan: your bus experience to Magic Kingdom and Animal Kingdom, with times and the date you rode.]</span>
+  </section>
+
+  <section id="dining">
+    <h2>Dining</h2>
+    <ul>
+      <li><strong>Landscape of Flavors</strong> is the food court in Animation Hall. It serves breakfast, lunch and dinner. Disney's dining page listed hours of 7:00 a.m. to 11:00 p.m. when we checked <span class="verify">[verify hours still current]</span>.</li>
+      <li><strong>The Drop Off Pool Bar</strong> at the Big Blue Pool serves drinks and snacks.</li>
+      <li><strong>Everything POP</strong> at Pop Century is a short walk across the Generation Gap Bridge if you want a second food court.</li>
+      <li>You can use mobile ordering in the My Disney Experience app.</li>
+      <li><strong>Park dining reservations:</strong> Disney resort guests can book their whole stay (up to 10 nights) starting 60 days before arrival.</li>
+    </ul>
+    <span class="ryan">[Ryan: your go-to order at Landscape of Flavors, and one thing you'd skip.]</span>
+  </section>
+
+  <section id="pools">
+    <h2>Pools and things to do</h2>
+    <ul>
+      <li><strong>The Big Blue Pool</strong> in the Finding Nemo courtyard is the main pool. Disney calls it the largest hotel pool at Walt Disney World and lists it at more than 308,527 gallons. There's a zero-entry side, the Schoolyard Sprayground for little kids, and Squirt's Righteous Reef playground if they want to stay dry. The Drop Off pool bar is next to it. It's also the busiest.</li>
+      <li><strong>Cozy Cone Pool</strong> in the Cars courtyard is smaller, at 74,740 gallons, with cone-shaped cabanas around the edge.</li>
+      <li><strong>Flippin' Fins Pool</strong> in the Little Mermaid courtyard holds 103,642 gallons and is usually a quieter option if you're staying in that section.</li>
+      <li>24-hour self-service laundry rooms sit near all three pools.</li>
+      <li>Also on site: Pixel Play Arcade in Animation Hall, campfires, Movies Under the Stars on select nights, a second playground (The Boneyard) in the Lion King courtyard, and a 1.38-mile jogging trail around Hourglass Lake.</li>
+    </ul>
+    <figure class="guide-photo">
+      <img src="{{ resort.photos.pool.src }}" alt="{{ resort.photos.pool.alt }}" width="1600" height="1002">
+      <figcaption>The Big Blue Pool, in the Finding Nemo courtyard next to Animation Hall.</figcaption>
+    </figure>
+    <span class="ryan">[Ryan: which pool your family actually used and why.]</span>
+  </section>
+
+  <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+
+  <section id="pros-cons">
+    <h2>Pros and cons</h2>
+    <div class="procon">
+      <div class="card">
+        <h3>Pros</h3>
+        <ul>
+          <li>Family suites sleep six and have two bathrooms, at a Value price</li>
+          <li>Skyliner access to two parks, shared with Pop Century</li>
+          <li>The Big Blue Pool is the largest hotel pool on property</li>
+          <li>You can walk to Pop Century for another food court and its buses</li>
+          <li>[Ryan: one pro from your own stay]</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Cons</h3>
+        <ul>
+          <li>Food court only, no table-service restaurant</li>
+          <li>Little Mermaid rooms are a longer walk from the lobby and Skyliner</li>
+          <li>Magic Kingdom and Animal Kingdom are bus-only</li>
+          <li>Skyliner route closes early on EPCOT Extended Evening Hours nights</li>
+          <li>[Ryan: one con from your own stay]</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Booking and value tips</h2>
+    <ul>
+      <li><strong>Book a Little Mermaid room if you only need space for four.</strong> In 2026 those rooms ran from $251 to $443 a night at full price including tax, depending on dates. That's the lowest rate at this resort.</li>
+      <li><strong>If you need a suite, compare the "theme assigned at check-in" rate with a named section.</strong> Finding Nemo suites usually cost the most, because they're closest to the lobby and the main pool. In 2026, family suites ran about $519 to $992 a night at full price including tax.</li>
+      <li><strong>Extra adults cost more.</strong> Rates assume two adults. Each extra adult adds $15 a night plus tax, and kids under 18 are free.</li>
+      <li><strong>Check Disney's own offers page first.</strong> Disney points to <a href="https://disneyworld.disney.go.com/special-offers/">its special offers page</a> for discounts. Our deals hub will track current ones.</li>
+      <li><strong>Avoid Jan 24–30, 2027</strong> if the Skyliner is why you're picking Art of Animation.</li>
+      <li><strong>Lightning Lane head start:</strong> Disney resort guests can buy Lightning Lane passes up to 7 days before their stay.</li>
+    </ul>
+    <div class="fg-callout">
+      <h3>Rates change</h3>
+      <p style="margin:0">The rate range above is MouseSavers' October 2026 snapshot of Disney's full prices, not a deal. Always check the live price on Disney's site before you book.</p>
+    </div>
+    <span class="ryan">[Ryan: your own booking tip, e.g. when you booked and what you paid.]</span>
+  </section>
+
+  <section id="changes">
+    <h2>What's changed recently</h2>
+    <ul>
+      <li><strong>Jan 24–30, 2027:</strong> Skyliner closed for refurbishment, with buses instead.</li>
+      <li>We didn't find a 2026 room refresh like the one at Pop Century. If you've stayed recently and noticed a change, tell us.</li>
+    </ul>
+  </section>
+
+  <p class="note">Last verified: {{ resort.lastVerified }} · Researched and written by {{ resort.author }} · Next review: [DATE] · Spot an error? [CORRECTIONS CONTACT]</p>
+
+  <aside class="card disclaimer">
+    <strong>Not affiliated with Disney.</strong> Once Upon A Park Day is an independent guide. It is not affiliated with, endorsed by, or sponsored by The Walt Disney Company. Resort, attraction and company names are used only to identify them. Prices, hours and policies change; check Disney's official site before you book.
+  </aside>
+
+</article>
+
+<aside class="fg-side">
+  <nav class="card toc" aria-label="On this page">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#glance">At a glance</a></li>
+      <li><a href="#best-for">Who it's best for</a></li>
+      <li><a href="#rooms">Rooms and sizes</a></li>
+      <li><a href="#transport">Getting to the parks</a></li>
+      <li><a href="#dining">Dining</a></li>
+      <li><a href="#pools">Pools and things to do</a></li>
+      <li><a href="#pros-cons">Pros and cons</a></li>
+      <li><a href="#booking">Booking tips</a></li>
+    </ol>
+  </nav>
+  <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+</aside>
+</div>
