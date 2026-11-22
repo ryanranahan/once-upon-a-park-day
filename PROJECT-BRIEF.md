@@ -63,6 +63,14 @@ The site now follows the "Once Upon A Park Day" logo. The earlier "Sunny Boardwa
 - Everything first-hand (our take, rooms, dining, pros and cons, tips) is a [BRACKETED] placeholder to fill from interviews with Ryan.
 - Not yet covered: Swan, Dolphin and Swan Reserve, Shades of Green, Disney Springs area hotels.
 
+## Cruise ship guides
+
+- One page per Disney Cruise Line ship (8 pages) at `/cruises/<ship>/`, generated from `src/_data/ships.json` and `src/cruises/ship.njk`.
+- `/cruises/` lists the fleet by class and has a side-by-side comparison table.
+- Ryan has sailed the Magic, Dream and Fantasy. Those pages show "We've sailed this ship" and get first-hand notes first.
+- Sections on each ship page: overview and who it suits, ship facts, staterooms, dining, kids/teens/adults, pools and water features, shows, deck by deck, itineraries and ports, pros/cons/tips.
+- Ship facts (year, size, dining names, water ride, clubs) came from general knowledge and must be verified. Anything uncertain is marked [VERIFY]. Home ports change often, so they are always [VERIFY] until checked.
+
 ## Blog
 
 - Lives at `/blog/`. One Markdown file per post in `src/blog/posts/`. A starter welcome post is in place with placeholders.
@@ -83,13 +91,15 @@ Anything in [BRACKETS] needs real content from Ryan: his name, number of resorts
 ## Rules
 
 - No Disney logos, characters, or Disney-owned photos or artwork. Do not use "Disney" in the domain name.
+- Disney's press room (https://disneyexperiences.com/disneyworld-press/) is fine for checking facts, but do not copy its photos, videos or text. Disney's terms of use limit its content to personal, noncommercial use, and this site is commercial. Write facts in our own words.
+- Ryan's own photos are the only real photos used so far (the Disney Dream photo is his).
 - The five SVG images are original illustrations used as stand-ins. Replace them with Ryan's own photos when available.
 - Keep the "not affiliated with The Walt Disney Company" disclaimer in the footer of every page.
 - Every page with affiliate links needs a visible disclosure.
 - Do not invent prices, statistics, or deal details. Research current facts and show a "last updated" date on every guide.
 - Guides should draw on Ryan's first-hand experience; interview him for each one.
 - Design for phones first. Keep tap targets at least 44px and text contrast at accessible levels.
-- Reserve space for ads so the page does not shift when they load.
+- Ad spaces were removed in November 2026 at Ryan's request. When ads are added back, reserve space for them so the page does not shift when they load.
 
 ## Suggested next steps
 

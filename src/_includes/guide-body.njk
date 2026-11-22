@@ -1,0 +1,53 @@
+{# Shared guide sections. Expects: g (guide data), resort (has .transport). #}
+{% if g.take %}
+    <h2>Our take</h2>
+    {{ g.take | safe }}
+{% elif g.overview %}
+    <h2>Overview</h2>
+    {{ g.overview | safe }}
+    <div class="callout callout-soft">
+      <strong>First-hand notes coming soon.</strong>
+      <p>This guide is put together from research, not a stay. A first-hand take, photos and tips will be added later. Check details with the hotel before you book.</p>
+    </div>
+{% else %}
+    <h2>Our take</h2>
+    <p class="todo">[YOUR FIRST-HAND TAKE: what it felt like to stay here, and the one thing a first-timer should know.]</p>
+{% endif %}
+
+{% if g.suits or not g.researched %}
+    <h2>Who it suits</h2>
+    {% if g.suits %}{{ g.suits | safe }}{% else %}<p class="todo">[WHO THIS RESORT IS BEST FOR, AND WHO SHOULD LOOK ELSEWHERE]</p>{% endif %}
+{% endif %}
+
+{% if g.rooms or not g.researched %}
+    <h2>Rooms</h2>
+    {% if g.rooms %}{{ g.rooms | safe }}{% else %}<p class="todo">[ROOM TYPES, HOW MANY PEOPLE THEY SLEEP, AND WHICH SECTION TO REQUEST. CHECK AGAINST THE CURRENT LISTING.]</p>{% endif %}
+{% endif %}
+
+{% if g.pools or not g.researched %}
+    <h2>Pools and things to do</h2>
+    {% if g.pools %}{{ g.pools | safe }}{% else %}<p class="todo">[POOLS, PLAY AREAS, AND ACTIVITIES]</p>{% endif %}
+{% endif %}
+
+{% if g.dining or not g.researched %}
+    <h2>Where to eat</h2>
+    {% if g.dining %}{{ g.dining | safe }}{% else %}<p class="todo">[RESTAURANTS AND QUICK-SERVICE SPOTS ON SITE, AND YOUR FAVORITE]</p>{% endif %}
+{% endif %}
+
+    <h2 id="getting-around">Getting to the parks</h2>
+    <ul class="ticks">
+      {% for t in resort.transport %}<li>{{ t }}</li>
+      {% endfor %}
+    </ul>
+    {% if g.gettingAround %}{{ g.gettingAround | safe }}{% elif not g.researched %}<p class="todo">[HOW LONG IT REALLY TOOK, AND ANY TIPS]</p>{% endif %}
+
+    <h2>Pros and cons</h2>
+    <div class="proscons">
+      <div class="card"><h3>Love</h3><ul class="ticks">{% if g.pros %}{% for x in g.pros %}<li>{{ x }}</li>{% endfor %}{% else %}<li class="todo">[PRO]</li><li class="todo">[PRO]</li><li class="todo">[PRO]</li>{% endif %}</ul></div>
+      <div class="card"><h3>Keep in mind</h3><ul class="ticks">{% if g.cons %}{% for x in g.cons %}<li>{{ x }}</li>{% endfor %}{% else %}<li class="todo">[CON]</li><li class="todo">[CON]</li><li class="todo">[CON]</li>{% endif %}</ul></div>
+    </div>
+
+{% if g.tips or not g.researched %}
+    <h2>First-timer tips</h2>
+    {% if g.tips %}<ul class="ticks">{% for x in g.tips %}<li>{{ x }}</li>{% endfor %}</ul>{% else %}<p class="todo">[TWO OR THREE PRACTICAL TIPS]</p>{% endif %}
+{% endif %}

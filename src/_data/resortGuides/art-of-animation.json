@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>Art of Animation is a Value resort themed to animated films, and most of its rooms are Family Suites. It shares the Skyliner station with Pop Century.</p>",
+  "suits": "<p>Families of five or six who want a suite with room to spread out, at a lower price than a Moderate or Deluxe resort.</p>",
+  "rooms": "<p>Most rooms are <strong>Family Suites</strong> that sleep up to six, with a separate bedroom, two bathrooms and a kitchenette. There are also standard rooms that sleep four.</p>",
+  "pools": "<p>The <strong>Big Blue Pool</strong> is the main pool and one of the largest at Walt Disney World, with underwater speakers. There are two smaller pools in other sections.</p>",
+  "dining": "<p>Dining is the <strong>Landscape of Flavors</strong> food court, with a pool bar nearby. There's no table-service restaurant.</p>",
+  "gettingAround": null,
+  "pros": [
+    "Family Suites with a kitchenette and two bathrooms",
+    "Skyliner access to Epcot and Hollywood Studios",
+    "Immersive theming kids love"
+  ],
+  "cons": [
+    "Suites cost more than standard Value rooms",
+    "Buses to Magic Kingdom and Animal Kingdom",
+    "No table-service dining"
+  ],
+  "tips": [
+    "Compare a suite with two Value rooms; the suite's extra bathroom is a big plus for families.",
+    "The Skyliner station is a short walk from the main building."
+  ],
+  "bestFor": "Families of five or six who want a suite."
+}

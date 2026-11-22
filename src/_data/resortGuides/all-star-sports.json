@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>All-Star Sports is a Value resort with buildings themed to football, baseball, basketball, tennis and surfing, all decorated with supersized sports gear.</p>",
+  "suits": "<p>Budget-minded families and sports fans who want the lowest-cost Disney-owned option.</p>",
+  "rooms": "<p>Standard rooms are compact and sleep up to four, with two queen beds or one queen plus a pull-down bed in refreshed rooms. Check the latest room setup when you book.</p>",
+  "pools": "<p>The <strong>Surfboard Bay Pool</strong> is the main pool, and the <strong>Grand Slam Pool</strong> is the second.</p>",
+  "dining": "<p>Dining is the <strong>End Zone Food Court</strong> plus a pool bar. There's no table-service restaurant.</p>",
+  "gettingAround": "<p>Every park is reached by Disney bus.</p>",
+  "pros": [
+    "Among the lowest prices on Disney property",
+    "Fun, easy-to-navigate sports theming",
+    "Disney resort perks included"
+  ],
+  "cons": [
+    "Bus-only transportation",
+    "No table-service dining",
+    "Basic rooms"
+  ],
+  "tips": [
+    "Ask for a building close to the main building and bus stop.",
+    "Pack snacks; options are limited to the food court."
+  ],
+  "bestFor": "Budget-minded families and sports fans."
+}

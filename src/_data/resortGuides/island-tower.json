@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>Island Tower is the newest Disney Vacation Club building at the Polynesian, a tower on the Seven Seas Lagoon with views toward Magic Kingdom.</p>",
+  "suits": "<p>Families who want a modern villa with the Polynesian's location and amenities.</p>",
+  "rooms": "<p>As a Disney Vacation Club resort, rooms range from studios with a kitchenette to multi-bedroom villas with a full kitchen and washer and dryer. You don't need to be a member to stay; you can book with cash like a regular hotel.</p>",
+  "pools": "<p>Island Tower has its own pool area, and guests can use the Polynesian's pools too.</p>",
+  "dining": "<p>Guests use the Polynesian's restaurants, including <strong>'Ohana</strong>, <strong>Kona Cafe</strong> and <strong>Pineapple Lanai</strong>.</p>",
+  "gettingAround": null,
+  "pros": [
+    "Newest villas at the Polynesian",
+    "Lagoon and Magic Kingdom views",
+    "Monorail and boat access"
+  ],
+  "cons": [
+    "High price",
+    "A walk to the Polynesian's monorail station",
+    "Busy shared areas"
+  ],
+  "tips": [
+    "Request a Magic Kingdom-facing room for fireworks views.",
+    "Use the boat to Magic Kingdom for a relaxing ride."
+  ],
+  "bestFor": "Families who want a modern villa at the Polynesian."
+}

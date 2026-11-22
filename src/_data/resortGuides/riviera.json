@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>The Riviera Resort is a Disney Vacation Club resort styled after the European Riviera, with its own Skyliner station to Epcot and Hollywood Studios.</p>",
+  "suits": "<p>Couples and families who want an elegant villa resort with easy Skyliner access.</p>",
+  "rooms": "<p>As a Disney Vacation Club resort, rooms range from studios with a kitchenette to multi-bedroom villas with a full kitchen and washer and dryer. You don't need to be a member to stay; you can book with cash like a regular hotel.</p><p><strong>Tower Studios</strong> are small rooms for up to two, with a pull-down bed.</p>",
+  "pools": "<p><strong>Beau Soleil</strong> is the main pool, with a waterslide, plus a quieter pool and splash area.</p>",
+  "dining": "<p><strong>Topolino's Terrace</strong> is a rooftop restaurant with a character breakfast and fireworks views. <strong>Primo Piatto</strong> is the quick-service spot, and <strong>Bar Riva</strong> sits by the pool.</p>",
+  "gettingAround": null,
+  "pros": [
+    "Skyliner to Epcot and Hollywood Studios",
+    "Elegant European theming",
+    "Rooftop dining with fireworks views"
+  ],
+  "cons": [
+    "Buses to Magic Kingdom and Animal Kingdom",
+    "Tower Studios are very small",
+    "High price"
+  ],
+  "tips": [
+    "Book Topolino's Terrace for breakfast, or for dinner timed with Epcot's fireworks.",
+    "Walk the path to Caribbean Beach for more dining options."
+  ],
+  "bestFor": "Couples and families who want an elegant villa stay."
+}

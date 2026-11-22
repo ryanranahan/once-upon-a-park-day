@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>The Contemporary is a Deluxe resort in a modern A-frame tower, with the monorail running right through its lobby. It's the closest hotel to Magic Kingdom, just a short walk away.</p>",
+  "suits": "<p>Families and Magic Kingdom fans who want the shortest trip to the park.</p>",
+  "rooms": "<p>Tower rooms have the best views of Magic Kingdom or Bay Lake. Garden Wing rooms are in a separate building and cost less.</p>",
+  "pools": "<p>The main pool has a waterslide and a splash area, and a second pool sits by Bay Lake.</p>",
+  "dining": "<p><strong>California Grill</strong>, on the top floor, is the signature restaurant with views of the fireworks. <strong>Chef Mickey's</strong> is a character meal, and <strong>Steakhouse 71</strong> and <strong>Contempo Cafe</strong> round out the options.</p>",
+  "gettingAround": null,
+  "pros": [
+    "Short walk to Magic Kingdom",
+    "The monorail inside the building",
+    "Fireworks views from the tower and California Grill"
+  ],
+  "cons": [
+    "High price",
+    "The lobby can be busy and loud",
+    "Garden Wing rooms miss the tower's atmosphere"
+  ],
+  "tips": [
+    "Walk to Magic Kingdom instead of waiting for the monorail; it's often faster.",
+    "Book a dinner at California Grill timed with the fireworks."
+  ],
+  "bestFor": "Families and Magic Kingdom fans."
+}

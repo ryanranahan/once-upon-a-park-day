@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>The Cabins at Fort Wilderness are Disney Vacation Club cabins tucked into the woods of Fort Wilderness, a quiet, outdoorsy alternative to a hotel room.</p>",
+  "suits": "<p>Families who want a private cabin in the woods with a boat to Magic Kingdom.</p>",
+  "rooms": "<p>Each cabin sleeps up to six and has a full kitchen, a deck and a separate bedroom. You don't need to be a member to stay.</p>",
+  "pools": "<p>Guests use the Fort Wilderness pools, including the <strong>Meadow Swimmin' Pool</strong>.</p>",
+  "dining": "<p><strong>Trail's End Restaurant</strong> is nearby, and the <strong>Hoop-Dee-Doo Musical Revue</strong> dinner show plays at Pioneer Hall.</p>",
+  "gettingAround": null,
+  "pros": [
+    "Private cabin with a kitchen and deck",
+    "Quiet, wooded setting",
+    "Boat to Magic Kingdom"
+  ],
+  "cons": [
+    "Internal buses or a golf cart are needed to get around",
+    "Buses to every park except Magic Kingdom",
+    "Fewer on-site amenities than a hotel"
+  ],
+  "tips": [
+    "Rent a golf cart to get around Fort Wilderness.",
+    "Catch the free campfire and outdoor movie in the evening."
+  ],
+  "bestFor": "Families who want a cabin in the woods."
+}

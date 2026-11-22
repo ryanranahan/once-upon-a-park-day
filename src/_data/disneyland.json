@@ -1,0 +1,165 @@
+{
+  "name": "Disneyland Resort",
+  "short": "Disneyland",
+  "slug": "disneyland",
+  "url": "/disneyland/",
+  "where": "Anaheim, California",
+  "lead": "Disneyland Resort has three Disney-owned hotels, plus a villa tower at the Disneyland Hotel. All of them are within walking distance of both parks and Downtown Disney, so there are no resort buses to learn.",
+  "benefits": [
+    "Walking distance to Disneyland Park, Disney California Adventure and Downtown Disney.",
+    "One Lightning Lane entry per registered guest, per stay, to a Lightning Lane Multi Pass attraction.",
+    "Access to a limited number of dining reservations at select table-service restaurants.",
+    "Charge purchases to your room in the Disneyland app, with online check-in and a digital room key.",
+    "Hotel activities and seasonal events, and character visits on select days. Many are free and some cost extra."
+  ],
+  "benefitsNote": "Disney's hotel pages we checked don't list early park entry as a hotel benefit, so we haven't included it. Check the current offer before you book.",
+  "tiers": [
+    {
+      "name": "Hotel",
+      "slug": "hotels",
+      "plural": "Disney-owned hotels",
+      "blurb": "The three hotels Disney runs at Disneyland Resort. Two have their own gate into Disney California Adventure."
+    },
+    {
+      "name": "Villa",
+      "slug": "villas",
+      "plural": "Villas",
+      "blurb": "A Disney Vacation Club tower that is part of the Disneyland Hotel. Disney says these rooms can be booked by all guests, not just members."
+    }
+  ],
+  "fineprint": "More than 50 nearby hotels are Disney \"Good Neighbor\" hotels. Disney doesn't own or run them, so they aren't listed here yet.",
+  "hotels": [
+    {
+      "slug": "grand-californian",
+      "name": "Disney's Grand Californian Hotel & Spa",
+      "short": "Grand Californian",
+      "tier": "Hotel",
+      "theme": "A California Craftsman lodge with redwood and Monterey pine details, right beside Disney California Adventure.",
+      "transport": [
+        "Its own hotel entrance into Disney California Adventure (an active hotel reservation is required)",
+        "A walk to Disneyland Park and Downtown Disney"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>The Grand Californian is styled after the Arts and Crafts movement, with stone, timber and redwood touches throughout. Its biggest draw is location: the hotel has its own gate into Disney California Adventure, and Disneyland Park and Downtown Disney are a short walk away.</p>",
+        "suits": "<p>Families and couples who want the most convenient spot at Disneyland Resort and a quieter, lodge-style feel.</p>",
+        "pools": "<p>There are three pools, the Fountain, Redwood and Mariposa pools, along with two whirlpools and the Redwood Tree waterslide. GCH Craftsman Bar sits by the pool. Cabanas and daybeds can be rented.</p>",
+        "dining": "<p><strong>Napa Rose</strong> is the signature restaurant. <strong>Storytellers Cafe</strong> serves character meals, and the hotel also hosts <strong>Disney Princess Breakfast Adventures</strong>. <strong>GCH Craftsman Grill</strong> is the grab-and-go spot, and <strong>Hearthstone Lounge</strong> is the bar. <strong>Tenaya Stone Spa</strong> is on site too.</p><p>Club-level guests get the <strong>Sequoia Perch</strong> concierge lounge.</p>",
+        "pros": [
+          "Its own entrance into Disney California Adventure",
+          "A walk to everything, with no buses",
+          "A spa and three pools on site"
+        ],
+        "cons": [
+          "Usually the priciest of the Disneyland hotels",
+          "The DCA gate only works with an active hotel reservation"
+        ],
+        "tips": [
+          "Use the hotel's DCA entrance on the way in; it skips the walk around to the main gate.",
+          "If you want a character meal, look at Storytellers Cafe."
+        ],
+        "bestFor": "Families who want the shortest walk into the parks."
+      }
+    },
+    {
+      "slug": "disneyland-hotel",
+      "name": "Disneyland Hotel",
+      "short": "Disneyland Hotel",
+      "tier": "Hotel",
+      "theme": "The resort's original hotel from 1955, with mid-century style and towers that nod to the early lands of Disneyland.",
+      "transport": [
+        "Closest hotel to the Disneyland Monorail station in Downtown Disney",
+        "A walk to both parks"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>The Disneyland Hotel opened in 1955, the same year as the park. Its Fantasy, Frontier and Adventure towers each take inspiration from a land at Disneyland, and a fourth tower holds The Villas. It's the closest hotel to the monorail station.</p>",
+        "suits": "<p>First-timers who want classic Disney nostalgia, a busy pool scene, and lots of dining in one place.</p>",
+        "rooms": "<p>Rooms are in the Adventure, Fantasy and Frontier towers. Club-level rooms come with access to the <strong>High Key Club</strong> lounge in the Adventure Tower.</p>",
+        "pools": "<p>The <strong>D-Ticket Pool</strong> has two monorail-themed waterslides, and the <strong>E-Ticket Pool</strong> is next door, along with Mickey and Minnie whirlpools. Cabanas and daybeds can be rented.</p>",
+        "dining": "<p><strong>Goofy's Kitchen</strong> is the character meal. <strong>Tangaroa Terrace Tropical Bar &amp; Grill</strong> and <strong>The Coffee House</strong> are the casual choices. For drinks there's <strong>Trader Sam's Enchanted Tiki Bar</strong>, <strong>Broken Spell Lounge</strong>, and the poolside <strong>Palm Breeze Bar</strong>.</p>",
+        "pros": [
+          "The monorail station is right nearby",
+          "Monorail-themed waterslides",
+          "Trader Sam's and Goofy's Kitchen on site"
+        ],
+        "cons": [
+          "A slightly longer walk to the park gates than the Grand Californian",
+          "No private entrance into a park"
+        ],
+        "tips": [
+          "Ride the monorail from the Downtown Disney station into Tomorrowland for a fun first entrance.",
+          "Book Goofy's Kitchen early if a character meal is on your list."
+        ],
+        "bestFor": "Fans of classic Disney and families who love a big pool."
+      }
+    },
+    {
+      "slug": "pixar-place",
+      "name": "Pixar Place Hotel",
+      "short": "Pixar Place",
+      "tier": "Hotel",
+      "theme": "A 15-story tower themed to Pixar films, the first fully Pixar-themed hotel in the United States.",
+      "transport": [
+        "A hotel entrance gate into Disney California Adventure (an active hotel reservation is required)",
+        "A walk to Disneyland Park and Downtown Disney"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>Pixar Place is a 15-story hotel themed to Pixar's films. It has its own gate into Disney California Adventure, and a rooftop pool deck where you can watch the fireworks on select nights.</p>",
+        "suits": "<p>Families with Pixar fans and anyone who wants a park gate nearby at a lower price than the Grand Californian. That price comparison is our general read, so check current rates.</p>",
+        "pools": "<p>The rooftop pool deck has the <strong>Pixel Pool</strong>, <strong>Crush's Surfin' Slide</strong> and the <strong>Nemo's Cove</strong> splash pad. <strong>Pixar Shorts Court</strong> is an activity area, and both spots can have fireworks views on select nights.</p>",
+        "dining": "<p><strong>Great Maple</strong> serves modern American food for breakfast, lunch and dinner. <strong>The Sketch Pad Cafe</strong> is grab-and-go, and <strong>Small Bytes</strong> is a seasonal spot on the pool deck. Club-level guests get the <strong>Creators Club</strong> lounge.</p>",
+        "pros": [
+          "A hotel gate into Disney California Adventure",
+          "Fireworks from the rooftop on select nights",
+          "Pixar theming throughout"
+        ],
+        "cons": [
+          "Fewer restaurants than the Disneyland Hotel",
+          "Small Bytes is seasonal, so check if it's open"
+        ],
+        "tips": [
+          "Head up to the pool deck on a fireworks night.",
+          "Use the hotel gate into DCA in the morning."
+        ],
+        "bestFor": "Families with Pixar fans."
+      }
+    },
+    {
+      "slug": "villas-at-disneyland-hotel",
+      "name": "The Villas at Disneyland Hotel",
+      "short": "The Villas",
+      "tier": "Villa",
+      "dvc": true,
+      "theme": "A Disney Vacation Club tower at the Disneyland Hotel, themed to classic Walt Disney Animation films.",
+      "transport": [
+        "Same as the Disneyland Hotel: near the monorail station and a walk to both parks"
+      ],
+      "guide": {
+        "researched": true,
+        "checked": "November 2026",
+        "overview": "<p>The Villas sit in the Disneyland Hotel's fourth tower, called the Discovery Tower. The theming draws on films such as <em>The Jungle Book</em>, <em>The Princess and the Frog</em> and <em>Sleeping Beauty</em>. It's a Disney Vacation Club property, but Disney says these rooms can be booked by all guests.</p>",
+        "suits": "<p>Bigger families and longer stays that need more space or a kitchen.</p>",
+        "rooms": "<p>Choices run from duo and deluxe studios to one- and two-bedroom villas and three-bedroom Grand Villas that sleep up to 12. Select villas have full kitchens.</p>",
+        "pools": "<p>Guests share the Disneyland Hotel's pools, and The Villas has its own <strong>Palette Pool</strong> area with a Steamboat Willie splash pad.</p>",
+        "dining": "<p>You're steps from all of the Disneyland Hotel's restaurants. <strong>Palm Breeze Bar</strong> sits just outside the Palette Pool area.</p>",
+        "pros": [
+          "Room for big groups",
+          "Kitchens in select villas",
+          "All the Disneyland Hotel's dining and pools"
+        ],
+        "cons": [
+          "Villas can cost more than a standard hotel room"
+        ],
+        "tips": [
+          "If you're not a member, book through Disney like any other hotel room and check which villa types are available."
+        ],
+        "bestFor": "Large families and longer stays."
+      }
+    }
+  ]
+}

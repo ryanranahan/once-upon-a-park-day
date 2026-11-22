@@ -1,0 +1,66 @@
+---
+layout: layouts/base.njk
+section: cruises
+title: Disney Cruise Line ships
+description: Every Disney Cruise Line ship explained for first-time cruisers, with a side-by-side comparison.
+---
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <p class="eyebrow">Disney Cruise Line</p>
+      <h1>Which Disney ship is right for you?</h1>
+      <p class="lead">All {{ ships.length }} ships in the fleet, from the original Disney Magic to the newest. Start with the comparison, then dig into each ship.</p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <section class="section" id="ships">
+    <h2>The fleet</h2>
+    {% for grp in [["Magic class", "Magic class"], ["Dream class", "Dream class"], ["Wish class", "Wish class"], ["Global class", "Global class"], ["[VERIFY]", "Coming soon"]] %}{% set cls = grp[0] %}
+    <h3 class="class-head">{{ grp[1] }}</h3>
+    <div class="grid-3 ship-grid">
+      {% for s in ships %}{% if s.cls == cls %}
+      <a class="card resort-card" href="/cruises/{{ s.slug }}/">
+        <span class="eyebrow">{% if s.year > 2026 %}Debuts {{ s.year }}{% else %}Since {{ s.year }}{% endif %}{% if s.sailed %} · We've sailed her{% endif %}</span>
+        <strong>{{ s.name }}</strong>
+        <small>{{ s.summary }}</small>
+      </a>
+      {% endif %}{% endfor %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="section" id="compare">
+    <h2>Compare the ships side by side</h2>
+    <p class="tier-blurb">Facts last checked [DATE]. Cells marked [VERIFY] still need checking against Disney Cruise Line's current information.</p>
+    <div class="table-scroll">
+      <table class="compare-table">
+        <thead>
+          <tr><th scope="col"><span class="sr-only">Detail</span></th>{% for s in ships %}<th scope="col"><a href="/cruises/{{ s.slug }}/">{{ s.name | replace("Disney ", "") }}</a></th>{% endfor %}</tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Class</th>{% for s in ships %}<td{% if s.cls == "[VERIFY]" %} class="todo"{% endif %}>{{ s.cls | replace(" class", "") }}</td>{% endfor %}</tr>
+          <tr><th scope="row">Entered service</th>{% for s in ships %}<td>{{ s.year }}</td>{% endfor %}</tr>
+          <tr><th scope="row">Home port (2027)</th>{% for s in ships %}<td>{{ s.homePorts }}</td>{% endfor %}</tr>
+          <tr><th scope="row">Size</th>{% for s in ships %}<td{% if s.size == "[VERIFY]" %} class="todo"{% endif %}>{{ s.size | replace(" gross tons", " GT") }}</td>{% endfor %}</tr>
+          <tr><th scope="row">Water ride</th>{% for s in ships %}<td{% if s.water == "[VERIFY]" %} class="todo"{% endif %}>{{ s.water }}</td>{% endfor %}</tr>
+          <tr><th scope="row">Main dining rotation</th>{% for s in ships %}<td{% if s.rotation[0] == "[VERIFY]" %} class="todo"{% endif %}>{{ s.rotation | join("<br>") | safe }}</td>{% endfor %}</tr>
+          <tr><th scope="row">Adult-only dining</th>{% for s in ships %}<td{% if s.adult[0] == "[VERIFY]" %} class="todo"{% endif %}>{{ s.adult | join("<br>") | safe }}</td>{% endfor %}</tr>
+          <tr><th scope="row">Home ports</th>{% for s in ships %}<td class="todo">[VERIFY]</td>{% endfor %}</tr>
+          <tr><th scope="row">Best for</th>{% for s in ships %}<td class="todo">[BEST FOR]</td>{% endfor %}</tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="fineprint scroll-hint">On a phone, swipe the table sideways to see every ship.</p>
+  </section>
+
+  <section class="section">
+    <h2>New to cruising?</h2>
+    <div class="grid-3">
+      <div class="card resort-card"><strong>Private islands</strong><small class="todo">[DISNEY'S PRIVATE ISLAND STOPS AND WHAT A DAY THERE IS LIKE]</small></div>
+      <div class="card resort-card"><strong>What's included</strong><small class="todo">[WHAT THE FARE COVERS AND WHAT COSTS EXTRA. CHECK CURRENT DETAILS.]</small></div>
+      <div class="card resort-card"><strong>Choosing a stateroom</strong><small class="todo">[INSIDE VS. OCEANVIEW VS. VERANDAH, IN PLAIN ENGLISH]</small></div>
+    </div>
+  </section>
+</div>

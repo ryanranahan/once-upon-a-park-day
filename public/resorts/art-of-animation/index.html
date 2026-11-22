@@ -35,8 +35,42 @@
       <input id="q" type="search" name="q" placeholder="Search a resort, ship, or question">
     </form>
     <nav class="main-nav" id="main-nav" aria-label="Main">
-      <a href="/resorts/" aria-current="page">Resorts</a>
-      <a href="#">Cruises</a>
+      <div class="nav-drop" id="resorts-drop">
+  <button type="button" class="nav-drop-btn" id="resorts-btn" aria-expanded="false" aria-controls="resorts-menu" aria-current="page">Resorts <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
+  <div class="mega" id="resorts-menu">
+    <div class="wrap mega-row">
+      <div class="mega-col mega-wdw">
+        <a class="mega-head" href="/resorts/">Walt Disney World <span aria-hidden="true">›</span></a>
+        <div class="mega-list">
+          <div class="mega-group"><p class="mega-tier">Value</p><ul><li><a href="/resorts/all-star-movies/">All-Star Movies</a></li><li><a href="/resorts/all-star-music/">All-Star Music</a></li><li><a href="/resorts/all-star-sports/">All-Star Sports</a></li><li><a href="/resorts/pop-century/">Pop Century</a></li><li><a href="/resorts/art-of-animation/">Art of Animation</a></li></ul></div>
+          <div class="mega-group"><p class="mega-tier">Moderate</p><ul><li><a href="/resorts/caribbean-beach/">Caribbean Beach</a></li><li><a href="/resorts/coronado-springs/">Coronado Springs</a></li><li><a href="/resorts/port-orleans-french-quarter/">Port Orleans French Quarter</a></li><li><a href="/resorts/port-orleans-riverside/">Port Orleans Riverside</a></li></ul></div>
+          <div class="mega-group"><p class="mega-tier">Deluxe</p><ul><li><a href="/resorts/animal-kingdom-lodge/">Animal Kingdom Lodge</a></li><li><a href="/resorts/beach-club/">Beach Club</a></li><li><a href="/resorts/boardwalk-inn/">BoardWalk Inn</a></li><li><a href="/resorts/contemporary/">Contemporary</a></li><li><a href="/resorts/grand-floridian/">Grand Floridian</a></li><li><a href="/resorts/polynesian-village/">Polynesian Village</a></li><li><a href="/resorts/wilderness-lodge/">Wilderness Lodge</a></li><li><a href="/resorts/yacht-club/">Yacht Club</a></li></ul></div>
+          <div class="mega-group"><p class="mega-tier">Deluxe Villas</p><ul><li><a href="/resorts/bay-lake-tower/">Bay Lake Tower</a></li><li><a href="/resorts/boulder-ridge-villas/">Boulder Ridge Villas</a></li><li><a href="/resorts/copper-creek-villas/">Copper Creek Villas &amp; Cabins</a></li><li><a href="/resorts/old-key-west/">Old Key West</a></li><li><a href="/resorts/saratoga-springs/">Saratoga Springs</a></li><li><a href="/resorts/riviera/">Riviera</a></li><li><a href="/resorts/polynesian-villas/">Polynesian Villas &amp; Bungalows</a></li><li><a href="/resorts/island-tower/">Island Tower</a></li><li><a href="/resorts/grand-floridian-villas/">Grand Floridian Villas</a></li><li><a href="/resorts/kidani-village/">Kidani Village</a></li><li><a href="/resorts/beach-club-villas/">Beach Club Villas</a></li><li><a href="/resorts/boardwalk-villas/">BoardWalk Villas</a></li><li><a href="/resorts/cabins-at-fort-wilderness/">Cabins at Fort Wilderness</a></li></ul></div>
+          <div class="mega-group"><p class="mega-tier">Campground</p><ul><li><a href="/resorts/fort-wilderness/">Fort Wilderness Campground</a></li></ul></div>
+          
+        </div>
+      </div>
+      
+      <div class="mega-col">
+        <a class="mega-head" href="/disneyland/">Disneyland Resort <span aria-hidden="true">›</span></a>
+        <div class="mega-group"><p class="mega-tier">Disney-owned hotels</p><ul><li><a href="/disneyland/hotels/grand-californian/">Grand Californian</a></li><li><a href="/disneyland/hotels/disneyland-hotel/">Disneyland Hotel</a></li><li><a href="/disneyland/hotels/pixar-place/">Pixar Place</a></li></ul></div>
+        <div class="mega-group"><p class="mega-tier">Villas</p><ul><li><a href="/disneyland/hotels/villas-at-disneyland-hotel/">The Villas</a></li></ul></div>
+        
+      </div>
+      
+      <div class="mega-col">
+        <a class="mega-head" href="/universal-orlando/">Universal Orlando Resort <span aria-hidden="true">›</span></a>
+        <div class="mega-group"><p class="mega-tier">Signature Collection</p><ul><li><a href="/universal-orlando/hotels/portofino-bay/">Portofino Bay</a></li><li><a href="/universal-orlando/hotels/hard-rock-hotel/">Hard Rock Hotel</a></li><li><a href="/universal-orlando/hotels/royal-pacific/">Royal Pacific</a></li><li><a href="/universal-orlando/hotels/sapphire-falls/">Sapphire Falls</a></li><li><a href="/universal-orlando/hotels/helios-grand/">Helios Grand</a></li></ul></div>
+        <div class="mega-group"><p class="mega-tier">Prime Value</p><ul><li><a href="/universal-orlando/hotels/aventura/">Aventura</a></li><li><a href="/universal-orlando/hotels/stella-nova/">Stella Nova</a></li><li><a href="/universal-orlando/hotels/terra-luna/">Terra Luna</a></li></ul></div>
+        <div class="mega-group"><p class="mega-tier">Value Inns &amp; Suites</p><ul><li><a href="/universal-orlando/hotels/cabana-bay/">Cabana Bay</a></li><li><a href="/universal-orlando/hotels/endless-summer-surfside/">Surfside</a></li><li><a href="/universal-orlando/hotels/endless-summer-dockside/">Dockside</a></li></ul></div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      <a href="/cruises/">Disney Cruise Line</a>
       <a href="#">Planning</a>
       <a href="/blog/">Blog</a>
       <a class="btn btn-red" href="/#start">Start here</a>
@@ -51,16 +85,30 @@
 
 <main>
 
+
 <section class="page-hero">
   <div class="wrap page-hero-row">
     <div class="page-hero-copy">
-      <nav class="crumbs" aria-label="Breadcrumb"><a href="/resorts/">Resorts</a> <span aria-hidden="true">›</span> <a href="/resorts/#value">Value</a></nav>
-      <p class="eyebrow">Value resort · Wide World of Sports area</p>
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/resorts/">Resorts</a> <span aria-hidden="true">›</span> <a href="/resorts/#walt-disney-world">Walt Disney World</a> <span aria-hidden="true">›</span> <a href="/resorts/#value">Value</a></nav>
+      <p class="eyebrow">Value resort · Walt Disney World · Wide World of Sports area</p>
       <h1>Disney&#39;s Art of Animation Resort</h1>
       <p class="lead">Themed to animated films, with most rooms set up as family suites.</p>
-      <p class="byline">By [YOUR NAME] · Facts last checked [DATE]</p>
+      <p class="byline"><span class="badge badge-researched">Researched guide</span> First-hand notes coming soon · Facts last checked [DATE]</p>
+
     </div>
-    <div class="placeholder hero-photo">[YOUR PHOTO OF ART OF ANIMATION]</div>
+    
+    <div class="hero-soon"><svg class="soon-img" viewBox="0 0 600 400" role="img" aria-label="Art of Animation: photos coming soon" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#FBF8F3"/>
+  <circle cx="520" cy="70" r="150" fill="#F6ECD3"/>
+  <circle cx="60" cy="350" r="110" fill="#F6ECD3"/>
+  <circle cx="78" cy="70" r="20" fill="#EE7B6F"/>
+  <circle cx="112" cy="94" r="10" fill="#EE7B6F"/>
+  <g transform="translate(300 132)" stroke="#C9A24A" stroke-width="5" stroke-linecap="round"><line x1="14.0" y1="0.0" x2="58.0" y2="0.0"/><line x1="12.9" y1="5.4" x2="33.3" y2="13.8"/><line x1="9.9" y1="9.9" x2="41.0" y2="41.0"/><line x1="5.4" y1="12.9" x2="13.8" y2="33.3"/><line x1="0.0" y1="14.0" x2="0.0" y2="58.0"/><line x1="-5.4" y1="12.9" x2="-13.8" y2="33.3"/><line x1="-9.9" y1="9.9" x2="-41.0" y2="41.0"/><line x1="-12.9" y1="5.4" x2="-33.3" y2="13.8"/><line x1="-14.0" y1="0.0" x2="-58.0" y2="0.0"/><line x1="-12.9" y1="-5.4" x2="-33.3" y2="-13.8"/><line x1="-9.9" y1="-9.9" x2="-41.0" y2="-41.0"/><line x1="-5.4" y1="-12.9" x2="-13.8" y2="-33.3"/><line x1="-0.0" y1="-14.0" x2="-0.0" y2="-58.0"/><line x1="5.4" y1="-12.9" x2="13.8" y2="-33.3"/><line x1="9.9" y1="-9.9" x2="41.0" y2="-41.0"/><line x1="12.9" y1="-5.4" x2="33.3" y2="-13.8"/></g>
+  <text x="300" y="250" text-anchor="middle" fill="#16294F" style="font-family:var(--display);font-weight:700;font-size:44px">Photos coming soon</text>
+  <text x="300" y="296" text-anchor="middle" fill="#B8483C" style="font-family:var(--body);font-weight:700;font-size:17px;letter-spacing:.14em">ART OF ANIMATION</text>
+  <rect x="0" y="372" width="30" height="28" fill="#EE7B6F"/><rect x="60" y="372" width="30" height="28" fill="#C9A24A"/><rect x="120" y="372" width="30" height="28" fill="#EE7B6F"/><rect x="180" y="372" width="30" height="28" fill="#C9A24A"/><rect x="240" y="372" width="30" height="28" fill="#EE7B6F"/><rect x="300" y="372" width="30" height="28" fill="#C9A24A"/><rect x="360" y="372" width="30" height="28" fill="#EE7B6F"/><rect x="420" y="372" width="30" height="28" fill="#C9A24A"/><rect x="480" y="372" width="30" height="28" fill="#EE7B6F"/><rect x="540" y="372" width="30" height="28" fill="#C9A24A"/>
+</svg>
+</div>
   </div>
 </section>
 
@@ -68,20 +116,35 @@
   <article class="guide">
     
 
-    <h2>Our take</h2>
-    <p class="todo">[YOUR FIRST-HAND TAKE: what it felt like to stay here, and the one thing a first-timer should know.]</p>
+
+
+    <h2>Overview</h2>
+    <p>Art of Animation is a Value resort themed to animated films, and most of its rooms are Family Suites. It shares the Skyliner station with Pop Century.</p>
+    <div class="callout callout-soft">
+      <strong>First-hand notes coming soon.</strong>
+      <p>This guide is put together from research, not a stay. A first-hand take, photos and tips will be added later. Check details with the hotel before you book.</p>
+    </div>
+
+
 
     <h2>Who it suits</h2>
-    <p class="todo">[WHO THIS RESORT IS BEST FOR, AND WHO SHOULD LOOK ELSEWHERE]</p>
+    <p>Families of five or six who want a suite with room to spread out, at a lower price than a Moderate or Deluxe resort.</p>
+
+
 
     <h2>Rooms</h2>
-    <p class="todo">[ROOM TYPES, HOW MANY PEOPLE THEY SLEEP, AND WHICH SECTION TO REQUEST. CHECK AGAINST DISNEY'S CURRENT LISTING.]</p>
+    <p>Most rooms are <strong>Family Suites</strong> that sleep up to six, with a separate bedroom, two bathrooms and a kitchenette. There are also standard rooms that sleep four.</p>
+
+
 
     <h2>Pools and things to do</h2>
-    <p class="todo">[POOLS, PLAY AREAS, AND ACTIVITIES]</p>
+    <p>The <strong>Big Blue Pool</strong> is the main pool and one of the largest at Walt Disney World, with underwater speakers. There are two smaller pools in other sections.</p>
+
+
 
     <h2>Where to eat</h2>
-    <p class="todo">[RESTAURANTS AND QUICK-SERVICE SPOTS ON SITE, AND YOUR FAVORITE]</p>
+    <p>Dining is the <strong>Landscape of Flavors</strong> food court, with a pool bar nearby. There's no table-service restaurant.</p>
+
 
     <h2 id="getting-around">Getting to the parks</h2>
     <ul class="ticks">
@@ -89,16 +152,19 @@
       <li>Buses to Magic Kingdom, Animal Kingdom, and Disney Springs</li>
       
     </ul>
-    <p class="todo">[HOW LONG IT REALLY TOOK, AND ANY TIPS]</p>
+    
 
     <h2>Pros and cons</h2>
     <div class="proscons">
-      <div class="card"><h3>Love</h3><ul><li class="todo">[PRO]</li><li class="todo">[PRO]</li><li class="todo">[PRO]</li></ul></div>
-      <div class="card"><h3>Keep in mind</h3><ul><li class="todo">[CON]</li><li class="todo">[CON]</li><li class="todo">[CON]</li></ul></div>
+      <div class="card"><h3>Love</h3><ul class="ticks"><li>Family Suites with a kitchenette and two bathrooms</li><li>Skyliner access to Epcot and Hollywood Studios</li><li>Immersive theming kids love</li></ul></div>
+      <div class="card"><h3>Keep in mind</h3><ul class="ticks"><li>Suites cost more than standard Value rooms</li><li>Buses to Magic Kingdom and Animal Kingdom</li><li>No table-service dining</li></ul></div>
     </div>
 
+
     <h2>First-timer tips</h2>
-    <p class="todo">[TWO OR THREE PRACTICAL TIPS]</p>
+    <ul class="ticks"><li>Compare a suite with two Value rooms; the suite&#39;s extra bathroom is a big plus for families.</li><li>The Skyliner station is a short walk from the main building.</li></ul>
+
+
   </article>
 
   <aside class="guide-side">
@@ -108,7 +174,7 @@
         <dt>Category</dt><dd><a href="/resorts/#value">Value</a></dd>
         <dt>Area</dt><dd>Wide World of Sports area</dd>
         <dt>Getting around</dt><dd>Disney Skyliner gondolas to Epcot and Hollywood Studios</dd>
-        <dt>Best for</dt><dd class="todo">[BEST FOR]</dd>
+        <dt>Best for</dt><dd>Families of five or six who want a suite.</dd>
         <dt>Facts last checked</dt><dd class="todo">[DATE]</dd>
       </dl>
     </div>
@@ -119,7 +185,6 @@
       <ul><li><a href="/resorts/pop-century/">Pop Century</a> <small>Value</small></li></ul>
     </div>
     
-    <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
   </aside>
 </div>
 
@@ -131,7 +196,10 @@
     <div class="footer-top">
       <img src="/images/logo-light.svg" alt="Once Upon A Park Day" width="240" height="64">
       <nav class="footer-nav" aria-label="Footer">
-        <a href="/resorts/">Resorts</a>
+        <a href="/resorts/">Walt Disney World</a>
+        <a href="/disneyland/">Disneyland Resort</a>
+        <a href="/universal-orlando/">Universal Orlando</a>
+        <a href="/cruises/">Disney Cruise Line</a>
         <a href="/blog/">Blog</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
@@ -139,14 +207,14 @@
         <a href="#">Affiliate disclosure</a>
       </nav>
     </div>
-    <p>Once Upon A Park Day is an independent site. It is not affiliated with, endorsed by, or sponsored by The Walt Disney Company. Some links are affiliate links, which means we may earn a commission at no extra cost to you.</p>
+    <p>Once Upon A Park Day is an independent site. It is not affiliated with, endorsed by, or sponsored by The Walt Disney Company or Universal Orlando Resort. Some links are affiliate links, which means we may earn a commission at no extra cost to you.</p>
   </div>
 </footer>
 
 <nav class="tabbar" aria-label="Quick navigation">
   <a href="/"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg>Home</a>
   <a href="/resorts/" aria-current="page"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M5 20V9l7-5 7 5v11M10 20v-6h4v6"/></svg>Resorts</a>
-  <a href="#"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15h18l-2 5H5zM6 15V9h12v6M10 9V5h4v4"/></svg>Cruises</a>
+  <a href="/cruises/"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15h18l-2 5H5zM6 15V9h12v6M10 9V5h4v4"/></svg>Cruise Line</a>
   <a href="/blog/"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h11l3 3v13H5z"/><path d="M9 10h6M9 14h6M9 18h3"/></svg>Blog</a>
 </nav>
 
@@ -168,6 +236,12 @@
     menuBtn.setAttribute('aria-expanded', false);
     if (open) { document.getElementById('q').focus(); }
   });
+  var drop = document.getElementById('resorts-drop');
+  var dropBtn = document.getElementById('resorts-btn');
+  function setDrop(open) { drop.classList.toggle('open', open); dropBtn.setAttribute('aria-expanded', open); }
+  dropBtn.addEventListener('click', function (e) { e.stopPropagation(); setDrop(!drop.classList.contains('open')); });
+  document.addEventListener('click', function (e) { if (!drop.contains(e.target)) setDrop(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && drop.classList.contains('open')) { setDrop(false); dropBtn.focus(); } });
   // Placeholder behaviour until the finder and the email service are built.
   var finder = document.getElementById('finder');
   if (finder) finder.addEventListener('submit', function (e) {

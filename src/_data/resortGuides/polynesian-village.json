@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>The Polynesian Village is a Deluxe resort themed to the South Pacific, set on the Seven Seas Lagoon across from Magic Kingdom. It's known for its tropical feel, beach and fireworks views.</p>",
+  "suits": "<p>Families and couples who want a relaxed, tropical Deluxe stay on the monorail.</p>",
+  "rooms": "<p>Rooms are spread across longhouses named for Pacific islands. Lagoon-view and theme park view rooms cost more but have the best views.</p>",
+  "pools": "<p>The <strong>Lava Pool</strong> features a volcano with a waterslide, and a quieter pool sits by the lagoon.</p>",
+  "dining": "<p><strong>'Ohana</strong> serves family-style meals, <strong>Kona Cafe</strong> is popular for breakfast, and <strong>Pineapple Lanai</strong> serves Dole Whip. <strong>Trader Sam's Grog Grotto</strong> is a fun themed bar.</p>",
+  "gettingAround": null,
+  "pros": [
+    "Monorail and boat to Magic Kingdom",
+    "Beach with fireworks views",
+    "Relaxed tropical theming"
+  ],
+  "cons": [
+    "High price",
+    "Busy lobby and monorail station",
+    "Some longhouses are a walk from the lobby"
+  ],
+  "tips": [
+    "Watch the fireworks from the beach with the music piped in.",
+    "Walk to the Transportation and Ticket Center for the Epcot monorail instead of riding around the loop."
+  ],
+  "bestFor": "Families and couples who want a tropical Deluxe stay."
+}

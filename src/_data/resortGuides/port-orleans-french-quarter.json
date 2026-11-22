@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>Port Orleans French Quarter is the smallest Moderate resort, styled after New Orleans with wrought-iron balconies and gas-style lamps. It feels quiet and easy to get around.</p>",
+  "suits": "<p>Couples and small families who want a calm, compact Moderate resort.</p>",
+  "rooms": "<p>Standard rooms sleep four, and some royal-themed rooms sleep five. Most rooms are a short walk from the main building.</p>",
+  "pools": "<p><strong>Doubloon Lagoon</strong> has a sea-serpent waterslide and a playful Mardi Gras feel.</p>",
+  "dining": "<p><strong>Sassagoula Floatworks &amp; Food Factory</strong> is the quick-service spot, famous for its beignets. For a sit-down meal, walk or take the boat to Riverside next door.</p>",
+  "gettingAround": "<p>Buses go to every park, and a boat goes to Disney Springs.</p>",
+  "pros": [
+    "Compact and easy to walk",
+    "Charming New Orleans theming",
+    "Boat to Disney Springs"
+  ],
+  "cons": [
+    "Only one food court on site",
+    "Bus-only transportation to the parks",
+    "Fewer rooms means it can book up early"
+  ],
+  "tips": [
+    "Try the beignets at least once.",
+    "Take the boat to Disney Springs for dinner and shopping."
+  ],
+  "bestFor": "Couples and small families who want a quiet Moderate resort."
+}

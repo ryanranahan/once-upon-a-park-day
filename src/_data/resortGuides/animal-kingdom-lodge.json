@@ -1,0 +1,24 @@
+{
+  "researched": true,
+  "overview": "<p>Animal Kingdom Lodge is a Deluxe resort inspired by African game lodges. Its big draw is the savanna: many rooms look out over giraffes, zebras and other animals.</p>",
+  "suits": "<p>Animal lovers and families who want a truly unique Deluxe stay and don't mind a bus to every park.</p>",
+  "rooms": "<p>Standard rooms sleep four, and many have balconies. A <strong>savanna view</strong> costs more but is the reason most people stay here.</p>",
+  "pools": "<p><strong>Uzima Springs</strong> is the main pool, with a long waterslide and a zero-entry area.</p>",
+  "dining": "<p><strong>Jiko – The Cooking Place</strong> is the signature restaurant and <strong>Boma – Flavors of Africa</strong> is a popular buffet. <strong>The Mara</strong> is the quick-service spot. <strong>Sanaa</strong> at Kidani Village next door is worth a visit too.</p>",
+  "gettingAround": "<p>Every park is reached by Disney bus. It's close to Animal Kingdom but farther from the other parks.</p>",
+  "pros": [
+    "Live animals outside your window",
+    "Some of the best restaurants on property",
+    "Rich, immersive theming"
+  ],
+  "cons": [
+    "Bus-only transportation",
+    "Far from Magic Kingdom and Epcot",
+    "Standard view rooms miss the main attraction"
+  ],
+  "tips": [
+    "Visit the savanna overlooks in the early morning and evening, when animals are most active.",
+    "Ask about the free animal and culture activities run by the resort's cultural representatives."
+  ],
+  "bestFor": "Animal lovers and families who want something different."
+}
