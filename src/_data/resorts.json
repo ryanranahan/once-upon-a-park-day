@@ -80,7 +80,13 @@
         "value": "Three pools: the flower-shaped Hippy Dippy Pool with a kiddie splash area, plus the smaller Bowling and Computer pools. No hot tubs."
       }
     ],
-    "heads": "The Skyliner is closed Jan 24\u201330, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Pop Century stops running early."
+    "heads": "The Skyliner is closed Jan 24\u201330, 2027 (buses fill in), and on EPCOT Extended Evening Hours nights the Skyliner route to Pop Century stops running early.",
+    "photos": {
+      "hero": {
+        "src": "/images/resorts/pop-century/hero.webp",
+        "alt": "The giant Duncan Imperial yo-yo icon in front of a guest-room building at Disney's Pop Century Resort, with Hourglass Lake visible at right."
+      }
+    }
   },
   {
     "slug": "art-of-animation",
