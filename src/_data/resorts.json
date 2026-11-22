@@ -202,7 +202,43 @@
       "Buses to all four parks and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/animal-kingdom-lodge-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe resort in the Animal Kingdom area. This guide covers the hotel rooms at Jambo House. In 2026 a Resort View room ran about $508 to $915 a night at full price, tax included. Savanna View rooms ran about $731 to $1,227, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Buses to all four theme parks, Disney Springs and the water parks. There is no monorail, boat or Skyliner from here."
+      },
+      {
+        "label": "Room size",
+        "value": "Standard hotel rooms are about 344 sq ft [verify] and sleep up to 4 adults with 2 queen beds, or up to 2 adults with 1 king bed. Views are Resort (rooftop or parking), Water (the pool) or Savanna. Club Level rooms look over the savanna and include lounge access."
+      },
+      {
+        "label": "Best for",
+        "value": "Anyone who wants to watch giraffes and zebras from a balcony, and families who like having Boma and Jiko on site. It is a bus-only resort, so it is a weaker pick if a short ride to Magic Kingdom is the main goal."
+      },
+      {
+        "label": "Food",
+        "value": "Boma is the buffet for breakfast and dinner. Jiko is the table-service dinner restaurant. The Mara is the quick-service spot, open for breakfast, lunch and dinner. Sanaa, another table-service restaurant, is a short walk away at Kidani Village."
+      },
+      {
+        "label": "Pools",
+        "value": "Uzima Springs Pool at Jambo House is the main pool, at 234,980 gallons, with a 67-foot slide, zero-depth entry and a view of Uzima Savanna. Guests can also use Samawati Springs Pool at Kidani Village, which has a 128-foot slide and the Uwanja Camp splash area."
+      }
+    ],
+    "heads": "Jambo House guest rooms are under renovation from May 2026 through January 2027. Disney says you may see or hear construction, and that most amenities remain available.",
+    "photos": {
+      "hero": {
+        "src": "/images/resorts/animal-kingdom-lodge/hero.webp",
+        "alt": "A giraffe walks the savanna in front of the guest-room balconies at Disney's Animal Kingdom Lodge."
+      }
+    }
   },
   {
     "slug": "beach-club",
