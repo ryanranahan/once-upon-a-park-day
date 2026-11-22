@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+section: blog
+---
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/blog/">Blog</a></nav>
+      <p class="eyebrow">{{ category or "Blog" }}</p>
+      <h1>{{ title }}</h1>
+      <p class="byline">By {{ author or "[YOUR NAME]" }} · <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time></p>
+    </div>
+  </div>
+</section>
+<div class="wrap guide-row">
+  <article class="guide prose">
+    {% if affiliate %}<p class="disclosure">This post contains affiliate links. If you book through them, we may earn a commission at no extra cost to you.</p>{% endif %}
+    {{ content | safe }}
+  </article>
+  <aside class="guide-side">
+    <div class="card nearby">
+      <h2>Find your resort</h2>
+      <p>Every Walt Disney World resort hotel, explained in plain English.</p>
+      <a class="btn btn-red" href="/resorts/">Browse resorts</a>
+    </div>
+    <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+  </aside>
+</div>

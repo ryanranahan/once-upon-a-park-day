@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+section: blog
+title: Blog
+description: Trip reports, news and tips for first-time Disney visitors.
+---
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <p class="eyebrow">The blog</p>
+      <h1>Trip reports, news and tips</h1>
+      <p class="lead">Shorter, more personal posts to go with the guides. Newest first.</p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap section">
+  <div class="post-list">
+  {% for post in collections.post %}
+    <article class="card post">
+      <img src="{{ post.data.image or '/images/planning-table.svg' }}" alt="" width="170" height="120" loading="lazy">
+      <div>
+        <span class="eyebrow">{{ post.data.category or "Blog" }}</span>
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p class="meta"><time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time>{% if post.data.summary %} · {{ post.data.summary }}{% endif %}</p>
+      </div>
+    </article>
+  {% else %}
+    <p>No posts yet.</p>
+  {% endfor %}
+  </div>
+</div>

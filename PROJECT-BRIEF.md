@@ -18,10 +18,10 @@ Read this before making any change to the site. It records what has been decided
 
 ## Hosting plan
 
-- Hand-coded static site, no WordPress.
+- Static site built with Eleventy (see README.md for where everything lives), no WordPress.
 - Files live in a GitHub repository; Cloudflare Pages publishes them automatically on each change.
 - Cost is the domain only (about $11 a year).
-- When the blog grows, move to a static site generator (Astro or Eleventy) so each post is one Markdown file and listing pages rebuild automatically.
+- Moved to Eleventy in November 2026: each blog post is one Markdown file, and resort pages are generated from `src/_data/resorts.json`.
 
 ## Design: logo palette (current)
 
@@ -55,6 +55,17 @@ The site now follows the "Once Upon A Park Day" logo. The earlier "Sunny Boardwa
 8. About the author.
 9. Email signup for the first-timer checklist.
 10. Footer with disclaimer and affiliate disclosure.
+
+## Resort guides
+
+- One page per Disney-owned Walt Disney World resort (31 pages), generated from `src/_data/resorts.json`, plus a listing page at `/resorts/` with an area filter.
+- Each resort entry holds only basic facts: category, area, a one-line theme description, and transportation. These came from general knowledge and must be checked against Disney's current listings before the "Facts last checked" date is filled in.
+- Everything first-hand (our take, rooms, dining, pros and cons, tips) is a [BRACKETED] placeholder to fill from interviews with Ryan.
+- Not yet covered: Swan, Dolphin and Swan Reserve, Shades of Green, Disney Springs area hotels.
+
+## Blog
+
+- Lives at `/blog/`. One Markdown file per post in `src/blog/posts/`. A starter welcome post is in place with placeholders.
 
 ## What is not built yet
 
