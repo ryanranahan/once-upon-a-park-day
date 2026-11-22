@@ -308,3 +308,13 @@ td.todo,th.todo{border-radius:0;border-left:0;padding:12px 14px}
 .dest-title{font-size:40px;font-weight:600;margin:40px 0 4px}
 ul.benefits li{margin:8px 0}
 @media (max-width:820px){.dest-strip{grid-template-columns:1fr;gap:10px;padding-top:20px}.dest-card{padding:14px 16px}.dest-title{font-size:30px;margin-top:28px}}
+/* Ship itineraries */
+.itins{display:grid;gap:16px;margin-top:16px}
+.itin{padding:20px 22px}
+.itin h3{font-size:22px;margin:4px 0 6px}
+.itin-meta{color:var(--muted);font-size:16px;margin-bottom:8px}
+.itin .ticks{margin:8px 0}
+.itin-take{background:var(--ground);border-radius:12px;padding:12px 14px;margin-top:10px}
+.itin-take-head{font-weight:700;margin-bottom:4px}
+.draft-tag{display:inline-block;margin-left:6px;font-size:12px;font-weight:700;background:var(--yellow-soft);border:1px solid var(--yellow);border-radius:999px;padding:1px 8px;vertical-align:middle}
+.itin-verify{font-size:14px;color:var(--muted);margin-top:8px}

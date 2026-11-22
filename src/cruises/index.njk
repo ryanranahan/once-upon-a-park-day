@@ -17,12 +17,12 @@ description: Every Disney Cruise Line ship explained for first-time cruisers, wi
 <div class="wrap">
   <section class="section" id="ships">
     <h2>The fleet</h2>
-    {% for cls in ["Magic class", "Dream class", "Wish class", "Global class"] %}
-    <h3 class="class-head">{{ cls }}</h3>
+    {% for grp in [["Magic class", "Magic class"], ["Dream class", "Dream class"], ["Wish class", "Wish class"], ["Global class", "Global class"], ["[VERIFY]", "Coming soon"]] %}{% set cls = grp[0] %}
+    <h3 class="class-head">{{ grp[1] }}</h3>
     <div class="grid-3 ship-grid">
       {% for s in ships %}{% if s.cls == cls %}
       <a class="card resort-card" href="/cruises/{{ s.slug }}/">
-        <span class="eyebrow">Since {{ s.year }}{% if s.sailed %} · We've sailed her{% endif %}</span>
+        <span class="eyebrow">{% if s.year > 2026 %}Debuts {{ s.year }}{% else %}Since {{ s.year }}{% endif %}{% if s.sailed %} · We've sailed her{% endif %}</span>
         <strong>{{ s.name }}</strong>
         <small>{{ s.summary }}</small>
       </a>
@@ -40,8 +40,9 @@ description: Every Disney Cruise Line ship explained for first-time cruisers, wi
           <tr><th scope="col"><span class="sr-only">Detail</span></th>{% for s in ships %}<th scope="col"><a href="/cruises/{{ s.slug }}/">{{ s.name | replace("Disney ", "") }}</a></th>{% endfor %}</tr>
         </thead>
         <tbody>
-          <tr><th scope="row">Class</th>{% for s in ships %}<td>{{ s.cls | replace(" class", "") }}</td>{% endfor %}</tr>
+          <tr><th scope="row">Class</th>{% for s in ships %}<td{% if s.cls == "[VERIFY]" %} class="todo"{% endif %}>{{ s.cls | replace(" class", "") }}</td>{% endfor %}</tr>
           <tr><th scope="row">Entered service</th>{% for s in ships %}<td>{{ s.year }}</td>{% endfor %}</tr>
+          <tr><th scope="row">Home port (2027)</th>{% for s in ships %}<td>{{ s.homePorts }}</td>{% endfor %}</tr>
           <tr><th scope="row">Size</th>{% for s in ships %}<td{% if s.size == "[VERIFY]" %} class="todo"{% endif %}>{{ s.size | replace(" gross tons", " GT") }}</td>{% endfor %}</tr>
           <tr><th scope="row">Water ride</th>{% for s in ships %}<td{% if s.water == "[VERIFY]" %} class="todo"{% endif %}>{{ s.water }}</td>{% endfor %}</tr>
           <tr><th scope="row">Main dining rotation</th>{% for s in ships %}<td{% if s.rotation[0] == "[VERIFY]" %} class="todo"{% endif %}>{{ s.rotation | join("<br>") | safe }}</td>{% endfor %}</tr>
