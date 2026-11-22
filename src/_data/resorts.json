@@ -261,7 +261,51 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/grand-floridian-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe resort in the Magic Kingdom area, on the Seven Seas Lagoon. In 2026 a Resort View room ran about $832 to $1,370 a night at full price, tax included. Water View rooms ran about $864 to $1,506, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Resort monorail to Magic Kingdom, and to EPCOT with a change at the Transportation and Ticket Center. A boat (the Gold Launch) runs to Magic Kingdom and also serves the Polynesian Village. Buses go to Hollywood Studios, Animal Kingdom and Disney Springs."
+      },
+      {
+        "label": "Room size",
+        "value": "Standard hotel rooms are about 448 sq ft [verify] and sleep up to 5 adults, with 2 queen beds and a day bed, or 1 king bed and a day bed. Most standard view rooms are in the outer buildings. Club Level rooms and suites are a separate set of categories, some of them larger."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want monorail or boat access to Magic Kingdom and a lot of dining on site, including a character buffet. Theme Park View rooms look toward the park. It is a Deluxe price at the high end of the scale, so it is not the pick if the nightly rate is the main concern."
+      },
+      {
+        "label": "Food",
+        "value": "This is one of the biggest dining resorts on property. 1900 Park Fare is the character buffet for breakfast and dinner. Grand Floridian Cafe, C\u00edtricos, Narcoossee's and Victoria & Albert's are table service. Gasparilla Island Grill is the quick-service spot, and Enchanted Rose and Garden View Lounge are the lounges."
+      },
+      {
+        "label": "Pools",
+        "value": "The Beach Pool is the main pool, at 111,261 gallons, with a 181-foot slide, a waterfall, zero-depth entry and a splash area for little kids. The Courtyard Pool is a quieter, heated zero-entry pool behind the main building, with a whirlpool spa."
+      }
+    ],
+    "heads": "Renovations continue in select areas, including the porte cochere, through early 2027. Disney says guests may see or hear work during the day or need to take alternate paths.",
+    "photos": {
+      "hero": {
+        "src": "/images/resorts/grand-floridian/hero.webp",
+        "alt": "The wooden boat dock at dusk, with the waterfront restaurant on the left and a guest building at Disney's Grand Floridian Resort & Spa ahead."
+      },
+      "room": {
+        "src": "/images/resorts/grand-floridian/room.webp",
+        "alt": "A standard guest room at Disney's Grand Floridian Resort & Spa, with two queen beds and a balcony looking out toward the lagoon."
+      },
+      "pool": {
+        "src": "/images/resorts/grand-floridian/pool.webp",
+        "alt": "The Beach Pool at Disney's Grand Floridian Resort & Spa, with its rock waterfall, zero-depth entry, and the pool bar beyond the water."
+      }
+    }
   },
   {
     "slug": "polynesian-village",
