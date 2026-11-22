@@ -415,7 +415,43 @@
       "Buses to Epcot, Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "fullGuide": "/resorts/wilderness-lodge-resort/",
+    "author": "Ryan",
+    "lastVerified": "Nov 2026",
+    "quickFacts": [
+      {
+        "label": "Category and price",
+        "value": "Deluxe resort in the Magic Kingdom area, on Bay Lake. This guide covers the hotel rooms at the lodge. In 2026 a Resort View room ran about $573 to $1,052 a night at full price, tax included. Water View rooms ran about $641 to $1,073, depending on the dates."
+      },
+      {
+        "label": "Getting to the parks",
+        "value": "Boat to Magic Kingdom. Official water transportation listings also show boats that connect Wilderness Lodge with the Contemporary and Fort Wilderness. Buses go to EPCOT, Hollywood Studios, Animal Kingdom, Disney Springs and the water parks."
+      },
+      {
+        "label": "Room size",
+        "value": "Standard hotel rooms are about 340 sq ft [verify] and sleep up to 4 adults with 2 queen beds, or up to 2 adults with 1 king bed. Views are Resort (landscape, trees, rooftop or parking), Water (pool, waterfall, Bay Lake or Copper Creek) or Fireworks (a partial view of Magic Kingdom fireworks). Club Level includes lounge access, and Deluxe Club Level rooms are larger and sleep up to 6."
+      },
+      {
+        "label": "Best for",
+        "value": "Families who want a boat to Magic Kingdom and a quieter, wooded setting. Whispering Canyon Cafe and Story Book Dining at Artist Point with Snow White are on site. It is not the pick if you need a fifth bed in a standard room, or if a monorail from the hotel is the main reason you're booking a Magic Kingdom resort."
+      },
+      {
+        "label": "Food",
+        "value": "Whispering Canyon Cafe serves brunch and dinner. Story Book Dining at Artist Point is the character dinner with Snow White. Roaring Fork is the quick-service restaurant, and Geyser Point Bar & Grill sits by the main pool, looking toward Bay Lake."
+      },
+      {
+        "label": "Pools",
+        "value": "Copper Creek Springs Pool is the main pool, with a 67-foot slide built into the rocks, hot and cold whirlpool spas, and a children's play area. Guests can also use Boulder Ridge Cove Pool at the Boulder Ridge Villas, a quieter zero-entry pool with a whirlpool spa."
+      }
+    ],
+    "heads": "Disney has listed exterior renovation work at Wilderness Lodge and Copper Creek Villas & Cabins through late 2026. Views may be affected, most amenities were planned to stay available, and you may see or hear work during the day. [verify if this work is still underway]",
+    "photos": {
+      "hero": {
+        "src": "/images/resorts/wilderness-lodge/hero.webp",
+        "alt": "The waterfall and rockwork in front of Disney's Wilderness Lodge, with guest-room balconies rising above the pines."
+      }
+    }
   },
   {
     "slug": "yacht-club",
