@@ -191,7 +191,7 @@ p{margin:0}
       <input id="q" type="search" name="q" placeholder="Search a resort, ship, or question">
     </form>
     <nav class="main-nav" id="main-nav" aria-label="Main">
-      <a href="#">Resorts</a>
+      <a href="/resorts/">Resorts</a>
       <a href="#">Cruises</a>
       <a href="#">Planning</a>
       <a href="#">Deals</a>
@@ -260,7 +260,7 @@ p{margin:0}
 <section class="section wrap">
   <h2>Browse by topic</h2>
   <div class="grid-4">
-    <a class="card topic" href="#"><img src="images/resort-day.svg" alt="Illustration of a resort hotel with a pool" width="800" height="500"><span>Resort hotels</span><small>[NUMBER] guides</small></a>
+    <a class="card topic" href="/resorts/"><img src="images/resort-day.svg" alt="Illustration of a resort hotel with a pool" width="800" height="500"><span>Resort hotels</span><small>[NUMBER] guides</small></a>
     <a class="card topic" href="#"><img src="images/cruise-ship.svg" alt="Illustration of a cruise ship at sea" width="800" height="500"><span>Disney Cruise Line</span><small>[NUMBER] guides</small></a>
     <a class="card topic" href="#"><img src="images/planning-table.svg" alt="Illustration of a map, compass, and notebook" width="800" height="500"><span>Planning and budgeting</span><small>[NUMBER] guides</small></a>
     <a class="card topic" href="#"><img src="images/fireworks-night.svg" alt="Illustration of fireworks over a park at night" width="800" height="500"><span>Deals and news</span><small>Updated [DATE]</small></a>
@@ -274,6 +274,10 @@ p{margin:0}
 <section class="section wrap latest-row">
   <div class="latest-main">
     <h2 style="margin-bottom:4px">Latest guides</h2>
+    <article class="card post">
+      <img src="images/resort-day.svg" alt="" width="170" height="120" loading="lazy">
+      <div><span class="eyebrow">Resort guide</span><h3><a href="/resorts/pop-century-resort/">Disney's Pop Century Resort: rooms, the Skyliner, and what to know</a></h3><p class="meta">Last verified Nov 2026 · [X] min read</p></div>
+    </article>
     <article class="card post">
       <img src="images/resort-day.svg" alt="" width="170" height="120" loading="lazy">
       <div><span class="eyebrow">Resorts</span><h3><a href="#">Value, Moderate, or Deluxe: how the resort tiers differ</a></h3><p class="meta">Updated [DATE] · [X] min read</p></div>
@@ -347,7 +351,7 @@ p{margin:0}
 
 <nav class="tabbar" aria-label="Quick navigation">
   <a href="/" aria-current="page"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg>Home</a>
-  <a href="#"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M5 20V9l7-5 7 5v11M10 20v-6h4v6"/></svg>Resorts</a>
+  <a href="/resorts/"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M5 20V9l7-5 7 5v11M10 20v-6h4v6"/></svg>Resorts</a>
   <a href="#"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15h18l-2 5H5zM6 15V9h12v6M10 9V5h4v4"/></svg>Cruises</a>
   <a href="#"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l8-8h8v8l-8 8z"/><circle cx="15.5" cy="8.5" r="1.5"/></svg>Deals</a>
 </nav>

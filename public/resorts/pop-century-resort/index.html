@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disney's Pop Century Resort guide: rooms, Skyliner and tips | Once Upon A Park Day</title>
+<meta name="description" content="A plain-English guide to Disney's Pop Century Resort: room sizes and beds, Skyliner vs. bus to each park, dining, pools, and booking tips. Last verified Nov 2026.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#16294F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap">
+<style>
+:root{
+  /* Brand colors from the logo: navy #16294F, coral #EE7B6F, gold #C9A24A */
+  --blue:#16294F; --blue-dark:#0E1B36; --yellow:#C9A24A; --yellow-soft:#F6ECD3;
+  --red:#EE7B6F; --navy:#16294F; --ground:#FBF8F3; --line:#E8DFD0;
+  --muted:#4A5570; --white:#FFFFFF; --dash:#C8B996; --link:#B8483C;
+  --display:'Playfair Display',Georgia,serif; --body:'Nunito',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--body);font-size:17px;line-height:1.55;color:var(--navy);background:var(--ground)}
+img{max-width:100%;display:block}
+a{color:var(--link)}
+a:hover{color:#8F3329}
+h1,h2,h3{font-family:var(--display);margin:0;line-height:1.15}
+p{margin:0}
+.wrap{max-width:1200px;margin:0 auto;padding-left:24px;padding-right:24px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 24px;border-radius:999px;font-weight:700;font-size:17px;font-family:inherit;text-decoration:none;border:0;cursor:pointer}
+.btn-red{background:var(--red);color:var(--navy)}
+.btn-red:hover{color:var(--navy);background:#E8685B}
+.btn-yellow{background:var(--yellow);color:var(--navy)}
+.btn-outline-light{border:2px solid var(--white);color:var(--white);background:transparent}
+.btn-outline-light:hover{color:var(--white);background:rgba(255,255,255,.12)}
+.btn-outline-dark{border:2px solid var(--navy);color:var(--navy);background:transparent}
+.eyebrow{font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--link)}
+.card{background:var(--white);border:2px solid var(--line);border-radius:22px}
+.section{padding-top:56px}
+.section h2{font-weight:600;font-size:36px;margin-bottom:24px}
+.placeholder{border:2px dashed var(--dash);border-radius:16px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);font-weight:600;padding:12px}
+
+/* Header */
+.site-header{background:var(--white);position:sticky;top:0;z-index:20}
+.header-row{display:flex;align-items:center;gap:20px;padding-top:12px;padding-bottom:12px}
+.logo{display:flex;align-items:center;flex:0 0 auto}
+.logo img{height:52px;width:auto}
+.search{flex:1 1 240px;display:flex;align-items:center;gap:10px;height:48px;padding:0 16px;border:2px solid var(--line);border-radius:999px;background:var(--ground)}
+.search input{flex:1;min-width:0;border:0;background:transparent;font:inherit;font-size:16px;color:var(--navy);height:44px}
+.main-nav{display:flex;align-items:center;gap:4px}
+.main-nav a{padding:12px;text-decoration:none;font-weight:700;color:var(--navy)}
+.main-nav a.btn{padding:0 20px;margin-left:8px;color:var(--white)}
+.icon-btn{display:none;width:44px;height:44px;border:0;background:transparent;border-radius:12px;align-items:center;justify-content:center;cursor:pointer;color:var(--navy)}
+.awning{height:10px;background:repeating-linear-gradient(90deg,var(--red) 0 28px,var(--white) 28px 56px,var(--yellow) 56px 84px,var(--white) 84px 112px)}
+
+/* Hero */
+.hero{background:var(--blue);color:var(--white)}
+.hero-row{display:flex;flex-wrap:wrap;align-items:center;gap:48px;padding-top:64px;padding-bottom:72px}
+.hero-copy{flex:1 1 460px;display:flex;flex-direction:column;gap:20px;align-items:flex-start}
+.hero-copy .eyebrow{color:var(--yellow)}
+.hero h1 em{font-style:italic;color:var(--red)}
+.hero h1{font-weight:700;font-size:58px;line-height:1.05}
+.hero .lead{font-size:20px;max-width:34rem}
+.hero .byline{font-size:16px}
+.finder{flex:1 1 380px;background:var(--white);color:var(--navy);border-radius:28px;padding:30px;display:flex;flex-direction:column;gap:16px;box-shadow:0 16px 0 var(--red)}
+.finder h2{font-weight:600;font-size:26px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font-weight:700}
+.field select,.field input{height:50px;border-radius:12px;border:2px solid var(--line);padding:0 12px;font:inherit;color:var(--navy);background:var(--white);width:100%}
+.finder .btn{min-height:54px;font-size:18px}
+.finder-note{font-size:15px;color:var(--muted);min-height:1.5em}
+
+/* Grids */
+.grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.grid-4{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.compare{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px;text-decoration:none;color:var(--navy)}
+.compare strong{display:block;font-family:var(--display);font-weight:600;font-size:22px;line-height:1.2;margin-top:4px}
+.compare svg{flex:0 0 auto}
+.steps{list-style:none;margin:0;padding:0}
+.step{display:flex;gap:16px;padding:24px}
+.step-num{flex:0 0 44px;height:44px;border-radius:999px;background:var(--yellow);font-family:var(--display);font-weight:700;font-size:22px;display:flex;align-items:center;justify-content:center}
+.step a{font-family:var(--display);font-weight:600;font-size:22px;color:var(--navy);text-decoration:none;line-height:1.2}
+.step p{color:var(--muted);margin-top:6px}
+.step small{display:block;font-size:15px;color:var(--muted);margin-top:6px}
+.topic{overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:var(--navy)}
+.topic img{width:100%;height:170px;object-fit:cover}
+.topic span{padding:20px 20px 0;font-family:var(--display);font-weight:600;font-size:23px}
+.topic small{padding:4px 20px 20px;font-size:17px;color:var(--muted)}
+
+/* Latest */
+.latest-row{display:flex;flex-wrap:wrap;gap:40px}
+.latest-main{flex:2 1 520px;display:flex;flex-direction:column;gap:20px;align-items:flex-start}
+.latest-side{flex:1 1 300px;display:flex;flex-direction:column;gap:20px}
+.post{display:flex;gap:20px;padding:18px;width:100%}
+.post img{flex:0 0 170px;width:170px;height:120px;object-fit:cover;border-radius:14px}
+.post h3{font-weight:600;font-size:23px;line-height:1.2;margin:6px 0}
+.post h3 a{color:var(--navy);text-decoration:none}
+.post .meta{font-size:15px;color:var(--muted)}
+.deal{background:var(--yellow-soft);border:2px solid var(--yellow);border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.deal .eyebrow{color:var(--navy)}
+.signup .field label{color:var(--white)}
+.deal h3{font-weight:600;font-size:24px}
+.deal small{font-size:14px}
+
+/* About, signup, footer */
+.about{display:flex;flex-wrap:wrap;align-items:center;gap:28px;padding:32px;border-radius:28px}
+.about .photo{flex:0 0 140px;height:140px;border-radius:999px;background:var(--yellow-soft);font-size:14px}
+.about div{flex:1 1 360px;display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.about h2{font-size:30px;margin:0}
+.about p{color:var(--muted)}
+.signup{background:var(--blue);color:var(--white);border-radius:28px;padding:40px 36px;display:flex;flex-wrap:wrap;align-items:center;gap:28px}
+.signup h2{font-size:32px;margin-bottom:8px}
+.signup>div{flex:1 1 320px}
+.signup form{flex:1 1 320px;display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px}
+.signup .field{flex:1 1 200px}
+.signup .field input{border-color:var(--white)}
+.site-footer{background:var(--navy);color:#ECE6DA;margin-top:72px}
+.footer-inner{padding-top:44px;padding-bottom:44px;display:flex;flex-direction:column;gap:20px}
+.footer-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px}
+.footer-top img{height:64px;width:auto}
+.footer-nav{display:flex;flex-wrap:wrap;gap:8px}
+.footer-nav a{color:var(--white);padding:12px 10px}
+.site-footer p{font-size:15px;max-width:52rem}
+.tabbar{display:none}
+
+/* Phone and small tablet */
+@media (max-width:820px){
+  body{padding-bottom:64px}
+  .wrap{padding-left:16px;padding-right:16px}
+  .search,.main-nav{display:none}
+  .header-row{justify-content:space-between;gap:12px}
+  .logo img{height:40px}
+  .icon-btn{display:flex}
+  .header-icons{display:flex;gap:4px}
+  .site-header.open .main-nav{display:flex;flex-direction:column;align-items:stretch;position:absolute;left:0;right:0;top:100%;background:var(--white);padding:8px 16px 16px;border-bottom:2px solid var(--line)}
+  .site-header.open .main-nav a{min-height:48px;display:flex;align-items:center}
+  .site-header.open .main-nav a.btn{margin:8px 0 0;justify-content:center}
+  .site-header.search-open .search{display:flex;position:absolute;left:16px;right:16px;top:calc(100% + 8px)}
+  .awning{height:8px}
+  .hero-row{padding-top:28px;padding-bottom:44px;gap:24px}
+  .hero h1{font-size:34px}
+  .hero .lead{font-size:17px}
+  .hero-copy,.finder{flex-basis:100%}
+  .hero-copy .btn{width:100%}
+  .finder{padding:20px;border-radius:22px;box-shadow:0 10px 0 var(--red)}
+  .section{padding-top:32px}
+  .section h2{font-size:26px;margin-bottom:14px}
+  .scroller{display:flex;overflow-x:auto;gap:12px;margin:0 -16px;padding:0 16px 8px}
+  .scroller .compare{flex:0 0 240px;padding:16px}
+  .compare strong{font-size:20px}
+  .compare svg{display:none}
+  .steps{display:flex;flex-direction:column;gap:10px}
+  .step{padding:14px;align-items:center}
+  .step p,.step small{display:none}
+  .step a{font-size:19px;min-height:44px;display:flex;align-items:center}
+  .grid-4{grid-template-columns:1fr 1fr;gap:12px}
+  .topic img{height:96px}
+  .topic span{font-size:18px;padding:12px 12px 0;line-height:1.2}
+  .topic small{font-size:14px;padding:4px 12px 12px}
+  .latest-row{gap:20px}
+  .post{gap:12px;padding:12px}
+  .post img{flex-basis:92px;width:92px;height:92px;border-radius:12px}
+  .post h3{font-size:18px;margin:4px 0}
+  .deal .btn{width:100%}
+  .about{padding:20px;border-radius:18px}
+  .about .photo{flex-basis:88px;height:88px;font-size:12px}
+  .about h2{font-size:24px}
+  .signup{padding:22px;border-radius:18px}
+  .signup h2{font-size:24px}
+  .signup .btn{width:100%}
+  .site-footer{margin-top:32px}
+  .footer-nav{display:grid;grid-template-columns:1fr 1fr;width:100%}
+  .footer-nav a{min-height:44px;display:flex;align-items:center;padding:0}
+  .tabbar{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--white);border-top:2px solid var(--line)}
+  .tabbar a{min-height:62px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-decoration:none;color:var(--navy);font-size:13px;font-weight:700}
+  .tabbar a[aria-current]{color:var(--link)}
+}
+@media (min-width:821px){.header-icons{display:none}}
+
+/* Resort guide page */
+.crumbs{font-size:15px;color:var(--muted);padding-top:20px}
+.crumbs a{color:var(--link)}
+.guide-hero{background:var(--blue);color:var(--white)}
+.guide-hero .wrap{padding-top:44px;padding-bottom:48px;display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+.guide-hero .eyebrow{color:var(--yellow)}
+.guide-hero h1{font-weight:700;font-size:50px;line-height:1.08;max-width:22ch}
+.guide-hero h1 em{font-style:italic;color:var(--red)}
+.guide-hero .lead{font-size:20px;max-width:40rem}
+.guide-meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:16px}
+.guide-meta strong{color:var(--yellow)}
+.verified{display:inline-flex;align-items:center;gap:8px;background:var(--yellow-soft);color:var(--navy);border-radius:999px;padding:6px 14px;font-weight:700;font-size:15px}
+.guide-layout{display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start}
+.guide-main{flex:1 1 640px;min-width:0;display:flex;flex-direction:column;gap:44px}
+.guide-side{flex:0 1 300px;display:flex;flex-direction:column;gap:20px;position:sticky;top:110px}
+.guide-main h2{font-weight:600;font-size:34px;margin-bottom:14px}
+.guide-main h3{font-weight:600;font-size:23px;margin:22px 0 8px}
+.guide-main p{margin:0 0 14px;max-width:44rem}
+.guide-main ul{margin:0 0 14px;padding-left:22px;max-width:44rem}
+.guide-main li{margin-bottom:6px}
+.photo-ph{background:var(--yellow-soft);min-height:300px;font-size:16px}
+.photo-ph.small{min-height:200px}
+.photo-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:8px 0 18px}
+.glance{padding:26px;display:flex;flex-direction:column;gap:14px}
+.glance h2{font-size:28px;margin:0}
+.glance dl{display:grid;grid-template-columns:minmax(130px,auto) 1fr;gap:10px 18px;margin:0}
+.glance dt{font-weight:700}
+.glance dd{margin:0;color:var(--muted)}
+.toc{padding:22px}
+.toc h2{font-size:22px;margin:0 0 8px}
+.toc ol{margin:0;padding-left:20px}
+.toc a{display:inline-block;padding:6px 0;font-weight:600}
+.table-wrap{overflow-x:auto;border:2px solid var(--line);border-radius:18px;background:var(--white);margin:6px 0 16px}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:16px}
+th,td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+th{background:var(--ground);font-weight:700;font-size:15px}
+tr:last-child td{border-bottom:0}
+.rate{display:inline-block;min-width:34px;text-align:center;border-radius:999px;background:var(--yellow);font-weight:700;padding:2px 10px}
+.note{font-size:15px;color:var(--muted)}
+.ryan{display:block;border-left:4px solid var(--red);background:#FDF0EE;border-radius:0 12px 12px 0;padding:12px 16px;margin:0 0 14px;font-weight:600;max-width:44rem}
+.verify{background:#FFF3C4;border-radius:4px;padding:0 4px;font-weight:700;font-size:.9em;white-space:nowrap}
+.callout{background:var(--yellow-soft);border:2px solid var(--yellow);border-radius:22px;padding:22px;margin:4px 0 16px;max-width:44rem}
+.callout h3{margin-top:0}
+.procon{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.procon .card{padding:22px}
+.procon h3{margin-top:0}
+.sources ol{padding-left:22px}
+.sources li{margin-bottom:10px}
+.sources small{color:var(--muted)}
+.disclaimer{padding:22px;color:var(--muted);font-size:15px}
+.disclaimer strong{color:var(--navy)}
+@media (max-width:820px){
+  .crumbs{padding-top:14px;font-size:14px}
+  .guide-hero .wrap{padding-top:26px;padding-bottom:32px;gap:12px}
+  .guide-hero h1{font-size:32px}
+  .guide-hero .lead{font-size:17px}
+  .guide-layout{gap:24px}
+  .guide-main{gap:32px}
+  .guide-side{position:static;flex-basis:100%}
+  .guide-main h2{font-size:26px}
+  .guide-main h3{font-size:20px}
+  .photo-ph{min-height:200px}
+  .glance{padding:18px}
+  .glance dl{grid-template-columns:1fr;gap:2px}
+  .glance dd{margin-bottom:8px}
+  table{font-size:15px}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header" id="site-header">
+  <div class="wrap header-row">
+    <a class="logo" href="/">
+      <img src="/images/logo.svg" alt="Once Upon A Park Day" width="196" height="52">
+    </a>
+    <form class="search" role="search" action="#">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3F5873" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <label class="sr-only" for="q">Search guides</label>
+      <input id="q" type="search" name="q" placeholder="Search a resort, ship, or question">
+    </form>
+    <nav class="main-nav" id="main-nav" aria-label="Main">
+      <a href="/resorts/" aria-current="page">Resorts</a>
+      <a href="#">Cruises</a>
+      <a href="#">Planning</a>
+      <a href="#">Deals</a>
+      <a class="btn btn-red" href="/#start">Start here</a>
+    </nav>
+    <div class="header-icons">
+      <button class="icon-btn" type="button" id="search-toggle" aria-label="Search" aria-expanded="false"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+      <button class="icon-btn" type="button" id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-nav"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+  <div class="awning" aria-hidden="true"></div>
+</header>
+
+<main>
+
+<div class="wrap crumbs"><a href="/">Home</a> › <a href="/resorts/">Resorts</a> › Pop Century</div>
+
+<section class="guide-hero" style="margin-top:14px">
+  <div class="wrap">
+    <p class="eyebrow">Walt Disney World · Value resort guide</p>
+    <h1>Disney's Pop Century Resort: rooms, the Skyliner, and <em>what to know before you book.</em></h1>
+    <p class="lead">Every room here is the same size. What you are really choosing is how far you walk, and whether the Skyliner or the bus gets you to the park you want.</p>
+    <div class="guide-meta">
+      <span>By <strong>Ryan Ranahan</strong></span>
+      <span>[X] min read</span>
+    </div>
+    <span class="verified"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Last verified: Nov 2026</span>
+  </div>
+</section>
+
+<div class="wrap section guide-layout">
+<article class="guide-main">
+
+  <div class="placeholder photo-ph">[RYAN'S PHOTO: Pop Century from the Classic Hall entrance or the Skyliner station. Your own photo only, no Disney images.]</div>
+
+  <section class="card glance" id="glance" aria-labelledby="glance-h">
+    <h2 id="glance-h">At a glance</h2>
+    <dl>
+      <dt>Resort type</dt><dd>Value Resort, in Disney's Wide World of Sports Resort Area <a href="#src-1">[1]</a></dd>
+      <dt>Address</dt><dd>1050 Century Drive, Lake Buena Vista, FL 32830 <a href="#src-1">[1]</a></dd>
+      <dt>Size</dt><dd>2,750+ guest rooms per Disney's 2021 trade sheet <a href="#src-8">[8]</a> <span class="verify">[verify current count]</span></dd>
+      <dt>Rooms</dt><dd>One room layout sold in four categories by location and view. Sleeps up to 4 adults. About 260 sq ft <a href="#src-8">[8]</a><a href="#src-11">[11]</a> <span class="verify">[verify]</span></dd>
+      <dt>Beds</dt><dd>1 queen bed and 1 queen-size pull-down bed, or 1 king bed <a href="#src-2">[2]</a></dd>
+      <dt>Getting around</dt><dd>Skyliner gondola to EPCOT and Hollywood Studios; buses to Magic Kingdom, Animal Kingdom, water parks and Disney Springs <a href="#src-1">[1]</a><a href="#src-6">[6]</a></dd>
+      <dt>Food</dt><dd>Everything POP food court and Petals Pool Bar. No table-service restaurant on site <a href="#src-3">[3]</a></dd>
+      <dt>Pools</dt><dd>Three: Hippy Dippy (main pool), Bowling and Computer <a href="#src-1">[1]</a></dd>
+      <dt>Our take</dt><dd><span class="ryan" style="margin:0">[Ryan: one-sentence verdict, e.g. who you'd send here and who you wouldn't]</span></dd>
+    </dl>
+  </section>
+
+  <div class="placeholder" style="min-height:110px">[AD SPACE: wide banner, reserved so the page does not jump when ads load]</div>
+
+  <section id="best-for">
+    <h2>Who Pop Century is best for</h2>
+    <ul>
+      <li><strong>Budget-minded families who want EPCOT and Hollywood Studios days.</strong> It's a Value resort with its own Skyliner station, which it shares with Art of Animation <a href="#src-12">[12]</a>.</li>
+      <li><strong>Two adults with one or two young kids.</strong> The pull-down bed folds up into a table, so the room opens up during the day <a href="#src-11">[11]</a>.</li>
+      <li><strong>Park-all-day travelers</strong> who mostly use the room to sleep and shower.</li>
+    </ul>
+    <h3>Think twice if…</h3>
+    <ul>
+      <li><strong>You're four adults.</strong> At about 260 sq ft with one bathroom, that's roughly 65 sq ft each <span class="verify">[verify size]</span>.</li>
+      <li><strong>The pool or resort dining is the point of your trip.</strong> There's a food court, not a sit-down restaurant <a href="#src-3">[3]</a>, and none of the pools has a hot tub <a href="#src-12">[12]</a>.</li>
+      <li><strong>You want Extended Evening Hours.</strong> Value resort guests don't get them <a href="#src-12">[12]</a>, and on those EPCOT nights the Skyliner route to Pop Century shuts down early <a href="#src-7">[7]</a>.</li>
+      <li><strong>Your trip falls on Jan 24–30, 2027.</strong> The Skyliner is closed for refurbishment then, and buses fill in <a href="#src-7">[7]</a>.</li>
+    </ul>
+    <span class="ryan">[Ryan: who you think this resort is really for, from your own stays. Two or three sentences.]</span>
+  </section>
+
+  <section id="rooms">
+    <h2>Room types, sizes and beds</h2>
+    <p>Pop Century has no suites. Every standard room has the same layout and size. Disney sells it in four categories, and the price difference pays for location and view, not extra space <a href="#src-2">[2]</a><a href="#src-11">[11]</a>. The doors open onto outdoor walkways, so "view" mostly tells you which part of the resort you're in <a href="#src-11">[11]</a>.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Room type</th><th scope="col">Size</th><th scope="col">Sleeps</th><th scope="col">Beds</th><th scope="col">View and location</th><th scope="col">Sq ft per guest</th><th scope="col">Our take</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Standard Room</strong></td><td>About 260 sq ft <span class="verify">[verify]</span></td><td>Up to 4 adults</td><td>1 queen + 1 queen-size pull-down, or 1 king</td><td>Resort buildings or parking areas</td><td>65</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Standard Pool View</strong></td><td>Same room</td><td>Up to 4 adults</td><td>Same options</td><td>Bowling Pool or Computer Pool</td><td>65</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Preferred Room</strong></td><td>Same room</td><td>Up to 4 adults</td><td>Same options</td><td>Courtyard or landscaping. Close to Classic Hall, dining, shopping and transportation</td><td>65</td><td>[Ryan: your take]</td></tr>
+          <tr><td><strong>Preferred Pool View</strong></td><td>Same room</td><td>Up to 4 adults</td><td>Same options</td><td>Hippy Dippy Pool. Close to Classic Hall, dining, shopping and transportation</td><td>65</td><td>[Ryan: your take]</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Categories, views, beds and occupancy are from Disney's room rates page <a href="#src-2">[2]</a>. Disney's live page doesn't list square footage. The 260 sq ft figure comes from Disney's 2021 trade sheet <a href="#src-8">[8]</a> and matches independent 2026 room write-ups <a href="#src-11">[11]</a>. Sq ft per guest is our math: size divided by 4. Disney's 2021 sheet also allowed one extra child under 3 in a crib <a href="#src-8">[8]</a> <span class="verify">[verify still current]</span>.</p>
+
+    <h3>What's in the room</h3>
+    <p>Disney lists a beverage cooler, coffee machine, hairdryer, in-room safe, free Wi-Fi, iron and ironing board, and a phone with voicemail <a href="#src-2">[2]</a>. One independent guide says there's no microwave <a href="#src-11">[11]</a> <span class="verify">[verify]</span>. A soft-goods refresh finished in 2026 and added color: wood-toned floors with a geometric inset, blue accents, new curtains and patterned chairs <a href="#src-9">[9]</a><a href="#src-12">[12]</a>.</p>
+    <p>Accessible rooms exist, but we haven't confirmed their layouts or bed options yet <span class="verify">[verify]</span>.</p>
+    <h3>Which buildings are "Preferred"?</h3>
+    <p>Picture the Magic lists the Preferred buildings as 1, 3, 4, 5, 6 and 10, in the '50s, '60s and '70s sections <a href="#src-11">[11]</a> <span class="verify">[verify with Disney]</span>. If you're driving, a Standard room can actually be closer to your car <a href="#src-11">[11]</a>.</p>
+    <div class="photo-row">
+      <div class="placeholder photo-ph small">[RYAN'S PHOTO: the room with the pull-down bed folded up as a table]</div>
+      <div class="placeholder photo-ph small">[RYAN'S PHOTO: the room at night with both beds down]</div>
+    </div>
+    <span class="ryan">[Ryan: what the room felt like for your party. Was four people workable? Where did the luggage go?]</span>
+  </section>
+
+  <section id="transport">
+    <h2>Getting to the parks</h2>
+    <p>Pop Century has two free options: the Disney Skyliner gondola and Disney buses <a href="#src-1">[1]</a>. The bus stop is outside Classic Hall <a href="#src-5">[5]</a>. The Skyliner station is shared with Art of Animation <a href="#src-12">[12]</a>.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">To</th><th scope="col">How</th><th scope="col">Change?</th><th scope="col">Time in the air or on the road</th><th scope="col">Ease (provisional)</th></tr></thead>
+        <tbody>
+          <tr><td><strong>EPCOT</strong> (International Gateway)</td><td>Skyliner</td><td>Yes, at the Caribbean Beach hub <a href="#src-13">[13]</a></td><td>4–7 min to the hub, then 12–15 min to EPCOT, not counting waits <a href="#src-13">[13]</a></td><td><span class="rate">4</span></td></tr>
+          <tr><td><strong>Hollywood Studios</strong></td><td>Skyliner</td><td>Yes, at the Caribbean Beach hub <a href="#src-13">[13]</a></td><td>4–7 min to the hub, then 5–7 min to the park <a href="#src-13">[13]</a></td><td><span class="rate">4</span></td></tr>
+          <tr><td><strong>Magic Kingdom</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Disney doesn't publish this. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Animal Kingdom</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Disney doesn't publish this. [Ryan: time it]</td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Disney Springs</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published. Buses run until 11 PM from Disney Springs <a href="#src-6">[6]</a></td><td><span class="rate">3</span></td></tr>
+          <tr><td><strong>Water parks</strong></td><td>Bus</td><td>No <span class="verify">[verify]</span></td><td>Not published <a href="#src-6">[6]</a></td><td><span class="rate">3</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note"><strong>How we rate ease:</strong> 5 is door-to-gate with no change and little waiting. 4 is a quick change inside the same system. 3 is a shared bus whose wait we haven't timed yet. These ratings are provisional until we time each trip ourselves.</p>
+
+    <h3>Skyliner vs. bus: the honest version</h3>
+    <ul>
+      <li><strong>Hours:</strong> the Skyliner opens an hour before Early Theme Park Entry at EPCOT or Hollywood Studios and closes 90 minutes after those parks close <a href="#src-7">[7]</a>. Buses and other resort transportation start 45 minutes before park opening and run up to an hour after closing <a href="#src-6">[6]</a>.</li>
+      <li><strong>The EPCOT late-night catch:</strong> on nights when EPCOT has Extended Evening Hours, the Skyliner only runs between EPCOT and the Riviera. The route serving Caribbean Beach, Pop Century and Art of Animation isn't available, so plan on a bus <a href="#src-7">[7]</a>.</li>
+      <li><strong>Weather:</strong> it keeps running in light rain but stops for lightning or high wind <a href="#src-13">[13]</a>. In summer storm season, keep the bus in mind as a backup.</li>
+      <li><strong>Annual closure:</strong> Jan 24–30, 2027, with free buses instead <a href="#src-7">[7]</a>.</li>
+      <li><strong>Art of Animation is next door.</strong> The Generation Gap Bridge links the two resorts. One reviewer took an Art of Animation bus back from Magic Kingdom when it arrived first and walked over <a href="#src-12">[12]</a>.</li>
+    </ul>
+    <span class="ryan">[Ryan: your take on the Skyliner walk. How long from your building to the station, and what was the line like at rope drop?]</span>
+    <span class="ryan">[Ryan: your bus experience to Magic Kingdom and Animal Kingdom, with times and the date you rode.]</span>
+    <div class="placeholder photo-ph small">[RYAN'S PHOTO: the Skyliner station or a gondola leaving Pop Century]</div>
+  </section>
+
+  <section id="dining">
+    <h2>Dining</h2>
+    <ul>
+      <li><strong>Everything POP Shopping &amp; Dining</strong> is the food court in Classic Hall. It serves breakfast, lunch and dinner from quick-service stations <a href="#src-3">[3]</a>. Disney lists 7 stations with food like waffles, pasta, flatbread and salads <a href="#src-1">[1]</a>. A new coffee shop was added in the recent refresh <a href="#src-9">[9]</a>.</li>
+      <li><strong>Petals Pool Bar</strong> at the Hippy Dippy Pool serves cocktails, beer and sangria <a href="#src-3">[3]</a>.</li>
+      <li><strong>Art of Animation's food court</strong>, Landscape of Flavors, is a walk across the bridge <a href="#src-12">[12]</a>.</li>
+      <li>You can use mobile ordering in the My Disney Experience app <a href="#src-1">[1]</a>.</li>
+      <li><strong>Park dining reservations:</strong> Disney resort guests can book their whole stay (up to 10 nights) starting 60 days before arrival <a href="#src-3">[3]</a>.</li>
+    </ul>
+    <p>The tie-dyed cheesecake is the food court's best-known dessert <a href="#src-12">[12]</a> <span class="verify">[verify still on the menu]</span>.</p>
+    <span class="ryan">[Ryan: your go-to order at Everything POP, and one thing you'd skip.]</span>
+  </section>
+
+  <section id="pools">
+    <h2>Pools and things to do</h2>
+    <ul>
+      <li><strong>Hippy Dippy Pool</strong> is the main pool. It's flower-shaped with flower water jets, plus a kiddie area with a pop-jet fountain <a href="#src-1">[1]</a>. It's also the busiest <a href="#src-12">[12]</a>.</li>
+      <li><strong>Bowling Pool</strong> ('50s) and <strong>Computer Pool</strong> ('90s) are smaller and usually quieter <a href="#src-1">[1]</a><a href="#src-12">[12]</a>.</li>
+      <li>24-hour self-service laundry is near all three pools <a href="#src-5">[5]</a>.</li>
+      <li>Also on site: campfires, Movie Under the Stars on select nights, a one-mile jogging trail, a playground in the '70s section, and Fast Forward Arcade in Classic Hall. Fishing isn't allowed on Hourglass Lake <a href="#src-4">[4]</a>.</li>
+    </ul>
+    <div class="placeholder photo-ph small">[RYAN'S PHOTO: Hippy Dippy Pool or one of the quieter pools]</div>
+    <span class="ryan">[Ryan: which pool your family actually used and why.]</span>
+  </section>
+
+  <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+
+  <section id="pros-cons">
+    <h2>Pros and cons</h2>
+    <div class="procon">
+      <div class="card">
+        <h3>Pros</h3>
+        <ul>
+          <li>Skyliner access to two parks at a Value price <a href="#src-1">[1]</a></li>
+          <li>Pull-down bed frees up floor space during the day <a href="#src-11">[11]</a></li>
+          <li>Rooms refreshed in 2026 <a href="#src-9">[9]</a></li>
+          <li>Walkable to Art of Animation's food and buses <a href="#src-12">[12]</a></li>
+          <li>[Ryan: one pro from your own stay]</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Cons</h3>
+        <ul>
+          <li>About 260 sq ft and one bathroom for up to four adults <span class="verify">[verify size]</span></li>
+          <li>Food court only, no table-service restaurant <a href="#src-3">[3]</a></li>
+          <li>Magic Kingdom and Animal Kingdom are bus-only <a href="#src-6">[6]</a></li>
+          <li>Skyliner route closes early on EPCOT Extended Evening Hours nights <a href="#src-7">[7]</a></li>
+          <li>[Ryan: one con from your own stay]</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Booking and value tips</h2>
+    <ul>
+      <li><strong>Book the cheapest category if you don't mind walking.</strong> All four categories are the same room <a href="#src-11">[11]</a>. In 2026, a Standard Room ran from $213 to $404 a night at full price including tax, depending on dates. Preferred Pool View ran up to $459 <a href="#src-10">[10]</a>.</li>
+      <li><strong>Extra adults cost more.</strong> Rates assume two adults. Each extra adult adds $15 a night plus tax, and kids under 18 are free <a href="#src-10">[10]</a>.</li>
+      <li><strong>Check Disney's own offers page first.</strong> Disney points to <a href="https://disneyworld.disney.go.com/special-offers/">its special offers page</a> for Pop Century discounts <a href="#src-9">[9]</a>. Our deals hub will track current ones.</li>
+      <li><strong>Avoid Jan 24–30, 2027</strong> if the Skyliner is why you're picking Pop Century <a href="#src-7">[7]</a>.</li>
+      <li><strong>Lightning Lane head start:</strong> Disney resort guests can buy Lightning Lane passes up to 7 days before their stay <a href="#src-1">[1]</a>.</li>
+    </ul>
+    <div class="callout">
+      <h3>Rates change</h3>
+      <p style="margin:0">The rate range above is MouseSavers' October 2026 snapshot of Disney's full prices, not a deal <a href="#src-10">[10]</a>. Always check the live price on Disney's site before you book.</p>
+    </div>
+    <span class="ryan">[Ryan: your own booking tip, e.g. when you booked and what you paid.]</span>
+  </section>
+
+  <section id="changes">
+    <h2>What's changed recently</h2>
+    <ul>
+      <li><strong>2026:</strong> room refresh, new lobby, refreshed Petals Pool Bar and a new coffee shop at Everything POP <a href="#src-9">[9]</a><a href="#src-12">[12]</a>.</li>
+      <li><strong>Jan 24–30, 2027:</strong> Skyliner closed for refurbishment, with buses instead <a href="#src-7">[7]</a>.</li>
+      <li>Disney's resort page still shows a "construction and refurbishment" notice <a href="#src-1">[1]</a>, but we couldn't open the details <span class="verify">[verify what's still under way]</span>.</li>
+    </ul>
+  </section>
+
+  <section class="sources" id="sources">
+    <h2>Sources</h2>
+    <p class="note">All sources checked Nov 22, 2026.</p>
+    <ol>
+      <li id="src-1"><a href="https://disneyworld.disney.go.com/resorts/pop-century-resort/">Disney's Pop Century Resort overview</a> <small>Walt Disney World official site</small></li>
+      <li id="src-2"><a href="https://disneyworld.disney.go.com/resorts/pop-century-resort/rates-rooms/">Room rates and room types at Disney's Pop Century Resort</a> <small>Walt Disney World official site</small></li>
+      <li id="src-3"><a href="https://disneyworld.disney.go.com/resorts/pop-century-resort/dining/">Pop Century dining</a> <small>Walt Disney World official site</small></li>
+      <li id="src-4"><a href="https://disneyworld.disney.go.com/resorts/pop-century-resort/recreation/">Pop Century recreation</a> <small>Walt Disney World official site</small></li>
+      <li id="src-5"><a href="https://disneyworld.disney.go.com/resorts/pop-century-resort/amenities/">Pop Century amenities</a> <small>Walt Disney World official site</small></li>
+      <li id="src-6"><a href="https://disneyworld.disney.go.com/guest-services/resort-transportation/">Resort transportation</a> <small>Walt Disney World official site</small></li>
+      <li id="src-7"><a href="https://disneyworld.disney.go.com/attractions/disney-skyliner/">Disney Skyliner: hours, routes and 2027 closure</a> <small>Walt Disney World official site</small></li>
+      <li id="src-8"><a href="https://media.disneywebcontent.com/StaticFiles/DTA-Domestic/pdf/ResortOverview/PopCentury.pdf">Disney's Pop Century Resort overview (PDF)</a> <small>Disney travel trade sheet, 2021. Older, used for room size and count only</small></li>
+      <li id="src-9"><a href="https://disneyparksblog.com/wdw/new-rooms-and-lobby-at-pop-century-resort/">New Rooms and Lobby at Pop Century Resort</a> <small>Disney Parks Blog, Mar 16, 2026</small></li>
+      <li id="src-10"><a href="https://www.mousesavers.com/2026-pop-century-room-rates-season-dates/">2026 Pop Century room rates and season dates</a> <small>MouseSavers, updated Oct 2026</small></li>
+      <li id="src-11"><a href="https://www.picturethemagic.com/pop-century-rooms/">Pop Century rooms: best buildings, views, and what to book</a> <small>Picture the Magic</small></li>
+      <li id="src-12"><a href="https://www.disneytouristblog.com/pop-century-review/">Disney's Pop Century Resort review</a> <small>Disney Tourist Blog, Jun 12, 2026</small></li>
+      <li id="src-13"><a href="https://whistlewhileyouwork.com/guides/disney-skyliner-guide/">Disney Skyliner: map, stations, hours and rain closures</a> <small>Whistle While You Work, ride times checked Nov 17, 2026</small></li>
+    </ol>
+    <p class="note">Last verified: Nov 2026 · Researched and written by Ryan Ranahan · Next review: [DATE] · Spot an error? [CORRECTIONS CONTACT]</p>
+  </section>
+
+  <aside class="card disclaimer">
+    <strong>Not affiliated with Disney.</strong> Once Upon A Park Day is an independent guide. It is not affiliated with, endorsed by, or sponsored by The Walt Disney Company. Resort, attraction and company names are used only to identify them. Prices, hours and policies change; check Disney's official site before you book.
+  </aside>
+
+</article>
+
+<aside class="guide-side">
+  <nav class="card toc" aria-label="On this page">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#glance">At a glance</a></li>
+      <li><a href="#best-for">Who it's best for</a></li>
+      <li><a href="#rooms">Rooms and sizes</a></li>
+      <li><a href="#transport">Getting to the parks</a></li>
+      <li><a href="#dining">Dining</a></li>
+      <li><a href="#pools">Pools and things to do</a></li>
+      <li><a href="#pros-cons">Pros and cons</a></li>
+      <li><a href="#booking">Booking tips</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ol>
+  </nav>
+  <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+</aside>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-top">
+      <img src="/images/logo-light.svg" alt="Once Upon A Park Day" width="240" height="64">
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Affiliate disclosure</a>
+      </nav>
+    </div>
+    <p>Once Upon A Park Day is an independent site. It is not affiliated with, endorsed by, or sponsored by The Walt Disney Company. Some links are affiliate links, which means we may earn a commission at no extra cost to you.</p>
+  </div>
+</footer>
+
+<nav class="tabbar" aria-label="Quick navigation">
+  <a href="/"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg>Home</a>
+  <a href="/resorts/" aria-current="page"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M5 20V9l7-5 7 5v11M10 20v-6h4v6"/></svg>Resorts</a>
+  <a href="#"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15h18l-2 5H5zM6 15V9h12v6M10 9V5h4v4"/></svg>Cruises</a>
+  <a href="#"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l8-8h8v8l-8 8z"/><circle cx="15.5" cy="8.5" r="1.5"/></svg>Deals</a>
+</nav>
+
+<script>
+(function () {
+  var header = document.getElementById('site-header');
+  var menuBtn = document.getElementById('menu-toggle');
+  var searchBtn = document.getElementById('search-toggle');
+  menuBtn.addEventListener('click', function () {
+    var open = header.classList.toggle('open');
+    header.classList.remove('search-open');
+    menuBtn.setAttribute('aria-expanded', open);
+    searchBtn.setAttribute('aria-expanded', false);
+  });
+  searchBtn.addEventListener('click', function () {
+    var open = header.classList.toggle('search-open');
+    header.classList.remove('open');
+    searchBtn.setAttribute('aria-expanded', open);
+    menuBtn.setAttribute('aria-expanded', false);
+    if (open) { document.getElementById('q').focus(); }
+  });
+})();
+</script>
+</body>
+</html>
