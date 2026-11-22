@@ -272,3 +272,6 @@ td.todo,th.todo{border-radius:0;border-left:0;padding:12px 14px}
 .resort-card.has-photo{padding-top:0;overflow:hidden}
 .resort-card.has-photo img{margin:0 -22px 10px;width:calc(100% + 44px);max-width:none;height:150px;object-fit:cover}
 @media (max-width:820px){.hero-img{flex-basis:100%;max-width:none;box-shadow:0 8px 0 var(--red)}}
+.hero-soon{flex:1 1 360px;min-width:0;max-width:540px}
+.soon-img{display:block;width:100%;height:auto;border-radius:22px;box-shadow:0 12px 0 var(--red)}
+@media (max-width:820px){.hero-soon{flex-basis:100%;max-width:none}.soon-img{box-shadow:0 8px 0 var(--red)}}

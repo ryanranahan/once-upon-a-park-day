@@ -20,7 +20,8 @@ eleventyComputed:
       <p class="lead">{{ resort.theme }}</p>
       <p class="byline">By [YOUR NAME] · Facts last checked [DATE]</p>
     </div>
-    <div class="placeholder hero-photo">[YOUR PHOTO OF {{ resort.short | upper }}]</div>
+    {% set label = resort.short %}
+    <div class="hero-soon">{% include "coming-soon.njk" %}</div>
   </div>
 </section>
 
