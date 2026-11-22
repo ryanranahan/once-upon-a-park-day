@@ -136,6 +136,5 @@ eleventyComputed:
       <h2>Other ships</h2>
       <ul>{% for s in ships %}{% if s.slug != ship.slug %}<li><a href="/cruises/{{ s.slug }}/">{{ s.name }}</a> <small>{{ s.cls }}</small></li>{% endif %}{% endfor %}</ul>
     </div>
-    <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
   </aside>
 </div>

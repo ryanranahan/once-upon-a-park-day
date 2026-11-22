@@ -99,7 +99,7 @@ Anything in [BRACKETS] needs real content from Ryan: his name, number of resorts
 - Do not invent prices, statistics, or deal details. Research current facts and show a "last updated" date on every guide.
 - Guides should draw on Ryan's first-hand experience; interview him for each one.
 - Design for phones first. Keep tap targets at least 44px and text contrast at accessible levels.
-- Reserve space for ads so the page does not shift when they load.
+- Ad spaces were removed in November 2026 at Ryan's request. When ads are added back, reserve space for them so the page does not shift when they load.
 
 ## Suggested next steps
 
