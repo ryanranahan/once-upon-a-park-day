@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Value",
+    "slug": "value",
+    "blurb": "The lowest-priced Disney-owned hotels. Big, brightly themed resorts with food courts instead of table-service restaurants, and buses or the Skyliner to the parks."
+  },
+  {
+    "name": "Moderate",
+    "slug": "moderate",
+    "blurb": "A step up in theming, pools and dining, with more spread-out, quieter grounds. A middle ground between Value and Deluxe."
+  },
+  {
+    "name": "Deluxe",
+    "slug": "deluxe",
+    "blurb": "The best locations, closest to the parks, with the most restaurants, the biggest pools and more ways to get around without a bus."
+  },
+  {
+    "name": "Deluxe Villa",
+    "slug": "deluxe-villa",
+    "plural": "Deluxe Villas",
+    "blurb": "Disney Vacation Club resorts. You do not need to be a member to stay. Villas range from studios with a kitchenette to multi-bedroom villas with a full kitchen, which suits bigger families and longer stays."
+  },
+  {
+    "name": "Campground",
+    "slug": "campground",
+    "blurb": "Bring a tent or RV and stay in the woods, with a boat to Magic Kingdom."
+  }
+]

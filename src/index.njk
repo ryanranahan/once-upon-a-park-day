@@ -1,0 +1,127 @@
+---
+layout: layouts/base.njk
+section: home
+---
+
+
+<section class="hero">
+  <div class="wrap hero-row">
+    <div class="hero-copy">
+      <p class="eyebrow">First trip? You are in the right place</p>
+      <h1>Find the Disney resort or cruise that <em>fits your family.</em></h1>
+      <p class="lead">Answer three questions and get a short list, with plain-English guides for each pick.</p>
+      <a class="btn btn-outline-light" href="#">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M8 5v14l11-7z"/></svg>
+        Watch the 60-second intro
+      </a>
+      <p class="byline">Written by [YOUR NAME], who has stayed at [NUMBER] Disney resorts.</p>
+    </div>
+    <form class="finder" id="finder">
+      <h2>Resort finder</h2>
+      <div class="field">
+        <label for="f-who">Who is going?</label>
+        <select id="f-who"><option>Family with young kids</option><option>Family with teens</option><option>Adults only</option><option>Big group</option></select>
+      </div>
+      <div class="field">
+        <label for="f-budget">What is your budget?</label>
+        <select id="f-budget"><option>Keeping it low</option><option>Middle of the road</option><option>Ready to splurge</option></select>
+      </div>
+      <div class="field">
+        <label for="f-matters">What matters most?</label>
+        <select id="f-matters"><option>Close to the parks</option><option>A great pool</option><option>Quiet and relaxing</option><option>Easy transportation</option></select>
+      </div>
+      <button class="btn btn-yellow" type="submit">Show my matches</button>
+      <p class="finder-note" id="finder-note" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<section class="section wrap">
+  <h2>Stuck between two options?</h2>
+  <div class="grid-3 scroller">
+    <a class="card compare" href="#"><span><span class="eyebrow">Resorts</span><strong>Value vs. Moderate resorts</strong></span><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#EE7B6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a class="card compare" href="#"><span><span class="eyebrow">Trip type</span><strong>Parks trip vs. Disney cruise</strong></span><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#EE7B6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a class="card compare" href="#"><span><span class="eyebrow">Cruises</span><strong>Inside vs. verandah stateroom</strong></span><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#EE7B6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</section>
+
+<section class="section wrap" id="start">
+  <h2>New here? Three reads, in order.</h2>
+  <ol class="steps grid-3">
+    <li class="card step"><span class="step-num">1</span><div><a href="#">Pick your kind of trip</a><p>Parks, a cruise, or both, and who each suits.</p><small>[X] min read</small></div></li>
+    <li class="card step"><span class="step-num">2</span><div><a href="/resorts/">Choose where to stay</a><p>Resort tiers and staterooms, explained simply.</p><small>[X] min read</small></div></li>
+    <li class="card step"><span class="step-num">3</span><div><a href="#">Set a budget and book</a><p>Real costs, when to book, where to save.</p><small>[X] min read</small></div></li>
+  </ol>
+</section>
+
+<section class="section wrap">
+  <h2>Browse by topic</h2>
+  <div class="grid-4">
+    <a class="card topic" href="/resorts/"><img src="/images/resort-day.svg" alt="Illustration of a resort hotel with a pool" width="800" height="500"><span>Resort hotels</span><small>{{ resorts.length }} resort guides</small></a>
+    <a class="card topic" href="#"><img src="/images/cruise-ship.svg" alt="Illustration of a cruise ship at sea" width="800" height="500"><span>Disney Cruise Line</span><small>[NUMBER] guides</small></a>
+    <a class="card topic" href="#"><img src="/images/planning-table.svg" alt="Illustration of a map, compass, and notebook" width="800" height="500"><span>Planning and budgeting</span><small>[NUMBER] guides</small></a>
+    <a class="card topic" href="#"><img src="/images/fireworks-night.svg" alt="Illustration of fireworks over a park at night" width="800" height="500"><span>Deals and news</span><small>Updated [DATE]</small></a>
+  </div>
+</section>
+
+<div class="wrap" style="padding-top:40px">
+  <div class="placeholder" style="min-height:110px">[AD SPACE: wide banner, reserved so the page does not jump when ads load]</div>
+</div>
+
+<section class="section wrap latest-row">
+  <div class="latest-main">
+    <h2 style="margin-bottom:4px">Latest guides</h2>
+    <article class="card post">
+      <img src="/images/resort-day.svg" alt="" width="170" height="120" loading="lazy">
+      <div><span class="eyebrow">Resorts</span><h3><a href="#">Value, Moderate, or Deluxe: how the resort tiers differ</a></h3><p class="meta">Updated [DATE] · [X] min read</p></div>
+    </article>
+    <article class="card post">
+      <img src="/images/cruise-ship.svg" alt="" width="170" height="120" loading="lazy">
+      <div><span class="eyebrow">Cruises</span><h3><a href="#">Your first Disney cruise: what is included and what costs extra</a></h3><p class="meta">Updated [DATE] · [X] min read</p></div>
+    </article>
+    <article class="card post">
+      <img src="/images/planning-table.svg" alt="" width="170" height="120" loading="lazy">
+      <div><span class="eyebrow">Planning</span><h3><a href="#">When to book: a first-timer's planning timeline</a></h3><p class="meta">Updated [DATE] · [X] min read</p></div>
+    </article>
+    <a class="btn btn-outline-dark" href="/blog/">See the blog</a>
+  </div>
+  <aside class="latest-side">
+    <div class="deal">
+      <span class="eyebrow">Deal of the moment</span>
+      <h3>[CURRENT DEAL HEADLINE]</h3>
+      <p>[WHO IT IS FOR AND TRAVEL DATES]</p>
+      <a class="btn btn-red" href="#" rel="sponsored">See the deal</a>
+      <small>Affiliate link. We may earn a commission.</small>
+    </div>
+    <div class="placeholder" style="min-height:250px">[AD SPACE]</div>
+  </aside>
+</section>
+
+<section class="section wrap">
+  <div class="card about">
+    <div class="placeholder photo">[YOUR PHOTO]</div>
+    <div>
+      <h2>Hi, I am [YOUR NAME].</h2>
+      <p>[TWO SENTENCES ABOUT YOUR DISNEY EXPERIENCE AND WHY YOU STARTED THIS SITE]</p>
+      <p>Every guide shows the date it was last checked, so you know the details are current.</p>
+      <a href="#" style="font-weight:700;padding:10px 0">How we research our guides</a>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="signup">
+    <div>
+      <h2>Get the first-timer checklist</h2>
+      <p>One email with the planning checklist, then new guides as they are published.</p>
+    </div>
+    <form action="#" id="signup-form">
+      <div class="field">
+        <label for="email">Email address</label>
+        <input id="email" type="email" name="email" placeholder="you@example.com" autocomplete="email">
+      </div>
+      <button class="btn btn-yellow" type="submit">Send it to me</button>
+    </form>
+  </div>
+</section>
+
