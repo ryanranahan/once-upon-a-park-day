@@ -47,9 +47,6 @@
     <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/</loc>
   </url>
   <url>
-    <loc>https://once-upon-a-park-day.pages.dev/</loc>
-  </url>
-  <url>
     <loc>https://once-upon-a-park-day.pages.dev/resorts/all-star-movies/</loc>
   </url>
   <url>
@@ -186,5 +183,8 @@
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/endless-summer-dockside/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/</loc>
   </url>
 </urlset>
