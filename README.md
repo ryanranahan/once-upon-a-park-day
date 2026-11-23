@@ -29,11 +29,13 @@ The site uses [Eleventy](https://www.11ty.dev/), which turns templates and Markd
 
 **Run it locally:** `npm install`, then `npm start` and open http://localhost:8080.
 
-## Coming soon splash page
+## Coming soon splash page (real domain only)
 
-While `comingSoon` is `true` in `src/_data/site.json`, visitors to the homepage (`/`) see the "something magical is coming soon" splash page (`src/splash.njk`). The full homepage still builds at `/home/` (hidden from search engines), and every other page works as normal; the header logo and Home links point to `/home/`.
+While `comingSoon` is `true` in `src/_data/site.json`, people who visit the homepage of the real domain (`onceuponaparkday.com`, set as `domain` in the same file) see the "something magical is coming soon" splash page (`src/splash.njk`). The pages.dev address and branch previews keep the full homepage, so work and review carry on as normal. Every other page works on both addresses.
 
-**To launch:** set `comingSoon` to `false`, run `npm run build`, and commit. The full homepage moves back to `/` and the splash page disappears.
+How it works: the splash builds to `/coming-soon/`, and `functions/index.js` (a Cloudflare Pages Function that runs only for `/`) shows it when the visitor's address is the real domain. To check it on a preview, add `?splash` to the homepage address.
+
+**To launch:** set `comingSoon` to `false`, run `npm run build`, and commit. The real domain then shows the full homepage.
 
 ## Search engines and AI assistants
 

@@ -9,289 +9,279 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+
   gtag('config', 'G-QR7PQJGKXN');
 </script>
-<title>Once Upon A Park Day: something magical is coming soon</title>
-<meta name="description" content="Once Upon A Park Day is almost here. Plain-English guides to Disney and Universal Resort hotels, Disney Cruise Line ships and first-trip planning, written by Ryan.">
+<title>Once Upon A Park Day: Disney resort and cruise guides for first-timers</title>
+<meta name="description" content="Plain-English guides to Disney and Universal resort hotels, Disney Cruise Line ships, and trip planning for first-time visitors.">
 <link rel="canonical" href="https://once-upon-a-park-day.pages.dev/">
 <meta property="og:site_name" content="Once Upon A Park Day">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Once Upon A Park Day: something magical is coming soon">
-<meta property="og:description" content="Once Upon A Park Day is almost here. Plain-English guides to Disney and Universal Resort hotels, Disney Cruise Line ships and first-trip planning, written by Ryan.">
+<meta property="og:title" content="Once Upon A Park Day">
+<meta property="og:description" content="Plain-English guides to Disney and Universal resort hotels, Disney Cruise Line ships, and trip planning for first-time visitors.">
 <meta property="og:url" content="https://once-upon-a-park-day.pages.dev/">
 <meta property="og:image" content="https://once-upon-a-park-day.pages.dev/images/og-default.png">
+<meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <meta name="theme-color" content="#16294F">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;600;700&display=swap">
-<style>
-  :root {
-    --navy: #16294F; --navy-deep: #0C1A36; --navy-soft: #24407A;
-    --coral: #EE7B6F; --gold: #C9A24A; --gold-soft: #F6ECD3;
-    --cream: #FBF8F3; --muted: #4A5570; --link: #B8483C;
-    --display: "Playfair Display", Georgia, serif;
-    --body: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
-  }
-  * { box-sizing: border-box; }
-  html, body { margin: 0; min-height: 100%; }
-  body {
-    min-height: 100vh; min-height: 100svh;
-    background: radial-gradient(120% 80% at 50% 0%, #2A4A86 0%, var(--navy) 45%, var(--navy-deep) 100%);
-    background-color: var(--navy);
-    color: #fff; font-family: var(--body); line-height: 1.55;
-    overflow-x: hidden; display: flex; flex-direction: column;
-  }
-  .awning {
-    height: 14px; flex: none; position: relative; z-index: 3;
-    background: repeating-linear-gradient(90deg, var(--coral) 0 28px, #fff 28px 56px, var(--gold) 56px 84px, #fff 84px 112px);
-  }
-  .awning::after {
-    content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 10px;
-    background: radial-gradient(circle at 14px 0, var(--coral) 9px, transparent 10px) 0 0 / 56px 10px repeat-x,
-                radial-gradient(circle at 14px 0, var(--gold) 9px, transparent 10px) 28px 0 / 56px 10px repeat-x;
-  }
-  #sky { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 0; cursor: crosshair; }
-  .page {
-    position: relative; z-index: 2; flex: 1; width: 100%; max-width: 760px; margin: 0 auto;
-    padding: 44px 20px 0; text-align: center; pointer-events: none;
-    display: flex; flex-direction: column; align-items: center;
-  }
-  .page a, .page button, .book { pointer-events: auto; }
-  .logo { width: min(300px, 78vw); height: auto; display: block; margin: 0 auto 34px; filter: drop-shadow(0 4px 18px rgba(0,0,0,.35)); }
-  .sparkle { width: 46px; height: 46px; display: block; margin: 0 auto 14px; animation: spin 9s linear infinite, glow 2.6s ease-in-out infinite; }
-  @keyframes spin { to { transform: rotate(360deg); } }
-  @keyframes glow { 50% { filter: drop-shadow(0 0 12px rgba(201,162,74,.9)); } }
-  .eyebrow { margin: 0 0 10px; color: var(--gold); font-weight: 700; font-size: .82rem; letter-spacing: .2em; text-transform: uppercase; }
-  h1 {
-    margin: 0 0 18px; font-family: var(--display); font-weight: 700;
-    font-size: clamp(2.3rem, 7vw, 4.1rem); line-height: 1.08; letter-spacing: -.01em;
-    text-shadow: 0 4px 30px rgba(0,0,0,.35);
-  }
-  h1 em { font-style: italic; font-weight: 600; color: var(--coral); white-space: nowrap; }
-  .lead { margin: 0 auto 34px; max-width: 34em; font-size: 1.12rem; color: rgba(255,255,255,.86); }
-  .lead strong { color: #fff; }
-
-  /* Storybook "table of contents" card */
-  .book {
-    position: relative; width: 100%; max-width: 520px; margin: 0 auto 26px; text-align: left;
-    background: var(--cream); color: var(--navy); border-radius: 22px; padding: 26px 26px 22px;
-    box-shadow: 10px 10px 0 var(--coral), 0 24px 60px rgba(0,0,0,.35);
-    transform: rotate(-1deg);
-  }
-  .book::before {
-    content: ""; position: absolute; inset: 9px; border: 1.5px dashed #E8DFD0; border-radius: 16px; pointer-events: none;
-  }
-  .book h2 { margin: 0 0 4px; font-family: var(--display); font-size: 1.35rem; font-weight: 700; text-align: center; }
-  .book .sub { margin: 0 0 16px; text-align: center; color: var(--link); font-size: .74rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
-  .toc { list-style: none; margin: 0; padding: 0; }
-  .toc li { display: grid; grid-template-columns: auto 1fr auto; align-items: baseline; gap: 10px; padding: 9px 0; }
-  .toc li + li { border-top: 1px solid #EFE7DA; }
-  .toc .ch { font-family: var(--display); font-weight: 700; color: var(--gold); font-size: 1.05rem; min-width: 1.6em; }
-  .toc .t { font-weight: 700; display: block; }
-  .toc .d { display: block; color: var(--muted); font-size: .9rem; line-height: 1.4; }
-  .toc .st {
-    font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap;
-    color: var(--navy); background: var(--gold-soft); border-radius: 999px; padding: 3px 10px;
-  }
-  .hint { margin: 10px 0 0; color: rgba(255,255,255,.72); font-size: .95rem; }
-  .hint b { color: var(--gold); font-weight: 700; }
-  .wishes { min-height: 1.6em; margin: 4px 0 0; color: var(--gold-soft); font-family: var(--display); font-style: italic; font-size: 1.05rem; opacity: 0; transition: opacity .4s; }
-  .wishes.on { opacity: 1; }
-
-  .hills { position: relative; z-index: 1; width: 100%; height: 120px; margin-top: 26px; flex: none; pointer-events: none; }
-  .hills svg { position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; }
-  footer {
-    position: relative; z-index: 2; flex: none; background: var(--navy-deep);
-    color: rgba(255,255,255,.62); font-size: .8rem; text-align: center; padding: 6px 20px 22px;
-  }
-  footer p { max-width: 640px; margin: 0 auto; }
-  footer .sig { font-family: var(--display); font-style: italic; color: rgba(255,255,255,.85); font-size: 1rem; margin-bottom: 8px; }
-
-  .fade { opacity: 0; transform: translateY(14px); animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
-  .d1 { animation-delay: .1s } .d2 { animation-delay: .35s } .d3 { animation-delay: .6s } .d4 { animation-delay: .85s } .d5 { animation-delay: 1.1s }
-  .book.fade { transform: translateY(14px) rotate(-1deg); }
-  @keyframes rise { to { opacity: 1; transform: none; } }
-  .book.fade { animation-name: rise-book; }
-  @keyframes rise-book { to { opacity: 1; transform: rotate(-1deg); } }
-
-  @media (max-width: 520px) {
-    .page { padding-top: 34px; }
-    .logo { margin-bottom: 26px; }
-    .book { padding: 22px 18px 18px; box-shadow: 7px 7px 0 var(--coral), 0 20px 50px rgba(0,0,0,.35); }
-    .toc li { grid-template-columns: auto 1fr; }
-    .toc .st { grid-column: 2; justify-self: start; margin-top: 4px; }
-    .hills { height: 90px; }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .sparkle { animation: none; }
-    .fade, .book.fade { animation: none; opacity: 1; transform: none; }
-    .book.fade { transform: rotate(-1deg); }
-  }
-</style>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap"></noscript>
+<link rel="stylesheet" href="/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://once-upon-a-park-day.pages.dev/#organization","name":"Once Upon A Park Day","url":"https://once-upon-a-park-day.pages.dev/","logo":{"@type":"ImageObject","url":"https://once-upon-a-park-day.pages.dev/images/logo-full.png"},"description":"Plain-English guides to Disney and Universal resort hotels, Disney Cruise Line ships, and trip planning for first-time visitors."},{"@type":"WebSite","@id":"https://once-upon-a-park-day.pages.dev/#website","name":"Once Upon A Park Day","url":"https://once-upon-a-park-day.pages.dev/","description":"Plain-English guides to Disney and Universal resort hotels, Disney Cruise Line ships, and trip planning for first-time visitors.","publisher":{"@id":"https://once-upon-a-park-day.pages.dev/#organization"},"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://once-upon-a-park-day.pages.dev/","url":"https://once-upon-a-park-day.pages.dev/","name":"Once Upon A Park Day","description":"Plain-English guides to Disney and Universal resort hotels, Disney Cruise Line ships, and trip planning for first-time visitors.","isPartOf":{"@id":"https://once-upon-a-park-day.pages.dev/#website"},"inLanguage":"en-US"}]}</script>
 </head>
 <body>
-<div class="awning" aria-hidden="true"></div>
-<canvas id="sky" aria-hidden="true"></canvas>
 
-<main class="page">
-  <img class="logo fade d1" src="/images/logo-light.svg" alt="Once Upon A Park Day" width="918" height="245">
 
-  <svg class="sparkle fade d2" viewBox="0 0 48 48" aria-hidden="true"><path fill="#C9A24A" d="M24 2c1.6 10.4 5.6 14.4 16 16-10.4 1.6-14.4 5.6-16 16-1.6-10.4-5.6-14.4-16-16 10.4-1.6 14.4-5.6 16-16z"/><path fill="#F6ECD3" d="M38 30c.7 4.3 2.3 6 6.6 6.6-4.3.7-6 2.3-6.6 6.6-.7-4.3-2.3-6-6.6-6.6 4.3-.7 6-2.3 6.6-6.6z"/></svg>
-  <p class="eyebrow fade d2">Chapter one is almost written</p>
-  <h1 class="fade d3">Something magical is <em>coming soon.</em></h1>
-  <p class="lead fade d3">A friendly, plain-English guide to <strong>Disney and Universal Resort hotels</strong>, <strong>Disney Cruise Line ships</strong> and planning your very first trip, written from real stays and real sailings.</p>
-
-  <section class="book fade d4" aria-labelledby="toc-title">
-    <h2 id="toc-title">Coming in chapter one</h2>
-    <p class="sub">The table of contents</p>
-    <ol class="toc">
-      <li><span class="ch">I</span><span><span class="t">Resort hotel guides</span><span class="d">Walt Disney World, Disneyland and Universal Orlando, room by room.</span></span><span class="st">Polishing</span></li>
-      <li><span class="ch">II</span><span><span class="t">Disney Cruise Line ships</span><span class="d">Every ship side by side, so you can pick the right one.</span></span><span class="st">Setting sail</span></li>
-      <li><span class="ch">III</span><span><span class="t">First-trip planning</span><span class="d">Budgets, timing and tips, with no insider jargon.</span></span><span class="st">Packing</span></li>
-    </ol>
-  </section>
-
-  <p class="hint fade d5" id="hint">Tap anywhere in the night sky to <b>make a wish</b>.</p>
-  <p class="wishes" id="wishes" aria-live="polite"></p>
-</main>
-
-<div class="hills" aria-hidden="true">
-  <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
-    <path fill="#1B3263" d="M0 70 C180 30 320 30 480 62 S800 96 980 58 1280 20 1440 50 V120 H0z"/>
-    <path fill="#12244A" d="M0 92 C200 62 380 70 560 90 S920 112 1100 84 1340 66 1440 80 V120 H0z"/>
-    <path fill="#0C1A36" d="M0 108 C260 94 520 100 760 110 S1200 118 1440 104 V120 H0z"/>
-  </svg>
+<header class="site-header" id="site-header">
+  <div class="wrap header-row">
+    <a class="logo" href="/">
+      <img src="/images/logo.svg" alt="Once Upon A Park Day" width="196" height="52">
+    </a>
+    <form class="search" role="search" action="#">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3F5873" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <label class="sr-only" for="q">Search guides</label>
+      <input id="q" type="search" name="q" placeholder="Search a resort, ship, or question">
+    </form>
+    <nav class="main-nav" id="main-nav" aria-label="Main">
+      <div class="nav-drop" id="resorts-drop">
+  <button type="button" class="nav-drop-btn" id="resorts-btn" aria-expanded="false" aria-controls="resorts-menu">Resorts <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
+  <div class="mega" id="resorts-menu">
+    <div class="wrap mega-row">
+      <div class="mega-col mega-wdw">
+        <a class="mega-head" href="/resorts/">Walt Disney World <span aria-hidden="true">›</span></a>
+        <div class="mega-list">
+          <div class="mega-group"><p class="mega-tier">Value</p><ul><li><a href="/resorts/all-star-movies/">All-Star Movies</a></li><li><a href="/resorts/all-star-music/">All-Star Music</a></li><li><a href="/resorts/all-star-sports/">All-Star Sports</a></li><li><a href="/resorts/pop-century/">Pop Century</a></li><li><a href="/resorts/art-of-animation/">Art of Animation</a></li></ul></div>
+          <div class="mega-group"><p class="mega-tier">Moderate</p><ul><li><a href="/resorts/caribbean-beach/">Caribbean Beach</a></li><li><a href="/resorts/coronado-springs/">Coronado Springs</a></li><li><a href="/resorts/port-orleans-french-quarter/">Port Orleans French Quarter</a></li><li><a href="/resorts/port-orleans-riverside/">Port Orleans Riverside</a></li></ul></div>
+          <div class="mega-group"><p class="mega-tier">Deluxe</p><ul><li><a href="/resorts/animal-kingdom-lodge/">Animal Kingdom Lodge</a></li><li><a href="/resorts/beach-club/">Beach Club</a></li><li><a href="/resorts/boardwalk-inn/">BoardWalk Inn</a></li><li><a href="/resorts/contemporary/">Contemporary</a></li><li><a href="/resorts/grand-floridian/">Grand Floridian</a></li><li><a href="/resorts/polynesian-village/">Polynesian Village</a></li><li><a href="/resorts/wilderness-lodge/">Wilderness Lodge</a></li><li><a href="/resorts/yacht-club/">Yacht Club</a></li></ul></div>
+          <div class="mega-group"><p class="mega-tier">Deluxe Villas</p><ul><li><a href="/resorts/bay-lake-tower/">Bay Lake Tower</a></li><li><a href="/resorts/boulder-ridge-villas/">Boulder Ridge Villas</a></li><li><a href="/resorts/copper-creek-villas/">Copper Creek Villas &amp; Cabins</a></li><li><a href="/resorts/old-key-west/">Old Key West</a></li><li><a href="/resorts/saratoga-springs/">Saratoga Springs</a></li><li><a href="/resorts/riviera/">Riviera</a></li><li><a href="/resorts/polynesian-villas/">Polynesian Villas &amp; Bungalows</a></li><li><a href="/resorts/island-tower/">Island Tower</a></li><li><a href="/resorts/grand-floridian-villas/">Grand Floridian Villas</a></li><li><a href="/resorts/kidani-village/">Kidani Village</a></li><li><a href="/resorts/beach-club-villas/">Beach Club Villas</a></li><li><a href="/resorts/boardwalk-villas/">BoardWalk Villas</a></li><li><a href="/resorts/cabins-at-fort-wilderness/">Cabins at Fort Wilderness</a></li></ul></div>
+          <div class="mega-group"><p class="mega-tier">Campground</p><ul><li><a href="/resorts/fort-wilderness/">Fort Wilderness Campground</a></li></ul></div>
+          
+        </div>
+      </div>
+      
+      <div class="mega-col">
+        <a class="mega-head" href="/disneyland/">Disneyland Resort <span aria-hidden="true">›</span></a>
+        <div class="mega-group"><p class="mega-tier">Disney-owned hotels</p><ul><li><a href="/disneyland/hotels/grand-californian/">Grand Californian</a></li><li><a href="/disneyland/hotels/disneyland-hotel/">Disneyland Hotel</a></li><li><a href="/disneyland/hotels/pixar-place/">Pixar Place</a></li></ul></div>
+        <div class="mega-group"><p class="mega-tier">Villas</p><ul><li><a href="/disneyland/hotels/villas-at-disneyland-hotel/">The Villas</a></li></ul></div>
+        
+      </div>
+      
+      <div class="mega-col">
+        <a class="mega-head" href="/universal-orlando/">Universal Orlando Resort <span aria-hidden="true">›</span></a>
+        <div class="mega-group"><p class="mega-tier">Signature Collection</p><ul><li><a href="/universal-orlando/hotels/portofino-bay/">Portofino Bay</a></li><li><a href="/universal-orlando/hotels/hard-rock-hotel/">Hard Rock Hotel</a></li><li><a href="/universal-orlando/hotels/royal-pacific/">Royal Pacific</a></li><li><a href="/universal-orlando/hotels/sapphire-falls/">Sapphire Falls</a></li><li><a href="/universal-orlando/hotels/helios-grand/">Helios Grand</a></li></ul></div>
+        <div class="mega-group"><p class="mega-tier">Prime Value</p><ul><li><a href="/universal-orlando/hotels/aventura/">Aventura</a></li><li><a href="/universal-orlando/hotels/stella-nova/">Stella Nova</a></li><li><a href="/universal-orlando/hotels/terra-luna/">Terra Luna</a></li></ul></div>
+        <div class="mega-group"><p class="mega-tier">Value Inns &amp; Suites</p><ul><li><a href="/universal-orlando/hotels/cabana-bay/">Cabana Bay</a></li><li><a href="/universal-orlando/hotels/endless-summer-surfside/">Surfside</a></li><li><a href="/universal-orlando/hotels/endless-summer-dockside/">Dockside</a></li></ul></div>
+        
+      </div>
+      
+    </div>
+  </div>
 </div>
 
-<footer>
-  <p class="sig">See you on park day! <span aria-hidden="true" style="color:var(--gold)">✦</span> Ryan</p>
-  <p>Once Upon A Park Day is an independent site. It is not affiliated with, endorsed by, or sponsored by The Walt Disney Company or Universal Orlando Resort.</p>
+      <a href="/cruises/">Disney Cruise Line</a>
+      <a href="#">Planning</a>
+      <a href="/blog/">Blog</a>
+      <a class="btn btn-red" href="/#start">Start here</a>
+    </nav>
+    <div class="header-icons">
+      <button class="icon-btn" type="button" id="search-toggle" aria-label="Search" aria-expanded="false"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+      <button class="icon-btn" type="button" id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-nav"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+  <div class="awning" aria-hidden="true"></div>
+</header>
+
+<main>
+
+
+<section class="hero">
+  <div class="home-hero-photo">
+    <img src="/images/home/hero.webp" alt="Night view across the lagoon at Disney Springs, with lights reflecting on the water and a balloon glowing above the shoreline." width="2000" height="1334">
+  </div>
+  <div class="wrap hero-row">
+    <div class="hero-copy">
+      <p class="eyebrow">First trip? You are in the right place</p>
+      <h1>Find the Disney resort or cruise that <em>fits your family.</em></h1>
+      <p class="lead">Answer three questions and get a short list, with plain-English guides for each pick.</p>
+      <a class="btn btn-outline-light" href="#">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M8 5v14l11-7z"/></svg>
+        Watch the 60-second intro
+      </a>
+      <p class="byline">Written by Ryan.</p>
+    </div>
+    <form class="finder" id="finder">
+      <h2>Resort finder</h2>
+      <div class="field">
+        <label for="f-who">Who is going?</label>
+        <select id="f-who"><option>Family with young kids</option><option>Family with teens</option><option>Adults only</option><option>Big group</option></select>
+      </div>
+      <div class="field">
+        <label for="f-budget">What is your budget?</label>
+        <select id="f-budget"><option>Keeping it low</option><option>Middle of the road</option><option>Ready to splurge</option></select>
+      </div>
+      <div class="field">
+        <label for="f-matters">What matters most?</label>
+        <select id="f-matters"><option>Close to the parks</option><option>A great pool</option><option>Quiet and relaxing</option><option>Easy transportation</option></select>
+      </div>
+      <button class="btn btn-yellow" type="submit">Show my matches</button>
+      <p class="finder-note" id="finder-note" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<section class="section wrap">
+  <h2>Stuck between two options?</h2>
+  <div class="grid-3 scroller">
+    <a class="card compare" href="#"><span><span class="eyebrow">Resorts</span><strong>Value vs. Moderate resorts</strong></span><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#EE7B6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a class="card compare" href="#"><span><span class="eyebrow">Trip type</span><strong>Parks trip vs. Disney cruise</strong></span><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#EE7B6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a class="card compare" href="#"><span><span class="eyebrow">Cruises</span><strong>Inside vs. verandah stateroom</strong></span><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#EE7B6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</section>
+
+<section class="section wrap" id="start">
+  <h2>New here? Three reads, in order.</h2>
+  <ol class="steps grid-3">
+    <li class="card step"><span class="step-num">1</span><div><a href="#">Pick your kind of trip</a><p>Parks, a cruise, or both, and who each suits.</p><small>[X] min read</small></div></li>
+    <li class="card step"><span class="step-num">2</span><div><a href="/resorts/">Choose where to stay</a><p>Resort tiers and staterooms, explained simply.</p><small>[X] min read</small></div></li>
+    <li class="card step"><span class="step-num">3</span><div><a href="#">Set a budget and book</a><p>Real costs, when to book, where to save.</p><small>[X] min read</small></div></li>
+  </ol>
+</section>
+
+<section class="section wrap">
+  <h2>Browse by topic</h2>
+  <div class="grid-4">
+    <a class="card topic" href="/resorts/"><img src="/images/home/resorts.webp" alt="Sunset over the water at Disney's Grand Floridian Resort, with the marina and resort buildings along the shore." width="1200" height="800"><span>Resort hotels</span><small>46 hotel guides</small></a>
+    <a class="card topic" href="/cruises/"><img src="/images/home/cruise.webp" alt="A verandah stateroom on a Disney cruise, with a bed, a sofa, a desk, and glass doors opening to the balcony." width="1200" height="800"><span>Disney Cruise Line</span><small>9 ship guides</small></a>
+    <a class="card topic" href="#"><img src="/images/home/planning.webp" alt="An empty restaurant patio at night, with string lights, a lamp post, a bench, and orange umbrellas." width="1200" height="800"><span>Planning and budgeting</span><small>[NUMBER] guides</small></a>
+    <a class="card topic" href="#"><img src="/images/home/deals.webp" alt="Spaceship Earth lit purple at dusk, behind poinsettias and Festival of the Holidays decorations at EPCOT." width="1200" height="800"><span>Deals and news</span><small>Updated [DATE]</small></a>
+  </div>
+</section>
+
+
+<section class="section wrap latest-row">
+  <div class="latest-main">
+    <h2 style="margin-bottom:4px">Latest guides</h2>
+    <article class="card post">
+      <img src="/images/home/latest-resorts.webp" alt="" width="170" height="120" loading="lazy">
+      <div><span class="eyebrow">Resorts</span><h3><a href="#">Value, Moderate, or Deluxe: how the resort tiers differ</a></h3><p class="meta">Updated [DATE] · [X] min read</p></div>
+    </article>
+    <article class="card post">
+      <img src="/images/home/latest-cruise.webp" alt="" width="170" height="120" loading="lazy">
+      <div><span class="eyebrow">Cruises</span><h3><a href="#">Your first Disney cruise: what is included and what costs extra</a></h3><p class="meta">Updated [DATE] · [X] min read</p></div>
+    </article>
+    <article class="card post">
+      <img src="/images/home/latest-planning.webp" alt="" width="170" height="120" loading="lazy">
+      <div><span class="eyebrow">Planning</span><h3><a href="#">When to book: a first-timer's planning timeline</a></h3><p class="meta">Updated [DATE] · [X] min read</p></div>
+    </article>
+    <a class="btn btn-outline-dark" href="/blog/">See the blog</a>
+  </div>
+  <aside class="latest-side">
+    <div class="deal">
+      <span class="eyebrow">Deal of the moment</span>
+      <h3>[CURRENT DEAL HEADLINE]</h3>
+      <p>[WHO IT IS FOR AND TRAVEL DATES]</p>
+      <a class="btn btn-red" href="#" rel="sponsored">See the deal</a>
+      <small>Affiliate link. We may earn a commission.</small>
+    </div>
+  </aside>
+</section>
+
+<section class="section wrap">
+  <div class="card about">
+    <div class="placeholder photo">[YOUR PHOTO]</div>
+    <div>
+      <h2>Hi, I am Ryan.</h2>
+      <p>[TWO SENTENCES ABOUT YOUR DISNEY EXPERIENCE AND WHY YOU STARTED THIS SITE]</p>
+      <p>Every guide shows the date it was last checked, so you know the details are current.</p>
+      <a href="#" style="font-weight:700;padding:10px 0">How we research our guides</a>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="signup">
+    <div>
+      <h2>Get the first-timer checklist</h2>
+      <p>One email with the planning checklist, then new guides as they are published.</p>
+    </div>
+    <form action="#" id="signup-form">
+      <div class="field">
+        <label for="email">Email address</label>
+        <input id="email" type="email" name="email" placeholder="you@example.com" autocomplete="email">
+      </div>
+      <button class="btn btn-yellow" type="submit">Send it to me</button>
+    </form>
+  </div>
+</section>
+
+
+</main>
+
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-top">
+      <img src="/images/logo-light.svg" alt="Once Upon A Park Day" width="240" height="64">
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/resorts/">Walt Disney World</a>
+        <a href="/disneyland/">Disneyland Resort</a>
+        <a href="/universal-orlando/">Universal Orlando</a>
+        <a href="/cruises/">Disney Cruise Line</a>
+        <a href="/blog/">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Affiliate disclosure</a>
+      </nav>
+    </div>
+    <p>Once Upon A Park Day is an independent site. It is not affiliated with, endorsed by, or sponsored by The Walt Disney Company or Universal Orlando Resort. Some links are affiliate links, which means we may earn a commission at no extra cost to you.</p>
+  </div>
 </footer>
+
+<nav class="tabbar" aria-label="Quick navigation">
+  <a href="/" aria-current="page"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg>Home</a>
+  <a href="/resorts/"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M5 20V9l7-5 7 5v11M10 20v-6h4v6"/></svg>Resorts</a>
+  <a href="/cruises/"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15h18l-2 5H5zM6 15V9h12v6M10 9V5h4v4"/></svg>Cruise Line</a>
+  <a href="/blog/"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h11l3 3v13H5z"/><path d="M9 10h6M9 14h6M9 18h3"/></svg>Blog</a>
+</nav>
 
 <script>
 (function () {
-  var canvas = document.getElementById('sky');
-  var ctx = canvas.getContext('2d');
-  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var colors = ['#EE7B6F', '#C9A24A', '#F6ECD3', '#FFFFFF', '#F4A79E'];
-  var W, H, dpr, stars = [], sparks = [], rockets = [], comets = [];
-
-  function resize() {
-    dpr = Math.min(window.devicePixelRatio || 1, 2);
-    W = window.innerWidth; H = window.innerHeight;
-    canvas.width = W * dpr; canvas.height = H * dpr;
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    var n = Math.round(W * H / 5200);
-    stars = [];
-    for (var i = 0; i < n; i++) {
-      stars.push({ x: Math.random() * W, y: Math.random() * H * 0.92, r: Math.random() * 1.3 + 0.3,
-        p: Math.random() * Math.PI * 2, s: 0.6 + Math.random() * 1.8, gold: Math.random() < 0.12 });
-    }
-    if (reduce) draw(0);
-  }
-
-  function burst(x, y, big) {
-    var count = big ? 90 : 60;
-    var c1 = colors[Math.floor(Math.random() * colors.length)];
-    var c2 = colors[Math.floor(Math.random() * colors.length)];
-    for (var i = 0; i < count; i++) {
-      var a = (i / count) * Math.PI * 2 + Math.random() * 0.2;
-      var v = (big ? 3.6 : 2.8) * (0.55 + Math.random() * 0.6);
-      sparks.push({ x: x, y: y, vx: Math.cos(a) * v, vy: Math.sin(a) * v, life: 1,
-        decay: 0.011 + Math.random() * 0.012, c: i % 2 ? c1 : c2, r: 1.4 + Math.random() * 1.4 });
-    }
-  }
-
-  function launch(tx, ty) {
-    var sx = tx + (Math.random() - 0.5) * 120;
-    rockets.push({ x: sx, y: H + 10, tx: tx, ty: ty, vx: (tx - sx) / 48, vy: (ty - H - 10) / 48, t: 0 });
-  }
-
-  function comet() {
-    comets.push({ x: Math.random() * W * 0.7 + W * 0.2, y: Math.random() * H * 0.3, vx: -(5 + Math.random() * 4), vy: 2.2 + Math.random() * 1.6, life: 1 });
-  }
-
-  function draw(t) {
-    ctx.clearRect(0, 0, W, H);
-    for (var i = 0; i < stars.length; i++) {
-      var s = stars[i];
-      var a = reduce ? 0.7 : 0.35 + 0.65 * (0.5 + 0.5 * Math.sin(t / 1000 * s.s + s.p));
-      ctx.globalAlpha = a;
-      ctx.fillStyle = s.gold ? '#E9CF8E' : '#FFFFFF';
-      ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2); ctx.fill();
-    }
-    ctx.globalAlpha = 1;
-    if (reduce) return;
-
-    for (i = comets.length - 1; i >= 0; i--) {
-      var c = comets[i];
-      c.x += c.vx; c.y += c.vy; c.life -= 0.012;
-      var g = ctx.createLinearGradient(c.x, c.y, c.x - c.vx * 14, c.y - c.vy * 14);
-      g.addColorStop(0, 'rgba(255,255,255,' + Math.max(c.life, 0) + ')');
-      g.addColorStop(1, 'rgba(255,255,255,0)');
-      ctx.strokeStyle = g; ctx.lineWidth = 2; ctx.lineCap = 'round';
-      ctx.beginPath(); ctx.moveTo(c.x, c.y); ctx.lineTo(c.x - c.vx * 14, c.y - c.vy * 14); ctx.stroke();
-      if (c.life <= 0) comets.splice(i, 1);
-    }
-
-    for (i = rockets.length - 1; i >= 0; i--) {
-      var r = rockets[i];
-      r.x += r.vx; r.y += r.vy; r.t++;
-      ctx.fillStyle = '#F6ECD3';
-      ctx.beginPath(); ctx.arc(r.x, r.y, 2.2, 0, Math.PI * 2); ctx.fill();
-      ctx.fillStyle = 'rgba(201,162,74,.5)';
-      ctx.beginPath(); ctx.arc(r.x - r.vx * 2, r.y - r.vy * 2, 1.6, 0, Math.PI * 2); ctx.fill();
-      if (r.t >= 48) { burst(r.tx, r.ty, Math.random() < 0.3); rockets.splice(i, 1); }
-    }
-
-    for (i = sparks.length - 1; i >= 0; i--) {
-      var p = sparks[i];
-      p.vx *= 0.985; p.vy = p.vy * 0.985 + 0.035;
-      p.x += p.vx; p.y += p.vy; p.life -= p.decay;
-      if (p.life <= 0) { sparks.splice(i, 1); continue; }
-      ctx.globalAlpha = p.life;
-      ctx.fillStyle = p.c;
-      ctx.beginPath(); ctx.arc(p.x, p.y, p.r * (0.6 + p.life * 0.6), 0, Math.PI * 2); ctx.fill();
-    }
-    ctx.globalAlpha = 1;
-  }
-
-  function loop(t) {
-    if (!document.hidden && Math.random() < 0.004) comet();
-    draw(t);
-    requestAnimationFrame(loop);
-  }
-
-  var wishes = 0;
-  var lines = [
-    'One wish made. The pixie dust is settling.',
-    'Two wishes! Now we are getting somewhere.',
-    'Three wishes. That is the traditional limit, but we will allow it.',
-    'Still wishing? Chapter one must be worth the wait.'
-  ];
-  var wishEl = document.getElementById('wishes');
-  window.addEventListener('pointerdown', function (e) {
-    if (e.target.closest && e.target.closest('a, button, .book')) return;
-    if (reduce) return;
-    launch(e.clientX, Math.min(e.clientY, H * 0.75));
-    wishes++;
-    wishEl.textContent = lines[Math.min(wishes, lines.length) - 1];
-    wishEl.classList.add('on');
+  var header = document.getElementById('site-header');
+  var menuBtn = document.getElementById('menu-toggle');
+  var searchBtn = document.getElementById('search-toggle');
+  menuBtn.addEventListener('click', function () {
+    var open = header.classList.toggle('open');
+    header.classList.remove('search-open');
+    menuBtn.setAttribute('aria-expanded', open);
+    searchBtn.setAttribute('aria-expanded', false);
   });
-
-  window.addEventListener('resize', resize);
-  resize();
-  if (reduce) {
-    document.getElementById('hint').textContent = 'Chapter one is on its way. Check back soon.';
-  } else {
-    requestAnimationFrame(loop);
-    // A little opening show.
-    setTimeout(function () { launch(W * 0.22, H * 0.24); }, 900);
-    setTimeout(function () { launch(W * 0.78, H * 0.2); }, 1500);
-    setTimeout(function () { launch(W * 0.5, H * 0.14); }, 2200);
-  }
+  searchBtn.addEventListener('click', function () {
+    var open = header.classList.toggle('search-open');
+    header.classList.remove('open');
+    searchBtn.setAttribute('aria-expanded', open);
+    menuBtn.setAttribute('aria-expanded', false);
+    if (open) { document.getElementById('q').focus(); }
+  });
+  var drop = document.getElementById('resorts-drop');
+  var dropBtn = document.getElementById('resorts-btn');
+  function setDrop(open) { drop.classList.toggle('open', open); dropBtn.setAttribute('aria-expanded', open); }
+  dropBtn.addEventListener('click', function (e) { e.stopPropagation(); setDrop(!drop.classList.contains('open')); });
+  document.addEventListener('click', function (e) { if (!drop.contains(e.target)) setDrop(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && drop.classList.contains('open')) { setDrop(false); dropBtn.focus(); } });
+  // Placeholder behaviour until the finder and the email service are built.
+  var finder = document.getElementById('finder');
+  if (finder) finder.addEventListener('submit', function (e) {
+    e.preventDefault();
+    document.getElementById('finder-note').textContent = 'Matches will appear here once the resort guides are published.';
+  });
+  var signup = document.getElementById('signup-form');
+  if (signup) signup.addEventListener('submit', function (e) { e.preventDefault(); });
 })();
 </script>
 </body>
