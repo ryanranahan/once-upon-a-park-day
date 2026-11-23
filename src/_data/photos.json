@@ -797,5 +797,56 @@
     },
     "place": "Universal Endless Summer Resort – Dockside Inn and Suites",
     "page": "/universal-orlando/hotels/endless-summer-dockside/"
+  },
+  "blog/dl-after-dark": {
+    "src": "/images/commons/blog-dl-after-dark-1600.jpg",
+    "small": "/images/commons/blog-dl-after-dark-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Sleeping Beauty Castle at Disneyland lit in pink and blue at night",
+    "credit": {
+      "author": "Vamsi",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sleeping_Beauty_Castle_2010_Night_View_-_panoramio.jpg",
+      "file": "File:Sleeping Beauty Castle 2010 Night View - panoramio.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disneyland After Dark 2027: Dates, Tickets and What's Included",
+    "page": "/blog/disneyland-after-dark-2027/"
+  },
+  "blog/dl-holidays": {
+    "src": "/images/commons/blog-dl-holidays-1600.jpg",
+    "small": "/images/commons/blog-dl-holidays-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The Disneyland Railroad's Main Street station outlined in holiday lights at night",
+    "credit": {
+      "author": "HarshLight from San Jose, CA, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disneyland_Railroad_at_Christmas_(35531806621).jpg",
+      "file": "File:Disneyland Railroad at Christmas (35531806621).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Holidays at Disneyland 2026: Dates, Highlights and a Hotel Offer",
+    "page": "/blog/disneyland-holidays-2026/"
+  },
+  "blog/santa": {
+    "src": "/images/commons/blog-santa-1600.jpg",
+    "small": "/images/commons/blog-santa-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "A giant Christmas tree in Town Square at Magic Kingdom, with Main Street buildings behind",
+    "credit": {
+      "author": "Theme Park Tourist",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Magic_Kingdom_for_Christmas_2016_(30806630335).jpg",
+      "file": "File:Magic Kingdom for Christmas 2016 (30806630335).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Where to Meet Santa at Disney World in 2026",
+    "page": "/blog/where-to-meet-santa-disney-world-2026/"
   }
 }

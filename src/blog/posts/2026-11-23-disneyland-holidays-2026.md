@@ -3,7 +3,6 @@ title: "Holidays at Disneyland 2026: Dates, Highlights and a Hotel Offer"
 date: 2026-11-23
 category: Disneyland news
 summary: "Holidays at the Disneyland Resort run Nov. 13, 2026 to Jan. 6, 2027. Here are the highlights, the hotel offer that ends Dec. 15, and how first-timers can plan."
-image: /images/fireworks-night.svg
 tldr: "The holiday season at the Disneyland Resort runs November 13, 2026, through January 6, 2027. Highlights include Sleeping Beauty's Winter Castle, \"it's a small world\" Holiday, World of Color - Season of Light, the Disney Festival of Holidays at Disney California Adventure, and Santa in both parks and all three Disneyland Resort hotels. Disney also has a hotel offer of up to 20% off select 3-night-plus stays, booked by December 15, 2026."
 keywords: [Disneyland holidays 2026, Disneyland Christmas 2026, Festival of Holidays Disney California Adventure, World of Color Season of Light, Disneyland hotel offer]
 about: [Disneyland Resort, Disney California Adventure, Disney Festival of Holidays]
@@ -29,6 +28,7 @@ related:
     url: "/disneyland/hotels/grand-californian/"
   - title: "Disneyland After Dark 2027 dates"
     url: "/blog/disneyland-after-dark-2027/"
+photo: blog/dl-holidays
 ---
 
 The holidays are one of the prettiest times to visit the Disneyland Resort in California, and the season is already underway. Disney shared its full holiday guide, so here are the highlights for first-timers, plus a hotel offer with a deadline coming up.

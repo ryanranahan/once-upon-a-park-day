@@ -4,6 +4,7 @@ date: 2026-12-01
 category: Trip report
 summary: One sentence that shows under the title on the blog page.
 image: /images/resort-day.svg
+# photo: wdw/contemporary   # instead of image: a key from src/_data/photos.json, for a credited hero photo and list thumbnail
 affiliate: false
 draft: true
 ---

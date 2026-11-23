@@ -17,8 +17,8 @@
 {%- set canonical = site.url + page.url -%}
 {%- set guide = (resortGuides[resort.slug] if (resort and section == "resorts") else (resort.guide if resort else ship)) or {} -%}
 {%- set photoPrefix = "dl" if page.url.startsWith("/disneyland/") else ("uo" if page.url.startsWith("/universal-orlando/") else "wdw") -%}
-{%- set heroPhoto = (ship.photo or photos["ship/" + ship.slug]) if ship else ((resort.photo or photos[photoPrefix + "/" + resort.slug]) if resort else null) -%}
-{%- set shareImage = (heroPhoto.src if heroPhoto else site.ogImage) -%}
+{%- set heroPhoto = (ship.photo or photos["ship/" + ship.slug]) if ship else ((resort.photo or photos[photoPrefix + "/" + resort.slug]) if resort else (photos[photo] if (photo and photo.length) else null)) -%}
+{%- set shareImage = heroSrc if heroSrc else (heroPhoto.src if heroPhoto else site.ogImage) -%}
 <title>{{ metaTitle }}</title>
 <meta name="description" content="{{ metaDesc }}">
 {% if noindex %}<meta name="robots" content="noindex">
@@ -49,7 +49,7 @@
   resort: resort, ship: ship, guide: guide, author: author, isArticle: isArticle, faq: faq, checked: checked,
   isPost: ("/blog/posts/" in page.inputPath), date: (page.date | isoDate),
   updated: (updated | isoDate if updated else undefined), category: category, keywords: keywords,
-  about: about, sources: sources, tldr: tldr,
+  about: about, sources: sources, tldr: tldr, photo: photo, photos: photos, heroSrc: heroSrc,
   resorts: resorts, disneyland: disneyland, universal: universal, ships: ships, posts: collections.post
 } | jsonLd | safe }}</script>{% endif %}
 </head>

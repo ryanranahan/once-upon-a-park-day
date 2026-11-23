@@ -352,4 +352,9 @@ ul.benefits li{margin:8px 0}
 .deal-card dd{margin:0}
 .deal-note{font-size:14px;color:var(--muted)}
 .deal-card a{font-weight:700;margin-top:auto}
+
+/* Blog post photos */
+.prose .post-photo{margin:28px 0}
+.prose .post-photo img{width:100%;height:auto;border-radius:16px}
+.prose .post-photo figcaption{color:var(--muted);font-size:15px;margin-top:8px;max-width:44rem}
 .credits{padding-top:40px;padding-bottom:64px}
