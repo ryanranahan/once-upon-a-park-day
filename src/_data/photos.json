@@ -594,23 +594,6 @@
     "place": "Universal Cabana Bay Beach Resort",
     "page": "/universal-orlando/hotels/cabana-bay/"
   },
-  "ship/disney-magic": {
-    "src": "/images/commons/ship-disney-magic-1600.jpg",
-    "small": "/images/commons/ship-disney-magic-800.jpg",
-    "width": 1600,
-    "height": 1067,
-    "alt": "The Disney Magic sailing through a harbor under a cloudy sky",
-    "credit": {
-      "author": "Smiley.toerist",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Disney_Magic_in_Oslo_2016_II.jpg",
-      "file": "File:Disney Magic in Oslo 2016 II.jpg",
-      "changes": "cropped and resized"
-    },
-    "place": "Disney Magic",
-    "page": "/cruises/disney-magic/"
-  },
   "ship/disney-wonder": {
     "src": "/images/commons/ship-disney-wonder-1600.jpg",
     "small": "/images/commons/ship-disney-wonder-800.jpg",
