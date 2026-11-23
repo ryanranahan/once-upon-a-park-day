@@ -16,7 +16,7 @@
 {%- set metaDesc = (description or site.description) | metaDescription -%}
 {%- set canonical = site.url + page.url -%}
 {%- set guide = (resortGuides[resort.slug] if (resort and section == "resorts") else (resort.guide if resort else ship)) or {} -%}
-{%- set shareImage = (ship.photo.src if (ship and ship.photo) else site.ogImage) -%}
+{%- set shareImage = ogImage or image or heroSrc or (ship.photo.src if (ship and ship.photo) else site.ogImage) -%}
 <title>{{ metaTitle }}</title>
 <meta name="description" content="{{ metaDesc }}">
 {% if noindex %}<meta name="robots" content="noindex">
@@ -33,6 +33,9 @@
 {% if category %}<meta property="article:section" content="{{ category }}">
 {% endif %}{% endif %}
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ (title or site.name) | plainText }}">
+<meta name="twitter:description" content="{{ metaDesc }}">
+<meta name="twitter:image" content="{{ site.url }}{{ shareImage }}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <meta name="theme-color" content="#16294F">
@@ -47,7 +50,7 @@
   resort: resort, ship: ship, guide: guide, author: author, isArticle: isArticle, faq: faq, checked: checked,
   isPost: ("/blog/posts/" in page.inputPath), date: (page.date | isoDate),
   updated: (updated | isoDate if updated else undefined), category: category, keywords: keywords,
-  about: about, sources: sources, tldr: tldr,
+  about: about, sources: sources, tldr: tldr, image: (ogImage or image or heroSrc or shareImage),
   resorts: resorts, disneyland: disneyland, universal: universal, ships: ships, posts: collections.post
 } | jsonLd | safe }}</script>{% endif %}
 </head>
