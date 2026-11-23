@@ -7,6 +7,6 @@ eleventyExcludeFromCollections: true
 {%- for p in collections.all %}{% if not p.data.noindex and p.url and not p.data.draft %}
   <url>
     <loc>{{ site.url }}{{ p.url }}</loc>{% if "/blog/posts/" in p.inputPath %}
-    <lastmod>{{ p.date | isoDate }}</lastmod>{% endif %}
+    <lastmod>{{ (p.data.updated or p.date) | isoDate }}</lastmod>{% endif %}
   </url>{% endif %}{% endfor %}
 </urlset>

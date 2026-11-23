@@ -8,16 +8,41 @@ section: blog
       <nav class="crumbs" aria-label="Breadcrumb"><a href="/blog/">Blog</a></nav>
       <p class="eyebrow">{{ category or "Blog" }}</p>
       <h1>{{ title }}</h1>
-      <p class="byline">By {{ author or "Ryan" }} · <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time></p>
+      <p class="byline">By {{ author or "Ryan" }} · <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time>{% if updated %} · Updated <time datetime="{{ updated | isoDate }}">{{ updated | readableDate }}</time>{% endif %}</p>
     </div>
   </div>
 </section>
 <div class="wrap guide-row">
   <article class="guide prose">
     {% if affiliate %}<p class="disclosure">This post contains affiliate links. If you book through them, we may earn a commission at no extra cost to you.</p>{% endif %}
+    {% if tldr %}<div class="quick-answer">
+      <p class="eyebrow">The short answer</p>
+      <p>{{ tldr }}</p>
+    </div>{% endif %}
     {{ content | safe }}
+    {% if faq %}<section class="post-faq" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Quick questions</h2>
+      {% for item in faq %}<h3>{{ item.q }}</h3>
+      <p>{{ item.a }}</p>
+      {% endfor %}
+    </section>{% endif %}
+    {% if sources %}<section class="post-sources" aria-labelledby="sources-heading">
+      <h2 id="sources-heading">Where these facts come from</h2>
+      <p>We checked the details in this post against Disney's own announcements on {{ page.date | readableDate }}. Dates, menus and sailings change, so confirm on Disney's site before you book.</p>
+      <ul>
+        {% for s in sources %}<li><a href="{{ s.url }}" rel="noopener">{{ s.title }}</a>{% if s.site %} ({{ s.site }}){% endif %}</li>
+        {% endfor %}
+      </ul>
+    </section>{% endif %}
   </article>
   <aside class="guide-side">
+    {% if related %}<div class="card nearby">
+      <h2>Keep planning</h2>
+      <ul>
+        {% for r in related %}<li><a href="{{ r.url }}">{{ r.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>{% endif %}
     <div class="card nearby">
       <h2>Find your resort</h2>
       <p>Every Walt Disney World resort hotel, explained in plain English.</p>

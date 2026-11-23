@@ -322,3 +322,13 @@ ul.benefits li{margin:8px 0}
 .itin-take-head{font-weight:700;margin-bottom:4px}
 .draft-tag{display:inline-block;margin-left:6px;font-size:12px;font-weight:700;background:var(--yellow-soft);border:1px solid var(--yellow);border-radius:999px;padding:1px 8px;vertical-align:middle}
 .itin-verify{font-size:14px;color:var(--muted);margin-top:8px}
+/* Blog posts: short answer box, quick questions, sources */
+.quick-answer{background:var(--yellow-soft);border-left:6px solid var(--yellow);border-radius:14px;padding:16px 20px;margin-bottom:28px}
+.quick-answer .eyebrow{margin-bottom:6px}
+.quick-answer p{max-width:none}
+.post-faq h3{font-size:20px}
+.post-sources{margin-top:36px;padding-top:8px;border-top:2px solid var(--line);font-size:15px;color:var(--muted)}
+.post-sources h2{font-size:22px;color:var(--navy)}
+.post-sources ul{margin-top:10px}
+.nearby .btn{margin-top:14px}
+.guide .post-faq h2:first-child{margin-top:36px}

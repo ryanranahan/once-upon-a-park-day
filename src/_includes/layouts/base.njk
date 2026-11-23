@@ -28,6 +28,10 @@
 <meta property="og:url" content="{{ canonical }}">
 <meta property="og:image" content="{{ site.url }}{{ shareImage }}">
 <meta property="og:locale" content="en_US">
+{% if "/blog/posts/" in page.inputPath %}<meta property="article:published_time" content="{{ page.date | isoDate }}">
+<meta property="article:author" content="{{ author or 'Ryan' }}">
+{% if category %}<meta property="article:section" content="{{ category }}">
+{% endif %}{% endif %}
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
@@ -42,6 +46,8 @@
   site: site, url: page.url, title: title, description: metaDesc, section: section,
   resort: resort, ship: ship, guide: guide, author: author,
   isPost: ("/blog/posts/" in page.inputPath), date: (page.date | isoDate),
+  updated: (updated | isoDate if updated else undefined), category: category, keywords: keywords,
+  about: about, sources: sources, faq: faq, tldr: tldr,
   resorts: resorts, disneyland: disneyland, universal: universal, ships: ships, posts: collections.post
 } | jsonLd | safe }}</script>{% endif %}
 </head>
