@@ -29,6 +29,12 @@ The site uses [Eleventy](https://www.11ty.dev/), which turns templates and Markd
 
 **Run it locally:** `npm install`, then `npm start` and open http://localhost:8080.
 
+## Coming soon splash page
+
+While `comingSoon` is `true` in `src/_data/site.json`, visitors to the homepage (`/`) see the "something magical is coming soon" splash page (`src/splash.njk`). The full homepage still builds at `/home/` (hidden from search engines), and every other page works as normal; the header logo and Home links point to `/home/`.
+
+**To launch:** set `comingSoon` to `false`, run `npm run build`, and commit. The full homepage moves back to `/` and the splash page disappears.
+
 ## Search engines and AI assistants
 
 - `src/_data/site.json` holds the site's address. **When the custom domain is live, change `url` there and rebuild**: canonical links, the sitemap, `robots.txt`, `llms.txt` and the structured data all update from it.

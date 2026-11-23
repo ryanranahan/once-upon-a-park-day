@@ -3,5 +3,6 @@
   "url": "https://once-upon-a-park-day.pages.dev",
   "description": "Plain-English guides to Disney and Universal resort hotels, Disney Cruise Line ships, and trip planning for first-time visitors.",
   "logo": "/images/logo-full.png",
-  "ogImage": "/images/og-default.png"
+  "ogImage": "/images/og-default.png",
+  "comingSoon": true
 }
