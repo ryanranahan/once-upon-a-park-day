@@ -22,7 +22,7 @@
 {% if noindex %}<meta name="robots" content="noindex">
 {% else %}<link rel="canonical" href="{{ canonical }}">
 {% endif %}<meta property="og:site_name" content="{{ site.name }}">
-<meta property="og:type" content="{{ 'article' if (resort or ship or category) else 'website' }}">
+<meta property="og:type" content="{{ 'article' if (resort or ship or category or isArticle) else 'website' }}">
 <meta property="og:title" content="{{ (title or site.name) | plainText }}">
 <meta property="og:description" content="{{ metaDesc }}">
 <meta property="og:url" content="{{ canonical }}">
@@ -44,10 +44,10 @@
 <link rel="stylesheet" href="/css/site.css">
 {% if not noindex %}<script type="application/ld+json">{{ {
   site: site, url: page.url, title: title, description: metaDesc, section: section,
-  resort: resort, ship: ship, guide: guide, author: author,
+  resort: resort, ship: ship, guide: guide, author: author, isArticle: isArticle, faq: faq, checked: checked,
   isPost: ("/blog/posts/" in page.inputPath), date: (page.date | isoDate),
   updated: (updated | isoDate if updated else undefined), category: category, keywords: keywords,
-  about: about, sources: sources, faq: faq, tldr: tldr,
+  about: about, sources: sources, tldr: tldr,
   resorts: resorts, disneyland: disneyland, universal: universal, ships: ships, posts: collections.post
 } | jsonLd | safe }}</script>{% endif %}
 </head>
@@ -67,7 +67,7 @@
     <nav class="main-nav" id="main-nav" aria-label="Main">
       {% include "resorts-menu.njk" %}
       <a href="/cruises/"{% if section == "cruises" %} aria-current="page"{% endif %}>Disney Cruise Line</a>
-      <a href="#">Planning</a>
+      <a href="/planning/"{% if section == "planning" %} aria-current="page"{% endif %}>Planning</a>
       <a href="/blog/"{% if section == "blog" %} aria-current="page"{% endif %}>Blog</a>
       <a class="btn btn-red" href="/#start">Start here</a>
     </nav>

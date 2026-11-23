@@ -7,6 +7,9 @@ const SECTION_NAMES = {
   "universal-orlando": "Universal Orlando",
   cruises: "Disney Cruise Line",
   blog: "Blog",
+  planning: "Planning",
+  news: "Deals and news",
+  about: "About",
 };
 
 const DESTINATIONS = {
@@ -183,6 +186,31 @@ export function jsonLd(d) {
       mainEntityOfPage: pageUrl,
       ...(d.ship.photo ? { image: site.url + d.ship.photo.src } : {}),
     };
+  } else if (d.isArticle) {
+    const checked = monthDate(clean(d.checked || "November 2026"));
+    main = {
+      "@type": "Article",
+      "@id": pageUrl + "#article",
+      headline: d.title,
+      description: d.description,
+      author: { "@type": "Person", name: "Ryan", url: site.url + "/about/how-we-research/" },
+      publisher: org,
+      isPartOf: { "@id": siteId },
+      mainEntityOfPage: pageUrl,
+      inLanguage: "en-US",
+      ...(checked ? { dateModified: checked } : {}),
+    };
+    if (Array.isArray(d.faq) && d.faq.length) {
+      graph.push({
+        "@type": "FAQPage",
+        "@id": pageUrl + "#faq",
+        mainEntity: d.faq.map((f) => ({
+          "@type": "Question",
+          name: plainText(f.q),
+          acceptedAnswer: { "@type": "Answer", text: plainText(f.a) },
+        })),
+      });
+    }
   } else if (d.isPost) {
     main = {
       "@type": "BlogPosting",
@@ -231,7 +259,7 @@ export function jsonLd(d) {
   }
   if (main) graph.push(main);
   // Question-and-answer pairs shown on the page, for search and AI answers.
-  if (d.faq && d.faq.length) {
+  if (d.isPost && d.faq && d.faq.length) {
     graph.push({
       "@type": "FAQPage",
       "@id": pageUrl + "#faq",

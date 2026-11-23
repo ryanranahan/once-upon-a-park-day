@@ -4,6 +4,18 @@
 
 Each resort guide covers who the hotel suits, rooms, pools, dining, getting to the parks, pros and cons, and first-timer tips. Guides marked "first-hand" are written from the author's own stays; others are researched and say so on the page.
 
+## First-timer planning guides
+
+- [Planning and budgeting](https://once-upon-a-park-day.pages.dev/planning/): Where to start: choosing a trip, where to stay, when to book and budgeting.
+- [Parks trip or Disney cruise?](https://once-upon-a-park-day.pages.dev/planning/parks-or-cruise/): Parks trip vs. Disney cruise for first-timers, and how to combine them.
+- [When to book: a planning timeline](https://once-upon-a-park-day.pages.dev/planning/when-to-book/): Walt Disney World booking timeline: 60-day dining, 7- and 3-day Lightning Lane, package payments, Early Entry.
+- [Set a budget and book](https://once-upon-a-park-day.pages.dev/planning/budget-and-booking/): The main costs of a Disney World trip, how package deposits work, and ways to save.
+- [Value, Moderate or Deluxe?](https://once-upon-a-park-day.pages.dev/resorts/value-moderate-deluxe/): How Value, Moderate and Deluxe resorts at Walt Disney World differ, and which suits a first trip.
+- [Your first Disney cruise: included and extra](https://once-upon-a-park-day.pages.dev/cruises/first-cruise/): What a Disney Cruise Line fare includes, what costs extra, gratuities and booking windows.
+- [Inside vs. verandah stateroom](https://once-upon-a-park-day.pages.dev/cruises/inside-vs-verandah/): Inside, oceanview, verandah and Concierge staterooms compared.
+- [Deals and news](https://once-upon-a-park-day.pages.dev/news/): Current official Disney World, Disneyland and Disney Cruise Line offers, plus 2027 news.
+- [How we research our guides](https://once-upon-a-park-day.pages.dev/about/how-we-research/): How the guides are researched, labeled and kept current.
+
 ## Walt Disney World resort guides
 
 - [Disney's All-Star Movies Resort](https://once-upon-a-park-day.pages.dev/resorts/all-star-movies/): Value resort, Animal Kingdom area. Bright, playful buildings decorated with giant icons from classic Disney films.

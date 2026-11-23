@@ -1,0 +1,56 @@
+[
+  {
+    "url": "/planning/",
+    "title": "Planning and budgeting",
+    "group": "Planning",
+    "summary": "Where to start: choosing a trip, where to stay, when to book and budgeting."
+  },
+  {
+    "url": "/planning/parks-or-cruise/",
+    "title": "Parks trip or Disney cruise?",
+    "group": "Planning",
+    "summary": "Parks trip vs. Disney cruise for first-timers, and how to combine them."
+  },
+  {
+    "url": "/planning/when-to-book/",
+    "title": "When to book: a planning timeline",
+    "group": "Planning",
+    "summary": "Walt Disney World booking timeline: 60-day dining, 7- and 3-day Lightning Lane, package payments, Early Entry."
+  },
+  {
+    "url": "/planning/budget-and-booking/",
+    "title": "Set a budget and book",
+    "group": "Planning",
+    "summary": "The main costs of a Disney World trip, how package deposits work, and ways to save."
+  },
+  {
+    "url": "/resorts/value-moderate-deluxe/",
+    "title": "Value, Moderate or Deluxe?",
+    "group": "Resorts",
+    "summary": "How Value, Moderate and Deluxe resorts at Walt Disney World differ, and which suits a first trip."
+  },
+  {
+    "url": "/cruises/first-cruise/",
+    "title": "Your first Disney cruise: included and extra",
+    "group": "Cruises",
+    "summary": "What a Disney Cruise Line fare includes, what costs extra, gratuities and booking windows."
+  },
+  {
+    "url": "/cruises/inside-vs-verandah/",
+    "title": "Inside vs. verandah stateroom",
+    "group": "Cruises",
+    "summary": "Inside, oceanview, verandah and Concierge staterooms compared."
+  },
+  {
+    "url": "/news/",
+    "title": "Deals and news",
+    "group": "News",
+    "summary": "Current official Disney World, Disneyland and Disney Cruise Line offers, plus 2027 news."
+  },
+  {
+    "url": "/about/how-we-research/",
+    "title": "How we research our guides",
+    "group": "About",
+    "summary": "How the guides are researched, labeled and kept current."
+  }
+]

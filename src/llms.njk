@@ -8,6 +8,11 @@ eleventyExcludeFromCollections: true
 
 Each resort guide covers who the hotel suits, rooms, pools, dining, getting to the parks, pros and cons, and first-timer tips. Guides marked "first-hand" are written from the author's own stays; others are researched and say so on the page.
 
+## First-timer planning guides
+{% for g in guides %}
+- [{{ g.title | safe }}]({{ site.url | safe }}{{ g.url | safe }}): {{ g.summary | safe }}
+{%- endfor %}
+
 ## Walt Disney World resort guides
 {% for r in resorts %}
 - [{{ r.name | safe }}]({{ site.url | safe }}/resorts/{{ r.slug | safe }}/): {{ r.tier | safe }} resort, {{ r.area | safe }}. {{ r.theme | safe }}{% if resortGuides[r.slug].author %} (first-hand guide){% endif %}
