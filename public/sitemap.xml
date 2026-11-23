@@ -11,6 +11,15 @@
     <loc>https://once-upon-a-park-day.pages.dev/cruises/</loc>
   </url>
   <url>
+    <loc>https://once-upon-a-park-day.pages.dev/disneyland/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/resorts/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/</loc>
+  </url>
+  <url>
     <loc>https://once-upon-a-park-day.pages.dev/cruises/disney-magic/</loc>
   </url>
   <url>
@@ -38,13 +47,16 @@
     <loc>https://once-upon-a-park-day.pages.dev/cruises/disney-believe/</loc>
   </url>
   <url>
-    <loc>https://once-upon-a-park-day.pages.dev/disneyland/</loc>
+    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/grand-californian/</loc>
   </url>
   <url>
-    <loc>https://once-upon-a-park-day.pages.dev/resorts/</loc>
+    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/disneyland-hotel/</loc>
   </url>
   <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/</loc>
+    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/pixar-place/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/villas-at-disneyland-hotel/</loc>
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/resorts/all-star-movies/</loc>
@@ -138,18 +150,6 @@
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/resorts/fort-wilderness/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/grand-californian/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/disneyland-hotel/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/pixar-place/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/villas-at-disneyland-hotel/</loc>
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/portofino-bay/</loc>

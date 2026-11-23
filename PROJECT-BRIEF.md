@@ -43,6 +43,10 @@ The site now follows the "Once Upon A Park Day" logo. The earlier "Sunny Boardwa
 - Signature detail: a coral, white and gold striped "awning" band under the header.
 - Rounded cards (22px), pill-shaped buttons, a hard coral drop shadow under the resort finder.
 
+## Pre-launch splash page
+
+- Until launch, `/` shows a "coming soon" splash page (`src/splash.njk`): night sky with twinkling stars and tap-to-launch fireworks, a storybook "table of contents" card, and the logo palette. The full homepage lives at `/home/` (noindex). Switch with `comingSoon` in `src/_data/site.json`.
+
 ## Homepage structure (index.html)
 
 1. Header with logo, search, menu, and a "Start here" button. On phones: search and menu icons, plus a fixed bottom bar (Home, Resorts, Cruises, Deals).
