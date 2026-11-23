@@ -50,7 +50,7 @@ The site now follows the "Once Upon A Park Day" logo. The earlier "Sunny Boardwa
 ## Homepage structure (index.html)
 
 1. Header with logo, search, menu, and a "Start here" button. On phones: search and menu icons, plus a fixed bottom bar (Home, Resorts, Cruises, Deals).
-2. Hero with headline, "Watch the 60-second intro" button, author line, and the resort finder (three questions).
+2. Hero with headline, author line (the "Watch the 60-second intro" button is hidden in `src/index.njk` until the video exists), and the resort finder (three questions).
 3. "Stuck between two options?" comparison shortcuts.
 4. "New here? Three reads, in order."
 5. Browse by topic: resort hotels, Disney Cruise Line, planning and budgeting, deals and news.
