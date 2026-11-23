@@ -3,7 +3,6 @@ title: "EPCOT Festival of the Holidays 2026: A First-Timer's Guide"
 date: 2026-11-23
 category: Walt Disney World news
 summary: "EPCOT's Festival of the Holidays runs Nov. 27 to Dec. 30, 2026, with 20 Holiday Kitchens and 98 new bites. Here's how first-timers can plan a festive EPCOT day."
-image: /images/planning-table.svg
 tldr: "The 2026 EPCOT International Festival of the Holidays runs November 27 through December 30, 2026. It's included with regular EPCOT admission, and food and drinks are paid for as you go. Disney says there are 20 Holiday Kitchens serving 186 items, 98 of them new, plus the Holiday Cookie Stroll and the Candlelight Processional."
 keywords: [EPCOT Festival of the Holidays 2026, EPCOT holiday food, Holiday Cookie Stroll, Candlelight Processional, Walt Disney World Christmas]
 about: [EPCOT International Festival of the Holidays, EPCOT, Walt Disney World Resort]
@@ -29,6 +28,12 @@ related:
     url: "/resorts/boardwalk-inn/"
   - title: "Yacht Club Resort"
     url: "/resorts/yacht-club/"
+image: /images/blog/epcot-festival-of-the-holidays-2026/card-800.webp
+imageAlt: "Spaceship Earth at dusk, with poinsettias and Festival of the Holidays decorations in the foreground at EPCOT."
+heroSrc: /images/blog/epcot-festival-of-the-holidays-2026/hero-1200.webp
+heroSrcset: "/images/blog/epcot-festival-of-the-holidays-2026/hero-800.webp 800w, /images/blog/epcot-festival-of-the-holidays-2026/hero-1200.webp 1200w, /images/blog/epcot-festival-of-the-holidays-2026/hero-2000.webp 2000w"
+heroWidth: 1200
+heroHeight: 799
 ---
 
 If you're heading to Walt Disney World between Thanksgiving and New Year's, EPCOT is about to become the coziest park on property. Disney has shared the menu for the 2026 EPCOT International Festival of the Holidays, and we read through all of it so you don't have to. Here's what matters if it's your first time.

@@ -3,7 +3,6 @@ title: "Hallmark's Disney World Movie: When to Watch and How to Plan Your Own Ho
 date: 2026-11-23
 category: Walt Disney World news
 summary: "Holiday Ever After: A Disney World Wish Come True premieres Nov. 28 on Hallmark Channel. Here's where to watch and how to plan your own holiday trip."
-image: /images/resort-sunset.svg
 tldr: "Holiday Ever After: A Disney World Wish Come True is Hallmark's first holiday movie set at Walt Disney World. It premieres Saturday, November 28, 2026, on Hallmark Channel and streams from November 29 on Disney+ and Hulu. It stars Lacey Chabert. If it inspires a trip, the Walt Disney World holiday season includes EPCOT's Festival of the Holidays (November 27 to December 30) and Santa in every park through December 24."
 keywords: [Holiday Ever After A Disney World Wish Come True, Hallmark Disney World movie, Lacey Chabert Disney World, Hallmark movie Disney+ Hulu, Disney World Christmas trip]
 about: [Holiday Ever After: A Disney World Wish Come True, Walt Disney World Resort, Hallmark Channel]
@@ -29,9 +28,20 @@ related:
     url: "/resorts/grand-floridian/"
   - title: "Every Walt Disney World resort"
     url: "/resorts/"
+image: /images/blog/holiday-ever-after-hallmark-disney-world-movie/card-800.webp
+imageAlt: "A close-up of pink roses, berries, and holiday greenery on a Christmas wreath."
+heroSrc: /images/blog/holiday-ever-after-hallmark-disney-world-movie/hero-1200.webp
+heroSrcset: "/images/blog/holiday-ever-after-hallmark-disney-world-movie/hero-800.webp 800w, /images/blog/holiday-ever-after-hallmark-disney-world-movie/hero-1200.webp 1200w, /images/blog/holiday-ever-after-hallmark-disney-world-movie/hero-2000.webp 2000w"
+heroWidth: 1200
+heroHeight: 800
 ---
 
 A holiday movie set at Walt Disney World? That's our kind of cozy night in. Hallmark's first Disney World holiday film arrives this weekend, and Disney celebrated with a red-carpet premiere at Disney Springs. Here's when to watch, and what to do if it gives you the urge to book a trip.
+
+<figure class="post-photo">
+  <img src="/images/blog/holiday-ever-after-hallmark-disney-world-movie/inline-1200.webp" srcset="/images/blog/holiday-ever-after-hallmark-disney-world-movie/inline-1200.webp 1200w, /images/blog/holiday-ever-after-hallmark-disney-world-movie/inline-1600.webp 1600w" sizes="(max-width: 820px) 100vw, 800px" width="1200" height="799" alt="A Hollywood Studios street at night, with a Christmas tree in the middle of the road, wreaths on the lamp posts, and colorful storefronts." loading="lazy">
+  <figcaption>A holiday evening at Walt Disney World, the kind of setting the Hallmark movie is selling and that you can actually plan a trip around.</figcaption>
+</figure>
 
 ## When and where can you watch it?
 

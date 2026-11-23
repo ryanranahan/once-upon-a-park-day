@@ -3,7 +3,6 @@ title: "Disney Fantasy Itineraries for 2027: How to Pick the Right Sailing"
 date: 2026-11-23
 category: Disney Cruise Line news
 summary: "The Disney Fantasy sails 3- to 10-night trips in 2027, from quick Bahamas getaways to a Southern Caribbean voyage. We've sailed her, and here's how we'd choose."
-image: /images/cruise-ship.svg
 tldr: "In 2027 the Disney Fantasy sails 3-, 4- and 5-night Bahamas and Caribbean trips, a 6-night one-way trip from San Juan to Port Canaveral, and a special 10-night Southern Caribbean voyage from Port Canaveral in summer 2027. Theme sailings include Pixar Day at Sea (select 5-night trips, January to April), Halloween on the High Seas (September and October) and Very Merrytime (November and December)."
 keywords: [Disney Fantasy 2027 itineraries, Disney Fantasy cruise, Disney Fantasy 10-night Southern Caribbean, Pixar Day at Sea 2027, Disney Fantasy Port Canaveral]
 about: [Disney Fantasy, Disney Cruise Line]
@@ -29,9 +28,20 @@ related:
     url: "/blog/very-merrytime-cruises-guide/"
   - title: "Disney Cruise Line fall 2027 and spring 2028 sailings"
     url: "/blog/disney-cruise-line-fall-2027-spring-2028-itineraries/"
+image: /images/blog/disney-fantasy-itineraries-2027/card-800.webp
+imageAlt: "Red roses in a clear vase on a table beside a window in a Disney cruise stateroom."
+heroSrc: /images/blog/disney-fantasy-itineraries-2027/hero-1200.webp
+heroSrcset: "/images/blog/disney-fantasy-itineraries-2027/hero-800.webp 800w, /images/blog/disney-fantasy-itineraries-2027/hero-1200.webp 1200w, /images/blog/disney-fantasy-itineraries-2027/hero-2000.webp 2000w"
+heroWidth: 1200
+heroHeight: 800
 ---
 
 The Disney Fantasy is a ship we know firsthand, so we were happy to see Disney put out a full rundown of where she's sailing in 2027. If you're comparing Fantasy sailings, here's how they break down and how we'd choose. (For the ship itself, see our [Disney Fantasy guide](/cruises/disney-fantasy/).)
+
+<figure class="post-photo">
+  <img src="/images/blog/disney-fantasy-itineraries-2027/inline-1200.webp" srcset="/images/blog/disney-fantasy-itineraries-2027/inline-1200.webp 1200w, /images/blog/disney-fantasy-itineraries-2027/inline-1600.webp 1600w" sizes="(max-width: 820px) 100vw, 800px" width="1200" height="800" alt="A plate of ravioli with sauce and a glass of white wine at a Disney cruise dining table." loading="lazy">
+  <figcaption>Dining on board is part of every Fantasy itinerary, whether you pick a short Bahamas trip or a longer Caribbean sailing.</figcaption>
+</figure>
 
 ## Where does the Disney Fantasy sail in 2027?
 

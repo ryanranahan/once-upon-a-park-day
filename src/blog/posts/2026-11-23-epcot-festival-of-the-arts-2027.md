@@ -3,7 +3,6 @@ title: "EPCOT Festival of the Arts 2027: Dates and What's New"
 date: 2026-11-23
 category: Walt Disney World news
 summary: "EPCOT's Festival of the Arts runs Jan. 15 to March 1, 2027, its 10th year. Here are the dates, the Broadway concert lineup, and how first-timers can plan."
-image: /images/planning-table.svg
 tldr: "The 2027 EPCOT International Festival of the Arts runs January 15 through March 1, 2027, and it's the festival's 10th year. The Disney on Broadway Concert Series is included with EPCOT admission (5:15, 6:30 and 7:45 p.m. at America Gardens Theatre). Guaranteed concert seating comes with dining packages that Disney says go on sale December 3."
 keywords: [EPCOT Festival of the Arts 2027, Disney on Broadway Concert Series 2027, EPCOT January 2027, Festival of the Arts dates, Disney Lorcana EPCOT]
 about: [EPCOT International Festival of the Arts, EPCOT, Walt Disney World Resort]
@@ -27,9 +26,20 @@ related:
     url: "/resorts/yacht-club/"
   - title: "Caribbean Beach (Skyliner to EPCOT)"
     url: "/resorts/caribbean-beach/"
+image: /images/blog/epcot-festival-of-the-arts-2027/card-800.webp
+imageAlt: "The China pavilion at EPCOT, with the Temple of Heaven reflected in the water under a bright sky."
+heroSrc: /images/blog/epcot-festival-of-the-arts-2027/hero-1200.webp
+heroSrcset: "/images/blog/epcot-festival-of-the-arts-2027/hero-800.webp 800w, /images/blog/epcot-festival-of-the-arts-2027/hero-1200.webp 1200w, /images/blog/epcot-festival-of-the-arts-2027/hero-2000.webp 2000w"
+heroWidth: 1200
+heroHeight: 800
 ---
 
 If you're thinking about a Walt Disney World trip early in the new year, this one is worth knowing about. Disney has announced the dates and details for the **2027 EPCOT International Festival of the Arts**, and it's a milestone year: the festival's **10th**.
+
+<figure class="post-photo">
+  <img src="/images/blog/epcot-festival-of-the-arts-2027/inline-1200.webp" srcset="/images/blog/epcot-festival-of-the-arts-2027/inline-1200.webp 1200w, /images/blog/epcot-festival-of-the-arts-2027/inline-1600.webp 1600w" sizes="(max-width: 820px) 100vw, 800px" width="1200" height="799" alt="A closer view of the China pavilion at EPCOT, with the Temple of Heaven, gardens, and a stone bridge." loading="lazy">
+  <figcaption>World Showcase, including the China pavilion, is also where festival art and food booths show up during Festival of the Arts.</figcaption>
+</figure>
 
 ## When is the festival?
 

@@ -3,7 +3,6 @@ title: "Disney Jollywood Nights 2026: What to Eat and Drink"
 date: 2026-11-23
 category: Walt Disney World news
 summary: "Disney Jollywood Nights at Hollywood Studios has almost 80 event-only foods and drinks. Here's what's new, what's back, and whether the ticket is worth it."
-image: /images/fireworks-night.svg
 tldr: "Disney Jollywood Nights is a separately ticketed holiday evening at Disney's Hollywood Studios. For 2026, Disney says the menu has almost 80 event-exclusive foods and drinks, nearly 30 of them new, including a Yuletide Ham Popover and Cookie Butter Croissant Beignets. The Birria Taco, the event's most popular dish since 2023, is back at ABC Commissary."
 keywords: [Disney Jollywood Nights 2026, Jollywood Nights food, Hollywood Studios holiday party, Jollywood Nights menu, Birria Taco Jollywood]
 about: [Disney Jollywood Nights, Disney's Hollywood Studios, Walt Disney World Resort]
@@ -29,9 +28,20 @@ related:
     url: "/resorts/boardwalk-inn/"
   - title: "Riviera Resort (Skyliner to Hollywood Studios)"
     url: "/resorts/riviera/"
+image: /images/blog/disney-jollywood-nights-food-2026/card-800.webp
+imageAlt: "The Twilight Zone Tower of Terror at dusk, with holiday lights and a decorated tree on the Hollywood Studios plaza."
+heroSrc: /images/blog/disney-jollywood-nights-food-2026/hero-1200.webp
+heroSrcset: "/images/blog/disney-jollywood-nights-food-2026/hero-800.webp 800w, /images/blog/disney-jollywood-nights-food-2026/hero-1200.webp 1200w, /images/blog/disney-jollywood-nights-food-2026/hero-2000.webp 2000w"
+heroWidth: 1200
+heroHeight: 799
 ---
 
 Disney Jollywood Nights is Hollywood Studios' after-hours holiday party, and food is a big part of why people go. Disney just shared a peek at how this year's menu came together, so here's a plain-English look at what's on it and how to decide whether it belongs on your trip.
+
+<figure class="post-photo">
+  <img src="/images/blog/disney-jollywood-nights-food-2026/inline-1200.webp" srcset="/images/blog/disney-jollywood-nights-food-2026/inline-1200.webp 1200w, /images/blog/disney-jollywood-nights-food-2026/inline-1600.webp 1600w" sizes="(max-width: 820px) 100vw, 800px" width="1200" height="800" alt="Hollywood Boulevard at Hollywood Studios at night, with star lanterns on the lamp posts, holiday lights, and palms along the street." loading="lazy">
+  <figcaption>Hollywood Studios dressed for the holidays, the setting for Disney Jollywood Nights.</figcaption>
+</figure>
 
 ## What is Disney Jollywood Nights?
 

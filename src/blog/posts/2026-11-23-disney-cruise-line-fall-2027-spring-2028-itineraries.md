@@ -3,7 +3,6 @@ title: "Disney Cruise Line Fall 2027 and Spring 2028: Where Every Ship Sails"
 date: 2026-11-23
 category: Disney Cruise Line news
 summary: "Disney Wish heads to New York, Destiny moves to Port Canaveral, and Magic transits the Panama Canal. Here's every ship's fall 2027 and spring 2028 plan."
-image: /images/cruise-ship.svg
 tldr: "Disney Cruise Line's fall 2027 and spring 2028 sailings are open to book. Highlights: the Disney Wish sails from New York in fall 2027 (including Bermuda and New England and Canada trips), the Disney Destiny gets its first Port Canaveral season, the Disney Magic makes two 14-night Panama Canal crossings, and Disney Fantasy adds its first 8-night Bermuda trip from Fort Lauderdale."
 keywords: [Disney Cruise Line fall 2027 itineraries, Disney Cruise Line spring 2028, Disney Wish New York 2027, Disney Magic Panama Canal 2027, Disney Destiny Port Canaveral]
 about: [Disney Cruise Line, Disney Wish, Disney Destiny, Disney Magic, Disney Fantasy, Disney Dream, Disney Treasure, Disney Wonder, Disney Adventure]
@@ -29,9 +28,20 @@ related:
     url: "/blog/disney-believe-new-ship/"
   - title: "Disney Magic ship guide"
     url: "/cruises/disney-magic/"
+image: /images/blog/disney-cruise-line-fall-2027-spring-2028-itineraries/card-800.webp
+imageAlt: "A sunset over open water, photographed from the deck of a Disney cruise."
+heroSrc: /images/blog/disney-cruise-line-fall-2027-spring-2028-itineraries/hero-1200.webp
+heroSrcset: "/images/blog/disney-cruise-line-fall-2027-spring-2028-itineraries/hero-800.webp 800w, /images/blog/disney-cruise-line-fall-2027-spring-2028-itineraries/hero-1200.webp 1200w, /images/blog/disney-cruise-line-fall-2027-spring-2028-itineraries/hero-2000.webp 2000w"
+heroWidth: 1200
+heroHeight: 800
 ---
 
 Disney announced its fall 2027 and spring 2028 sailings back in late summer, and they're open to book now. There's a lot packed into the announcement, so we've boiled it down to what each ship is doing and who each trip suits.
+
+<figure class="post-photo">
+  <img src="/images/blog/disney-cruise-line-fall-2027-spring-2028-itineraries/inline-1200.webp" srcset="/images/blog/disney-cruise-line-fall-2027-spring-2028-itineraries/inline-1200.webp 1200w, /images/blog/disney-cruise-line-fall-2027-spring-2028-itineraries/inline-1600.webp 1600w" sizes="(max-width: 820px) 100vw, 800px" width="1200" height="800" alt="Pink and gray clouds over the ocean, seen from a Disney cruise at sea." loading="lazy">
+  <figcaption>At sea on a Disney cruise. The 2027–2028 slate spreads the ships across very different itineraries.</figcaption>
+</figure>
 
 ## What are the big headlines?
 
