@@ -128,7 +128,7 @@ p{margin:0}
   .site-header.search-open .search{display:flex;position:absolute;left:16px;right:16px;top:calc(100% + 8px)}
   .awning{height:8px}
   .hero-row{padding-top:28px;padding-bottom:44px;gap:24px}
-  .hero-photo::after{background:linear-gradient(180deg,rgba(14,27,54,.88) 0%,rgba(14,27,54,.78) 55%,rgba(14,27,54,.62) 100%)}
+  .hero-photo::after{background:linear-gradient(180deg,rgba(14,27,54,.9) 0%,rgba(14,27,54,.72) 42%,rgba(14,27,54,.42) 100%)}
   .hero h1{font-size:34px}
   .hero .lead{font-size:17px}
   .hero-copy,.finder{flex-basis:100%}
