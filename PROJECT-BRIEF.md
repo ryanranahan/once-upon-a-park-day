@@ -45,7 +45,7 @@ The site now follows the "Once Upon A Park Day" logo. The earlier "Sunny Boardwa
 
 ## Pre-launch splash page
 
-- Until launch, `/` shows a "coming soon" splash page (`src/splash.njk`): night sky with twinkling stars and tap-to-launch fireworks, a storybook "table of contents" card, and the logo palette. The full homepage lives at `/home/` (noindex). Switch with `comingSoon` in `src/_data/site.json`.
+- Until launch, the homepage of the real domain (onceuponaparkday.com) shows a "coming soon" splash page (`src/splash.njk`, served by `functions/index.js`): night sky with twinkling stars and tap-to-launch fireworks, a storybook "table of contents" card, and the logo palette. The pages.dev site keeps the full homepage. Switch with `comingSoon` in `src/_data/site.json`.
 
 ## Homepage structure (index.html)
 
