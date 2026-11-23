@@ -1,0 +1,41 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# {{ site.name | safe }}
+
+> {{ site.description | safe }} Independent site, not affiliated with The Walt Disney Company or Universal Orlando Resort.
+
+Each resort guide covers who the hotel suits, rooms, pools, dining, getting to the parks, pros and cons, and first-timer tips. Guides marked "first-hand" are written from the author's own stays; others are researched and say so on the page.
+
+## Walt Disney World resort guides
+{% for r in resorts %}
+- [{{ r.name | safe }}]({{ site.url | safe }}/resorts/{{ r.slug | safe }}/): {{ r.tier | safe }} resort, {{ r.area | safe }}. {{ r.theme | safe }}{% if resortGuides[r.slug].author %} (first-hand guide){% endif %}
+{%- endfor %}
+
+## Disneyland Resort hotel guides
+{% for r in disneyland.hotels %}
+- [{{ r.name | safe }}]({{ site.url | safe }}/disneyland/hotels/{{ r.slug | safe }}/): {{ r.theme | safe }}
+{%- endfor %}
+
+## Universal Orlando Resort hotel guides
+{% for r in universal.hotels %}
+- [{{ r.name | safe }}]({{ site.url | safe }}/universal-orlando/hotels/{{ r.slug | safe }}/): {{ r.tier | safe }}. {{ r.theme | safe }}
+{%- endfor %}
+
+## Disney Cruise Line ship guides
+
+- [All Disney Cruise Line ships compared]({{ site.url | safe }}/cruises/)
+{%- for s in ships %}
+- [{{ s.name | safe }}]({{ site.url | safe }}/cruises/{{ s.slug | safe }}/): {{ s.summary | safe }}
+{%- endfor %}
+
+## Blog
+{% for p in collections.post %}
+- [{{ p.data.title | safe }}]({{ site.url | safe }}{{ p.url | safe }}): {{ p.data.summary | safe }}
+{%- endfor %}
+
+## Optional
+
+- [All resort hotels by category]({{ site.url | safe }}/resorts/)
+- [Sitemap]({{ site.url | safe }}/sitemap.xml)

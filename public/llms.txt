@@ -1,0 +1,82 @@
+# Once Upon A Park Day
+
+> Plain-English guides to Disney and Universal resort hotels, Disney Cruise Line ships, and trip planning for first-time visitors. Independent site, not affiliated with The Walt Disney Company or Universal Orlando Resort.
+
+Each resort guide covers who the hotel suits, rooms, pools, dining, getting to the parks, pros and cons, and first-timer tips. Guides marked "first-hand" are written from the author's own stays; others are researched and say so on the page.
+
+## Walt Disney World resort guides
+
+- [Disney's All-Star Movies Resort](https://once-upon-a-park-day.pages.dev/resorts/all-star-movies/): Value resort, Animal Kingdom area. Bright, playful buildings decorated with giant icons from classic Disney films.
+- [Disney's All-Star Music Resort](https://once-upon-a-park-day.pages.dev/resorts/all-star-music/): Value resort, Animal Kingdom area. Music-themed buildings with oversized instruments, plus family suites for bigger groups.
+- [Disney's All-Star Sports Resort](https://once-upon-a-park-day.pages.dev/resorts/all-star-sports/): Value resort, Animal Kingdom area. Sports-themed buildings with supersized balls, helmets and courts.
+- [Disney's Pop Century Resort](https://once-upon-a-park-day.pages.dev/resorts/pop-century/): Value resort, Wide World of Sports area. A walk through 20th-century pop culture, decade by decade, across the lake from Art of Animation.
+- [Disney's Art of Animation Resort](https://once-upon-a-park-day.pages.dev/resorts/art-of-animation/): Value resort, Wide World of Sports area. Themed to animated films, with most rooms set up as family suites.
+- [Disney's Caribbean Beach Resort](https://once-upon-a-park-day.pages.dev/resorts/caribbean-beach/): Moderate resort, Epcot area. Colorful Caribbean island villages around a lake, and the central hub of the Skyliner.
+- [Disney's Coronado Springs Resort](https://once-upon-a-park-day.pages.dev/resorts/coronado-springs/): Moderate resort, Animal Kingdom area. Spanish and Mexican-inspired buildings around a large lake, including the Gran Destino Tower.
+- [Disney's Port Orleans Resort – French Quarter](https://once-upon-a-park-day.pages.dev/resorts/port-orleans-french-quarter/): Moderate resort, Disney Springs area. A compact resort styled after the French Quarter of New Orleans.
+- [Disney's Port Orleans Resort – Riverside](https://once-upon-a-park-day.pages.dev/resorts/port-orleans-riverside/): Moderate resort, Disney Springs area. Southern riverside mansions and bayou-style buildings along a winding river.
+- [Disney's Animal Kingdom Lodge](https://once-upon-a-park-day.pages.dev/resorts/animal-kingdom-lodge/): Deluxe resort, Animal Kingdom area. An African-inspired lodge where many rooms look out over savannas with live animals.
+- [Disney's Beach Club Resort](https://once-upon-a-park-day.pages.dev/resorts/beach-club/): Deluxe resort, Epcot area. A breezy New England seaside hotel, sharing a large sand-bottom pool area with the Yacht Club.
+- [Disney's BoardWalk Inn](https://once-upon-a-park-day.pages.dev/resorts/boardwalk-inn/): Deluxe resort, Epcot area. A turn-of-the-century Atlantic seaboard boardwalk on Crescent Lake, with shops and restaurants outside the door.
+- [Disney's Contemporary Resort](https://once-upon-a-park-day.pages.dev/resorts/contemporary/): Deluxe resort, Magic Kingdom area. A modern A-frame tower that the monorail runs right through, a short walk from Magic Kingdom.
+- [Disney's Grand Floridian Resort & Spa](https://once-upon-a-park-day.pages.dev/resorts/grand-floridian/): Deluxe resort, Magic Kingdom area. A Victorian-style seaside hotel on the Seven Seas Lagoon, and Walt Disney World's flagship resort. (first-hand guide)
+- [Disney's Polynesian Village Resort](https://once-upon-a-park-day.pages.dev/resorts/polynesian-village/): Deluxe resort, Magic Kingdom area. A South Pacific island resort on the Seven Seas Lagoon, looking across the water to Magic Kingdom.
+- [Disney's Wilderness Lodge](https://once-upon-a-park-day.pages.dev/resorts/wilderness-lodge/): Deluxe resort, Magic Kingdom area. A grand national park lodge with a towering lobby, set in the woods on Bay Lake.
+- [Disney's Yacht Club Resort](https://once-upon-a-park-day.pages.dev/resorts/yacht-club/): Deluxe resort, Epcot area. A polished New England yacht club, sharing a large sand-bottom pool area with the Beach Club. (first-hand guide)
+- [Bay Lake Tower at Disney's Contemporary Resort](https://once-upon-a-park-day.pages.dev/resorts/bay-lake-tower/): Deluxe Villa resort, Magic Kingdom area. A Disney Vacation Club tower next to the Contemporary, linked to it by a skybridge.
+- [Boulder Ridge Villas at Disney's Wilderness Lodge](https://once-upon-a-park-day.pages.dev/resorts/boulder-ridge-villas/): Deluxe Villa resort, Magic Kingdom area. Disney Vacation Club villas inside the Wilderness Lodge, styled after the railroad era of the American West.
+- [Copper Creek Villas & Cabins at Disney's Wilderness Lodge](https://once-upon-a-park-day.pages.dev/resorts/copper-creek-villas/): Deluxe Villa resort, Magic Kingdom area. Disney Vacation Club villas inside the Wilderness Lodge, plus standalone cabins along Bay Lake.
+- [Disney's Old Key West Resort](https://once-upon-a-park-day.pages.dev/resorts/old-key-west/): Deluxe Villa resort, Disney Springs area. A laid-back Key West-style resort with roomy villas, near Disney Springs.
+- [Disney's Saratoga Springs Resort & Spa](https://once-upon-a-park-day.pages.dev/resorts/saratoga-springs/): Deluxe Villa resort, Disney Springs area. A large resort inspired by the spa and horse-racing towns of upstate New York, across the lake from Disney Springs.
+- [Disney's Riviera Resort](https://once-upon-a-park-day.pages.dev/resorts/riviera/): Deluxe Villa resort, Epcot area. An elegant European Riviera-style resort with its own Skyliner station.
+- [Disney's Polynesian Villas & Bungalows](https://once-upon-a-park-day.pages.dev/resorts/polynesian-villas/): Deluxe Villa resort, Magic Kingdom area. Disney Vacation Club villas at the Polynesian, plus bungalows that sit over the Seven Seas Lagoon.
+- [Island Tower at Disney's Polynesian Villas & Bungalows](https://once-upon-a-park-day.pages.dev/resorts/island-tower/): Deluxe Villa resort, Magic Kingdom area. The newest Disney Vacation Club tower at the Polynesian, on the Seven Seas Lagoon.
+- [The Villas at Disney's Grand Floridian Resort & Spa](https://once-upon-a-park-day.pages.dev/resorts/grand-floridian-villas/): Deluxe Villa resort, Magic Kingdom area. Disney Vacation Club villas in the same Victorian style as the Grand Floridian next door.
+- [Disney's Animal Kingdom Villas – Kidani Village](https://once-upon-a-park-day.pages.dev/resorts/kidani-village/): Deluxe Villa resort, Animal Kingdom area. Disney Vacation Club villas next to Animal Kingdom Lodge, with their own savanna views.
+- [Disney's Beach Club Villas](https://once-upon-a-park-day.pages.dev/resorts/beach-club-villas/): Deluxe Villa resort, Epcot area. Disney Vacation Club villas attached to the Beach Club, with access to the same pool area.
+- [Disney's BoardWalk Villas](https://once-upon-a-park-day.pages.dev/resorts/boardwalk-villas/): Deluxe Villa resort, Epcot area. Disney Vacation Club villas on the BoardWalk, sharing the building with the BoardWalk Inn.
+- [The Cabins at Disney's Fort Wilderness Resort](https://once-upon-a-park-day.pages.dev/resorts/cabins-at-fort-wilderness/): Deluxe Villa resort, Magic Kingdom area. Disney Vacation Club cabins tucked into the woods at Fort Wilderness.
+- [Disney's Fort Wilderness Resort & Campground](https://once-upon-a-park-day.pages.dev/resorts/fort-wilderness/): Campground resort, Magic Kingdom area. Wooded campsites for tents and RVs on Bay Lake, with trails, horses and campfire evenings.
+
+## Disneyland Resort hotel guides
+
+- [Disney's Grand Californian Hotel & Spa](https://once-upon-a-park-day.pages.dev/disneyland/hotels/grand-californian/): A California Craftsman lodge with redwood and Monterey pine details, right beside Disney California Adventure.
+- [Disneyland Hotel](https://once-upon-a-park-day.pages.dev/disneyland/hotels/disneyland-hotel/): The resort's original hotel from 1955, with mid-century style and towers that nod to the early lands of Disneyland.
+- [Pixar Place Hotel](https://once-upon-a-park-day.pages.dev/disneyland/hotels/pixar-place/): A 15-story tower themed to Pixar films, the first fully Pixar-themed hotel in the United States.
+- [The Villas at Disneyland Hotel](https://once-upon-a-park-day.pages.dev/disneyland/hotels/villas-at-disneyland-hotel/): A Disney Vacation Club tower at the Disneyland Hotel, themed to classic Walt Disney Animation films.
+
+## Universal Orlando Resort hotel guides
+
+- [Loews Portofino Bay Hotel](https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/portofino-bay/): Signature Collection. An Italian seaside village by the water, modeled on the town of Portofino.
+- [Hard Rock Hotel](https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/hard-rock-hotel/): Signature Collection. A music-themed hotel filled with rock memorabilia, closest of the Signature hotels to the main parks.
+- [Loews Royal Pacific Resort](https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/royal-pacific/): Signature Collection. A South Pacific island escape with lush, tropical grounds.
+- [Loews Sapphire Falls Resort](https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/sapphire-falls/): Signature Collection. A Caribbean island resort built around waterfalls and a lagoon.
+- [Universal Helios Grand Hotel, a Loews Hotel](https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/helios-grand/): Signature Collection. A celestial-themed grand hotel inside Epic Universe, with its own entrance into the park.
+- [Universal Aventura Hotel](https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/aventura/): Prime Value. A sleek, modern high-rise with a rooftop bar.
+- [Universal Stella Nova Resort](https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/stella-nova/): Prime Value. A space-age hotel inspired by the stars and constellations, next to Epic Universe. Opened in 2025.
+- [Universal Terra Luna Resort](https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/terra-luna/): Prime Value. Stella Nova's twin, with a bright, otherworldly look near Epic Universe.
+- [Universal Cabana Bay Beach Resort](https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/cabana-bay/): Value Inns & Suites. A retro 1950s and 1960s beach-motel look, with family suites and plenty to do.
+- [Universal Endless Summer Resort – Surfside Inn and Suites](https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/endless-summer-surfside/): Value Inns & Suites. A laid-back surf and beach theme at one of Universal's lowest prices.
+- [Universal Endless Summer Resort – Dockside Inn and Suites](https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/endless-summer-dockside/): Value Inns & Suites. Surfside's sister hotel, with the same beachy theme and value pricing.
+
+## Disney Cruise Line ship guides
+
+- [All Disney Cruise Line ships compared](https://once-upon-a-park-day.pages.dev/cruises/)
+- [Disney Magic](https://once-upon-a-park-day.pages.dev/cruises/disney-magic/): Disney's original ship, with a classic Art Deco look and a cozier size than the newer ships.
+- [Disney Wonder](https://once-upon-a-park-day.pages.dev/cruises/disney-wonder/): The Magic's sister ship, with an Art Nouveau look and the same classic, smaller-ship feel.
+- [Disney Dream](https://once-upon-a-park-day.pages.dev/cruises/disney-dream/): The first of the larger ships, which introduced the AquaDuck water coaster and virtual portholes in inside staterooms.
+- [Disney Fantasy](https://once-upon-a-park-day.pages.dev/cruises/disney-fantasy/): The Dream's sister ship, with an Art Nouveau look, often sailing longer Caribbean itineraries.
+- [Disney Wish](https://once-upon-a-park-day.pages.dev/cruises/disney-wish/): The first of the newest generation of ships, with a grand fairy-tale atrium and new themed dining.
+- [Disney Treasure](https://once-upon-a-park-day.pages.dev/cruises/disney-treasure/): The Wish's sister ship, themed around adventure and exploration.
+- [Disney Destiny](https://once-upon-a-park-day.pages.dev/cruises/disney-destiny/): Disney's heroes-and-villains ship and the third in the Wish class, launched in late 2025.
+- [Disney Adventure](https://once-upon-a-park-day.pages.dev/cruises/disney-adventure/): Disney's largest ship, built for 3- and 4-night sailings from Singapore.
+- [Disney Believe](https://once-upon-a-park-day.pages.dev/cruises/disney-believe/): Disney's next ship, scheduled to sail its maiden voyage in December 2027 from Fort Lauderdale.
+
+## Blog
+
+- [Welcome to Once Upon A Park Day](https://once-upon-a-park-day.pages.dev/blog/welcome/): Why this site exists and what's coming first.
+
+## Optional
+
+- [All resort hotels by category](https://once-upon-a-park-day.pages.dev/resorts/)
+- [Sitemap](https://once-upon-a-park-day.pages.dev/sitemap.xml)

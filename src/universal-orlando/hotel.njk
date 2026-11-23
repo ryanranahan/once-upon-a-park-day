@@ -4,11 +4,12 @@ section: universal
 pagination:
   data: universal.hotels
   size: 1
+  addAllPagesToCollections: true
   alias: resort
 permalink: "/universal-orlando/hotels/{{ resort.slug }}/"
 eleventyComputed:
-  title: "{{ resort.short }}: a first-timer's guide"
-  description: "{{ resort.theme }} A plain-English guide to {{ resort.name }} for first-time visitors."
+  title: "{{ resort.name if resort.name.length <= 50 else resort.short }}: a first-timer's guide"
+  description: "{{ resort.theme }} First-timer's guide to rooms, pools, dining and park transport."
 ---
 {% set dest = universal %}
 {% include "hotel-page.njk" %}

@@ -12,14 +12,38 @@
 
   gtag('config', 'G-QR7PQJGKXN');
 </script>
-<title>{% if title %}{{ title }} | Once Upon A Park Day{% else %}Once Upon A Park Day | First-timer guides to Disney resorts and cruises{% endif %}</title>
-<meta name="description" content="{{ description or 'Plain-English guides to Disney resort hotels, Disney Cruise Line, and trip planning for first-time visitors.' }}">
+{% set metaTitle = title | pageTitle(site.name, site.name + ": Disney resort and cruise guides for first-timers") -%}
+{%- set metaDesc = (description or site.description) | metaDescription -%}
+{%- set canonical = site.url + page.url -%}
+{%- set guide = (resortGuides[resort.slug] if (resort and section == "resorts") else (resort.guide if resort else ship)) or {} -%}
+{%- set shareImage = (ship.photo.src if (ship and ship.photo) else site.ogImage) -%}
+<title>{{ metaTitle }}</title>
+<meta name="description" content="{{ metaDesc }}">
+{% if noindex %}<meta name="robots" content="noindex">
+{% else %}<link rel="canonical" href="{{ canonical }}">
+{% endif %}<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:type" content="{{ 'article' if (resort or ship or category) else 'website' }}">
+<meta property="og:title" content="{{ (title or site.name) | plainText }}">
+<meta property="og:description" content="{{ metaDesc }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:image" content="{{ site.url }}{{ shareImage }}">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <meta name="theme-color" content="#16294F">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap"></noscript>
 <link rel="stylesheet" href="/css/site.css">
+{% if not noindex %}<script type="application/ld+json">{{ {
+  site: site, url: page.url, title: title, description: metaDesc, section: section,
+  resort: resort, ship: ship, guide: guide, author: author,
+  isPost: ("/blog/posts/" in page.inputPath), date: (page.date | isoDate),
+  resorts: resorts, disneyland: disneyland, universal: universal, ships: ships, posts: collections.post
+} | jsonLd | safe }}</script>{% endif %}
 </head>
 <body>
 
