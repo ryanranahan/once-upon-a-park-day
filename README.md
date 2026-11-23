@@ -29,6 +29,12 @@ The site uses [Eleventy](https://www.11ty.dev/), which turns templates and Markd
 
 **Run it locally:** `npm install`, then `npm start` and open http://localhost:8080.
 
+## Search engines and AI assistants
+
+- `src/_data/site.json` holds the site's address. **When the custom domain is live, change `url` there and rebuild**: canonical links, the sitemap, `robots.txt`, `llms.txt` and the structured data all update from it.
+- Page titles, descriptions, social preview tags and schema.org structured data are generated in `src/_includes/layouts/base.njk` using helpers in `src/_lib/seo.js`.
+- `sitemap.xml`, `robots.txt`, `llms.txt` and `404.html` are built from `src/sitemap.njk`, `src/robots.njk`, `src/llms.njk` and `src/404.njk`. New guides and posts are added to them automatically.
+
 ## Hosting
 
 Cloudflare Pages builds and publishes the site on every push to `main`.

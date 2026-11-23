@@ -1,0 +1,6 @@
+# Search engines and AI assistants are welcome to read and cite this site.
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: https://once-upon-a-park-day.pages.dev/sitemap.xml

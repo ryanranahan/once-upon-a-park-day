@@ -1,1 +1,1 @@
-{ "layout": "layouts/post.njk", "permalink": "/blog/{{ page.fileSlug }}/" }
+{ "layout": "layouts/post.njk", "permalink": "/blog/{{ page.fileSlug }}/", "author": "Ryan" }

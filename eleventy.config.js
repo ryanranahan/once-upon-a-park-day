@@ -1,3 +1,5 @@
+import { jsonLd, metaDescription, pageTitle, plainText } from "./src/_lib/seo.js";
+
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/images": "images", "src/css": "css", "src/favicon.svg": "favicon.svg" });
 
@@ -12,6 +14,10 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("readableDate", (d) =>
     new Date(d).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" })
   );
+  eleventyConfig.addFilter("pageTitle", pageTitle);
+  eleventyConfig.addFilter("metaDescription", metaDescription);
+  eleventyConfig.addFilter("jsonLd", jsonLd);
+  eleventyConfig.addFilter("plainText", plainText);
   eleventyConfig.addFilter("isoDate", (d) => new Date(d).toISOString().slice(0, 10));
 
   return {

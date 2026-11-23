@@ -4,11 +4,12 @@ section: resorts
 pagination:
   data: resorts
   size: 1
+  addAllPagesToCollections: true
   alias: resort
 permalink: "/resorts/{{ resort.slug }}/"
 eleventyComputed:
-  title: "{{ resort.short }}: a first-timer's guide"
-  description: "{{ resort.theme }} A plain-English guide to {{ resort.name }} for first-time visitors."
+  title: "{{ resort.name if resort.name.length <= 50 else resort.short }}: a first-timer's guide"
+  description: "{{ resort.theme }} First-timer's guide to rooms, pools, dining and park transport."
 ---
 {% set tier = tiers | findTierByName(resort.tier) %}
 {% set g = resortGuides[resort.slug] or {} %}
