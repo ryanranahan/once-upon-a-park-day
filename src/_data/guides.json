@@ -1,0 +1,11 @@
+[
+  {"url": "/planning/", "title": "Planning and budgeting", "group": "Planning"},
+  {"url": "/planning/parks-or-cruise/", "title": "Parks trip or Disney cruise?", "group": "Planning"},
+  {"url": "/planning/when-to-book/", "title": "When to book: a planning timeline", "group": "Planning"},
+  {"url": "/planning/budget-and-booking/", "title": "Set a budget and book", "group": "Planning"},
+  {"url": "/resorts/value-moderate-deluxe/", "title": "Value, Moderate or Deluxe?", "group": "Resorts"},
+  {"url": "/cruises/first-cruise/", "title": "Your first Disney cruise: included and extra", "group": "Cruises"},
+  {"url": "/cruises/inside-vs-verandah/", "title": "Inside vs. verandah stateroom", "group": "Cruises"},
+  {"url": "/news/", "title": "Deals and news", "group": "News"},
+  {"url": "/about/how-we-research/", "title": "How we research our guides", "group": "About"}
+]

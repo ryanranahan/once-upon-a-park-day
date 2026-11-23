@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+---
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <nav class="crumbs" aria-label="Breadcrumb">{% for c in crumbs %}<a href="{{ c[1] }}">{{ c[0] }}</a> <span aria-hidden="true">›</span> {% endfor %}{{ short or title }}</nav>
+      <p class="eyebrow">{{ eyebrow or "Planning" }}</p>
+      <h1>{{ title }}</h1>
+      {% if lead %}<p class="lead">{{ lead }}</p>{% endif %}
+      <p class="byline">{% if researched %}<span class="badge badge-researched">Researched guide</span> {% endif %}{% if not researched %}By Ryan · {% endif %}Facts last checked {{ checked or "November 2026" }}</p>
+    </div>
+  </div>
+</section>
+<div class="wrap guide-row">
+  <article class="guide prose">
+    {{ content | safe }}
+  </article>
+  <aside class="guide-side">
+    <div class="card nearby">
+      <h2>More first-timer guides</h2>
+      <ul>{% for g in guides %}{% if g.url != page.url %}<li><a href="{{ g.url }}">{{ g.title }}</a> <small>{{ g.group }}</small></li>{% endif %}{% endfor %}</ul>
+    </div>
+  </aside>
+</div>

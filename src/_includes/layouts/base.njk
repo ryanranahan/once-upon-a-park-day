@@ -61,7 +61,7 @@
     <nav class="main-nav" id="main-nav" aria-label="Main">
       {% include "resorts-menu.njk" %}
       <a href="/cruises/"{% if section == "cruises" %} aria-current="page"{% endif %}>Disney Cruise Line</a>
-      <a href="#">Planning</a>
+      <a href="/planning/"{% if section == "planning" %} aria-current="page"{% endif %}>Planning</a>
       <a href="/blog/"{% if section == "blog" %} aria-current="page"{% endif %}>Blog</a>
       <a class="btn btn-red" href="/#start">Start here</a>
     </nav>
