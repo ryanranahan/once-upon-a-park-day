@@ -1,0 +1,11 @@
+{#- Hero image for a resort, hotel or ship.
+    Set `photo` before including. Ryan's own photos (no `credit`) and openly licensed
+    photos from Wikimedia Commons (with `credit`) both work. No photo shows the placeholder. -#}
+{% if photo %}
+<figure class="hero-figure">
+  <img class="hero-img" src="{{ photo.src }}" srcset="{{ photo.small }} 800w, {{ photo.src }} {{ photo.width }}w" sizes="(max-width: 820px) 100vw, 540px" width="{{ photo.width }}" height="{{ photo.height }}" alt="{{ photo.alt }}">
+  {% if photo.credit %}<figcaption class="photo-credit">Photo: <a href="{{ photo.credit.source }}" rel="noopener">{{ photo.credit.author }}</a>, <a href="{{ photo.credit.licenseUrl }}" rel="license noopener">{{ photo.credit.license }}</a>, via Wikimedia Commons{% if photo.credit.changes %} ({{ photo.credit.changes }}){% endif %}</figcaption>{% endif %}
+</figure>
+{% else %}
+<div class="hero-soon">{% include "coming-soon.njk" %}</div>
+{% endif %}

@@ -3,7 +3,6 @@ title: "Very Merrytime Cruises: A First-Timer's Guide to Disney's Holiday Sailin
 date: 2026-11-23
 category: Disney Cruise Line news
 summary: "Very Merrytime is Disney Cruise Line's holiday theme on select November and December sailings. Here's what's on board and how to pick one."
-image: /images/cruise-ship.svg
 tldr: "Very Merrytime Cruises are Disney Cruise Line's holiday-themed sailings on select November and December trips. For 2026 and 2027 they leave from Fort Lauderdale, Port Canaveral, Galveston and San Diego. Look for itineraries labeled Very Merrytime on Disney Cruise Line's site. On board you'll find a tree lighting, a holiday deck party, Santa, holiday treats and Christmas decor."
 keywords: [Very Merrytime Cruise, Disney Cruise Line Christmas, Disney cruise holiday sailings 2026, Very Merrytime 2027, Disney cruise Santa]
 about: [Very Merrytime Cruises, Disney Cruise Line]
@@ -29,6 +28,7 @@ related:
     url: "/cruises/disney-dream/"
   - title: "Disney Wish ship guide"
     url: "/cruises/disney-wish/"
+photo: ship/disney-wonder
 ---
 
 A Disney cruise around the holidays is a special kind of trip: warm weather, a Christmas tree in the lobby, and Santa at sea. Disney calls these **Very Merrytime Cruises**, and they've just shared a full guide for the 2026 and 2027 seasons. Here's what first-timers need to know.

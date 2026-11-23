@@ -18,7 +18,8 @@ description: Trip reports, news and tips for first-time Disney visitors.
   <div class="post-list">
   {% for post in collections.post %}
     <article class="card post">
-      <img src="{{ post.data.image or '/images/planning-table.svg' }}" alt="{{ post.data.imageAlt or '' }}" width="800" height="533" loading="lazy">
+      {% set pp = photos[post.data.photo] if post.data.photo else null %}
+      <img src="{{ post.data.image or (pp.small if pp else '/images/planning-table.svg') }}" alt="{{ post.data.imageAlt or (pp.alt if pp else '') }}" width="800" height="533" loading="lazy">
       <div>
         <span class="eyebrow">{{ post.data.category or "Blog" }}</span>
         <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>

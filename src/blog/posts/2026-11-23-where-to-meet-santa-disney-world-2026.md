@@ -3,7 +3,6 @@ title: "Where to Meet Santa at Disney World in 2026"
 date: 2026-11-23
 category: Walt Disney World news
 summary: "Santa is at all four Disney World parks and Disney Springs this year. Here's where to find him, the dates for each spot, and how to plan the visit."
-image: /images/fireworks-night.svg
 tldr: "In 2026, Santa is at all four Walt Disney World theme parks and at Disney Springs. Animal Kingdom's new Santa's Holiday Grove opens first (November 13), Magic Kingdom's spot at Storybook Circus opens on Thanksgiving Day (November 26), and EPCOT's at CommuniCore Hall opens November 27. Santa's last day everywhere is December 24. Disney Springs uses a virtual queue in the My Disney Experience app."
 keywords: [meet Santa Disney World 2026, Santa Magic Kingdom, Santa Animal Kingdom, Santa EPCOT, Santa Disney Springs virtual queue]
 about: [Santa Claus at Walt Disney World, Walt Disney World Resort, Disney Springs]
@@ -27,6 +26,7 @@ related:
     url: "/blog/disney-jollywood-nights-food-2026/"
   - title: "Every Walt Disney World resort"
     url: "/resorts/"
+photo: blog/santa
 ---
 
 A photo with Santa is one of those little moments families talk about for years. The good news for 2026 is that he's busy: Santa has a spot in **all four Walt Disney World theme parks and at Disney Springs**. Disney shared the full list, so here it is in one place, park by park.

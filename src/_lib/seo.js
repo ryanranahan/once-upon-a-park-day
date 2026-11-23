@@ -223,7 +223,7 @@ export function jsonLd(d) {
       publisher: org,
       isPartOf: { "@id": siteId },
       mainEntityOfPage: pageUrl,
-      image: site.url + (d.image || site.ogImage),
+      image: site.url + (d.image || d.heroSrc || ((d.photo && d.photos && d.photos[d.photo]) ? d.photos[d.photo].src : site.ogImage)),
       inLanguage: "en-US",
       ...(clean(d.category) ? { articleSection: d.category } : {}),
       ...(d.keywords && d.keywords.length ? { keywords: d.keywords.join(", ") } : {}),

@@ -276,9 +276,13 @@ td.todo,th.todo{border-radius:0;border-left:0;padding:12px 14px}
 .resort-card.has-photo{padding-top:0;overflow:hidden}
 .resort-card.has-photo img{margin:0 -22px 10px;width:calc(100% + 44px);max-width:none;height:150px;object-fit:cover}
 @media (max-width:820px){.hero-img{flex-basis:100%;max-width:none;box-shadow:0 8px 0 var(--red)}}
-.hero-soon{flex:1 1 360px;min-width:0;max-width:540px}
+.hero-soon,.hero-figure{flex:1 1 360px;min-width:0;max-width:540px}
+.hero-figure{margin:0}
+.hero-figure .hero-img{display:block;max-width:none}
+.photo-credit{margin-top:18px;font-size:12.5px;line-height:1.4;color:inherit;opacity:.8}
+.photo-credit a{color:inherit}
 .soon-img{display:block;width:100%;height:auto;border-radius:22px;box-shadow:0 12px 0 var(--red)}
-@media (max-width:820px){.hero-soon{flex-basis:100%;max-width:none}.soon-img{box-shadow:0 8px 0 var(--red)}}
+@media (max-width:820px){.hero-soon,.hero-figure{flex-basis:100%;max-width:none}.photo-credit{margin-top:12px}.soon-img{box-shadow:0 8px 0 var(--red)}}
 .badge-researched{background:var(--yellow-soft);color:var(--navy);font-size:13px;padding:3px 10px;margin-right:6px;border:1px solid var(--yellow)}
 .callout-soft{border-left-color:var(--yellow);margin:20px 0 32px}
 
@@ -358,3 +362,4 @@ ul.benefits li{margin:8px 0}
 .prose .post-photo{margin:28px 0}
 .prose .post-photo img{width:100%;height:auto;border-radius:16px}
 .prose .post-photo figcaption{color:var(--muted);font-size:15px;margin-top:8px;max-width:44rem}
+.credits{padding-top:40px;padding-bottom:64px}

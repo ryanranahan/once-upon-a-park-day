@@ -16,7 +16,9 @@
 {%- set metaDesc = (description or site.description) | metaDescription -%}
 {%- set canonical = site.url + page.url -%}
 {%- set guide = (resortGuides[resort.slug] if (resort and section == "resorts") else (resort.guide if resort else ship)) or {} -%}
-{%- set shareImage = ogImage or image or heroSrc or (ship.photo.src if (ship and ship.photo) else site.ogImage) -%}
+{%- set photoPrefix = "dl" if page.url.startsWith("/disneyland/") else ("uo" if page.url.startsWith("/universal-orlando/") else "wdw") -%}
+{%- set heroPhoto = (ship.photo or photos["ship/" + ship.slug]) if ship else ((resort.photo or photos[photoPrefix + "/" + resort.slug]) if resort else (photos[photo] if (photo and photo.length) else null)) -%}
+{%- set shareImage = ogImage or image or heroSrc or (heroPhoto.src if heroPhoto else site.ogImage) -%}
 <title>{{ metaTitle }}</title>
 <meta name="description" content="{{ metaDesc }}">
 {% if noindex %}<meta name="robots" content="noindex">
@@ -50,7 +52,7 @@
   resort: resort, ship: ship, guide: guide, author: author, isArticle: isArticle, faq: faq, checked: checked,
   isPost: ("/blog/posts/" in page.inputPath), date: (page.date | isoDate),
   updated: (updated | isoDate if updated else undefined), category: category, keywords: keywords,
-  about: about, sources: sources, tldr: tldr, image: (ogImage or image or heroSrc or shareImage),
+  about: about, sources: sources, tldr: tldr, image: (ogImage or image or heroSrc or shareImage), photo: photo, photos: photos, heroSrc: heroSrc,
   resorts: resorts, disneyland: disneyland, universal: universal, ships: ships, posts: collections.post
 } | jsonLd | safe }}</script>{% endif %}
 </head>
@@ -97,7 +99,8 @@
         <a href="/universal-orlando/">Universal Orlando</a>
         <a href="/cruises/">Disney Cruise Line</a>
         <a href="/blog/">Blog</a>
-        <a href="#">About</a>
+        <a href="/about/how-we-research/">About</a>
+        <a href="/about/photo-credits/">Photo credits</a>
         <a href="#">Contact</a>
         <a href="#">Privacy policy</a>
         <a href="#">Affiliate disclosure</a>

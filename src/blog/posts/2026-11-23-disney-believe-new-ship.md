@@ -3,7 +3,6 @@ title: "Disney Believe: What We Know About Disney's Next Cruise Ship"
 date: 2026-11-23
 category: Disney Cruise Line news
 summary: "The Disney Believe sets sail December 18, 2027, with the first-ever Encanto stage show and a Little Mermaid piano bar. Here's what's been announced so far."
-image: /images/cruise-ship.svg
 tldr: "The Disney Believe is Disney Cruise Line's next ship and the last of the Wish class. Disney says its maiden voyage is December 18, 2027. Announced highlights include the first-ever stage version of Encanto, a Moana-inspired Grand Hall, Oaken's Table (a Frozen family feast), a Snow White lounge called Wishing Well, and Sea Notes, a Little Mermaid piano bar."
 keywords: [Disney Believe, Disney Believe maiden voyage, new Disney cruise ship 2027, Disney Believe Encanto show, Wish class ship]
 about: [Disney Believe, Disney Cruise Line]
@@ -29,6 +28,7 @@ related:
     url: "/cruises/"
   - title: "Disney Cruise Line fall 2027 and spring 2028 sailings"
     url: "/blog/disney-cruise-line-fall-2027-spring-2028-itineraries/"
+photo: ship/disney-believe
 ---
 
 Disney Cruise Line's next ship has a name, a date and a growing list of things to look forward to. Disney keeps a running log of Disney Believe news, and the latest updates fill in a lot of the picture. Here's everything announced so far, in plain English.

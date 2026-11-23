@@ -34,7 +34,7 @@ Every guide shows when its facts were last checked. Hours, menus, rides, refurbi
 
 ## Photos
 
-Photos on this site are Ryan's own unless a caption says otherwise. Where we don't have a photo yet, you'll see a "Photos coming soon" placeholder.
+Photos on this site are Ryan's own unless a caption says otherwise. Until we've visited everywhere, some resort, hotel and ship pages use openly licensed photos from Wikimedia Commons, credited under each photo and on our [photo credits](/about/photo-credits/) page. We never use Disney or Universal's own press photos. Where we don't have any photo yet, you'll see a "Photos coming soon" placeholder.
 
 ## Independence
 
