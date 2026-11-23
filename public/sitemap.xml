@@ -5,6 +5,21 @@
     <lastmod>2026-11-22</lastmod>
   </url>
   <url>
+    <loc>https://once-upon-a-park-day.pages.dev/blog/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/cruises/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/disneyland/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/resorts/</loc>
+  </url>
+  <url>
     <loc>https://once-upon-a-park-day.pages.dev/blog/disney-believe-new-ship/</loc>
     <lastmod>2026-11-23</lastmod>
   </url>
@@ -49,21 +64,6 @@
     <lastmod>2026-11-23</lastmod>
   </url>
   <url>
-    <loc>https://once-upon-a-park-day.pages.dev/blog/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/cruises/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/disneyland/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/resorts/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/</loc>
-  </url>
-  <url>
     <loc>https://once-upon-a-park-day.pages.dev/cruises/disney-magic/</loc>
   </url>
   <url>
@@ -101,6 +101,9 @@
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/villas-at-disneyland-hotel/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/</loc>
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/resorts/all-star-movies/</loc>
@@ -232,30 +235,30 @@
     <loc>https://once-upon-a-park-day.pages.dev/about/how-we-research/</loc>
   </url>
   <url>
-    <loc>https://once-upon-a-park-day.pages.dev/cruises/first-cruise/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/cruises/inside-vs-verandah/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/news/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/planning/budget-and-booking/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/planning/</loc>
-  </url>
-  <url>
     <loc>https://once-upon-a-park-day.pages.dev/planning/parks-or-cruise/</loc>
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/planning/when-to-book/</loc>
   </url>
   <url>
+    <loc>https://once-upon-a-park-day.pages.dev/planning/budget-and-booking/</loc>
+  </url>
+  <url>
     <loc>https://once-upon-a-park-day.pages.dev/resorts/value-moderate-deluxe/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/cruises/first-cruise/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/cruises/inside-vs-verandah/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/news/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/planning/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/about/photo-credits/</loc>
   </url>
 </urlset>
