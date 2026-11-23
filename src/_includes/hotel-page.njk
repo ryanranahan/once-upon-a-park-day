@@ -10,7 +10,8 @@
       {% include "guide-byline.njk" %}
     </div>
     {% set label = resort.short %}
-    <div class="hero-soon">{% include "coming-soon.njk" %}</div>
+    {% set photo = resort.photo or photos[dest.photoKey + "/" + resort.slug] %}
+    {% include "hero-media.njk" %}
   </div>
 </section>
 

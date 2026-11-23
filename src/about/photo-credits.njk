@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+title: "Photo credits"
+description: "Credits and licenses for the openly licensed resort, hotel and cruise ship photos used on Once Upon A Park Day."
+permalink: /about/photo-credits/
+---
+<section class="page-hero">
+  <div class="wrap page-hero-row">
+    <div class="page-hero-copy">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">›</span> <a href="/about/how-we-research/">About</a></nav>
+      <h1>Photo credits</h1>
+      <p class="lead">Until we've taken our own photos everywhere, some pages use openly licensed photos shared by photographers on Wikimedia Commons. Thank you to everyone listed here.</p>
+    </div>
+  </div>
+</section>
+<div class="wrap prose credits">
+  <p>Each photo was cropped and resized to fit our pages. Follow the links to see the original file and its full license. Photos without a credit are our own. These photos don't mean the photographers, Disney or Universal endorse this site.</p>
+  {% set groups = [["wdw/", "Walt Disney World resorts"], ["dl/", "Disneyland Resort hotels"], ["uo/", "Universal Orlando hotels"], ["ship/", "Disney Cruise Line ships"]] %}
+  {% for grp in groups %}
+  <h2>{{ grp[1] }}</h2>
+  <ul class="credit-list">
+    {% for key, p in photos %}{% if key.startsWith(grp[0]) %}
+    <li><a href="{{ p.page }}">{{ p.place }}</a>: <a href="{{ p.credit.source }}" rel="noopener">photo</a> by {{ p.credit.author }}, <a href="{{ p.credit.licenseUrl }}" rel="license noopener">{{ p.credit.license }}</a>, {{ p.credit.changes }}.</li>
+    {% endif %}{% endfor %}
+  </ul>
+  {% endfor %}
+</div>

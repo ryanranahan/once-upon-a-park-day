@@ -1,0 +1,801 @@
+{
+  "wdw/contemporary": {
+    "src": "/images/commons/wdw-contemporary-1600.jpg",
+    "small": "/images/commons/wdw-contemporary-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The A-frame tower of Disney's Contemporary Resort, with a monorail gliding along the front",
+    "credit": {
+      "author": "Quarax",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney%27s_Contemporary_Resort_Arriving_Monorail_Teal.jpg",
+      "file": "File:Disney's Contemporary Resort Arriving Monorail Teal.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Contemporary Resort",
+    "page": "/resorts/contemporary/"
+  },
+  "wdw/bay-lake-tower": {
+    "src": "/images/commons/wdw-bay-lake-tower-1600.jpg",
+    "small": "/images/commons/wdw-bay-lake-tower-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The curved Bay Lake Tower beside Bay Lake, seen from above with the walkway to the Contemporary",
+    "credit": {
+      "author": "Sam Howzit",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bay_Lake_Tower_(6318546151).jpg",
+      "file": "File:Bay Lake Tower (6318546151).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Bay Lake Tower at Disney's Contemporary Resort",
+    "page": "/resorts/bay-lake-tower/"
+  },
+  "wdw/all-star-movies": {
+    "src": "/images/commons/wdw-all-star-movies-1600.jpg",
+    "small": "/images/commons/wdw-all-star-movies-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "A giant star at the entrance to Disney's All-Star Movies Resort, with the colorful lobby building behind",
+    "credit": {
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney%27s_All-Star_Movie_Resort_star.jpg",
+      "file": "File:Disney's All-Star Movie Resort star.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's All-Star Movies Resort",
+    "page": "/resorts/all-star-movies/"
+  },
+  "wdw/all-star-sports": {
+    "src": "/images/commons/wdw-all-star-sports-1600.jpg",
+    "small": "/images/commons/wdw-all-star-sports-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "A football-field courtyard with a giant helmet and brightly painted buildings at Disney's All-Star Sports Resort",
+    "credit": {
+      "author": "Brian Marshall from Wales",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_All_Stars_Sports_Hotel.jpg",
+      "file": "File:Disney All Stars Sports Hotel.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's All-Star Sports Resort",
+    "page": "/resorts/all-star-sports/"
+  },
+  "wdw/animal-kingdom-lodge": {
+    "src": "/images/commons/wdw-animal-kingdom-lodge-1600.jpg",
+    "small": "/images/commons/wdw-animal-kingdom-lodge-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The soaring lobby of Disney's Animal Kingdom Lodge, with carved wood pillars and shield-shaped chandeliers",
+    "credit": {
+      "author": "Dunderklumpen",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Animal_Kingdom_Lodge_lobby.jpg",
+      "file": "File:Animal Kingdom Lodge lobby.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Animal Kingdom Lodge",
+    "page": "/resorts/animal-kingdom-lodge/"
+  },
+  "wdw/art-of-animation": {
+    "src": "/images/commons/wdw-art-of-animation-1600.jpg",
+    "small": "/images/commons/wdw-art-of-animation-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "A bright orange arch and colorful diamond-patterned walls at the entrance of Disney's Art of Animation Resort",
+    "credit": {
+      "author": "zannaland",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney%27s_Art_of_Animation_Resort_(7135505377).jpg",
+      "file": "File:Disney's Art of Animation Resort (7135505377).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Art of Animation Resort",
+    "page": "/resorts/art-of-animation/"
+  },
+  "wdw/beach-club": {
+    "src": "/images/commons/wdw-beach-club-1600.jpg",
+    "small": "/images/commons/wdw-beach-club-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Disney's Beach Club Resort reflected in a quiet waterway on a sunny day",
+    "credit": {
+      "author": "Benoît Prieur",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney%27s_Beach_Club_Resort_en_janvier_2022.JPG",
+      "file": "File:Disney's Beach Club Resort en janvier 2022.JPG",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Beach Club Resort",
+    "page": "/resorts/beach-club/"
+  },
+  "wdw/boardwalk-inn": {
+    "src": "/images/commons/wdw-boardwalk-inn-1600.jpg",
+    "small": "/images/commons/wdw-boardwalk-inn-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The front of Disney's BoardWalk Inn, with striped awnings and white balconies along the boardwalk",
+    "credit": {
+      "author": "WDWbuff",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:BoardwalkInn.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:BoardwalkInn.JPG",
+      "file": "File:BoardwalkInn.JPG",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's BoardWalk Inn",
+    "page": "/resorts/boardwalk-inn/"
+  },
+  "wdw/boulder-ridge-villas": {
+    "src": "/images/commons/wdw-boulder-ridge-villas-1600.jpg",
+    "small": "/images/commons/wdw-boulder-ridge-villas-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Red-roofed villa buildings at Disney's Wilderness Lodge, surrounded by pine trees",
+    "credit": {
+      "author": "Michael Gray (mrkathika)",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Villas_at_Disney%27s_Wilderness_Lodge.jpg",
+      "file": "File:Villas at Disney's Wilderness Lodge.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Boulder Ridge Villas at Disney's Wilderness Lodge",
+    "page": "/resorts/boulder-ridge-villas/"
+  },
+  "wdw/caribbean-beach": {
+    "src": "/images/commons/wdw-caribbean-beach-1600.jpg",
+    "small": "/images/commons/wdw-caribbean-beach-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The pink and yellow tower of Old Port Royale at Disney's Caribbean Beach Resort, framed by palm trees",
+    "credit": {
+      "author": "UpstateNYer",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney%27s_Caribbean_Beach_Resort.JPG",
+      "file": "File:Disney's Caribbean Beach Resort.JPG",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Caribbean Beach Resort",
+    "page": "/resorts/caribbean-beach/"
+  },
+  "wdw/coronado-springs": {
+    "src": "/images/commons/wdw-coronado-springs-1600.jpg",
+    "small": "/images/commons/wdw-coronado-springs-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Coronado Springs' Spanish-style main building and lakeside gazebo across the water",
+    "credit": {
+      "author": "Michelle Tribe from Ottawa, Canada",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Coronado_Springs_Resort.jpg",
+      "file": "File:Coronado Springs Resort.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Coronado Springs Resort",
+    "page": "/resorts/coronado-springs/"
+  },
+  "wdw/grand-floridian": {
+    "src": "/images/commons/wdw-grand-floridian-1600.jpg",
+    "small": "/images/commons/wdw-grand-floridian-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The white Victorian buildings and red roofs of Disney's Grand Floridian Resort across Seven Seas Lagoon",
+    "credit": {
+      "author": "Quarax",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney%27s_Grand_Floridian_Resort_%26_Spa_Departing_Monorail_Green.jpg",
+      "file": "File:Disney's Grand Floridian Resort & Spa Departing Monorail Green.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Grand Floridian Resort & Spa",
+    "page": "/resorts/grand-floridian/"
+  },
+  "wdw/grand-floridian-villas": {
+    "src": "/images/commons/wdw-grand-floridian-villas-1600.jpg",
+    "small": "/images/commons/wdw-grand-floridian-villas-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The white Victorian-style Villas building at Disney's Grand Floridian Resort at sunrise",
+    "credit": {
+      "author": "Nic122g",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Grand_Floridian_Villas.jpg",
+      "file": "File:Grand Floridian Villas.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "The Villas at Disney's Grand Floridian Resort & Spa",
+    "page": "/resorts/grand-floridian-villas/"
+  },
+  "wdw/island-tower": {
+    "src": "/images/commons/wdw-island-tower-1600.jpg",
+    "small": "/images/commons/wdw-island-tower-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "View over Seven Seas Lagoon and the Polynesian's longhouses from the Island Tower terrace",
+    "credit": {
+      "author": "BallofyaRn",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:View_of_Seven_Seas_Lagoon_from_Island_Tower_at_Disney%27s_Polynesian_Resort.jpg",
+      "file": "File:View of Seven Seas Lagoon from Island Tower at Disney's Polynesian Resort.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Island Tower at Disney's Polynesian Villas & Bungalows",
+    "page": "/resorts/island-tower/"
+  },
+  "wdw/old-key-west": {
+    "src": "/images/commons/wdw-old-key-west-1600.jpg",
+    "small": "/images/commons/wdw-old-key-west-800.jpg",
+    "width": 1108,
+    "height": 738,
+    "alt": "Pastel, Key West-style buildings with white railings along the water at Disney's Old Key West Resort",
+    "credit": {
+      "author": "MoodyGroove (talk)MoodyGroove",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_key_west_panoramic.jpg",
+      "file": "File:Old key west panoramic.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Old Key West Resort",
+    "page": "/resorts/old-key-west/"
+  },
+  "wdw/kidani-village": {
+    "src": "/images/commons/wdw-kidani-village-1600.jpg",
+    "small": "/images/commons/wdw-kidani-village-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Giraffes grazing on the savanna in front of the Kidani Village building",
+    "credit": {
+      "author": "Sam Howzit",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Giraffe_(15399944624).jpg",
+      "file": "File:Giraffe (15399944624).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Animal Kingdom Villas – Kidani Village",
+    "page": "/resorts/kidani-village/"
+  },
+  "wdw/polynesian-village": {
+    "src": "/images/commons/wdw-polynesian-village-1600.jpg",
+    "small": "/images/commons/wdw-polynesian-village-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The Polynesian Village Resort's Great Ceremonial House at sunset over Seven Seas Lagoon",
+    "credit": {
+      "author": "Lexi Scott (lxsscott)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Polynesian_Village_Resort_at_Sunset.jpg",
+      "file": "File:Polynesian Village Resort at Sunset.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Polynesian Village Resort",
+    "page": "/resorts/polynesian-village/"
+  },
+  "wdw/polynesian-villas": {
+    "src": "/images/commons/wdw-polynesian-villas-1600.jpg",
+    "small": "/images/commons/wdw-polynesian-villas-800.jpg",
+    "width": 1500,
+    "height": 1000,
+    "alt": "Red-roofed longhouses above a white-sand beach on the Polynesian Village Resort grounds",
+    "credit": {
+      "author": "Chuck from San Francisco, CA",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:POLY_Tahiti-beach.jpg",
+      "file": "File:POLY Tahiti-beach.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Polynesian Villas & Bungalows",
+    "page": "/resorts/polynesian-villas/"
+  },
+  "wdw/pop-century": {
+    "src": "/images/commons/wdw-pop-century-1600.jpg",
+    "small": "/images/commons/wdw-pop-century-800.jpg",
+    "width": 657,
+    "height": 438,
+    "alt": "The Computer Pool and brightly decorated room buildings at Disney's Pop Century Resort",
+    "credit": {
+      "author": "Jared",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Orlando_-_Disney_World_-_Disney%27s_Pop_Century_Resort_-_Computer_Pool_-_Panorama_(17218709431).jpg",
+      "file": "File:Orlando - Disney World - Disney's Pop Century Resort - Computer Pool - Panorama (17218709431).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Pop Century Resort",
+    "page": "/resorts/pop-century/"
+  },
+  "wdw/port-orleans-french-quarter": {
+    "src": "/images/commons/wdw-port-orleans-french-quarter-1600.jpg",
+    "small": "/images/commons/wdw-port-orleans-french-quarter-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "A pastel building with wrought-iron balconies at Disney's Port Orleans French Quarter",
+    "credit": {
+      "author": "Myunknownside000",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:POFQ_Resort_Building_1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:POFQ_Resort_Building_1.jpg",
+      "file": "File:POFQ Resort Building 1.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Port Orleans Resort – French Quarter",
+    "page": "/resorts/port-orleans-french-quarter/"
+  },
+  "wdw/port-orleans-riverside": {
+    "src": "/images/commons/wdw-port-orleans-riverside-1600.jpg",
+    "small": "/images/commons/wdw-port-orleans-riverside-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "A white-columned, plantation-style mansion building at Disney's Port Orleans Riverside",
+    "credit": {
+      "author": "Jared",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Orlando_-_Disney_World_-_Disney%27s_Port_Orleans_Resort_-_Riverside_-_Oak_Manor_(17011914267).jpg",
+      "file": "File:Orlando - Disney World - Disney's Port Orleans Resort - Riverside - Oak Manor (17011914267).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Port Orleans Resort – Riverside",
+    "page": "/resorts/port-orleans-riverside/"
+  },
+  "wdw/riviera": {
+    "src": "/images/commons/wdw-riviera-1600.jpg",
+    "small": "/images/commons/wdw-riviera-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Disney's Riviera Resort lit up at night and reflected in the lake",
+    "credit": {
+      "author": "Eden, Janine and Jim from New York City",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Riviera_at_Night_(49560224208).jpg",
+      "file": "File:Riviera at Night (49560224208).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Riviera Resort",
+    "page": "/resorts/riviera/"
+  },
+  "wdw/saratoga-springs": {
+    "src": "/images/commons/wdw-saratoga-springs-1600.jpg",
+    "small": "/images/commons/wdw-saratoga-springs-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Victorian-style buildings at Disney's Saratoga Springs Resort behind a pond with a fountain",
+    "credit": {
+      "author": "Jeff Kays",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Saratoga_Springs_Resort.jpg",
+      "file": "File:Saratoga Springs Resort.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Saratoga Springs Resort & Spa",
+    "page": "/resorts/saratoga-springs/"
+  },
+  "wdw/wilderness-lodge": {
+    "src": "/images/commons/wdw-wilderness-lodge-1600.jpg",
+    "small": "/images/commons/wdw-wilderness-lodge-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Disney's Wilderness Lodge at dusk, with a lit waterfall tumbling over rocks in front",
+    "credit": {
+      "author": "Sam Howzit (aloha75)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney%27s_Wilderness_Lodge_at_dusk.jpg",
+      "file": "File:Disney's Wilderness Lodge at dusk.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Wilderness Lodge",
+    "page": "/resorts/wilderness-lodge/"
+  },
+  "wdw/yacht-club": {
+    "src": "/images/commons/wdw-yacht-club-1600.jpg",
+    "small": "/images/commons/wdw-yacht-club-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Disney's Yacht Club Resort and its lighthouse across Crescent Lake",
+    "credit": {
+      "author": "Bruce Harlick from Seattle, United States",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:DisneyYacht1.jpg",
+      "file": "File:DisneyYacht1.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Yacht Club Resort",
+    "page": "/resorts/yacht-club/"
+  },
+  "wdw/beach-club-villas": {
+    "src": "/images/commons/wdw-beach-club-villas-1600.jpg",
+    "small": "/images/commons/wdw-beach-club-villas-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Blue-and-white, New England-style buildings with white railings at Disney's Beach Club",
+    "credit": {
+      "author": "Tammy Green from Chicago, USA",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:DisneyBeachClub1.jpg",
+      "file": "File:DisneyBeachClub1.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Beach Club Villas",
+    "page": "/resorts/beach-club-villas/"
+  },
+  "wdw/boardwalk-villas": {
+    "src": "/images/commons/wdw-boardwalk-villas-1600.jpg",
+    "small": "/images/commons/wdw-boardwalk-villas-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The lit-up shops and boardwalk outside Disney's BoardWalk Inn and Villas at dusk",
+    "credit": {
+      "author": "traveljunction",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:The_BoardWalk_at_Disney%27s_BoardWalk_Inn,_Walt_Disney_World_Resort,_Orlando,_Florida._(15634867112).jpg",
+      "file": "File:The BoardWalk at Disney's BoardWalk Inn, Walt Disney World Resort, Orlando, Florida. (15634867112).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's BoardWalk Villas",
+    "page": "/resorts/boardwalk-villas/"
+  },
+  "wdw/fort-wilderness": {
+    "src": "/images/commons/wdw-fort-wilderness-1600.jpg",
+    "small": "/images/commons/wdw-fort-wilderness-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "A rustic lodge building among tall trees at Disney's Fort Wilderness Resort & Campground",
+    "credit": {
+      "author": "Steven Pignataro",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney%27s_Fort_Wilderness_Campground_Lake_-_panoramio_(1).jpg",
+      "file": "File:Disney's Fort Wilderness Campground Lake - panoramio (1).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Fort Wilderness Resort & Campground",
+    "page": "/resorts/fort-wilderness/"
+  },
+  "dl/grand-californian": {
+    "src": "/images/commons/dl-grand-californian-1600.jpg",
+    "small": "/images/commons/dl-grand-californian-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The Craftsman-style front entrance of Disney's Grand Californian Hotel at dusk",
+    "credit": {
+      "author": "Patrick Pelletier",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Grand_Californian_Hotel_Front_Entrance_2014.JPG",
+      "file": "File:Grand Californian Hotel Front Entrance 2014.JPG",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney's Grand Californian Hotel & Spa",
+    "page": "/disneyland/hotels/grand-californian/"
+  },
+  "uo/portofino-bay": {
+    "src": "/images/commons/uo-portofino-bay-1600.jpg",
+    "small": "/images/commons/uo-portofino-bay-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Colorful Italian-style buildings along the harbor at Loews Portofino Bay Hotel",
+    "credit": {
+      "author": "Miosotis Jade",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Portofino_Bay_Hotel.JPG",
+      "file": "File:Portofino Bay Hotel.JPG",
+      "changes": "cropped and resized"
+    },
+    "place": "Loews Portofino Bay Hotel",
+    "page": "/universal-orlando/hotels/portofino-bay/"
+  },
+  "uo/royal-pacific": {
+    "src": "/images/commons/uo-royal-pacific-1600.jpg",
+    "small": "/images/commons/uo-royal-pacific-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The Balinese-style porte-cochere and palm trees at the entrance of Loews Royal Pacific Resort",
+    "credit": {
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Loews_Royal_Pacific_Resort_01.jpg",
+      "file": "File:Loews Royal Pacific Resort 01.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Loews Royal Pacific Resort",
+    "page": "/universal-orlando/hotels/royal-pacific/"
+  },
+  "uo/sapphire-falls": {
+    "src": "/images/commons/uo-sapphire-falls-1600.jpg",
+    "small": "/images/commons/uo-sapphire-falls-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The white, Caribbean-style towers of Loews Sapphire Falls Resort behind tropical landscaping",
+    "credit": {
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Loews_Sapphire_Falls_Resort_02.jpg",
+      "file": "File:Loews Sapphire Falls Resort 02.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Loews Sapphire Falls Resort",
+    "page": "/universal-orlando/hotels/sapphire-falls/"
+  },
+  "uo/helios-grand": {
+    "src": "/images/commons/uo-helios-grand-1600.jpg",
+    "small": "/images/commons/uo-helios-grand-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Universal Helios Grand Hotel's domed towers behind the Cosmos Fountain",
+    "credit": {
+      "author": "Gfgbeach",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Helios_Grand_Hotel.jpg",
+      "file": "File:Helios Grand Hotel.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Universal Helios Grand Hotel, a Loews Hotel",
+    "page": "/universal-orlando/hotels/helios-grand/"
+  },
+  "uo/aventura": {
+    "src": "/images/commons/uo-aventura-1600.jpg",
+    "small": "/images/commons/uo-aventura-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The curved glass tower of Universal Aventura Hotel against a blue sky",
+    "credit": {
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Universal_Aventura_Hotel_02.jpg",
+      "file": "File:Universal Aventura Hotel 02.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Universal Aventura Hotel",
+    "page": "/universal-orlando/hotels/aventura/"
+  },
+  "uo/cabana-bay": {
+    "src": "/images/commons/uo-cabana-bay-1600.jpg",
+    "small": "/images/commons/uo-cabana-bay-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The retro-styled pool deck and colorful room buildings at Universal Cabana Bay Beach Resort",
+    "credit": {
+      "author": "cvorobek",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Universal%27s_Cabana_Bay_Beach_Resort_-_51236115272.png",
+      "file": "File:Universal's Cabana Bay Beach Resort - 51236115272.png",
+      "changes": "cropped and resized"
+    },
+    "place": "Universal Cabana Bay Beach Resort",
+    "page": "/universal-orlando/hotels/cabana-bay/"
+  },
+  "ship/disney-magic": {
+    "src": "/images/commons/ship-disney-magic-1600.jpg",
+    "small": "/images/commons/ship-disney-magic-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The Disney Magic sailing through a harbor under a cloudy sky",
+    "credit": {
+      "author": "Smiley.toerist",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_Magic_in_Oslo_2016_II.jpg",
+      "file": "File:Disney Magic in Oslo 2016 II.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney Magic",
+    "page": "/cruises/disney-magic/"
+  },
+  "ship/disney-wonder": {
+    "src": "/images/commons/ship-disney-wonder-1600.jpg",
+    "small": "/images/commons/ship-disney-wonder-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The Disney Wonder passing beneath the Sydney Harbour Bridge",
+    "credit": {
+      "author": "Dannymobs",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_Wonder_About_to_Pass_Under_the_Sydney_Harbour_Bridge_on_Arrival.jpg",
+      "file": "File:Disney Wonder About to Pass Under the Sydney Harbour Bridge on Arrival.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney Wonder",
+    "page": "/cruises/disney-wonder/"
+  },
+  "ship/disney-fantasy": {
+    "src": "/images/commons/ship-disney-fantasy-1600.jpg",
+    "small": "/images/commons/ship-disney-fantasy-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The Disney Fantasy at sea, seen from the side",
+    "credit": {
+      "author": "Chris Gent from Orlando, Fla., USA",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_Fantasy_Cruise_Ship_(6)_(21000557309).jpg",
+      "file": "File:Disney Fantasy Cruise Ship (6) (21000557309).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney Fantasy",
+    "page": "/cruises/disney-fantasy/"
+  },
+  "ship/disney-wish": {
+    "src": "/images/commons/ship-disney-wish-1600.jpg",
+    "small": "/images/commons/ship-disney-wish-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The Disney Wish docked at a Bahamian island, seen past beach plants and a rope fence",
+    "credit": {
+      "author": "Declan M. Martin",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Disney_Wish_at_Castaway_Cay_medium.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_Wish_at_Castaway_Cay_medium.jpg",
+      "file": "File:Disney Wish at Castaway Cay medium.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney Wish",
+    "page": "/cruises/disney-wish/"
+  },
+  "ship/disney-treasure": {
+    "src": "/images/commons/ship-disney-treasure-1600.jpg",
+    "small": "/images/commons/ship-disney-treasure-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The Disney Treasure at sea on a bright day, seen from another boat",
+    "credit": {
+      "author": "Seppecool10",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_Treasure_schip.jpg",
+      "file": "File:Disney Treasure schip.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney Treasure",
+    "page": "/cruises/disney-treasure/"
+  },
+  "ship/disney-destiny": {
+    "src": "/images/commons/ship-disney-destiny-1600.jpg",
+    "small": "/images/commons/ship-disney-destiny-800.jpg",
+    "width": 1251,
+    "height": 834,
+    "alt": "The Disney Destiny alongside the shipyard quay in Germany before delivery",
+    "credit": {
+      "author": "Ferriesworldwide",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_Destiny_(cropped).jpg",
+      "file": "File:Disney Destiny (cropped).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney Destiny",
+    "page": "/cruises/disney-destiny/"
+  },
+  "ship/disney-adventure": {
+    "src": "/images/commons/ship-disney-adventure-1600.jpg",
+    "small": "/images/commons/ship-disney-adventure-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The bow of the Disney Adventure, with its gold scrollwork, docked in port",
+    "credit": {
+      "author": "nagi usano from Tokyo, Japan",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_Adventure_Disney_Cruise_Line_(55114340093).jpg",
+      "file": "File:Disney Adventure Disney Cruise Line (55114340093).jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney Adventure",
+    "page": "/cruises/disney-adventure/"
+  },
+  "ship/disney-believe": {
+    "src": "/images/commons/ship-disney-believe-1600.jpg",
+    "small": "/images/commons/ship-disney-believe-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Hull sections of the Disney Believe being towed by tugboat during construction",
+    "credit": {
+      "author": "HenSti",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ship_sections_of_the_Disney_Believe_in_the_Kiel_Canal_08.jpg",
+      "file": "File:Ship sections of the Disney Believe in the Kiel Canal 08.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disney Believe",
+    "page": "/cruises/disney-believe/"
+  },
+  "dl/disneyland-hotel": {
+    "src": "/images/commons/dl-disneyland-hotel-1600.jpg",
+    "small": "/images/commons/dl-disneyland-hotel-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The Disneyland Hotel towers and pool area seen from above",
+    "credit": {
+      "author": "Sam Howzit (aloha75)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disneyland_Hotel.jpg",
+      "file": "File:Disneyland Hotel.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Disneyland Hotel",
+    "page": "/disneyland/hotels/disneyland-hotel/"
+  },
+  "wdw/copper-creek-villas": {
+    "src": "/images/commons/wdw-copper-creek-villas-1600.jpg",
+    "small": "/images/commons/wdw-copper-creek-villas-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Copper Creek's lakeside cabins among tall pines, seen from across the water",
+    "credit": {
+      "author": "Thomas photography",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_Copper_creek.jpg",
+      "file": "File:Disney Copper creek.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Copper Creek Villas & Cabins at Disney's Wilderness Lodge",
+    "page": "/resorts/copper-creek-villas/"
+  },
+  "uo/endless-summer-surfside": {
+    "src": "/images/commons/uo-endless-summer-surfside-1600.jpg",
+    "small": "/images/commons/uo-endless-summer-surfside-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The two Endless Summer Resort hotels seen from above on a clear day",
+    "credit": {
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Universal%27s_Endless_Summer_Resort_03.jpg",
+      "file": "File:Universal's Endless Summer Resort 03.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Universal Endless Summer Resort – Surfside Inn and Suites",
+    "page": "/universal-orlando/hotels/endless-summer-surfside/"
+  },
+  "uo/endless-summer-dockside": {
+    "src": "/images/commons/uo-endless-summer-dockside-1600.jpg",
+    "small": "/images/commons/uo-endless-summer-dockside-800.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "The Endless Summer Resort hotel buildings behind palm trees and landscaping",
+    "credit": {
+      "author": "Farragutful",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Universal%27s_Endless_Summer_Resort_02.jpg",
+      "file": "File:Universal's Endless Summer Resort 02.jpg",
+      "changes": "cropped and resized"
+    },
+    "place": "Universal Endless Summer Resort – Dockside Inn and Suites",
+    "page": "/universal-orlando/hotels/endless-summer-dockside/"
+  }
+}
