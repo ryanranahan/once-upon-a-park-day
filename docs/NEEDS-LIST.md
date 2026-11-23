@@ -1210,6 +1210,72 @@ Useful press-kit pages (high-res is behind Brandfolder):
 
 ---
 
+
+## Homepage
+
+Work for these slots is on the `homepage-photos` branch (created from `resort-guides`). Do not merge to `main` until Ryan approves.
+
+**Ryan’s photos already in use**
+
+- Hero background: `Documents/disney_/stock_hq_shots/222A2304.jpg` — night lagoon at Disney Springs, with the Aerophile balloon. Optimized as `/images/home/hero.webp`.
+- Resort hotels card: Ryan’s Grand Floridian sunset already on the site (`Documents/disney_/resorts/grand_floridian`, published as `/images/home/resorts.webp`).
+- Disney Cruise Line card: verandah stateroom still extracted from `Documents/disney_/disney_cruise_sept2019/D93I3133.CR2` (`/images/home/cruise.webp`).
+- Planning and budgeting card: `stock_hq_shots/222A6106.jpg` — night restaurant patio with string lights (`/images/home/planning.webp`).
+- Deals and news card: `stock_hq_shots/222A4047.jpg` — Spaceship Earth at dusk with Festival of the Holidays decorations (`/images/home/deals.webp`).
+- Latest-guides thumbnails: Polynesian Village exterior (`/images/home/latest-resorts.webp`), Palo pasta from `D93I3166.CR2` (`/images/home/latest-cruise.webp`), and Hollywood Studios street at night `stock_hq_shots/222A6135.jpg` (`/images/home/latest-planning.webp`).
+
+**Photo slots still open**
+
+- [ ] A photo of Ryan for the about section (`[YOUR PHOTO]`). The `head_shots` folder is Jackie and Kristin, not Ryan; two frames are watermarked “© Kingdom Media,” one is in front of the castle with ear headbands, and `jackie_kristin.jpg` includes the Mickey Ferris wheel at Disney California Adventure. Do not use those as the site portrait.
+- [ ] A sharp, unwatermarked Disney Cruise Line ship exterior (deck or hull, funnel logo not the focal point) for the DCL card or a future destinations row. `D93I3172.CR2` is a distant night ship and is too soft once cropped; `disney-wish.mp4` is a marketing sizzle with logos and Kingdom Insider end cards — do not pull stills from it.
+- [ ] A clean Disneyland or Downtown Disney still for a future destinations card. `disneyland/222A8858.jpg` has the floral Mickey on the Town Square lawn as a foreground subject; `222A8868.jpg` shows the World of Disney sign and two people walking.
+- [ ] An unwatermarked Universal / CityWalk still. `filler_photos/222A2678-sunset.jpg` is a strong CityWalk sunset but is watermarked “© Ryan Ranahan KingdomMedia.”
+- [ ] Photos for the “Stuck between two options?” compare cards and the numbered “New here?” steps, if we decide those should have images.
+- [ ] A destinations row (Walt Disney World, Disneyland, Universal, Disney Cruise Line) — worth adding once Disneyland and Universal have clean stills. Tree of Life (`stock_hq_shots/222A2361.jpg`, already exported as `/images/home/wdw-tree-of-life.webp` but not placed on the homepage yet) is a strong WDW candidate.
+
+**Copy placeholders still on the homepage (not photo work)**
+
+- [ ] Byline: “Written by [YOUR NAME], who has stayed at [NUMBER] Disney resorts.”
+- [ ] About headline and two-sentence bio (`[YOUR NAME]`, `[TWO SENTENCES…]`)
+- [ ] Deal of the moment headline and dates
+- [ ] “[NUMBER] guides” and “Updated [DATE]” on topic and latest cards
+- [ ] “[X] min read” on the three-step cards
+- [ ] Intro video button (`Watch the 60-second intro`) still points at `#`
+
+---
+
+## Strong photos in `Documents/disney_` for later guides
+
+These were reviewed while choosing homepage stills. Do not add them to resort or park guides until that work is scheduled. Skip anything watermarked “Kingdom Media” unless Ryan supplies a clean export.
+
+- `stock_hq_shots/222A2361.jpg` — Tree of Life, Animal Kingdom; future WDW or Animal Kingdom park hero.
+- `stock_hq_shots/222A3473.jpg` and `222A3475.jpg` — China pavilion, EPCOT; EPCOT World Showcase section or park hero (3475 is the tighter, more balanced frame).
+- `stock_hq_shots/222A3462.jpg` — Christmas garland close-up; seasonal EPCOT or Springs details.
+- `stock_hq_shots/222A4044.jpg` and `222A4047.jpg` — Festival of the Holidays and Spaceship Earth (4047 is on the homepage deals card; 4044 is a closer alternate).
+- `stock_hq_shots/222A6016.jpg` (preferred), `222A6017.jpg`, `222A6022.jpg` — Millennium Falcon at night, Galaxy’s Edge; Hollywood Studios land guide.
+- `stock_hq_shots/222A6101.jpg` and `222A6104.jpg` — wider Galaxy’s Edge at night; HS establishing shots (6104 is the cleaner street-level frame).
+- `stock_hq_shots/222A6132.jpg`, `222A6134.jpg`, `222A6135.jpg` (homepage latest-planning thumb), `222A6136.jpg` — Hollywood Studios Sunset Boulevard / Crossroads at night, some with holiday decor.
+- `stock_hq_shots/222A6146.jpg`, `222A6147.jpg`, `222A6155.jpg`, `222A6156.jpg` — Oscar’s Super Service / vintage station, HS; 6149 is Crossroads of the World; 6150 and 6151 look down Sunset Blvd toward the Chinese Theatre.
+- `stock_hq_shots/222A6142.jpg` — Pluto’s Toy Palace neon; HS Echo Lake, if a character-shop detail is useful.
+- `Skyliner/222A6261.JPG`–`222A6264.JPG` — gondolas at a Skyliner station (interior, some fisheye, occasional bystanders); later Caribbean Beach / Skyliner transport section, not homepage quality.
+- `disney_cruise_sept2019/D93I3133.CR2` — verandah stateroom (on the homepage DCL card); also useful for an inside-vs-verandah guide.
+- `disney_cruise_sept2019/D93I3166.CR2` — pasta at Palo (homepage latest-cruise thumb); later DCL dining.
+- `disney_cruise_sept2019/D93I3178.CR2`, `D93I3180.CR2`, `D93I3183.CR2` — sea and sunset from the ship, no vessel in frame; mood images for a cruise guide.
+- `disney_cruise_sept2019/D93I3172.CR2` — distant night ship; only usable with a tight crop, and the funnel mark is visible. Prefer a sharper exterior if one exists later in the take.
+- Grand Floridian sunset, pool, monorail, and exterior already on the GF guide; the sunset is reused on the homepage resorts card.
+- Polynesian Village hero already on the Poly guide; reused as the latest-resorts thumb.
+- `walkways/222A5618.jpg` (monorail over the Grand Floridian) and `222A5623.jpg` (GF beach swing at dusk) would be excellent GF/transport stills **if Ryan has unwatermarked originals** — both are marked “© Kingdom Media.”
+- `filler_photos/222A2678-sunset.jpg` — Universal CityWalk / Islands of Adventure sunset over the lagoon; strong Universal card **if a clean, unwatermarked export exists**.
+
+**Reviewed and skipped for the homepage (and generally for guides until cleaned)**
+
+- `stock_hq_shots/222A2338.jpg` — World of Disney storefront; the Disney wordmark is the focal point.
+- `head_shots/*` — not Ryan; watermarks, ear headbands, and/or the castle or Mickey wheel as a major element.
+- `springs_2019/jpg/D93I2278.jpg` and `D93I2302.jpg` — watermarked “Kingdom Media TM.”
+- `disney-wish.mp4` and the Wish sizzle Premiere projects — marketing graphics and logos, not photographic stills.
+
+---
+
 ## Site-wide
 
 ### Photos still to shoot or find
@@ -1233,6 +1299,7 @@ Useful press-kit pages (high-res is behind Brandfolder):
 - [ ] Add Open Graph tags
 - [ ] Attach onceuponaparkday.com only when Ryan says so (do not do this from a branch merge)
 - [ ] Don’t merge `resort-guides` to `main` until Ryan approves
+- [ ] Don’t merge `homepage-photos` to `main` until Ryan approves
 - [ ] Clear all `[Ryan: …]` and `[verify]` markers before a `main` merge (they currently show on the preview)
 - [ ] AdSense: layouts are reserved, but do not install ad code until Ryan says so
 
