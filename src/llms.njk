@@ -37,7 +37,7 @@ Each resort guide covers who the hotel suits, rooms, pools, dining, getting to t
 
 ## Blog
 {% for p in collections.post %}
-- [{{ p.data.title | safe }}]({{ site.url | safe }}{{ p.url | safe }}): {{ p.data.summary | safe }}
+- [{{ p.data.title | safe }}]({{ site.url | safe }}{{ p.url | safe }}) ({{ p.date | isoDate }}): {{ p.data.summary | safe }}
 {%- endfor %}
 
 ## Optional

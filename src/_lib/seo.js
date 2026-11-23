@@ -218,10 +218,18 @@ export function jsonLd(d) {
       headline: d.title,
       description: d.description,
       datePublished: d.date,
+      dateModified: d.updated || d.date,
       author: person || org,
       publisher: org,
       isPartOf: { "@id": siteId },
       mainEntityOfPage: pageUrl,
+      image: site.url + site.ogImage,
+      inLanguage: "en-US",
+      ...(clean(d.category) ? { articleSection: d.category } : {}),
+      ...(d.keywords && d.keywords.length ? { keywords: d.keywords.join(", ") } : {}),
+      ...(d.about && d.about.length ? { about: d.about.map((name) => ({ "@type": "Thing", name })) } : {}),
+      ...(d.sources && d.sources.length ? { citation: d.sources.map((s) => ({ "@type": "CreativeWork", name: s.title, url: s.url })) } : {}),
+      ...(d.tldr ? { abstract: d.tldr } : {}),
     };
   } else if (items.length) {
     main = {
@@ -250,6 +258,19 @@ export function jsonLd(d) {
     });
   }
   if (main) graph.push(main);
+  // Question-and-answer pairs shown on the page, for search and AI answers.
+  if (d.isPost && d.faq && d.faq.length) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": pageUrl + "#faq",
+      isPartOf: { "@id": pageUrl },
+      mainEntity: d.faq.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    });
+  }
   const crumbs = breadcrumbs(d.url, pageName, site.url);
   if (crumbs) graph.push(crumbs);
 
