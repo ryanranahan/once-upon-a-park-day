@@ -23,7 +23,7 @@ related:
   - title: "Disneyland Resort hotels"
     url: "/disneyland/"
 image: /images/blog/disneyland-candy-cane-wristbands-2026/card-800.webp
-imageAlt: "A stylized red, cream, and gold candy cane on a navy background, with the headline A wristband game plan for the handmade candy canes."
+imageAlt: "The Trolley Treats candy shop on Buena Vista Street at Disney California Adventure, with its hanging sign, a trolley in the distance, and a mostly empty street."
 ogImage: /images/blog/disneyland-candy-cane-wristbands-2026/og-1200.webp
 heroSrc: /images/blog/disneyland-candy-cane-wristbands-2026/hero-1200.webp
 heroSrcset: "/images/blog/disneyland-candy-cane-wristbands-2026/hero-800.webp 800w, /images/blog/disneyland-candy-cane-wristbands-2026/hero-1200.webp 1200w, /images/blog/disneyland-candy-cane-wristbands-2026/hero-2000.webp 2000w"
@@ -32,6 +32,11 @@ heroHeight: 800
 ---
 
 The first handmade candy canes of the Disneyland season land this weekend. If that's on your list, you need a plan before you walk through the gates, because these sell out and the line starts early.
+
+<figure class="post-photo">
+  <img src="/images/blog/disneyland-candy-cane-wristbands-2026/graphic-hero-1200.webp" srcset="/images/blog/disneyland-candy-cane-wristbands-2026/graphic-hero-800.webp 800w, /images/blog/disneyland-candy-cane-wristbands-2026/graphic-hero-1200.webp 1200w, /images/blog/disneyland-candy-cane-wristbands-2026/graphic-hero-2000.webp 2000w" sizes="(max-width: 820px) 100vw, 720px" width="1200" height="800" alt="A stylized red, cream, and gold candy cane on a navy background, with the headline A wristband game plan for the handmade candy canes.">
+  <figcaption>A quick visual for the wristband plan, if you want something you can screenshot. The photo at the top is Trolley Treats on Buena Vista Street, where Saturday and Sunday canes are sold.</figcaption>
+</figure>
 
 Disney changed the 2026 dates after the first announcement, so use the updated schedule below. The process itself is the same one they used last year: wristbands, not a mobile waitlist.
 

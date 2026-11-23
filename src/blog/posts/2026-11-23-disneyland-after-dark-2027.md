@@ -3,7 +3,13 @@ title: "Disneyland After Dark 2027: Dates, Tickets and What's Included"
 date: 2026-11-23
 category: Disneyland news
 summary: "Disneyland After Dark returns January to June 2027 with four nights, including the new Disneylandia Nite. Here are the dates, ticket sale days and tips."
-image: /images/fireworks-night.svg
+image: /images/blog/disneyland-after-dark-2027/card-800.webp
+imageAlt: "The plaza between Disneyland and Disney California Adventure at night, with tall cypress trees and glowing green sculptural lamps over an empty walkway."
+ogImage: /images/blog/disneyland-after-dark-2027/og-1200.webp
+heroSrc: /images/blog/disneyland-after-dark-2027/hero-1200.webp
+heroSrcset: "/images/blog/disneyland-after-dark-2027/hero-800.webp 800w, /images/blog/disneyland-after-dark-2027/hero-1200.webp 1200w, /images/blog/disneyland-after-dark-2027/hero-2000.webp 2000w"
+heroWidth: 1200
+heroHeight: 800
 tldr: "Disneyland After Dark returns on select nights from January through June 2027 with four separately ticketed events: Sweethearts' Nite (10 dates from January 24 to February 16), the new Disneylandia Nite (April 11, 13 and 15), Star Wars Nite (April 27 and 29, May 4 and 6) and Pride Nite (June 17). Sweethearts' Nite tickets go on sale to the general public on December 10, 2026, at 9 a.m. Pacific."
 keywords: [Disneyland After Dark 2027, Sweethearts Nite 2027, Disneylandia Nite, Star Wars Nite 2027, Pride Nite Disneyland 2027]
 about: [Disneyland After Dark, Disneyland Resort]

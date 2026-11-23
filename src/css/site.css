@@ -309,6 +309,11 @@ td.todo,th.todo{border-radius:0;border-left:0;padding:12px 14px}
 .dest-card strong{font-family:var(--display);font-size:22px;font-weight:600}
 .dest-card small{color:var(--muted);font-size:15px}
 .dest-card[aria-current]{border-color:var(--red);box-shadow:0 6px 0 var(--red)}
+.dest-card:has(img){padding:0;overflow:hidden}
+.dest-card img{width:100%;aspect-ratio:3/2;height:auto;object-fit:cover;display:block}
+.dest-card:has(img) .eyebrow{padding:14px 20px 0}
+.dest-card:has(img) strong,.dest-card:has(img) small{padding:0 20px}
+.dest-card:has(img) small{padding-bottom:16px}
 .dest-title{font-size:40px;font-weight:600;margin:40px 0 4px}
 ul.benefits li{margin:8px 0}
 @media (max-width:820px){.dest-strip{grid-template-columns:1fr;gap:10px;padding-top:20px}.dest-card{padding:14px 16px}.dest-title{font-size:30px;margin-top:28px}}

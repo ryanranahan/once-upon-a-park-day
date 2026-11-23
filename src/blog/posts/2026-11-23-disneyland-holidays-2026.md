@@ -3,7 +3,13 @@ title: "Holidays at Disneyland 2026: Dates, Highlights and a Hotel Offer"
 date: 2026-11-23
 category: Disneyland news
 summary: "Holidays at the Disneyland Resort run Nov. 13, 2026 to Jan. 6, 2027. Here are the highlights, the hotel offer that ends Dec. 15, and how first-timers can plan."
-image: /images/fireworks-night.svg
+image: /images/blog/disneyland-holidays-2026/card-800.webp
+imageAlt: "The white and gold facade of it's a small world at Disneyland, under a clear blue sky."
+ogImage: /images/blog/disneyland-holidays-2026/og-1200.webp
+heroSrc: /images/blog/disneyland-holidays-2026/hero-1200.webp
+heroSrcset: "/images/blog/disneyland-holidays-2026/hero-800.webp 800w, /images/blog/disneyland-holidays-2026/hero-1200.webp 1200w, /images/blog/disneyland-holidays-2026/hero-2000.webp 2000w"
+heroWidth: 1200
+heroHeight: 800
 tldr: "The holiday season at the Disneyland Resort runs November 13, 2026, through January 6, 2027. Highlights include Sleeping Beauty's Winter Castle, \"it's a small world\" Holiday, World of Color - Season of Light, the Disney Festival of Holidays at Disney California Adventure, and Santa in both parks and all three Disneyland Resort hotels. Disney also has a hotel offer of up to 20% off select 3-night-plus stays, booked by December 15, 2026."
 keywords: [Disneyland holidays 2026, Disneyland Christmas 2026, Festival of Holidays Disney California Adventure, World of Color Season of Light, Disneyland hotel offer]
 about: [Disneyland Resort, Disney California Adventure, Disney Festival of Holidays]
@@ -43,6 +49,11 @@ It runs **November 13, 2026, through January 6, 2027**, across both Disneyland p
 
 - **Sleeping Beauty's Winter Castle**, covered in snowy decor and, Disney says, about 80,000 lights.
 - **"it's a small world" Holiday**, with around 400,000 lights on the outside. It's lovely after dark.
+
+<figure class="post-photo">
+  <img src="/images/blog/disneyland-holidays-2026/inline-1600.webp" srcset="/images/blog/disneyland-holidays-2026/inline-1200.webp 1200w, /images/blog/disneyland-holidays-2026/inline-1600.webp 1600w" sizes="(max-width: 820px) 100vw, 720px" width="1600" height="1067" alt="A Main Street, U.S.A. shopfront at Disneyland, with bunting, string lights, and the Meteor Cycles bicycle sign above the windows.">
+  <figcaption>Main Street, U.S.A., where Candy Palace sits during the season. This frame is from a summer visit, so the bunting is everyday park decor, not the holiday overlay.</figcaption>
+</figure>
 - **Santa** has a new spot this year at **Mickey's Toontown Trolley Barn**.
 - **Chip 'n' Dale's Ornament Trail** runs November 11 through January 6.
 

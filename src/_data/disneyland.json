@@ -161,5 +161,12 @@
         "bestFor": "Large families and longer stays."
       }
     }
-  ]
+  ],
+  "hero": {
+    "src": "/images/disneyland/hub-hero-1200.webp",
+    "srcset": "/images/disneyland/hub-hero-800.webp 800w, /images/disneyland/hub-hero-1200.webp 1200w, /images/disneyland/hub-hero-2000.webp 2000w",
+    "width": 1200,
+    "height": 800,
+    "alt": "The sandstone buttes of Cars Land at Disney California Adventure under a clear blue sky."
+  }
 }
