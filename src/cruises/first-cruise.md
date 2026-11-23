@@ -9,6 +9,15 @@ permalink: /cruises/first-cruise/
 section: cruises
 researched: true
 description: "What's included in a Disney Cruise Line fare, what costs extra, how gratuities work, and when first-time cruisers can book activities."
+faq:
+  - q: "What is included in a Disney cruise fare?"
+    a: "Meals in the main restaurants, quick service, room service on most ships, soft drinks with meals, kids clubs for ages 3 to 17, shows, character meets and the private island stops."
+  - q: "What costs extra on a Disney cruise?"
+    a: "Gratuities, alcohol, specialty coffee, adult dining at Palo, Remy and Enchant\u00e9, port adventures, the spa, Wi-Fi, photos and the nursery."
+  - q: "Are gratuities included on Disney Cruise Line?"
+    a: "No. Gratuities are added to your onboard account automatically based on the length of your sailing, and you can adjust them at Guest Services."
+  - q: "When can first-time Disney cruisers book activities?"
+    a: "First-time cruisers can book activities, port adventures and adult dining about 75 days before sailing, after repeat cruisers."
 ---
 ## Included in your fare
 

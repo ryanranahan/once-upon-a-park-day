@@ -9,6 +9,13 @@ permalink: /resorts/value-moderate-deluxe/
 section: resorts
 researched: true
 description: "Value vs. Moderate vs. Deluxe resorts at Walt Disney World: theming, dining, pools, transportation, perks and who each suits."
+faq:
+  - q: "What is the difference between Value, Moderate and Deluxe resorts at Disney World?"
+    a: "Value resorts cost the least and have food courts and buses. Moderate resorts add more detailed theming and table-service dining. Deluxe resorts have the best locations, signature dining and the monorail, boats or walking paths at many."
+  - q: "Do Value resort guests get Early Theme Park Entry?"
+    a: "Yes. Every Disney Resort hotel guest gets Early Theme Park Entry. Extended Evening Hours are for Deluxe and Deluxe Villa guests only."
+  - q: "Which Disney World resort category is best for first-timers?"
+    a: "On a budget with young kids, a Value resort on the Skyliner works well. For easy walks or monorail rides to the parks, choose a Deluxe resort."
 ---
 ## The quick version
 

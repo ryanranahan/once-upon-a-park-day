@@ -9,6 +9,15 @@ permalink: /planning/when-to-book/
 section: planning
 researched: true
 description: "A Walt Disney World booking timeline for first-timers: when to book your hotel, dining reservations at 60 days, Lightning Lane at 7 or 3 days, and package payments."
+faq:
+  - q: "How far in advance can you make Disney World dining reservations?"
+    a: "60 days ahead. Disney Resort hotel guests can book on the 60-day mark for their whole stay, up to 10 nights."
+  - q: "When can you buy Lightning Lane at Disney World?"
+    a: "Disney Resort hotel guests can buy Lightning Lane Multi Pass and Single Pass 7 days before their stay. Other guests can buy 3 days before their park day. Sales open at 7:00 AM Eastern."
+  - q: "When is final payment due on a Disney World package?"
+    a: "For 2027 packages, the balance is due 30 days before arrival. Bookings made within 30 days are paid in full at booking."
+  - q: "How early is Early Theme Park Entry?"
+    a: "30 minutes before regular opening, at every park, every day of your stay at a Disney Resort hotel."
 ---
 ## 6 to 12 months out: book your hotel
 

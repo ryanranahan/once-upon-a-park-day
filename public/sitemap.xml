@@ -191,9 +191,6 @@
     <loc>https://once-upon-a-park-day.pages.dev/about/how-we-research/</loc>
   </url>
   <url>
-    <loc>https://once-upon-a-park-day.pages.dev/planning/</loc>
-  </url>
-  <url>
     <loc>https://once-upon-a-park-day.pages.dev/planning/parks-or-cruise/</loc>
   </url>
   <url>
@@ -213,5 +210,8 @@
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/news/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/planning/</loc>
   </url>
 </urlset>

@@ -7,6 +7,11 @@ lead: "Where the facts on this site come from, how we mark what we've seen ourse
 crumbs: [["Home", "/"]]
 permalink: /about/how-we-research/
 description: "How Once Upon A Park Day researches its Disney and Universal resort, cruise and planning guides, and how to tell first-hand notes from researched facts."
+faq:
+  - q: "Who writes Once Upon A Park Day?"
+    a: "Ryan, who has stayed at many Walt Disney World resorts and sailed on the Disney Magic, Dream and Fantasy."
+  - q: "Is Once Upon A Park Day affiliated with Disney?"
+    a: "No. It's an independent site, not affiliated with The Walt Disney Company or Universal Orlando Resort."
 ---
 ## First-hand when we can
 

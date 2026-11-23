@@ -9,6 +9,13 @@ permalink: /cruises/inside-vs-verandah/
 section: cruises
 researched: true
 description: "Disney Cruise Line inside, oceanview, verandah and Concierge staterooms compared for first-time cruisers."
+faq:
+  - q: "Is an inside stateroom worth it on a Disney cruise?"
+    a: "Yes, if you'll spend most of your time out of the room. On the Disney Dream and Fantasy, many inside rooms have a Magical Porthole with a live view outside."
+  - q: "Is a verandah stateroom worth the extra cost?"
+    a: "It's worth it if you want quiet time in your room, have little ones who nap, or are sailing somewhere scenic like Alaska."
+  - q: "Do Disney cruise staterooms have split bathrooms?"
+    a: "Many do, with the toilet separate from the shower and sink, which helps families get ready at the same time."
 ---
 ## The four main categories
 

@@ -9,6 +9,13 @@ permalink: /planning/parks-or-cruise/
 section: planning
 researched: true
 description: "Parks trip vs. Disney cruise for first-timers: pace, planning, budget, and who each one suits."
+faq:
+  - q: "Is a Disney cruise or a Walt Disney World trip better for first-timers?"
+    a: "A parks trip suits families who want rides and big days. A cruise suits families who want a slower pace, with meals, shows and kids clubs included in the fare."
+  - q: "Can you do Walt Disney World and a Disney cruise on one trip?"
+    a: "Yes. Port Canaveral is close to Walt Disney World, so a few park days followed by a short Bahamas cruise is an easy combination."
+  - q: "How long should a first Disney cruise be?"
+    a: "A 3- or 4-night Bahamas cruise is a good first sailing. It's long enough to enjoy the ship without committing a full week."
 ---
 ## The short answer
 

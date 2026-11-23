@@ -1,6 +1,6 @@
 ---
 layout: layouts/article.njk
-title: "Planning and budgeting"
+title: "Disney trip planning and budgeting for first-timers"
 short: Planning
 eyebrow: Planning
 lead: "The plain-English basics for a first Disney trip, in the order you'll need them."
@@ -9,6 +9,11 @@ permalink: /planning/
 section: planning
 researched: true
 description: "First-timer planning guides for Walt Disney World and Disney Cruise Line: choosing a trip, when to book, budgeting and booking."
+faq:
+  - q: "Where should a first-timer start planning a Disney trip?"
+    a: "Decide between a parks trip and a cruise, pick where to stay, then put the key booking dates on your calendar and set a budget."
+  - q: "How far ahead should I plan a Walt Disney World trip?"
+    a: "Disney suggests booking your hotel 6 to 12 months ahead. Dining reservations open 60 days out, and Lightning Lane opens 7 days out for Disney hotel guests."
 ---
 Start at the top and work down. Each guide is short, and each one links to the next step.
 

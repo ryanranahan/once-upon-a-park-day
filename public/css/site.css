@@ -322,3 +322,19 @@ ul.benefits li{margin:8px 0}
 .itin-take-head{font-weight:700;margin-bottom:4px}
 .draft-tag{display:inline-block;margin-left:6px;font-size:12px;font-weight:700;background:var(--yellow-soft);border:1px solid var(--yellow);border-radius:999px;padding:1px 8px;vertical-align:middle}
 .itin-verify{font-size:14px;color:var(--muted);margin-top:8px}
+/* Quick answers (FAQ) on article pages */
+.quick-answers{padding:20px 22px;margin-bottom:32px;border-left:6px solid var(--yellow)}
+.quick-answers h2{font-size:24px;margin:0 0 10px}
+.quick-answers dt{font-weight:700;margin-top:12px}
+.quick-answers dd{margin:4px 0 0;color:var(--muted)}
+/* Deals */
+.deal-cta{padding:18px 20px;margin:8px 0 28px;border-left:6px solid var(--red)}
+.deal-cta p{color:var(--muted);margin-top:4px}
+.deal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin:12px 0 14px}
+.deal-card{padding:18px 20px;display:flex;flex-direction:column;gap:8px}
+.deal-card h4{font-family:var(--display);font-size:20px;margin:0}
+.deal-card dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;margin:0;font-size:15px}
+.deal-card dt{font-weight:700}
+.deal-card dd{margin:0}
+.deal-note{font-size:14px;color:var(--muted)}
+.deal-card a{font-weight:700;margin-top:auto}

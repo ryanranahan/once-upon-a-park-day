@@ -9,6 +9,13 @@ permalink: /planning/budget-and-booking/
 section: planning
 researched: true
 description: "How to budget for a first Walt Disney World trip: the main costs, how package deposits and payments work, and practical ways to save."
+faq:
+  - q: "What are the biggest costs of a Disney World trip?"
+    a: "Your hotel, park tickets and food are the biggest costs, followed by Lightning Lane, travel and extras like souvenirs."
+  - q: "How much is the deposit on a Disney World package?"
+    a: "For 2027 packages booked more than 30 days out, Disney asks for a $200 deposit within 3 days of booking. The balance is due 30 days before arrival."
+  - q: "How can I save money on a first Disney World trip?"
+    a: "Travel in quieter seasons, stay at a Value or Moderate resort, buy more ticket days for a lower daily price, and watch Disney's official offers."
 ---
 Prices change constantly, so we don't quote them here. Use this list to build your budget, then price each line on Disney's site for your dates.
 
