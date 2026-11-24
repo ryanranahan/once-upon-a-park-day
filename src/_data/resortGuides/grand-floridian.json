@@ -23,5 +23,76 @@
     "You can still take the monorail to Epcot from here. Just transfer at the Transportation and Ticket Center.",
     "Find a fireworks spot outside your room: the beach near Gasparilla Island Grill or the boat dock. The Electrical Water Pageant also floats past in the evening."
   ],
-  "bestFor": "Couples and families who want a classic, elegant Disney stay right next to Magic Kingdom."
+  "bestFor": "Couples and families who want a classic, elegant Disney stay right next to Magic Kingdom.",
+  "photos": {
+    "take": {
+      "caption": "The lobby all dressed up for Christmas.",
+      "items": [
+        {
+          "src": "/images/resorts/grand-floridian-lobby-1600.jpg",
+          "small": "/images/resorts/grand-floridian-lobby-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "The Grand Floridian's five-story lobby from an upper floor, with a tall Christmas tree, chandeliers and white balconies hung with garland"
+        },
+        {
+          "src": "/images/resorts/grand-floridian-lobby-tree-1600.jpg",
+          "small": "/images/resorts/grand-floridian-lobby-tree-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "The Christmas tree in the middle of the Grand Floridian lobby, under the glass domes of the ceiling"
+        },
+        {
+          "src": "/images/resorts/grand-floridian-lobby-floor-1600.jpg",
+          "small": "/images/resorts/grand-floridian-lobby-floor-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "The inlaid marble floor of the Grand Floridian lobby, with Christmas trees and a chandelier behind it"
+        }
+      ]
+    },
+    "rooms": {
+      "caption": "The main building (left) and one of the outer buildings on the beach along Seven Seas Lagoon.",
+      "items": [
+        {
+          "src": "/images/resorts/grand-floridian-main-building-1600.jpg",
+          "small": "/images/resorts/grand-floridian-main-building-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "The Grand Floridian's main building, with its red turret and rows of white windows, under a cloudy blue sky"
+        },
+        {
+          "src": "/images/resorts/grand-floridian-lagoon-1600.jpg",
+          "small": "/images/resorts/grand-floridian-lagoon-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A white Victorian-style building with a red roof on the beach of Seven Seas Lagoon"
+        }
+      ]
+    },
+    "pools": {
+      "caption": "The kids' splash area and waterslide by the Beach Pool.",
+      "items": [
+        {
+          "src": "/images/resorts/grand-floridian-splash-area-1600.jpg",
+          "small": "/images/resorts/grand-floridian-splash-area-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A splash area with a small waterslide and a big teapot fountain beside the pool, with palm trees and resort buildings behind it"
+        }
+      ]
+    },
+    "dining": {
+      "caption": "Enchanted Rose, the lounge just off the lobby.",
+      "items": [
+        {
+          "src": "/images/resorts/grand-floridian-enchanted-rose-1600.jpg",
+          "small": "/images/resorts/grand-floridian-enchanted-rose-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "The gold Enchanted Rose sign set in a round window, with a rose in the lettering"
+        }
+      ]
+    }
+  }
 }
