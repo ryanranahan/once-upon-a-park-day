@@ -6,9 +6,10 @@
 {% elif g.overview %}
     <h2>Overview</h2>
     {{ g.overview | safe }}
+{%- if g.photos and g.photos.overview %}{% set shot = g.photos.overview %}{% include "section-photos.njk" %}{% endif %}
     <div class="callout callout-soft">
       <strong>First-hand notes coming soon.</strong>
-      <p>This guide is put together from research, not a stay. A first-hand take, photos and tips will be added later. Check details with the hotel before you book.</p>
+      {% if g.photos %}<p>The photos here are our own, but the text is put together from research, not a stay. A first-hand take and tips will be added later. Check details with the hotel before you book.</p>{% else %}<p>This guide is put together from research, not a stay. A first-hand take, photos and tips will be added later. Check details with the hotel before you book.</p>{% endif %}
     </div>
 {% else %}
     <h2>Our take</h2>

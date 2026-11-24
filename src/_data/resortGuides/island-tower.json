@@ -3,8 +3,8 @@
   "overview": "<p>Island Tower is the newest Disney Vacation Club building at the Polynesian, a tower on the Seven Seas Lagoon with views toward Magic Kingdom.</p>",
   "suits": "<p>Families who want a modern villa with the Polynesian's location and amenities.</p>",
   "rooms": "<p>As a Disney Vacation Club resort, rooms range from studios with a kitchenette to multi-bedroom villas with a full kitchen and washer and dryer. You don't need to be a member to stay; you can book with cash like a regular hotel.</p>",
-  "pools": "<p>Island Tower has its own pool area, and guests can use the Polynesian's pools too.</p>",
-  "dining": "<p>Guests use the Polynesian's restaurants, including <strong>'Ohana</strong>, <strong>Kona Cafe</strong> and <strong>Pineapple Lanai</strong>.</p>",
+  "pools": "<p>Island Tower has its own pool, <strong>Cove Pool</strong>, with rows of lounge chairs and umbrellas in front of the tower and a splash area where a Moana figure rides a raft among the fountains. Guests can use the Polynesian's other pools too.</p>",
+  "dining": "<p>Guests use the Polynesian's restaurants, including <strong>'Ohana</strong>, <strong>Kona Cafe</strong> and <strong>Pineapple Lanai</strong>. At the foot of the tower there's also a covered bar looking out over the lagoon.</p>",
   "gettingAround": null,
   "pros": [
     "Newest villas at the Polynesian",
@@ -20,5 +20,71 @@
     "Request a Magic Kingdom-facing room for fireworks views.",
     "Use the boat to Magic Kingdom for a relaxing ride."
   ],
-  "bestFor": "Families who want a modern villa at the Polynesian."
+  "bestFor": "Families who want a modern villa at the Polynesian.",
+  "photos": {
+    "overview": {
+      "caption": "Island Tower from across the lagoon, its reflection at the water's edge, and the carved facade above the entrance.",
+      "items": [
+        {
+          "src": "/images/resorts/island-tower-lagoon-1600.jpg",
+          "small": "/images/resorts/island-tower-lagoon-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Island Tower rising behind palm trees and the Polynesian's longhouse roofs, seen across the lagoon under an oak tree"
+        },
+        {
+          "src": "/images/resorts/island-tower-reflection-1600.jpg",
+          "small": "/images/resorts/island-tower-reflection-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Island Tower and its palm-lined shore reflected in the dark water of Seven Seas Lagoon"
+        },
+        {
+          "src": "/images/resorts/island-tower-facade-1600.jpg",
+          "small": "/images/resorts/island-tower-facade-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Looking up at Island Tower's balconies and the carved wave pattern on its facade, above a thatched roof"
+        }
+      ]
+    },
+    "pools": {
+      "caption": "Cove Pool below the tower, its sign, and the Moana splash area.",
+      "items": [
+        {
+          "src": "/images/resorts/island-tower-cove-pool-1600.jpg",
+          "small": "/images/resorts/island-tower-cove-pool-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Cove Pool with teal umbrellas and lounge chairs in front of Island Tower"
+        },
+        {
+          "src": "/images/resorts/island-tower-cove-pool-sign-1600.jpg",
+          "small": "/images/resorts/island-tower-cove-pool-sign-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "A teal Cove Pool sign set into a lava-rock pillar"
+        },
+        {
+          "src": "/images/resorts/island-tower-moana-splash-1600.jpg",
+          "small": "/images/resorts/island-tower-moana-splash-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A Moana figure standing on a raft with a sail in the splash area, with fountains and teal umbrellas around her"
+        }
+      ]
+    },
+    "dining": {
+      "caption": "The covered bar at the foot of the tower, with the lagoon through the windows.",
+      "items": [
+        {
+          "src": "/images/resorts/island-tower-bar-1600.jpg",
+          "small": "/images/resorts/island-tower-bar-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "A round bar with wooden stools, a bamboo ceiling with carved medallions and a patterned floor, with the lagoon behind it"
+        }
+      ]
+    }
+  }
 }
