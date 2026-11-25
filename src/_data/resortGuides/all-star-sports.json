@@ -1,4 +1,6 @@
 {
+  "author": "Ryan",
+  "experience": "Staying here now, November 2026",
   "researched": true,
   "overview": "<p>All-Star Sports is a Value resort with buildings themed to football, baseball, basketball, tennis and surfing, all decorated with supersized sports gear.</p>",
   "suits": "<p>Budget-minded families and sports fans who want the lowest-cost Disney-owned option.</p>",
@@ -8,21 +10,24 @@
   "gettingAround": "<p>Every park is reached by Disney bus.</p>",
   "pros": [
     "Among the lowest prices on Disney property",
+    "Refreshed rooms that are nicer than their reputation",
     "Fun, easy-to-navigate sports theming",
     "Disney resort perks included"
   ],
   "cons": [
+    "The resort feels darker than most, inside and out, especially at night",
     "Bus-only transportation",
     "No table-service dining",
-    "Basic rooms"
+    "Small rooms, and some reviewers mention thin walls"
   ],
   "tips": [
     "Ask for a building close to the main building and bus stop.",
-    "Pack snacks; options are limited to the food court."
+    "Pack snacks; options are limited to the food court.",
+    "Check the ESPN Wide World of Sports calendar before you book. Youth tournaments can fill the resort with loud groups."
   ],
   "bestFor": "Budget-minded families and sports fans.",
   "photos": {
-    "overview": {
+    "take": {
       "caption": "The surf-themed building at night, with wave-shaped rooflines over Surfboard Bay Pool, the giant tennis-ball can by Center Court building 4, and the tennis courtyard.",
       "items": [
         {
@@ -74,5 +79,7 @@
         }
       ]
     }
-  }
+  },
+  "take": "<p>I'm staying at All-Star Sports right now, and so far it's made me feel a little differently about the resort than I expected. The rooms aren't as bad as people sometimes make them sound. The refreshed room is simple and clean, and having the vanity outside the bathroom behind a sliding door makes it easier to get ready when you're sharing.</p><p>What I'd warn you about is that the resort overall is a little darker than usual, both inside and out, and you notice it most at night. The giant rackets, balls and surfboards are fun to see lit up, but the resort as a whole feels dimmer than other places on property.</p><h3>What other guests say</h3><p>Most recent reviews agree the rooms beat their old reputation. All-Star Sports was the last of the three All-Star resorts to get its room refresh, finished around 2023, and reviewers like the two queen beds (one folds up into a table), the laminate floors that replaced the old carpet, and the sliding door to the bathroom. A lot of the harshest reviews you'll find online, the ones that call it the worst resort on property, were written before that refresh. The rooms are still small, and a few reviewers mention thin walls.</p><p>The darker feel comes up much less. Most reviews don't mention it, and one ranking of in-room lighting gives All-Star Sports good marks, so how dark it feels may depend on your building and when you're walking around. Bring a small light or use your phone's flashlight if you'll be heading back from the bus late.</p>",
+  "checked": "November 2026"
 }
