@@ -50,23 +50,6 @@
     "place": "Disney's All-Star Movies Resort",
     "page": "/resorts/all-star-movies/"
   },
-  "wdw/all-star-sports": {
-    "src": "/images/commons/wdw-all-star-sports-1600.jpg",
-    "small": "/images/commons/wdw-all-star-sports-800.jpg",
-    "width": 1600,
-    "height": 1067,
-    "alt": "A football-field courtyard with a giant helmet and brightly painted buildings at Disney's All-Star Sports Resort",
-    "credit": {
-      "author": "Brian Marshall from Wales",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Disney_All_Stars_Sports_Hotel.jpg",
-      "file": "File:Disney All Stars Sports Hotel.jpg",
-      "changes": "cropped and resized"
-    },
-    "place": "Disney's All-Star Sports Resort",
-    "page": "/resorts/all-star-sports/"
-  },
   "wdw/animal-kingdom-lodge": {
     "src": "/images/commons/wdw-animal-kingdom-lodge-1600.jpg",
     "small": "/images/commons/wdw-animal-kingdom-lodge-800.jpg",

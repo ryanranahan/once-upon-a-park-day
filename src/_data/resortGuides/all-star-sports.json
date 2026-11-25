@@ -2,7 +2,7 @@
   "researched": true,
   "overview": "<p>All-Star Sports is a Value resort with buildings themed to football, baseball, basketball, tennis and surfing, all decorated with supersized sports gear.</p>",
   "suits": "<p>Budget-minded families and sports fans who want the lowest-cost Disney-owned option.</p>",
-  "rooms": "<p>Standard rooms are compact and sleep up to four, with two queen beds or one queen plus a pull-down bed in refreshed rooms. Check the latest room setup when you book.</p>",
+  "rooms": "<p>Standard rooms are compact and sleep up to four, with two queen beds or one queen plus a pull-down bed in refreshed rooms. Check the latest room setup when you book.</p><p>In the refreshed rooms the vanity sits outside the bathroom, so one person can get ready while another uses the tub. The tub and shower combo has a frosted-glass sliding door, a built-in tile niche and wall-mounted shampoo, conditioner and body wash.</p>",
   "pools": "<p>The <strong>Surfboard Bay Pool</strong> is the main pool, and the <strong>Grand Slam Pool</strong> is the second.</p>",
   "dining": "<p>Dining is the <strong>End Zone Food Court</strong> plus a pool bar. There's no table-service restaurant.</p>",
   "gettingAround": "<p>Every park is reached by Disney bus.</p>",
@@ -20,5 +20,59 @@
     "Ask for a building close to the main building and bus stop.",
     "Pack snacks; options are limited to the food court."
   ],
-  "bestFor": "Budget-minded families and sports fans."
+  "bestFor": "Budget-minded families and sports fans.",
+  "photos": {
+    "overview": {
+      "caption": "The surf-themed building at night, with wave-shaped rooflines over Surfboard Bay Pool, the giant tennis-ball can by Center Court building 4, and the tennis courtyard.",
+      "items": [
+        {
+          "src": "/images/resorts/all-star-sports-surf-1600.jpg",
+          "small": "/images/resorts/all-star-sports-surf-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "The surf-themed building lit up at night, with blue wave shapes along the roofline, palm trees and pool umbrellas beyond a grassy berm"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-tennis-can-1600.jpg",
+          "small": "/images/resorts/all-star-sports-tennis-can-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A giant tennis-ball can, taller than the three-story building beside it, lit up at night next to a Center Court building marked 4"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-tennis-courtyard-1600.jpg",
+          "small": "/images/resorts/all-star-sports-tennis-courtyard-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A tennis-court courtyard at night between two tennis-themed buildings with giant rackets, a referee chair and Donald Duck statues on the court"
+        }
+      ]
+    },
+    "rooms": {
+      "caption": "A standard-room bathroom: the vanity outside the bathroom door, the shower niche, and the tub with its frosted sliding door.",
+      "items": [
+        {
+          "src": "/images/resorts/all-star-sports-vanity-1600.jpg",
+          "small": "/images/resorts/all-star-sports-vanity-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A white sink and lit mirror with a magnifying mirror in a standard room, beside an open sliding door to the bathroom"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-shower-1600.jpg",
+          "small": "/images/resorts/all-star-sports-shower-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "The white-tiled shower over the tub, with a recessed niche and wall-mounted bottles of shampoo, conditioner and body wash"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-tub-1600.jpg",
+          "small": "/images/resorts/all-star-sports-tub-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A bathtub with a frosted-glass sliding door, white tiles, a green accent wall, towels and a toilet"
+        }
+      ]
+    }
+  }
 }

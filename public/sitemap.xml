@@ -65,60 +65,6 @@
     <lastmod>2026-11-23</lastmod>
   </url>
   <url>
-    <loc>https://once-upon-a-park-day.pages.dev/cruises/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/grand-californian/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/disneyland-hotel/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/pixar-place/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/villas-at-disneyland-hotel/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/disneyland/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/portofino-bay/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/hard-rock-hotel/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/royal-pacific/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/sapphire-falls/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/helios-grand/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/aventura/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/stella-nova/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/terra-luna/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/cabana-bay/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/endless-summer-surfside/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/endless-summer-dockside/</loc>
-  </url>
-  <url>
-    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/</loc>
-  </url>
-  <url>
     <loc>https://once-upon-a-park-day.pages.dev/about/how-we-research/</loc>
   </url>
   <url>
@@ -129,6 +75,9 @@
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/cruises/first-cruise/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/cruises/</loc>
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/cruises/inside-vs-verandah/</loc>
@@ -161,6 +110,24 @@
     <loc>https://once-upon-a-park-day.pages.dev/cruises/disney-believe/</loc>
   </url>
   <url>
+    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/grand-californian/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/disneyland-hotel/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/pixar-place/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/disneyland/hotels/villas-at-disneyland-hotel/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/disneyland/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/</loc>
+  </url>
+  <url>
     <loc>https://once-upon-a-park-day.pages.dev/news/</loc>
   </url>
   <url>
@@ -174,6 +141,9 @@
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/planning/when-to-book/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/resorts/</loc>
   </url>
   <url>
     <loc>https://once-upon-a-park-day.pages.dev/resorts/all-star-movies/</loc>
@@ -272,9 +242,39 @@
     <loc>https://once-upon-a-park-day.pages.dev/resorts/value-moderate-deluxe/</loc>
   </url>
   <url>
-    <loc>https://once-upon-a-park-day.pages.dev/</loc>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/portofino-bay/</loc>
   </url>
   <url>
-    <loc>https://once-upon-a-park-day.pages.dev/resorts/</loc>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/hard-rock-hotel/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/royal-pacific/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/sapphire-falls/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/helios-grand/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/aventura/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/stella-nova/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/terra-luna/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/cabana-bay/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/endless-summer-surfside/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/hotels/endless-summer-dockside/</loc>
+  </url>
+  <url>
+    <loc>https://once-upon-a-park-day.pages.dev/universal-orlando/</loc>
   </url>
 </urlset>
