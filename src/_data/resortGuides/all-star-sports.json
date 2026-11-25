@@ -5,8 +5,8 @@
   "overview": "<p>All-Star Sports is a Value resort with buildings themed to football, baseball, basketball, tennis and surfing, all decorated with supersized sports gear.</p>",
   "suits": "<p>Budget-minded families and sports fans who want the lowest-cost Disney-owned option.</p>",
   "rooms": "<p>Standard rooms are compact and sleep up to four, with two queen beds or one queen plus a pull-down bed in refreshed rooms. Check the latest room setup when you book.</p><p>In the refreshed rooms the vanity sits outside the bathroom, so one person can get ready while another uses the tub. The tub and shower combo has a frosted-glass sliding door, a built-in tile niche and wall-mounted shampoo, conditioner and body wash.</p>",
-  "pools": "<p>The <strong>Surfboard Bay Pool</strong> is the main pool, and the <strong>Grand Slam Pool</strong> is the second.</p>",
-  "dining": "<p>Dining is the <strong>End Zone Food Court</strong> plus a pool bar. There's no table-service restaurant.</p>",
+  "pools": "<p>The <strong>Surfboard Bay Pool</strong> is the main pool, and the <strong>Grand Slam Pool</strong> is the second.</p><p>For a rainy day or a break from the sun, the <strong>Game Point Arcade</strong> has ball-rolling lanes, basketball hoops and other games. A sign nearby has a QR code for the resort's recreation schedule.</p>",
+  "dining": "<p>Dining is the <strong>End Zone Food Court</strong> plus a pool bar. There's no table-service restaurant.</p><p>There's seating inside, some of it by windows that look out on a giant chess board, and patio tables with umbrellas outside.</p>",
   "gettingAround": "<p>Every park is reached by Disney bus.</p>",
   "pros": [
     "Among the lowest prices on Disney property",
@@ -28,7 +28,7 @@
   "bestFor": "Budget-minded families and sports fans.",
   "photos": {
     "take": {
-      "caption": "The surf-themed building at night, with wave-shaped rooflines over Surfboard Bay Pool, the giant tennis-ball can by Center Court building 4, and the tennis courtyard.",
+      "caption": "The surf building at night, the giant tennis-ball can by Center Court building 4, the tennis courtyard, and the football buildings by day.",
       "items": [
         {
           "src": "/images/resorts/all-star-sports-surf-1600.jpg",
@@ -50,6 +50,13 @@
           "width": 1600,
           "height": 1200,
           "alt": "A tennis-court courtyard at night between two tennis-themed buildings with giant rackets, a referee chair and Donald Duck statues on the court"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-football-1600.jpg",
+          "small": "/images/resorts/all-star-sports-football-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Football-themed buildings with giant footballs and a helmet, seen past hedges and a lawn on a cloudy day"
         }
       ]
     },
@@ -76,6 +83,58 @@
           "width": 1600,
           "height": 1200,
           "alt": "A bathtub with a frosted-glass sliding door, white tiles, a green accent wall, towels and a toilet"
+        }
+      ]
+    },
+    "pools": {
+      "caption": "Surfboard Bay Pool behind its fence, the Game Point Arcade sign, and the arcade's ball-rolling and basketball games.",
+      "items": [
+        {
+          "src": "/images/resorts/all-star-sports-surfboard-bay-pool-1600.jpg",
+          "small": "/images/resorts/all-star-sports-surfboard-bay-pool-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Surfboard Bay Pool with blue umbrellas and lounge chairs behind a teal fence and flowering shrubs, with palm trees and the surf buildings beyond"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-arcade-sign-1600.jpg",
+          "small": "/images/resorts/all-star-sports-arcade-sign-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "A Game Point Arcade sign in a retro dot-matrix style on a blue wall"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-arcade-1600.jpg",
+          "small": "/images/resorts/all-star-sports-arcade-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Neon-lit ball-rolling lanes and basketball hoop games in the Game Point Arcade"
+        }
+      ]
+    },
+    "dining": {
+      "caption": "Patio tables outside the food court, the End Zone Food Court entrance, and a table inside looking out at the giant chess board.",
+      "items": [
+        {
+          "src": "/images/resorts/all-star-sports-food-court-patio-1600.jpg",
+          "small": "/images/resorts/all-star-sports-food-court-patio-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Patio tables and red umbrellas outside the green food court building with yellow awnings"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-end-zone-food-court-1600.jpg",
+          "small": "/images/resorts/all-star-sports-end-zone-food-court-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "The End Zone Food Court sign over the entrance, under a glass roof, with stadium lights and fireworks painted on the wall"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-food-court-chess-view-1600.jpg",
+          "small": "/images/resorts/all-star-sports-food-court-chess-view-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A small table and chairs by a window looking out on giant chess pieces and red Adirondack chairs on the plaza"
         }
       ]
     }
