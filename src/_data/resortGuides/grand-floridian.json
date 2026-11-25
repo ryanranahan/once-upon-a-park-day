@@ -51,6 +51,26 @@
         }
       ]
     },
+    "suits": {
+      "layout": "pair",
+      "caption": "Looking down on the lobby from the upper floors.",
+      "items": [
+        {
+          "src": "/images/resorts/grand-floridian-lobby-from-above-1600.jpg",
+          "small": "/images/resorts/grand-floridian-lobby-from-above-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "The Grand Floridian lobby seen from an upper balcony, with the giant Christmas tree beside the wooden gazebo and guests on the flowered carpet below"
+        },
+        {
+          "src": "/images/resorts/grand-floridian-lobby-chandelier-1600.jpg",
+          "small": "/images/resorts/grand-floridian-lobby-chandelier-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "A crystal chandelier hanging over the Grand Floridian lobby, with garland on the white balconies and Christmas trees and sofas below"
+        }
+      ]
+    },
     "rooms": {
       "caption": "The main building (left) and one of the outer buildings on the beach along Seven Seas Lagoon.",
       "items": [

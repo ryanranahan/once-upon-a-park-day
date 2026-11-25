@@ -18,6 +18,7 @@
 {% if g.suits or not g.researched %}
     <h2>Who it suits</h2>
     {% if g.suits %}{{ g.suits | safe }}{% else %}<p class="todo">[WHO THIS RESORT IS BEST FOR, AND WHO SHOULD LOOK ELSEWHERE]</p>{% endif %}
+{%- if g.photos and g.photos.suits %}{% set shot = g.photos.suits %}{% include "section-photos.njk" %}{% endif %}
 {% endif %}
 
 {% if g.rooms or not g.researched %}
