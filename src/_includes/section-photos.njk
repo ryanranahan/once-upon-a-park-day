@@ -1,0 +1,10 @@
+{#- Photos under a guide section. Set `shot` to g.photos.<section> before including:
+    { "caption": "...", "items": [ { src, small, width, height, alt } ] }. Ryan's own photos, no credit needed. -#}
+{%- if shot and shot.items.length %}
+    <figure class="guide-photos guide-photos-{{ shot.layout or shot.items.length }}">
+      <div class="guide-photos-grid">
+      {% for p in shot.items %}<img src="{{ p.small }}" srcset="{{ p.small }} {{ p.width / 2 }}w, {{ p.src }} {{ p.width }}w" sizes="(max-width: 820px) 100vw, 720px" width="{{ p.width }}" height="{{ p.height }}" alt="{{ p.alt }}" loading="lazy" decoding="async">
+      {% endfor %}</div>
+      {% if shot.caption %}<figcaption>{{ shot.caption }}</figcaption>{% endif -%}
+    </figure>
+{% endif -%}

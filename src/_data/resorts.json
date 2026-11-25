@@ -191,7 +191,14 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "photo": {
+      "src": "/images/resorts/grand-floridian-1600.jpg",
+      "small": "/images/resorts/grand-floridian-800.jpg",
+      "width": 1600,
+      "height": 1067,
+      "alt": "The Grand Floridian's white Victorian main building and red gabled roofs in late sun under a dark, cloudy sky"
+    }
   },
   {
     "slug": "polynesian-village",
