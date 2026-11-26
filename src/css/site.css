@@ -194,6 +194,10 @@ li.todo{list-style:none;margin:6px 0}
 .ticks{margin:0 0 14px;padding-left:22px}
 .ticks li{margin:6px 0}
 .ticks li::marker{color:var(--red)}
+.quick-answers dl{margin:0;max-width:44rem}
+.quick-answers dt{font-weight:700;margin-top:18px}
+.quick-answers dt:first-child{margin-top:0}
+.quick-answers dd{margin:4px 0 0;color:var(--muted)}
 .proscons{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
 .proscons .card{padding:18px 20px}
 .proscons h3{font-size:22px;margin-bottom:8px}
