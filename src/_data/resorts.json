@@ -191,7 +191,14 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "photo": {
+      "src": "/images/resorts/grand-floridian-lagoon-1600.jpg",
+      "small": "/images/resorts/grand-floridian-lagoon-800.jpg",
+      "width": 1600,
+      "height": 1067,
+      "alt": "The Grand Floridian's white Victorian buildings and red roofs across the water at dusk, with warm light in the windows"
+    }
   },
   {
     "slug": "polynesian-village",

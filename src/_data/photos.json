@@ -186,23 +186,6 @@
     "place": "Disney's Coronado Springs Resort",
     "page": "/resorts/coronado-springs/"
   },
-  "wdw/grand-floridian": {
-    "src": "/images/commons/wdw-grand-floridian-1600.jpg",
-    "small": "/images/commons/wdw-grand-floridian-800.jpg",
-    "width": 1600,
-    "height": 1067,
-    "alt": "The white Victorian buildings and red roofs of Disney's Grand Floridian Resort across Seven Seas Lagoon",
-    "credit": {
-      "author": "Quarax",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Disney%27s_Grand_Floridian_Resort_%26_Spa_Departing_Monorail_Green.jpg",
-      "file": "File:Disney's Grand Floridian Resort & Spa Departing Monorail Green.jpg",
-      "changes": "cropped and resized"
-    },
-    "place": "Disney's Grand Floridian Resort & Spa",
-    "page": "/resorts/grand-floridian/"
-  },
   "wdw/grand-floridian-villas": {
     "src": "/images/commons/wdw-grand-floridian-villas-1600.jpg",
     "small": "/images/commons/wdw-grand-floridian-villas-800.jpg",
