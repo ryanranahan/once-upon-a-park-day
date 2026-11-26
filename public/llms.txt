@@ -20,7 +20,7 @@ Each resort guide covers who the hotel suits, rooms, pools, dining, getting to t
 
 - [Disney's All-Star Movies Resort](https://once-upon-a-park-day.pages.dev/resorts/all-star-movies/): Value resort, Animal Kingdom area. Bright, playful buildings decorated with giant icons from classic Disney films.
 - [Disney's All-Star Music Resort](https://once-upon-a-park-day.pages.dev/resorts/all-star-music/): Value resort, Animal Kingdom area. Music-themed buildings with oversized instruments, plus family suites for bigger groups.
-- [Disney's All-Star Sports Resort](https://once-upon-a-park-day.pages.dev/resorts/all-star-sports/): Value resort, Animal Kingdom area. Sports-themed buildings with supersized balls, helmets and courts.
+- [Disney's All-Star Sports Resort](https://once-upon-a-park-day.pages.dev/resorts/all-star-sports/): Value resort, Animal Kingdom area. Sports-themed buildings with supersized balls, helmets and courts. (first-hand guide)
 - [Disney's Pop Century Resort](https://once-upon-a-park-day.pages.dev/resorts/pop-century/): Value resort, Wide World of Sports area. A walk through 20th-century pop culture, decade by decade, across the lake from Art of Animation.
 - [Disney's Art of Animation Resort](https://once-upon-a-park-day.pages.dev/resorts/art-of-animation/): Value resort, Wide World of Sports area. Themed to animated films, with most rooms set up as family suites.
 - [Disney's Caribbean Beach Resort](https://once-upon-a-park-day.pages.dev/resorts/caribbean-beach/): Moderate resort, Epcot area. Colorful Caribbean island villages around a lake, and the central hub of the Skyliner.

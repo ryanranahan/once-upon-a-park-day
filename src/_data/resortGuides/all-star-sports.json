@@ -1,24 +1,191 @@
 {
+  "author": "Ryan",
+  "experience": "Staying here now, November 2026",
   "researched": true,
   "overview": "<p>All-Star Sports is a Value resort with buildings themed to football, baseball, basketball, tennis and surfing, all decorated with supersized sports gear.</p>",
   "suits": "<p>Budget-minded families and sports fans who want the lowest-cost Disney-owned option.</p>",
-  "rooms": "<p>Standard rooms are compact and sleep up to four, with two queen beds or one queen plus a pull-down bed in refreshed rooms. Check the latest room setup when you book.</p>",
-  "pools": "<p>The <strong>Surfboard Bay Pool</strong> is the main pool, and the <strong>Grand Slam Pool</strong> is the second.</p>",
-  "dining": "<p>Dining is the <strong>End Zone Food Court</strong> plus a pool bar. There's no table-service restaurant.</p>",
+  "rooms": "<p>Standard rooms are compact and sleep up to four, with two queen beds or one queen plus a pull-down bed in refreshed rooms. Check the latest room setup when you book.</p><p>In the refreshed rooms the vanity sits outside the bathroom, so one person can get ready while another uses the tub. The tub and shower combo has a frosted-glass sliding door, a built-in tile niche and wall-mounted shampoo, conditioner and body wash.</p>",
+  "pools": "<p>The <strong>Surfboard Bay Pool</strong> is the main pool, and the <strong>Grand Slam Pool</strong> is the second.</p><p>For a rainy day or a break from the sun, the <strong>Game Point Arcade</strong> has ball-rolling lanes, basketball hoops and other games. A sign nearby has a QR code for the resort's recreation schedule.</p>",
+  "dining": "<p>Dining is the <strong>End Zone Food Court</strong> plus a pool bar. There's no table-service restaurant.</p><p>I got a to-go order of the <strong>chicken parm</strong> with a breadstick and a side of marinara, and it was surprisingly good, good enough that I ended up ordering it again. My biggest tip here is to always mobile order when you can.</p><p>If you eat in, there's seating inside, some of it by windows that look out on a giant chess board, and patio tables with umbrellas outside.</p>",
   "gettingAround": "<p>Every park is reached by Disney bus.</p>",
   "pros": [
     "Among the lowest prices on Disney property",
+    "Refreshed rooms that are nicer than their reputation",
+    "Surprisingly good food court chicken parm",
+    "A dedicated allergy ordering counter at the food court",
     "Fun, easy-to-navigate sports theming",
     "Disney resort perks included"
   ],
   "cons": [
+    "The resort feels darker than most, inside and out, especially at night",
     "Bus-only transportation",
     "No table-service dining",
-    "Basic rooms"
+    "Small rooms, and some reviewers mention thin walls"
   ],
   "tips": [
     "Ask for a building close to the main building and bus stop.",
-    "Pack snacks; options are limited to the food court."
+    "Always mobile order at the End Zone Food Court when you can.",
+    "With food allergies, order at the food court's allergy counter or use the Allergy-friendly icon when you mobile order.",
+    "Pack snacks; options are limited to the food court.",
+    "Check the ESPN Wide World of Sports calendar before you book. Youth tournaments can fill the resort with loud groups."
   ],
-  "bestFor": "Budget-minded families and sports fans."
+  "bestFor": "Budget-minded families and sports fans.",
+  "photos": {
+    "take": {
+      "caption": "The surf building at night, the giant tennis-ball can by Center Court building 4, the tennis courtyard, and the football buildings by day.",
+      "items": [
+        {
+          "src": "/images/resorts/all-star-sports-surf-1600.jpg",
+          "small": "/images/resorts/all-star-sports-surf-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "The surf-themed building lit up at night, with blue wave shapes along the roofline, palm trees and pool umbrellas beyond a grassy berm"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-tennis-can-1600.jpg",
+          "small": "/images/resorts/all-star-sports-tennis-can-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A giant tennis-ball can, taller than the three-story building beside it, lit up at night next to a Center Court building marked 4"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-tennis-courtyard-1600.jpg",
+          "small": "/images/resorts/all-star-sports-tennis-courtyard-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A tennis-court courtyard at night between two tennis-themed buildings with giant rackets, a referee chair and Donald Duck statues on the court"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-football-1600.jpg",
+          "small": "/images/resorts/all-star-sports-football-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Football-themed buildings with giant footballs and a helmet, seen past hedges and a lawn on a cloudy day"
+        }
+      ]
+    },
+    "rooms": {
+      "caption": "A standard-room bathroom: the vanity outside the bathroom door, the shower niche, and the tub with its frosted sliding door.",
+      "items": [
+        {
+          "src": "/images/resorts/all-star-sports-vanity-1600.jpg",
+          "small": "/images/resorts/all-star-sports-vanity-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A white sink and lit mirror with a magnifying mirror in a standard room, beside an open sliding door to the bathroom"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-shower-1600.jpg",
+          "small": "/images/resorts/all-star-sports-shower-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "The white-tiled shower over the tub, with a recessed niche and wall-mounted bottles of shampoo, conditioner and body wash"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-tub-1600.jpg",
+          "small": "/images/resorts/all-star-sports-tub-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A bathtub with a frosted-glass sliding door, white tiles, a green accent wall, towels and a toilet"
+        }
+      ]
+    },
+    "pools": {
+      "caption": "Surfboard Bay Pool behind its fence, the Game Point Arcade sign, and the arcade's ball-rolling and basketball games.",
+      "items": [
+        {
+          "src": "/images/resorts/all-star-sports-surfboard-bay-pool-1600.jpg",
+          "small": "/images/resorts/all-star-sports-surfboard-bay-pool-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Surfboard Bay Pool with blue umbrellas and lounge chairs behind a teal fence and flowering shrubs, with palm trees and the surf buildings beyond"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-arcade-sign-1600.jpg",
+          "small": "/images/resorts/all-star-sports-arcade-sign-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "A Game Point Arcade sign in a retro dot-matrix style on a blue wall"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-arcade-1600.jpg",
+          "small": "/images/resorts/all-star-sports-arcade-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Neon-lit ball-rolling lanes and basketball hoop games in the Game Point Arcade"
+        }
+      ]
+    },
+    "dining": {
+      "caption": "The End Zone Food Court entrance, a window table looking out at the giant chess board, and the chicken parm, eaten in and to go.",
+      "items": [
+        {
+          "src": "/images/resorts/all-star-sports-end-zone-food-court-1600.jpg",
+          "small": "/images/resorts/all-star-sports-end-zone-food-court-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "The End Zone Food Court sign over the entrance, under a glass roof, with stadium lights and fireworks painted on the wall"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-food-court-chess-view-1600.jpg",
+          "small": "/images/resorts/all-star-sports-food-court-chess-view-800.jpg",
+          "width": 1600,
+          "height": 1200,
+          "alt": "A small table and chairs by a window looking out on giant chess pieces and red Adirondack chairs on the plaza"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-chicken-parm-1600.jpg",
+          "small": "/images/resorts/all-star-sports-chicken-parm-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Chicken parmesan with melted mozzarella over rotini pasta with a garlic breadstick, in a paper bowl"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-chicken-parm-to-go-1600.jpg",
+          "small": "/images/resorts/all-star-sports-chicken-parm-to-go-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "A to-go container of chicken parm and a breadstick next to a cup of marinara and plastic cutlery on a table"
+        }
+      ]
+    },
+    "allergies": {
+      "caption": "The allergy counter, the \"Requested to be made without\" sticker on our to-go lid, and two of our allergy-friendly meals: sesame chicken and chicken Alfredo.",
+      "items": [
+        {
+          "src": "/images/resorts/all-star-sports-allergy-counter-1600.jpg",
+          "small": "/images/resorts/all-star-sports-allergy-counter-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "A sign reading Allergy Requests Order Here, with a fork-in-a-triangle icon, hanging over a food court counter"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-allergy-sticker-1600.jpg",
+          "small": "/images/resorts/all-star-sports-allergy-sticker-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "A purple Requested to be made without sticker on a to-go lid, with the gluten and wheat box checked and the item written in marker"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-sesame-chicken-1600.jpg",
+          "small": "/images/resorts/all-star-sports-sesame-chicken-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "A bowl of sesame chicken with red peppers and onions over white rice"
+        },
+        {
+          "src": "/images/resorts/all-star-sports-chicken-alfredo-1600.jpg",
+          "small": "/images/resorts/all-star-sports-chicken-alfredo-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "Breaded chicken topped with melted cheese and herbs over Alfredo pasta in a paper bowl"
+        }
+      ],
+      "portrait": true
+    }
+  },
+  "take": "<p>I'm staying at All-Star Sports right now, and so far it's made me feel a little differently about the resort than I expected. The rooms aren't as bad as people sometimes make them sound. The refreshed room is simple and clean, and having the vanity outside the bathroom behind a sliding door makes it easier to get ready when you're sharing.</p><p>What I'd warn you about is that the resort overall is a little darker than usual, both inside and out, and you notice it most at night. The giant rackets, balls and surfboards are fun to see lit up, but the resort as a whole feels dimmer than other places on property.</p><h3>What other guests say</h3><p>Most recent reviews agree the rooms beat their old reputation. All-Star Sports was the last of the three All-Star resorts to get its room refresh, finished around 2023, and reviewers like the two queen beds (one folds up into a table), the laminate floors that replaced the old carpet, and the sliding door to the bathroom. A lot of the harshest reviews you'll find online, the ones that call it the worst resort on property, were written before that refresh. The rooms are still small, and a few reviewers mention thin walls.</p><p>The darker feel comes up much less. Most reviews don't mention it, and one ranking of in-room lighting gives All-Star Sports good marks, so how dark it feels may depend on your building and when you're walking around. Bring a small light or use your phone's flashlight if you'll be heading back from the bus late.</p>",
+  "checked": "November 2026",
+  "allergies": "<p>Disney is great with food allergies, and the End Zone Food Court makes it easy. There's a counter with a sign that says <strong>\"Allergy Requests Order Here\"</strong>, so you know exactly where to go, and you're ordering with a cast member who's ready for allergy requests from the start.</p><p>We've ordered allergy-friendly meals here, including the <strong>sesame chicken</strong> and a <strong>chicken Alfredo</strong>. They were absolutely delicious, and my wife Jackie loved them. The food court team has been amazing with allergies. Our order came with a purple <strong>\"Requested to be made without\"</strong> sticker on the lid, with gluten and wheat checked off, so we could see at a glance it had been made for us.</p>",
+  "allergiesDetails": "<h3>How ordering works at the food court</h3><ul class=\"ticks\"><li><strong>Order at the allergy counter.</strong> Tell the cast member about every allergy in your party. If you can't find something that works, ask to speak with a special diets-trained cast member.</li><li><strong>Use the allergy-friendly menu.</strong> Disney's allergy-friendly menus cover the nine most common allergens: eggs, fish, milk, peanuts, sesame, shellfish, soy, tree nuts and wheat. Kitchens will also do their best with requests like gluten, corn or citrus.</li><li><strong>Mobile ordering works too.</strong> In the My Disney Experience app, tap the <strong>Allergy-friendly</strong> icon on the menu screen. When you pick up, you'll speak to a cast member so you can confirm the order.</li><li><strong>Look for the marker.</strong> Allergy orders come with a pick in the food, a designated tray or, for to-go meals, a sticker on the box and bag. If you don't see one, ask before you eat.</li></ul><h3>Before your trip</h3><ul class=\"ticks\"><li>If your party has <strong>four or more</strong> allergy requests, or someone has a medically restrictive diet, email Disney's special diets team at <a href=\"mailto:Special.Diets@DisneyWorld.com\">Special.Diets@DisneyWorld.com</a>, no more than 14 days before you arrive.</li><li>Disney takes steps to avoid cross-contact but can't guarantee any item is completely allergen-free, and kitchens aren't separate. For severe allergies, always talk it through with a cast member.</li><li>As of October 6, 2026, Disney follows the FDA's updated list and no longer treats coconut and a few other nuts as tree nuts. If you're allergic to coconut, say so specifically.</li></ul>"
 }
