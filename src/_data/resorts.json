@@ -242,7 +242,14 @@
       "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "photo": {
+      "src": "/images/resorts/yacht-club-1600.jpg",
+      "small": "/images/resorts/yacht-club-800.jpg",
+      "width": 1600,
+      "height": 1067,
+      "alt": "Disney's Yacht Club Resort and its lighthouse glowing across Crescent Lake at sunset, framed by a live oak draped in Spanish moss"
+    }
   },
   {
     "slug": "bay-lake-tower",
