@@ -39,6 +39,13 @@
 {%- if g.photos and g.photos.dining %}{% set shot = g.photos.dining %}{% include "section-photos.njk" %}{% endif %}
 {% endif %}
 
+{% if g.allergies %}
+    <h2 id="allergies">Eating with food allergies</h2>
+    {{ g.allergies | safe }}
+{%- if g.photos and g.photos.allergies %}{% set shot = g.photos.allergies %}{% include "section-photos.njk" %}{% endif %}
+    {{ g.allergiesDetails | safe }}
+{% endif %}
+
     <h2 id="getting-around">Getting to the parks</h2>
     <ul class="ticks">
       {% for t in resort.transport %}<li>{{ t }}</li>
