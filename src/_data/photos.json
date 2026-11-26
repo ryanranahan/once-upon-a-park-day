@@ -203,23 +203,6 @@
     "place": "The Villas at Disney's Grand Floridian Resort & Spa",
     "page": "/resorts/grand-floridian-villas/"
   },
-  "wdw/island-tower": {
-    "src": "/images/commons/wdw-island-tower-1600.jpg",
-    "small": "/images/commons/wdw-island-tower-800.jpg",
-    "width": 1600,
-    "height": 1067,
-    "alt": "View over Seven Seas Lagoon and the Polynesian's longhouses from the Island Tower terrace",
-    "credit": {
-      "author": "BallofyaRn",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "source": "https://commons.wikimedia.org/wiki/File:View_of_Seven_Seas_Lagoon_from_Island_Tower_at_Disney%27s_Polynesian_Resort.jpg",
-      "file": "File:View of Seven Seas Lagoon from Island Tower at Disney's Polynesian Resort.jpg",
-      "changes": "cropped and resized"
-    },
-    "place": "Island Tower at Disney's Polynesian Villas & Bungalows",
-    "page": "/resorts/island-tower/"
-  },
   "wdw/old-key-west": {
     "src": "/images/commons/wdw-old-key-west-1600.jpg",
     "small": "/images/commons/wdw-old-key-west-800.jpg",

@@ -2,12 +2,14 @@
 {% if g.take %}
     <h2>Our take</h2>
     {{ g.take | safe }}
+{%- if g.photos and g.photos.take %}{% set shot = g.photos.take %}{% include "section-photos.njk" %}{% endif %}
 {% elif g.overview %}
     <h2>Overview</h2>
     {{ g.overview | safe }}
+{%- if g.photos and g.photos.overview %}{% set shot = g.photos.overview %}{% include "section-photos.njk" %}{% endif %}
     <div class="callout callout-soft">
       <strong>First-hand notes coming soon.</strong>
-      <p>This guide is put together from research, not a stay. A first-hand take, photos and tips will be added later. Check details with the hotel before you book.</p>
+      {% if g.photos %}<p>The photos here are our own, but the text is put together from research, not a stay. A first-hand take and tips will be added later. Check details with the hotel before you book.</p>{% else %}<p>This guide is put together from research, not a stay. A first-hand take, photos and tips will be added later. Check details with the hotel before you book.</p>{% endif %}
     </div>
 {% else %}
     <h2>Our take</h2>
@@ -22,16 +24,19 @@
 {% if g.rooms or not g.researched %}
     <h2>Rooms</h2>
     {% if g.rooms %}{{ g.rooms | safe }}{% else %}<p class="todo">[ROOM TYPES, HOW MANY PEOPLE THEY SLEEP, AND WHICH SECTION TO REQUEST. CHECK AGAINST THE CURRENT LISTING.]</p>{% endif %}
+{%- if g.photos and g.photos.rooms %}{% set shot = g.photos.rooms %}{% include "section-photos.njk" %}{% endif %}
 {% endif %}
 
 {% if g.pools or not g.researched %}
     <h2>Pools and things to do</h2>
     {% if g.pools %}{{ g.pools | safe }}{% else %}<p class="todo">[POOLS, PLAY AREAS, AND ACTIVITIES]</p>{% endif %}
+{%- if g.photos and g.photos.pools %}{% set shot = g.photos.pools %}{% include "section-photos.njk" %}{% endif %}
 {% endif %}
 
 {% if g.dining or not g.researched %}
     <h2>Where to eat</h2>
     {% if g.dining %}{{ g.dining | safe }}{% else %}<p class="todo">[RESTAURANTS AND QUICK-SERVICE SPOTS ON SITE, AND YOUR FAVORITE]</p>{% endif %}
+{%- if g.photos and g.photos.dining %}{% set shot = g.photos.dining %}{% include "section-photos.njk" %}{% endif %}
 {% endif %}
 
     <h2 id="getting-around">Getting to the parks</h2>

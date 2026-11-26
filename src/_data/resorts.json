@@ -364,7 +364,14 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "polynesian-village"
+    "host": "polynesian-village",
+    "photo": {
+      "src": "/images/resorts/island-tower-1600.jpg",
+      "small": "/images/resorts/island-tower-800.jpg",
+      "width": 1600,
+      "height": 1066,
+      "alt": "Island Tower's terracotta-colored wings and palm trees along the shore of Seven Seas Lagoon under a blue sky"
+    }
   },
   {
     "slug": "grand-floridian-villas",
