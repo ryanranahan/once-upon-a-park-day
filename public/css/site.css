@@ -375,5 +375,6 @@ ul.benefits li{margin:8px 0}
 .guide-photos-3 .guide-photos-grid img:nth-child(3){grid-column:1;grid-row:2}
 .guide-photos-1 .guide-photos-grid img{max-width:560px}
 .guide-photos-1 .guide-photos-grid img[width="1200"]{max-width:340px}
+.guide-photos-pair .guide-photos-grid{grid-template-columns:1fr 1fr}
 .guide-photos figcaption{color:var(--muted);font-size:15px;margin-top:8px}
 @media (max-width:560px){.guide-photos-grid{gap:6px}.guide-photos-grid img{border-radius:12px}}
