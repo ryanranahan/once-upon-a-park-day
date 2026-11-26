@@ -21,5 +21,141 @@
     "Mobile order breakfast from the food court before you head to the bus.",
     "Take a look at the other two All-Star resorts next door; they're within walking distance."
   ],
-  "bestFor": "Budget-minded families who'll spend all day in the parks."
+  "bestFor": "Budget-minded families who'll spend all day in the parks.",
+  "photos": {
+    "overview": [
+      {
+        "caption": "The Mighty Ducks section: the goalie-mask entrance, giant hockey sticks along the buildings, the hockey rink with its players, and the scoreboard by the Duck Pond Pool.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-goalie-mask-1600.jpg",
+            "small": "/images/resorts/all-star-movies-goalie-mask-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A giant white goalie mask forming the entrance to a Mighty Ducks building, with a crossed hockey stick behind it"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-hockey-sticks-1600.jpg",
+            "small": "/images/resorts/all-star-movies-hockey-sticks-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A blue three-story Mighty Ducks building with giant yellow hockey sticks leaning against it"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-hockey-rink-1600.jpg",
+            "small": "/images/resorts/all-star-movies-hockey-rink-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A red-railed hockey rink with cut-out hockey players behind the glass, with pool umbrellas beyond"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-scoreboard-1600.jpg",
+            "small": "/images/resorts/all-star-movies-scoreboard-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A giant hockey scoreboard showing Players and Penalty boxes on a building wall, next to a red fence and pool umbrellas"
+          }
+        ]
+      },
+      {
+        "caption": "The 101 Dalmatians section: Cruella's car driving along the roofline, a giant Dalmatian in a paint can, and puppies running across every balcony.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-cruella-car-1600.jpg",
+            "small": "/images/resorts/all-star-movies-cruella-car-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "An orange 101 Dalmatians building with puppies on the balcony railings, and a purple van and Cruella's red car driving along the green roofline"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-dalmatian-statue-1600.jpg",
+            "small": "/images/resorts/all-star-movies-dalmatian-statue-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "A giant Dalmatian statue sitting in a yellow paint can against a spotted building wall under a blue sky"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-dalmatians-courtyard-1600.jpg",
+            "small": "/images/resorts/all-star-movies-dalmatians-courtyard-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A shady courtyard path between the orange 101 Dalmatians buildings, with puppies on the railings and a Dalmatian statue in the distance"
+          }
+        ]
+      },
+      {
+        "caption": "Look closer and the details keep going: a giant Dalmatian from below, a giant yellow fire hydrant, and a Kanine Krunchies bone stamped into the walkway.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-dalmatian-close-1600.jpg",
+            "small": "/images/resorts/all-star-movies-dalmatian-close-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "Looking up at a giant Dalmatian statue against a blue sky with puffy clouds, beside a spotted wall"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-hydrant-1600.jpg",
+            "small": "/images/resorts/all-star-movies-hydrant-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "A giant yellow fire hydrant on a grassy mound in front of a 101 Dalmatians building"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-kanine-krunchies-1600.jpg",
+            "small": "/images/resorts/all-star-movies-kanine-krunchies-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A red dog-bone shape set into the sidewalk, stamped with the words Kanine Krunchies"
+          }
+        ]
+      }
+    ],
+    "pools": [
+      {
+        "caption": "Fantasia Pool, with Sorcerer Mickey conducting the water jets under a giant movie-screen frame, and the Fantasia book standing outside one of the buildings.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-fantasia-pool-1600.jpg",
+            "small": "/images/resorts/all-star-movies-fantasia-pool-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "Fantasia Pool with red umbrellas and lounge chairs, framed by red curtains and a steel screen frame, with palm trees and buildings behind"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-fantasia-book-1600.jpg",
+            "small": "/images/resorts/all-star-movies-fantasia-book-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "A giant brown book titled Fantasia standing in front of a blue resort building"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-sorcerer-mickey-1600.jpg",
+            "small": "/images/resorts/all-star-movies-sorcerer-mickey-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A Sorcerer Mickey statue on a rock in Fantasia Pool, with water jets arcing around him and marching-broom buildings behind"
+          }
+        ]
+      },
+      {
+        "caption": "The Reel Fun Arcade by the main building, and the quieter Duck Pond Pool in the Mighty Ducks section.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-arcade-1600.jpg",
+            "small": "/images/resorts/all-star-movies-arcade-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "The entrance to the Reel Fun Arcade, with a film-reel sign over open glass doors and arcade games inside"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-duck-pond-pool-1600.jpg",
+            "small": "/images/resorts/all-star-movies-duck-pond-pool-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "The Duck Pond Pool with a ladder into the water, red umbrellas and lounge chairs and colorful resort buildings beyond"
+          }
+        ]
+      }
+    ]
+  }
 }

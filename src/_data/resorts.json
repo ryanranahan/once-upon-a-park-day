@@ -10,7 +10,14 @@
       "Buses to all four parks and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "photo": {
+      "src": "/images/resorts/all-star-movies-1600.jpg",
+      "small": "/images/resorts/all-star-movies-800.jpg",
+      "width": 1600,
+      "height": 1067,
+      "alt": "A giant Dalmatian statue sitting in a yellow paint can in front of a spotted 101 Dalmatians building, with an old-style TV set and a puppy statue in the courtyard"
+    }
   },
   {
     "slug": "all-star-music",
