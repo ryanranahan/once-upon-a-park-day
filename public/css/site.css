@@ -362,4 +362,6 @@ ul.benefits li{margin:8px 0}
 .prose .post-photo,.guide .post-photo{margin:28px 0}
 .prose .post-photo img,.guide .post-photo img{width:100%;height:auto;border-radius:16px}
 .prose .post-photo figcaption,.guide .post-photo figcaption{color:var(--muted);font-size:15px;margin-top:8px;max-width:44rem}
+.post-photo .photo-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}
+@media (max-width:560px){.post-photo .photo-pair{grid-template-columns:1fr}}
 .credits{padding-top:40px;padding-bottom:64px}

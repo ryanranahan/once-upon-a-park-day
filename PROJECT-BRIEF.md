@@ -96,7 +96,7 @@ Anything in [BRACKETS] needs real content from Ryan: his name, number of resorts
 
 - No Disney logos, characters, or Disney-owned photos or artwork. Do not use "Disney" in the domain name.
 - Disney's press room (https://disneyexperiences.com/disneyworld-press/) is fine for checking facts, but do not copy its photos, videos or text. Disney's terms of use limit its content to personal, noncommercial use, and this site is commercial. Write facts in our own words.
-- Ryan's own photos: the Disney Dream and Disney Magic heroes, and the four Grand Floridian photos (hero, rooms, Narcoossee's, walkway) in `images/resorts/`. Use his photos in place of Commons ones whenever he sends them.
+- Ryan's own photos: the Disney Dream and Disney Magic heroes, the four Grand Floridian photos (hero, rooms, Narcoossee's, walkway), and the All-Star Music hero plus section photos (`all-star-music-*`) in `images/resorts/`. Use his photos in place of Commons ones whenever he sends them.
 - The five SVG images are original illustrations used as stand-ins. Replace them with Ryan's own photos when available.
 - Keep the "not affiliated with The Walt Disney Company" disclaimer in the footer of every page.
 - Every page with affiliate links needs a visible disclosure.
