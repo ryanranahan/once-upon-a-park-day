@@ -373,23 +373,6 @@
     "place": "Disney's Wilderness Lodge",
     "page": "/resorts/wilderness-lodge/"
   },
-  "wdw/yacht-club": {
-    "src": "/images/commons/wdw-yacht-club-1600.jpg",
-    "small": "/images/commons/wdw-yacht-club-800.jpg",
-    "width": 1600,
-    "height": 1067,
-    "alt": "Disney's Yacht Club Resort and its lighthouse across Crescent Lake",
-    "credit": {
-      "author": "Bruce Harlick from Seattle, United States",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:DisneyYacht1.jpg",
-      "file": "File:DisneyYacht1.jpg",
-      "changes": "cropped and resized"
-    },
-    "place": "Disney's Yacht Club Resort",
-    "page": "/resorts/yacht-club/"
-  },
   "wdw/beach-club-villas": {
     "src": "/images/commons/wdw-beach-club-villas-1600.jpg",
     "small": "/images/commons/wdw-beach-club-villas-800.jpg",

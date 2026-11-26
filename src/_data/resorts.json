@@ -193,11 +193,11 @@
     "dvc": false,
     "host": null,
     "photo": {
-      "src": "/images/resorts/grand-floridian-1600.jpg",
-      "small": "/images/resorts/grand-floridian-800.jpg",
+      "src": "/images/resorts/grand-floridian-lagoon-1600.jpg",
+      "small": "/images/resorts/grand-floridian-lagoon-800.jpg",
       "width": 1600,
       "height": 1067,
-      "alt": "The Grand Floridian's white Victorian main building and red gabled roofs in late sun under a dark, cloudy sky"
+      "alt": "The Grand Floridian's white Victorian buildings and red roofs across the water at dusk, with warm light in the windows"
     }
   },
   {
@@ -242,7 +242,14 @@
       "Buses to Magic Kingdom, Animal Kingdom, and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "photo": {
+      "src": "/images/resorts/yacht-club-1600.jpg",
+      "small": "/images/resorts/yacht-club-800.jpg",
+      "width": 1600,
+      "height": 1067,
+      "alt": "Disney's Yacht Club Resort and its lighthouse glowing across Crescent Lake at sunset, framed by a live oak draped in Spanish moss"
+    }
   },
   {
     "slug": "bay-lake-tower",
