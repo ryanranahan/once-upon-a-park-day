@@ -349,7 +349,14 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "polynesian-village"
+    "host": "polynesian-village",
+    "photo": {
+      "src": "/images/resorts/polynesian-villas-1600.jpg",
+      "small": "/images/resorts/polynesian-villas-800.jpg",
+      "width": 1600,
+      "height": 1066,
+      "alt": "The over-water bungalows on stilts in Seven Seas Lagoon, with patterned gables, wraparound decks and Magic Kingdom on the horizon"
+    }
   },
   {
     "slug": "island-tower",
