@@ -43,6 +43,10 @@ How it works: the splash builds to `/coming-soon/`, and `functions/index.js` (a 
 - Page titles, descriptions, social preview tags and schema.org structured data are generated in `src/_includes/layouts/base.njk` using helpers in `src/_lib/seo.js`.
 - `sitemap.xml`, `robots.txt`, `llms.txt` and `404.html` are built from `src/sitemap.njk`, `src/robots.njk`, `src/llms.njk` and `src/404.njk`. New guides and posts are added to them automatically.
 
+- **Quick answers** on hotel and ship pages are built from each guide's own facts by `src/_lib/quick-answers.js` and also published as FAQPage structured data. To add a hand-written question, put a `"faq": [{ "q": "...", "a": "..." }]` array in the guide's data; those show first.
+- Guides without a "facts last checked" date show "Last updated", taken from when the guide's data file last changed in git.
+- Every photo inside a guide, article or post is listed in its structured data automatically (`src/_lib/page-photos.js`).
+
 ## Hosting
 
 Cloudflare Pages builds and publishes the site on every push to `main`.

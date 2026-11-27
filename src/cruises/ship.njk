@@ -135,6 +135,7 @@ eleventyComputed:
     </div>
     <h3>First-timer tips</h3>
     {% if ship.tips %}<ul class="ticks">{% for x in ship.tips %}<li>{{ x }}</li>{% endfor %}</ul>{% else %}<p class="todo">[TWO OR THREE PRACTICAL TIPS FOR THIS SHIP]</p>{% endif %}
+{% include "quick-answers.njk" %}
   </article>
 
   <aside class="guide-side">
