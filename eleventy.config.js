@@ -1,6 +1,13 @@
 import { jsonLd, metaDescription, pageTitle, plainText } from "./src/_lib/seo.js";
 
+import { addPagePhotos } from "./src/_lib/page-photos.js";
+
 export default function (eleventyConfig) {
+  // List every photo on a page (hero and section photos) in its structured data.
+  eleventyConfig.addTransform("page-photos", function (content) {
+    return (this.page.outputPath || "").endsWith(".html") ? addPagePhotos(content, this.page.url) : content;
+  });
+
   eleventyConfig.addPassthroughCopy({ "src/images": "images", "src/css": "css", "src/favicon.svg": "favicon.svg" });
 
   eleventyConfig.addCollection("post", (api) =>

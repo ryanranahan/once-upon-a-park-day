@@ -1,0 +1,12 @@
+{#- Short, direct answers built from this guide (see src/_lib/quick-answers.js).
+    Also published as FAQPage structured data. -#}
+{% if faq and faq.length %}
+    <section class="quick-answers" aria-labelledby="quick-answers">
+      <h2 id="quick-answers">Quick answers</h2>
+      <dl>
+        {% for f in faq %}<dt>{{ f.q }}</dt>
+        <dd>{{ f.a | safe }}</dd>
+        {% endfor %}
+      </dl>
+    </section>
+{% endif %}

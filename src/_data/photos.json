@@ -237,23 +237,6 @@
     "place": "Disney's Polynesian Village Resort",
     "page": "/resorts/polynesian-village/"
   },
-  "wdw/polynesian-villas": {
-    "src": "/images/commons/wdw-polynesian-villas-1600.jpg",
-    "small": "/images/commons/wdw-polynesian-villas-800.jpg",
-    "width": 1500,
-    "height": 1000,
-    "alt": "Red-roofed longhouses above a white-sand beach on the Polynesian Village Resort grounds",
-    "credit": {
-      "author": "Chuck from San Francisco, CA",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:POLY_Tahiti-beach.jpg",
-      "file": "File:POLY Tahiti-beach.jpg",
-      "changes": "cropped and resized"
-    },
-    "place": "Disney's Polynesian Villas & Bungalows",
-    "page": "/resorts/polynesian-villas/"
-  },
   "wdw/pop-century": {
     "src": "/images/commons/wdw-pop-century-1600.jpg",
     "small": "/images/commons/wdw-pop-century-800.jpg",

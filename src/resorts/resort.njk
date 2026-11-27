@@ -38,6 +38,7 @@ eleventyComputed:
     {% endif %}
 
 {% include "guide-body.njk" %}
+{% include "quick-answers.njk" %}
   </article>
 
   <aside class="guide-side">
@@ -48,7 +49,7 @@ eleventyComputed:
         <dt>Area</dt><dd>{{ resort.area }}</dd>
         <dt>Getting around</dt><dd>{{ resort.transport | first }}</dd>
         <dt>Best for</dt>{% if g.bestFor %}<dd>{{ g.bestFor }}</dd>{% else %}<dd class="todo">[BEST FOR]</dd>{% endif %}
-        <dt>Facts last checked</dt>{% if g.checked %}<dd>{{ g.checked }}</dd>{% else %}<dd class="todo">[DATE]</dd>{% endif %}
+        {% if g.checked %}<dt>Facts last checked</dt><dd>{{ g.checked }}</dd>{% elif guideUpdated %}<dt>Last updated</dt><dd><time datetime="{{ guideUpdated.iso }}">{{ guideUpdated.month }}</time></dd>{% endif %}
       </dl>
     </div>
     {% set nearby = resorts | byArea(resort.area, resort.slug) %}
