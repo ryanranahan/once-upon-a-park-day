@@ -367,3 +367,9 @@ ul.benefits li{margin:8px 0}
 .prose .post-photo img,.guide .post-photo img{width:100%;height:auto;border-radius:16px}
 .prose .post-photo figcaption,.guide .post-photo figcaption{color:var(--muted);font-size:15px;margin-top:8px;max-width:44rem}
 .credits{padding-top:40px;padding-bottom:64px}
+
+/* Homepage intro video */
+.intro-video{width:min(960px,calc(100vw - 32px));padding:0;border:0;border-radius:16px;background:#000;overflow:visible}
+.intro-video::backdrop{background:rgba(14,27,54,.85)}
+.intro-video video{display:block;width:100%;height:auto;border-radius:16px}
+.intro-close{position:absolute;top:-52px;right:0;width:44px;height:44px;border-radius:50%;border:0;background:var(--white);color:var(--blue);display:flex;align-items:center;justify-content:center;cursor:pointer}

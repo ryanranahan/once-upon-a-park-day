@@ -8,7 +8,7 @@ export default function (eleventyConfig) {
     return (this.page.outputPath || "").endsWith(".html") ? addPagePhotos(content, this.page.url) : content;
   });
 
-  eleventyConfig.addPassthroughCopy({ "src/images": "images", "src/css": "css", "src/favicon.svg": "favicon.svg" });
+  eleventyConfig.addPassthroughCopy({ "src/images": "images", "src/css": "css", "src/videos": "videos", "src/favicon.svg": "favicon.svg" });
 
   eleventyConfig.addCollection("post", (api) =>
     api.getFilteredByGlob("src/blog/posts/*.md").filter((p) => !p.data.draft).sort((a, b) => b.date - a.date)
