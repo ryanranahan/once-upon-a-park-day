@@ -6,8 +6,6 @@
 // A guide can add its own hand-written questions as a `faq` array of
 // { "q": "...", "a": "..." } in its guide data. Those are shown first.
 
-import { execFileSync } from "node:child_process";
-
 const LOWER_FIRST = new Set([
   "Buses", "Boat", "Boats", "Walking", "Monorail", "Internal", "A", "An", "Its", "Dedicated",
   "Resort", "Water", "Shuttle", "Same", "Closest", "Couples", "Families", "Family", "Budget-minded",
@@ -127,23 +125,4 @@ export function shipAnswers(ship) {
 
   const seen = new Set();
   return out.filter((f) => !seen.has(f.q.toLowerCase()) && seen.add(f.q.toLowerCase()));
-}
-
-// The month a file was last changed in git, e.g. "November 2026". Used as the
-// "Last updated" date on guides that don't have a "facts last checked" date.
-const gitCache = new Map();
-export function lastChanged(file) {
-  if (gitCache.has(file)) return gitCache.get(file);
-  let value = null;
-  try {
-    const iso = execFileSync("git", ["log", "-1", "--format=%cs", "--", file], { encoding: "utf8" }).trim();
-    if (iso) {
-      const d = new Date(iso + "T00:00:00Z");
-      value = { iso, month: d.toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" }) };
-    }
-  } catch {
-    value = null;
-  }
-  gitCache.set(file, value);
-  return value;
 }

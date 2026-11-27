@@ -19,7 +19,7 @@ eleventyComputed:
       <h1>{{ ship.name }}</h1>
       <p class="lead">{{ ship.summary }}</p>
       {% if ship.sailed %}<p class="badge">We've sailed this ship</p>{% endif %}
-      <p class="byline">{% if ship.overview %}<span class="badge badge-researched">Researched guide</span> {% endif %}Facts last checked {% if ship.overview %}November 2026{% else %}[DATE]{% endif %}</p>
+      <p class="byline">{% if ship.overview %}<span class="badge badge-researched">Researched guide</span> {% endif %}Facts last checked {{ ship.checked or site.factsChecked }}</p>
     </div>
     {% set label = ship.name %}
     {% set photo = ship.photo or photos["ship/" + ship.slug] %}
@@ -146,7 +146,7 @@ eleventyComputed:
         <dt>{% if ship.year > 2026 %}Debuts{% else %}Entered service{% endif %}</dt><dd>{{ ship.year }}</dd>
         <dt>Home ports</dt><dd>{{ ship.homePorts or "[VERIFY]" }}</dd>
         <dt>Water ride</dt><dd>{{ ship.water }}</dd>
-        <dt>Facts last checked</dt>{% if ship.overview %}<dd>November 2026</dd>{% else %}<dd class="todo">[DATE]</dd>{% endif %}
+        <dt>Facts last checked</dt><dd>{{ ship.checked or site.factsChecked }}</dd>
       </dl>
       <a class="btn btn-outline-dark compare-link" href="/cruises/#compare">Compare all ships</a>
     </div>

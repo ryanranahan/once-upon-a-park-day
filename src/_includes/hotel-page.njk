@@ -41,7 +41,7 @@
         <dt>Destination</dt><dd><a href="{{ dest.url }}">{{ dest.name }}</a></dd>
         <dt>Getting around</dt><dd>{{ resort.transport | first }}</dd>
         <dt>Best for</dt>{% if g.bestFor %}<dd>{{ g.bestFor }}</dd>{% else %}<dd class="todo">[BEST FOR]</dd>{% endif %}
-        {% if g.checked %}<dt>Facts last checked</dt><dd>{{ g.checked }}</dd>{% elif guideUpdated %}<dt>Last updated</dt><dd><time datetime="{{ guideUpdated.iso }}">{{ guideUpdated.month }}</time></dd>{% endif %}
+        <dt>Facts last checked</dt><dd>{{ g.checked or site.factsChecked }}</dd>
       </dl>
     </div>
     <div class="card nearby">
