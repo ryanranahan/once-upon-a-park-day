@@ -44,7 +44,7 @@ How it works: the splash builds to `/coming-soon/`, and `functions/index.js` (a 
 - `sitemap.xml`, `robots.txt`, `llms.txt` and `404.html` are built from `src/sitemap.njk`, `src/robots.njk`, `src/llms.njk` and `src/404.njk`. New guides and posts are added to them automatically.
 
 - **Quick answers** on hotel and ship pages are built from each guide's own facts by `src/_lib/quick-answers.js` and also published as FAQPage structured data. To add a hand-written question, put a `"faq": [{ "q": "...", "a": "..." }]` array in the guide's data; those show first.
-- Guides without a "facts last checked" date show "Last updated", taken from when the guide's data file last changed in git.
+- "Facts last checked" uses a guide's own `checked` value, or `factsChecked` in `src/_data/site.json` (currently November 2026) when it has none. Change it there to update every page at once.
 - Every photo inside a guide, article or post is listed in its structured data automatically (`src/_lib/page-photos.js`).
 
 ## Hosting
