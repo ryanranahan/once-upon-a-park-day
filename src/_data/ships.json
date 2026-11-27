@@ -57,7 +57,7 @@
       "Fewer verandah rooms than the larger ships"
     ],
     "tips": [
-      "If you've always wanted the Panama Canal, the Magic's 14-night crossings are the way to do it with Disney.",
+      "If you've always wanted the Panama Canal, the Magic's 14-night crossings (November 2027 eastbound, March 2028 westbound) are the way to do it with Disney.",
       "Book Palo early; it's small and fills up."
     ],
     "itineraries": [
@@ -105,7 +105,7 @@
         "take": "Short Baja trips are a perfect first cruise from the West Coast, and the longer Mexican Riviera sailings add some of Mexico's prettiest beach towns."
       },
       {
-        "when": "November 4, 2027",
+        "when": "November 2027",
         "port": "San Diego to Galveston",
         "length": "14 nights",
         "route": "Panama Canal",
@@ -127,7 +127,7 @@
         "take": "Getting both of Disney's Bahamian island stops on one trip from Texas is a real treat, and the holiday sailings bring a lot of extra sparkle."
       },
       {
-        "when": "March 26, 2028",
+        "when": "March 2028",
         "port": "Galveston to San Diego",
         "length": "14 nights",
         "route": "Panama Canal",
@@ -215,15 +215,14 @@
         "take": "A short Baja sailing is a fantastic first taste of Disney Cruise Line, especially for West Coast families who don't want to fly."
       },
       {
-        "when": "May to September 2027",
+        "when": "Summer 2027",
         "port": "Vancouver, Canada",
         "length": "7 nights",
         "route": "Alaska",
         "highlights": [
-          "A 4-night Pacific Coast sailing from San Diego on May 6 and back on September 20"
+          "7-night sailings to Alaska's glaciers and Inside Passage"
         ],
-        "take": "Alaska and the Wonder are a classic pairing: a week of glaciers, wildlife and whale-watching, with Disney's kids clubs for the days at sea.",
-        "verify": true
+        "take": "Alaska and the Wonder are a classic pairing: a week of glaciers, wildlife and whale-watching, with Disney's kids clubs for the days at sea."
       },
       {
         "when": "Fall 2027 and spring 2028",
@@ -283,7 +282,7 @@
     "guests": "about 2,500 at two per room, up to about 4,000",
     "decks": "14 guest decks",
     "maiden": "January 2011",
-    "homePorts": "Fort Lauderdale, then Port Canaveral from late April to mid-November 2027, then Fort Lauderdale again",
+    "homePorts": "Fort Lauderdale, then Port Canaveral for summer 2027, then back to Fort Lauderdale from November 2027",
     "overview": "Disney Dream was the first of Disney's bigger ships. It introduced the AquaDuck water coaster and the virtual portholes in inside staterooms, and it specializes in short Bahamian cruises, which makes it one of the best first-cruise ships in the fleet.",
     "adults": [
       "Palo and Remy, adults-only dining (extra cost)",
@@ -322,12 +321,12 @@
         "take": "Short, easy, and a great value. This is the trip to book if you want to try a Disney cruise without committing a full week."
       },
       {
-        "when": "Late April to mid-November 2027",
+        "when": "Summer to November 2027",
         "port": "Port Canaveral, Florida",
         "length": "3 and 4 nights",
         "route": "The Bahamas",
         "highlights": [
-          "Castaway Cay",
+          "Castaway Cay and Lookout Cay at Lighthouse Point",
           "Halloween on the High Seas runs on select ships from September"
         ],
         "take": "Port Canaveral is close to Orlando, so this is the easiest way to pair a few days at Walt Disney World with a short cruise."
@@ -415,14 +414,14 @@
       {
         "when": "Now through summer 2027",
         "port": "Port Canaveral, Florida",
-        "length": "4 to 7 nights",
+        "length": "4 to 10 nights",
         "route": "The Bahamas and the Caribbean",
         "highlights": [
           "Castaway Cay",
-          "A 10-night Southern Caribbean sailing on July 11, 2027"
+          "One 10-night Southern Caribbean sailing in summer 2027",
+          "Pixar Day at Sea on select 5-night sailings"
         ],
-        "take": "The Fantasy's longer trips are great for a real vacation at sea, with time to enjoy both the ship and the islands.",
-        "verify": true
+        "take": "The Fantasy's longer trips are great for a real vacation at sea, with time to enjoy both the ship and the islands."
       },
       {
         "when": "September to November 2027",
@@ -435,35 +434,34 @@
         "take": "Close to Orlando and just long enough to relax. A great add-on to a Walt Disney World trip."
       },
       {
-        "when": "Early to mid-December 2027",
+        "when": "December 2027",
         "port": "San Juan, Puerto Rico",
         "length": "5 to 7 nights",
         "route": "Southern and Eastern Caribbean",
         "highlights": [
-          "A 7-night Southern Caribbean Very Merrytime sailing on December 3"
+          "A 7-night Southern Caribbean sailing, then a 5-night Eastern Caribbean sailing that ends in Fort Lauderdale"
         ],
         "take": "Starting in San Juan puts the Southern Caribbean within reach, with islands you can't easily get to on a short Florida cruise."
       },
       {
-        "when": "Mid-December 2027 to April 2028",
+        "when": "December 2027 to April 2028",
         "port": "Fort Lauderdale, Florida",
         "length": "4 to 7 nights",
         "route": "The Bahamas and Eastern Caribbean",
         "highlights": [
-          "Disney's first-ever Bermuda cruise: 8 nights, visiting both Castaway Cay and Lookout Cay (March 18, 2028)"
+          "Disney's first-ever Bermuda cruise: 8 nights, visiting both Castaway Cay and Lookout Cay"
         ],
         "take": "The Bermuda sailing is a true first for Disney, with pink-sand beaches plus both Bahamian island stops. A great one for repeat cruisers."
       },
       {
         "when": "Late April to May 2028",
-        "port": "San Juan, then back to Port Canaveral",
-        "length": "6 and 7 nights",
-        "route": "Southern and Eastern Caribbean",
+        "port": "San Juan, Puerto Rico",
+        "length": "7 nights",
+        "route": "Southern Caribbean",
         "highlights": [
-          "Moves to San Juan on April 23, then returns to Port Canaveral on May 13"
+          "Two sailings visiting islands such as Curaçao, Bonaire, Barbados and Antigua"
         ],
-        "take": "These one-way sailings are a fun way to see more of the Caribbean in one trip.",
-        "verify": true
+        "take": "The Southern Caribbean is hard to reach on a short Florida cruise, so these two sailings are a rare chance on a Disney ship."
       }
     ]
   },
@@ -540,21 +538,20 @@
         "length": "13 nights",
         "route": "Transatlantic",
         "highlights": [
-          "The Wish's first crossing to Europe"
+          "The Wish's first crossing to Europe, via Madeira, Gibraltar and Cartagena"
         ],
-        "take": "Lots of sea days with every Disney comfort. A dream for anyone who loves the ship itself.",
-        "verify": true
+        "take": "Lots of sea days with every Disney comfort. A dream for anyone who loves the ship itself."
       },
       {
         "when": "May to early September 2027",
         "port": "Barcelona, Civitavecchia (Rome) and Southampton",
-        "length": "7 nights and up",
+        "length": "3 to 10 nights",
         "route": "Mediterranean, Greek Isles, Norwegian Fjords, British Isles and Northern Europe",
         "highlights": [
-          "The Wish's inaugural Europe season"
+          "The Wish's first Europe season",
+          "Ports include Zadar, Trieste (for Venice), Dubrovnik, Santorini, Hellesylt and Edinburgh"
         ],
-        "take": "Europe on Disney's newest-style ship means big sightseeing days in port and a familiar, family-friendly home base at night.",
-        "verify": true
+        "take": "Europe on Disney's newest-style ship means big sightseeing days in port and a familiar, family-friendly home base at night."
       },
       {
         "when": "September 17, 2027",
@@ -634,10 +631,12 @@
     "overview": "Disney Treasure is the Wish's sister ship, themed to adventure and exploration. It sails week-long Caribbean trips from Port Canaveral, which makes it the pick for families who want a full week at sea.",
     "adults": [
       "Palo Steakhouse and Enchanté, adults-only dining (extra cost)",
-      "Adults-only lounges, including a Haunted Mansion-themed bar [VERIFY]",
+      "The Rose, an adults-only lounge inspired by Beauty and the Beast",
+      "Scat Cat Lounge, an adults-only piano bar inspired by The Aristocats",
+      "Haunted Mansion Parlor, Skipper Society (Jungle Cruise) and Periscope Pub (20,000 Leagues Under the Sea)",
       "Senses Spa"
     ],
-    "pools": "The AquaMouse is back with a new show, \"Curse of the Golden Egg.\" There are family pools, splash areas for little ones, and an adults-only pool. [VERIFY POOL NAMES]",
+    "pools": "The AquaMouse is back with a new show, \"Curse of the Golden Egg.\" There are family pools, splash areas for little ones, and an adults-only pool.",
     "shows": [
       "The Tale of Moana",
       "Beauty and the Beast",
@@ -713,21 +712,24 @@
       "Edge (ages 11 to 14)",
       "Vibe (ages 14 to 17)"
     ],
-    "staterooms": "[VERIFY]",
+    "staterooms": "about 1,250",
     "guests": "about 2,500 at two per room, up to about 4,000",
     "decks": "15",
-    "maiden": "November 2025",
-    "homePorts": "Fort Lauderdale, then Port Canaveral from late November 2027",
-    "overview": "Disney Destiny is the third Wish-class ship, themed to Disney heroes and villains. It debuted in November 2025 from Fort Lauderdale, and it moves to Port Canaveral in late 2027 for its first regular season there.",
+    "maiden": "November 20, 2025",
+    "homePorts": "Fort Lauderdale, then Port Canaveral from November 2027",
+    "overview": "Disney Destiny is the third Wish-class ship, themed to Disney heroes and villains. It debuted in November 2025 from Fort Lauderdale, and it moves to Port Canaveral in November 2027 for its first regular season there.",
     "adults": [
       "Palo Steakhouse and Enchanté, adults-only dining (extra cost)",
-      "A Doctor Strange-inspired adults-only lounge",
+      "The Rose, an adults-only lounge inspired by Beauty and the Beast",
+      "Saga, a Black Panther-inspired family lounge by day that turns adults-only at night",
+      "Quiet Cove adults-only pool, with Cove Café & Bar",
       "Senses Spa"
     ],
-    "pools": "The AquaMouse runs a new show, \"Sing A Silly Song.\" There are family pools, splash areas for little ones, and an adults-only pool. [VERIFY POOL NAMES]",
+    "pools": "The AquaMouse is a two-level water coaster with a new show for this ship, \"Sing a Silly Song,\" alongside \"Curse of the Golden Egg.\" Little ones have the Toy Story Splash Zone, and adults get the Quiet Cove pool. There are about 10 pools and water-play areas across the ship.",
     "shows": [
-      "Hercules [VERIFY TITLE]",
-      "Disney Seas the Adventure [VERIFY]"
+      "Disney Hercules",
+      "Frozen, A Musical Spectacular",
+      "Disney Seas the Adventure"
     ],
     "pros": [
       "One of Disney's newest ships",
@@ -739,22 +741,23 @@
     ],
     "tips": [
       "Book Pride Lands early if your kids love The Lion King.",
-      "Its late-2027 move to Port Canaveral makes it easy to pair with Walt Disney World."
+      "Its November 2027 move to Port Canaveral makes it easy to pair with Walt Disney World."
     ],
     "itineraries": [
       {
         "when": "Now through fall 2027",
         "port": "Fort Lauderdale, Florida",
-        "length": "3 to 5 nights",
-        "route": "The Bahamas and Western Caribbean",
+        "length": "3 to 5 nights, plus a few 7-night sailings",
+        "route": "The Bahamas and the Eastern and Western Caribbean",
         "highlights": [
-          "Castaway Cay",
+          "Castaway Cay, with some sailings visiting Lookout Cay too",
+          "Four 7-night Caribbean sailings in summer 2027",
           "Halloween on the High Seas runs on select ships from September"
         ],
         "take": "A brand-new ship on short trips is a great combination: you get the newest Disney theming without a week-long commitment."
       },
       {
-        "when": "Late November 2027 onward",
+        "when": "November 2027 onward",
         "port": "Port Canaveral, Florida",
         "length": "3 to 7 nights",
         "route": "The Bahamas and Western Caribbean",
@@ -776,26 +779,30 @@
     "summary": "Disney's largest ship, built for 3- and 4-night sailings from Singapore.",
     "water": "Woody and Jessie's Wild Slides, plus the Ironcycle Test Run roller coaster",
     "rotation": [
-      "Animator's Table",
-      "Enchanted Summer",
-      "Hollywood Spotlight Club",
-      "Navigator's Club [VERIFY]"
+      "Animator's Table or Animator's Palate",
+      "Hollywood Spotlight Club or The Navigator's Club",
+      "Enchanted Summer or Pixar Market"
     ],
     "adult": [
-      "Palo Trattoria [VERIFY AGE POLICY]"
+      "Palo Trattoria"
     ],
     "kids": [
-      "Kids clubs [VERIFY NAMES AND AGES]"
+      "It's a Small World Nursery (6 months to 3 years)",
+      "Oceaneer Club (ages 3 to 10)",
+      "Edge (ages 11 to 14)",
+      "Vibe (ages 14 to 17)"
     ],
-    "staterooms": "about 2,100 [VERIFY]",
+    "staterooms": "about 2,100",
     "guests": "about 4,200 at two per room, up to about 6,700",
     "decks": "19",
-    "maiden": "March 2026",
+    "maiden": "March 10, 2026",
     "homePorts": "Singapore, year-round",
     "overview": "Disney Adventure is Disney's biggest ship by far, and the first based in Asia. It sails short trips from Singapore and is built like a floating theme park, with seven themed areas, including Marvel Landing, Toy Story Place, San Fransokyo Street and Wayfinder Bay.",
     "adults": [
-      "Palo Trattoria (extra cost)",
-      "A spa, lounges and a concierge lounge [VERIFY NAMES]"
+      "Palo Trattoria, adults-only Italian dining (extra cost)",
+      "Mike & Sulley's: Flavors of Asia, extra-cost dining (not adults-only)",
+      "Bars and lounges including Tiana's Bayou Lounge, Spellbound and Buccaneer Bar",
+      "A spa with a rainforest area, plus an Aladdin-inspired concierge lounge"
     ],
     "pools": "Toy Story Place has Woody and Jessie's Wild Slides, and Marvel Landing has the Ironcycle Test Run, Disney's first roller coaster at sea, plus Pym Quantum Racers and Groot Galaxy Spin.",
     "shows": [
@@ -844,14 +851,16 @@
   {
     "slug": "disney-believe",
     "name": "Disney Believe",
-    "cls": "[VERIFY]",
+    "cls": "Wish class",
     "year": 2027,
-    "size": "[VERIFY]",
+    "size": "about 140,000 gross tons",
     "sailed": false,
-    "summary": "Disney's next ship, scheduled to sail its maiden voyage in December 2027 from Fort Lauderdale.",
+    "summary": "Disney's next ship and the last of the Wish class, sailing from Fort Lauderdale from December 18, 2027.",
     "water": "[VERIFY]",
     "rotation": [
-      "[VERIFY]"
+      "Oaken's Table: A Frozen Family Feast",
+      "Worlds of Marvel",
+      "1923"
     ],
     "adult": [
       "[VERIFY]"
@@ -859,32 +868,44 @@
     "kids": [
       "[VERIFY]"
     ],
-    "maiden": "December 18, 2027 [VERIFY]",
-    "homePorts": "Fort Lauderdale",
-    "overview": "Disney Believe is the newest ship joining the fleet. It's scheduled to begin sailing from Fort Lauderdale in December 2027. We'll fill in the ship details as Disney shares them.",
+    "maiden": "December 18, 2027",
+    "homePorts": "Fort Lauderdale (Port Everglades)",
+    "overview": "Disney Believe is the fourth and final Wish-class ship. It begins sailing from Fort Lauderdale on December 18, 2027, with 4- and 5-night trips to the Bahamas and the Western Caribbean. Highlights announced so far include the first stage version of Encanto, a Moana-inspired Grand Hall, Oaken's Table (a Frozen dining show), the Sea Notes piano bar and Gazelle, a two-story Zootopia lounge. We'll fill in the rest as Disney shares it.",
     "itineraries": [
       {
-        "when": "December 2027",
-        "port": "Fort Lauderdale, Florida",
-        "length": "5 nights",
-        "route": "Maiden voyage",
-        "highlights": [
-          "The ship's first-ever sailing"
-        ],
-        "take": "Maiden voyages have a special energy, and you'll be among the very first to explore the ship.",
-        "verify": true
-      },
-      {
-        "when": "January to May 2028",
+        "when": "From December 18, 2027",
         "port": "Fort Lauderdale, Florida",
         "length": "4 and 5 nights",
         "route": "The Bahamas and Western Caribbean",
         "highlights": [
-          "Alternating Bahamian and Western Caribbean sailings"
+          "Maiden voyage on December 18, 2027",
+          "Bookings opened October 19, 2026"
         ],
-        "take": "A brand-new ship on short trips, so it's an easy way to try the newest thing at sea.",
-        "verify": true
+        "take": "A brand-new ship on short trips, so it's an easy way to try the newest thing at sea. Maiden season sailings book up fast, so compare fares with an older ship too."
       }
+    ],
+    "guests": "about 2,500 at two per room",
+    "shows": [
+      "Disney Encanto (a world premiere)",
+      "An updated Tangled"
+    ],
+    "adults": [
+      "Sea Notes, a Little Mermaid piano bar with a live pianist",
+      "Gazelle, a two-story Zootopia lounge with family fun by day and adults-only entertainment at night",
+      "More adults-only spaces still to be announced"
+    ],
+    "pros": [
+      "Everything is brand new",
+      "The first-ever stage version of Encanto",
+      "Short 4- and 5-night trips from Fort Lauderdale"
+    ],
+    "cons": [
+      "Maiden season sailings are in high demand",
+      "New ships sometimes adjust things in their first few months"
+    ],
+    "tips": [
+      "Compare a maiden-season fare with the same length trip on the Disney Wish or Destiny before you book.",
+      "Fort Lauderdale is about a three-and-a-half-hour drive from Orlando, so plan transfers if you're pairing it with Walt Disney World."
     ]
   }
 ]

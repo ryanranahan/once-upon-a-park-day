@@ -82,7 +82,7 @@ Each resort guide covers who the hotel suits, rooms, pools, dining, getting to t
 - [Disney Treasure](https://once-upon-a-park-day.pages.dev/cruises/disney-treasure/): The Wish's sister ship, themed around adventure and exploration.
 - [Disney Destiny](https://once-upon-a-park-day.pages.dev/cruises/disney-destiny/): Disney's heroes-and-villains ship and the third in the Wish class, launched in late 2025.
 - [Disney Adventure](https://once-upon-a-park-day.pages.dev/cruises/disney-adventure/): Disney's largest ship, built for 3- and 4-night sailings from Singapore.
-- [Disney Believe](https://once-upon-a-park-day.pages.dev/cruises/disney-believe/): Disney's next ship, scheduled to sail its maiden voyage in December 2027 from Fort Lauderdale.
+- [Disney Believe](https://once-upon-a-park-day.pages.dev/cruises/disney-believe/): Disney's next ship and the last of the Wish class, sailing from Fort Lauderdale from December 18, 2027.
 
 ## Blog
 

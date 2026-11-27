@@ -47,7 +47,6 @@ description: Every Disney Cruise Line ship explained for first-time cruisers, wi
           <tr><th scope="row">Water ride</th>{% for s in ships %}<td{% if s.water == "[VERIFY]" %} class="todo"{% endif %}>{{ s.water }}</td>{% endfor %}</tr>
           <tr><th scope="row">Main dining rotation</th>{% for s in ships %}<td{% if s.rotation[0] == "[VERIFY]" %} class="todo"{% endif %}>{{ s.rotation | join("<br>") | safe }}</td>{% endfor %}</tr>
           <tr><th scope="row">Adult-only dining</th>{% for s in ships %}<td{% if s.adult[0] == "[VERIFY]" %} class="todo"{% endif %}>{{ s.adult | join("<br>") | safe }}</td>{% endfor %}</tr>
-          <tr><th scope="row">Home ports</th>{% for s in ships %}<td class="todo">[VERIFY]</td>{% endfor %}</tr>
           <tr><th scope="row">Best for</th>{% for s in ships %}<td class="todo">[BEST FOR]</td>{% endfor %}</tr>
         </tbody>
       </table>
