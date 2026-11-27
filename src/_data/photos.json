@@ -33,40 +33,6 @@
     "place": "Bay Lake Tower at Disney's Contemporary Resort",
     "page": "/resorts/bay-lake-tower/"
   },
-  "wdw/all-star-movies": {
-    "src": "/images/commons/wdw-all-star-movies-1600.jpg",
-    "small": "/images/commons/wdw-all-star-movies-800.jpg",
-    "width": 1600,
-    "height": 1067,
-    "alt": "A giant star at the entrance to Disney's All-Star Movies Resort, with the colorful lobby building behind",
-    "credit": {
-      "author": "Michael Rivera",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Disney%27s_All-Star_Movie_Resort_star.jpg",
-      "file": "File:Disney's All-Star Movie Resort star.jpg",
-      "changes": "cropped and resized"
-    },
-    "place": "Disney's All-Star Movies Resort",
-    "page": "/resorts/all-star-movies/"
-  },
-  "wdw/all-star-sports": {
-    "src": "/images/commons/wdw-all-star-sports-1600.jpg",
-    "small": "/images/commons/wdw-all-star-sports-800.jpg",
-    "width": 1600,
-    "height": 1067,
-    "alt": "A football-field courtyard with a giant helmet and brightly painted buildings at Disney's All-Star Sports Resort",
-    "credit": {
-      "author": "Brian Marshall from Wales",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Disney_All_Stars_Sports_Hotel.jpg",
-      "file": "File:Disney All Stars Sports Hotel.jpg",
-      "changes": "cropped and resized"
-    },
-    "place": "Disney's All-Star Sports Resort",
-    "page": "/resorts/all-star-sports/"
-  },
   "wdw/animal-kingdom-lodge": {
     "src": "/images/commons/wdw-animal-kingdom-lodge-1600.jpg",
     "small": "/images/commons/wdw-animal-kingdom-lodge-800.jpg",
@@ -203,23 +169,6 @@
     "place": "The Villas at Disney's Grand Floridian Resort & Spa",
     "page": "/resorts/grand-floridian-villas/"
   },
-  "wdw/island-tower": {
-    "src": "/images/commons/wdw-island-tower-1600.jpg",
-    "small": "/images/commons/wdw-island-tower-800.jpg",
-    "width": 1600,
-    "height": 1067,
-    "alt": "View over Seven Seas Lagoon and the Polynesian's longhouses from the Island Tower terrace",
-    "credit": {
-      "author": "BallofyaRn",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "source": "https://commons.wikimedia.org/wiki/File:View_of_Seven_Seas_Lagoon_from_Island_Tower_at_Disney%27s_Polynesian_Resort.jpg",
-      "file": "File:View of Seven Seas Lagoon from Island Tower at Disney's Polynesian Resort.jpg",
-      "changes": "cropped and resized"
-    },
-    "place": "Island Tower at Disney's Polynesian Villas & Bungalows",
-    "page": "/resorts/island-tower/"
-  },
   "wdw/old-key-west": {
     "src": "/images/commons/wdw-old-key-west-1600.jpg",
     "small": "/images/commons/wdw-old-key-west-800.jpg",
@@ -270,23 +219,6 @@
     },
     "place": "Disney's Polynesian Village Resort",
     "page": "/resorts/polynesian-village/"
-  },
-  "wdw/polynesian-villas": {
-    "src": "/images/commons/wdw-polynesian-villas-1600.jpg",
-    "small": "/images/commons/wdw-polynesian-villas-800.jpg",
-    "width": 1500,
-    "height": 1000,
-    "alt": "Red-roofed longhouses above a white-sand beach on the Polynesian Village Resort grounds",
-    "credit": {
-      "author": "Chuck from San Francisco, CA",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:POLY_Tahiti-beach.jpg",
-      "file": "File:POLY Tahiti-beach.jpg",
-      "changes": "cropped and resized"
-    },
-    "place": "Disney's Polynesian Villas & Bungalows",
-    "page": "/resorts/polynesian-villas/"
   },
   "wdw/pop-century": {
     "src": "/images/commons/wdw-pop-century-1600.jpg",

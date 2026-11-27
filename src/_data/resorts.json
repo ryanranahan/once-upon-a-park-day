@@ -10,7 +10,14 @@
       "Buses to all four parks and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "photo": {
+      "src": "/images/resorts/all-star-movies-1600.jpg",
+      "small": "/images/resorts/all-star-movies-800.jpg",
+      "width": 1600,
+      "height": 1067,
+      "alt": "A giant Dalmatian statue sitting in a yellow paint can in front of a spotted 101 Dalmatians building, with an old-style TV set and a puppy statue in the courtyard"
+    }
   },
   {
     "slug": "all-star-music",
@@ -36,7 +43,14 @@
       "Buses to all four parks and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "photo": {
+      "src": "/images/resorts/all-star-sports-1600.jpg",
+      "small": "/images/resorts/all-star-sports-800.jpg",
+      "width": 1600,
+      "height": 1067,
+      "alt": "A Donald Duck statue swinging a tennis racket on a court in front of the tennis-themed building at night, with a giant pink racket and tennis balls on the facade"
+    }
   },
   {
     "slug": "pop-century",
@@ -349,7 +363,14 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "polynesian-village"
+    "host": "polynesian-village",
+    "photo": {
+      "src": "/images/resorts/polynesian-villas-1600.jpg",
+      "small": "/images/resorts/polynesian-villas-800.jpg",
+      "width": 1600,
+      "height": 1066,
+      "alt": "The over-water bungalows on stilts in Seven Seas Lagoon, with patterned gables, wraparound decks and Magic Kingdom on the horizon"
+    }
   },
   {
     "slug": "island-tower",
@@ -364,7 +385,14 @@
       "Buses to Hollywood Studios, Animal Kingdom, and Disney Springs"
     ],
     "dvc": true,
-    "host": "polynesian-village"
+    "host": "polynesian-village",
+    "photo": {
+      "src": "/images/resorts/island-tower-1600.jpg",
+      "small": "/images/resorts/island-tower-800.jpg",
+      "width": 1600,
+      "height": 1066,
+      "alt": "Island Tower's terracotta-colored wings and palm trees along the shore of Seven Seas Lagoon under a blue sky"
+    }
   },
   {
     "slug": "grand-floridian-villas",

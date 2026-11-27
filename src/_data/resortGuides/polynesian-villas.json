@@ -20,5 +20,19 @@
     "Watch the fireworks from the beach.",
     "Walk to the Transportation and Ticket Center for the Epcot monorail."
   ],
-  "bestFor": "Families who want villa space at the Polynesian."
+  "bestFor": "Families who want villa space at the Polynesian.",
+  "photos": {
+    "rooms": {
+      "caption": "A bungalow on the lagoon, seen from the beach past the palms.",
+      "items": [
+        {
+          "src": "/images/resorts/polynesian-villas-bungalow-palm-1600.jpg",
+          "small": "/images/resorts/polynesian-villas-bungalow-palm-800.jpg",
+          "width": 1200,
+          "height": 1600,
+          "alt": "An over-water bungalow with a patterned gable and a deck on stilts, framed by a palm trunk and red leaves, with beach chairs on the sand below"
+        }
+      ]
+    }
+  }
 }
