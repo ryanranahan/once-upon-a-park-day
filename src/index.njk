@@ -138,6 +138,29 @@ section: home
   var open = document.getElementById('intro-open');
   var dlg = document.getElementById('intro-video');
   var player = document.getElementById('intro-player');
+  // Background loop in the hero: wide screens only, and never for
+  // reduced motion or data saver. Everyone else keeps the photo.
+  var wide = window.matchMedia('(min-width: 900px)').matches;
+  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var saver = navigator.connection && navigator.connection.saveData;
+  if (wide && !still && !saver) {
+    var holder = document.querySelector('.home-hero-photo');
+    var bg = document.createElement('video');
+    bg.className = 'home-hero-video';
+    bg.muted = true; bg.loop = true; bg.autoplay = true; bg.playsInline = true;
+    bg.setAttribute('muted', ''); bg.setAttribute('playsinline', ''); bg.setAttribute('aria-hidden', 'true');
+    bg.poster = '/images/home/intro-loop-poster.webp';
+    bg.src = '/videos/intro.mp4';
+    bg.addEventListener('playing', function () { bg.classList.add('is-playing'); holder.classList.add('has-video'); });
+    holder.appendChild(bg);
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        var p = entries[0].isIntersecting ? bg.play() : bg.pause();
+        if (p && p.catch) { p.catch(function () {}); }
+      }).observe(holder);
+    }
+  }
+
   if (!dlg.showModal) { return; }
   open.addEventListener('click', function (e) {
     e.preventDefault();
