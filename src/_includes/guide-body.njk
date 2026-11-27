@@ -7,7 +7,7 @@
     {{ g.overview | safe }}
     <div class="callout callout-soft">
       <strong>First-hand notes coming soon.</strong>
-      <p>This guide is put together from research, not a stay. A first-hand take, photos and tips will be added later. Check details with the hotel before you book.</p>
+      <p>This guide is put together from research, not a stay{% if resort.photo %}, though the photos are our own{% endif %}. A first-hand take{% if not resort.photo %}, photos{% endif %} and tips will be added later. Check details with the hotel before you book.</p>
     </div>
 {% else %}
     <h2>Our take</h2>

@@ -23,7 +23,14 @@
       "Buses to all four parks and Disney Springs"
     ],
     "dvc": false,
-    "host": null
+    "host": null,
+    "photo": {
+      "src": "/images/resorts/all-star-music-hero-1600.jpg",
+      "small": "/images/resorts/all-star-music-hero-800.jpg",
+      "width": 1600,
+      "height": 1067,
+      "alt": "A black 1957 Chevy parked in front of a giant jukebox arch, with guitars and pink and blue Rock Inn buildings behind it"
+    }
   },
   {
     "slug": "all-star-sports",
