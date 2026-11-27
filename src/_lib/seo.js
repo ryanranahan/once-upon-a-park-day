@@ -160,7 +160,7 @@ export function jsonLd(d) {
       description: clean(r.theme),
       ...(DESTINATIONS[top] ? { containedInPlace: { "@type": "TouristDestination", name: DESTINATIONS[top] } } : {}),
     };
-    const checked = monthDate(clean(g.checked)) || (d.guideUpdated && d.guideUpdated.iso);
+    const checked = monthDate(clean(g.checked) || site.factsChecked);
     main = {
       "@type": "Article",
       "@id": pageUrl + "#guide",
@@ -192,9 +192,10 @@ export function jsonLd(d) {
       isPartOf: { "@id": siteId },
       mainEntityOfPage: pageUrl,
       ...(d.ship.photo ? { image: site.url + d.ship.photo.src } : {}),
+      ...(monthDate(clean(s.checked) || site.factsChecked) ? { dateModified: monthDate(clean(s.checked) || site.factsChecked) } : {}),
     };
   } else if (d.isArticle) {
-    const checked = monthDate(clean(d.checked || "November 2026"));
+    const checked = monthDate(clean(d.checked) || site.factsChecked);
     main = {
       "@type": "Article",
       "@id": pageUrl + "#article",
