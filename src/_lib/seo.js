@@ -31,6 +31,8 @@ export function plainText(s) {
   return out;
 }
 
+const stripTags = (s) => (s == null ? s : String(s).replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim());
+
 // Placeholder text like "[VERIFY]" or "[DATE]" never goes into metadata.
 const hasPlaceholder = (s) => typeof s === "string" && /\[[A-Z][A-Z ,]*\]/.test(s);
 const clean = (s) => (s && !hasPlaceholder(s) ? String(s) : undefined);
@@ -136,7 +138,12 @@ export function jsonLd(d) {
   const g = d.guide || {};
   const author = clean(g.author || d.author);
   const person = author
-    ? { "@type": "Person", name: author, ...(clean(g.experience) ? { description: g.experience } : {}) }
+    ? {
+        "@type": "Person",
+        name: author,
+        url: site.url + "/about/how-we-research/",
+        ...(clean(g.experience) ? { description: g.experience } : {}),
+      }
     : null;
   const top = d.url.split("/").filter(Boolean)[0];
   const items = indexItems(d);
@@ -153,7 +160,7 @@ export function jsonLd(d) {
       description: clean(r.theme),
       ...(DESTINATIONS[top] ? { containedInPlace: { "@type": "TouristDestination", name: DESTINATIONS[top] } } : {}),
     };
-    const checked = monthDate(clean(g.checked));
+    const checked = monthDate(clean(g.checked)) || (d.guideUpdated && d.guideUpdated.iso);
     main = {
       "@type": "Article",
       "@id": pageUrl + "#guide",
@@ -259,15 +266,15 @@ export function jsonLd(d) {
   }
   if (main) graph.push(main);
   // Question-and-answer pairs shown on the page, for search and AI answers.
-  if (d.isPost && d.faq && d.faq.length) {
+  if ((d.isPost || d.resort || d.ship) && d.faq && d.faq.length) {
     graph.push({
       "@type": "FAQPage",
       "@id": pageUrl + "#faq",
       isPartOf: { "@id": pageUrl },
       mainEntity: d.faq.map((f) => ({
         "@type": "Question",
-        name: f.q,
-        acceptedAnswer: { "@type": "Answer", text: f.a },
+        name: plainText(f.q),
+        acceptedAnswer: { "@type": "Answer", text: stripTags(plainText(f.a)) },
       })),
     });
   }
