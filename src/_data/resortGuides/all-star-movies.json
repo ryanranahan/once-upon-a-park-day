@@ -3,8 +3,8 @@
   "overview": "<p>All-Star Movies is one of Disney's three original Value resorts. Buildings are grouped by film, with giant movie icons towering over the courtyards, so it's colorful and fun for kids without a deluxe price tag.</p>",
   "suits": "<p>Families on a budget who plan to spend most of each day in the parks and just need a clean, cheerful place to sleep.</p>",
   "rooms": "<p>Standard rooms are compact and sleep up to four, with two queen beds or one queen plus a pull-down bed in refreshed rooms. Check the latest room setup when you book.</p><p>Preferred rooms sit closer to the main building and food court, which saves a lot of walking.</p>",
-  "pools": "<p>The main pool is the <strong>Fantasia Pool</strong>, with a smaller <strong>Duck Pond Pool</strong> nearby. Both have the same playful, oversized theming as the rest of the resort.</p>",
-  "dining": "<p>Dining is the <strong>World Premiere Food Court</strong>, with grab-and-go items and a bar by the pool. There's no table-service restaurant on site.</p>",
+  "pools": "<p>The main pool is the <strong>Fantasia Pool</strong>, with a smaller <strong>Duck Pond Pool</strong> nearby. There's also a kids' splash area beside Fantasia Pool, a playground and the Reel Fun Arcade. Both pools have the same playful, oversized theming as the rest of the resort.</p>",
+  "dining": "<p>Dining is the <strong>World Premiere Food Court</strong>, with grab-and-go items and <strong>Silver Screen Spirits</strong>, a bar by the pool. There's also <strong>The Reel Spot</strong>, a covered patio with tables. There's no table-service restaurant on site.</p>",
   "gettingAround": "<p>Every park is reached by Disney bus. Plan extra time at busy times of day.</p>",
   "pros": [
     "One of the lowest-priced Disney-owned hotels",
@@ -24,6 +24,138 @@
   "bestFor": "Budget-minded families who'll spend all day in the parks.",
   "photos": {
     "overview": [
+      {
+        "caption": "The main lobby, decorated for the holidays when we visited.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-lobby-1600.jpg",
+            "small": "/images/resorts/all-star-movies-lobby-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "The bright main lobby with a checkered floor, a decorated Christmas tree, wreaths along the wall and the check-in desks on the left"
+          }
+        ]
+      },
+      {
+        "caption": "The Toy Story section: a giant Woody in front of Andy's bookshelf, with Rex and Bo Peep in the garden and green army men on the rooftops.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-toy-story-1600.jpg",
+            "small": "/images/resorts/all-star-movies-toy-story-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "Giant Rex, Woody and Bo Peep statues in a garden in front of the Toy Story buildings, with green army men standing on the rooftops"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-woody-1600.jpg",
+            "small": "/images/resorts/all-star-movies-woody-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A giant smiling Woody statue in front of a painted bookshelf full of oversized books"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-bo-peep-1600.jpg",
+            "small": "/images/resorts/all-star-movies-bo-peep-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A giant Bo Peep statue with her pink polka-dot dress and crook, next to Woody in front of Andy's bookshelf"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-woody-courtyard-1600.jpg",
+            "small": "/images/resorts/all-star-movies-woody-courtyard-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "The Toy Story courtyard with a giant Woody and his film-strip fence, alphabet blocks and blue Toy Story buildings"
+          }
+        ]
+      },
+      {
+        "caption": "Buzz Lightyear towers over the courtyard on his alphabet blocks, RC sits out on the road, and a giant Bucket O' Soldiers stands by the buildings.",
+        "portrait": true,
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-buzz-close-1600.jpg",
+            "small": "/images/resorts/all-star-movies-buzz-close-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "Looking up at a giant Buzz Lightyear statue with his hands on his hips, in front of a To Infinity and Beyond wall"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-buzz-blocks-1600.jpg",
+            "small": "/images/resorts/all-star-movies-buzz-blocks-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "Buzz Lightyear rising behind stacked wooden alphabet blocks marked E and A"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-rc-car-drive-1600.jpg",
+            "small": "/images/resorts/all-star-movies-rc-car-drive-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "A giant green RC car parked at the end of a road leading to a Toy Story building"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-bucket-o-soldiers-1600.jpg",
+            "small": "/images/resorts/all-star-movies-bucket-o-soldiers-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "A giant red, white and blue Bucket O' Soldiers beside a Toy Story building with army men on the roof"
+          }
+        ]
+      },
+      {
+        "caption": "More from Andy's room: Buzz with the BUZZ blocks, RC up close, the Bucket O' Soldiers between the buildings, and the cloud-wallpaper wall.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-buzz-1600.jpg",
+            "small": "/images/resorts/all-star-movies-buzz-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "Giant alphabet blocks spelling BUZZ in front of a towering Buzz Lightyear statue"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-rc-car-1600.jpg",
+            "small": "/images/resorts/all-star-movies-rc-car-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A giant green and blue RC car with orange wheels parked on the pavement in front of Toy Story buildings"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-bucket-o-soldiers-building-1600.jpg",
+            "small": "/images/resorts/all-star-movies-bucket-o-soldiers-building-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A Toy Story building with green army men on the roof, gold stars on the railings and a giant Bucket O' Soldiers at the end"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-cloud-wall-1600.jpg",
+            "small": "/images/resorts/all-star-movies-cloud-wall-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A tall wall painted with Andy's blue-sky cloud wallpaper next to a Toy Story building with sheriff-star decorations"
+          }
+        ]
+      },
+      {
+        "caption": "Andy's giant bedroom door, and a giant checkerboard in the Toy Story courtyard in front of Andy's window.",
+        "pair": true,
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-andys-door-1600.jpg",
+            "small": "/images/resorts/all-star-movies-andys-door-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "Looking up through a giant open teal door, sized like Andy's bedroom door, at a cloudy sky"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-checkers-1600.jpg",
+            "small": "/images/resorts/all-star-movies-checkers-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A giant red and black checkerboard with oversized checkers in the Toy Story courtyard, in front of a wall with Andy's bedroom window"
+          }
+        ]
+      },
       {
         "caption": "The Mighty Ducks section: the goalie-mask entrance, giant hockey sticks along the buildings, the hockey rink with its players, and the scoreboard by the Duck Pond Pool.",
         "items": [
@@ -108,25 +240,51 @@
             "alt": "A red dog-bone shape set into the sidewalk, stamped with the words Kanine Krunchies"
           }
         ]
+      },
+      {
+        "caption": "The Love Bug section: Herbie bursts out of a wall of hearts, and the Winner's Circle courtyard has its own Herbie on a checkered finish line.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-love-bug-1600.jpg",
+            "small": "/images/resorts/all-star-movies-love-bug-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "Herbie, the white number 53 Love Bug, mounted on a blue wall covered in red hearts under The Love Bug title"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-winners-circle-wide-1600.jpg",
+            "small": "/images/resorts/all-star-movies-winners-circle-wide-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "The Love Bug courtyard with palm trees, a lawn, and a Herbie car on the Winner's Circle stage in front of the buildings"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-winners-circle-1600.jpg",
+            "small": "/images/resorts/all-star-movies-winners-circle-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A red walkway leading to the checkered Winner's Circle stage, between Love Bug buildings decorated with giant wrenches and checkered flags"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-love-bug-close-1600.jpg",
+            "small": "/images/resorts/all-star-movies-love-bug-close-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A close look at Herbie, number 53, with checkered flags and red hearts around him"
+          }
+        ]
       }
     ],
     "pools": [
       {
-        "caption": "Fantasia Pool, with Sorcerer Mickey conducting the water jets under a giant movie-screen frame, and the Fantasia book standing outside one of the buildings.",
+        "caption": "Fantasia Pool is the main pool, with Sorcerer Mickey conducting the water jets under a giant movie-screen frame. The quieter Duck Pond Pool (bottom right) is in the Mighty Ducks section.",
         "items": [
           {
-            "src": "/images/resorts/all-star-movies-fantasia-pool-1600.jpg",
-            "small": "/images/resorts/all-star-movies-fantasia-pool-800.jpg",
+            "src": "/images/resorts/all-star-movies-main-pool-1600.jpg",
+            "small": "/images/resorts/all-star-movies-main-pool-800.jpg",
             "width": 1600,
             "height": 1200,
-            "alt": "Fantasia Pool with red umbrellas and lounge chairs, framed by red curtains and a steel screen frame, with palm trees and buildings behind"
-          },
-          {
-            "src": "/images/resorts/all-star-movies-fantasia-book-1600.jpg",
-            "small": "/images/resorts/all-star-movies-fantasia-book-800.jpg",
-            "width": 1200,
-            "height": 1600,
-            "alt": "A giant brown book titled Fantasia standing in front of a blue resort building"
+            "alt": "Fantasia Pool on a cloudy day, with a lifeguard stand, red umbrellas, a giant broom and palm trees around the water"
           },
           {
             "src": "/images/resorts/all-star-movies-sorcerer-mickey-1600.jpg",
@@ -134,18 +292,13 @@
             "width": 1600,
             "height": 1200,
             "alt": "A Sorcerer Mickey statue on a rock in Fantasia Pool, with water jets arcing around him and marching-broom buildings behind"
-          }
-        ]
-      },
-      {
-        "caption": "The Reel Fun Arcade by the main building, and the quieter Duck Pond Pool in the Mighty Ducks section.",
-        "items": [
+          },
           {
-            "src": "/images/resorts/all-star-movies-arcade-1600.jpg",
-            "small": "/images/resorts/all-star-movies-arcade-800.jpg",
-            "width": 1200,
-            "height": 1600,
-            "alt": "The entrance to the Reel Fun Arcade, with a film-reel sign over open glass doors and arcade games inside"
+            "src": "/images/resorts/all-star-movies-fantasia-pool-1600.jpg",
+            "small": "/images/resorts/all-star-movies-fantasia-pool-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "Fantasia Pool with red umbrellas and lounge chairs, framed by red curtains and a steel screen frame, with palm trees and buildings behind"
           },
           {
             "src": "/images/resorts/all-star-movies-duck-pond-pool-1600.jpg",
@@ -155,7 +308,235 @@
             "alt": "The Duck Pond Pool with a ladder into the water, red umbrellas and lounge chairs and colorful resort buildings beyond"
           }
         ]
+      },
+      {
+        "caption": "Fantasia giants: the Sorcerer's hat and marching brooms on the lawn, the Fantasia book, and the hat rising behind the pool.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-sorcerer-hat-1600.jpg",
+            "small": "/images/resorts/all-star-movies-sorcerer-hat-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A giant blue Sorcerer's hat flanked by marching brooms carrying buckets, in front of a Fantasia building with a wave-shaped roofline"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-fantasia-book-1600.jpg",
+            "small": "/images/resorts/all-star-movies-fantasia-book-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "A giant brown book titled Fantasia standing in front of a blue resort building"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-sorcerer-hat-pool-1600.jpg",
+            "small": "/images/resorts/all-star-movies-sorcerer-hat-pool-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "The giant Sorcerer's hat and brooms seen across the pool deck from behind a blue fence, under a gray sky"
+          }
+        ]
+      },
+      {
+        "caption": "For little ones: a splash area beside Fantasia Pool with icy Fantasia-style sculptures, and a playground tucked into the pine trees.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-splash-area-1600.jpg",
+            "small": "/images/resorts/all-star-movies-splash-area-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A shallow kids' splash area with blue ice-shaped sculptures, with the Fantasia book and resort buildings behind"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-playground-1600.jpg",
+            "small": "/images/resorts/all-star-movies-playground-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "A wooden playground with green towers and slides, half-hidden by tall pine trees and palmettos"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-splash-pool-1600.jpg",
+            "small": "/images/resorts/all-star-movies-splash-pool-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A round, shallow wading pool beside icy blue sculptures, with the Fantasia book building in the background"
+          }
+        ]
+      },
+      {
+        "caption": "The Reel Fun Arcade by the main building, with air hockey, racing games and a photo booth.",
+        "portrait": true,
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-arcade-1600.jpg",
+            "small": "/images/resorts/all-star-movies-arcade-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "The entrance to the Reel Fun Arcade, with a film-reel sign over open glass doors and arcade games inside"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-arcade-air-hockey-1600.jpg",
+            "small": "/images/resorts/all-star-movies-arcade-air-hockey-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "An air hockey table in the arcade, with rows of colorful arcade games and a few chairs behind it"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-arcade-games-1600.jpg",
+            "small": "/images/resorts/all-star-movies-arcade-games-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "Racing and motorcycle arcade games under a dark wall painted with stars"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-arcade-photo-booth-1600.jpg",
+            "small": "/images/resorts/all-star-movies-arcade-photo-booth-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "A Spider-Man themed photo booth next to a row of lit-up arcade games"
+          }
+        ]
+      }
+    ],
+    "dining": [
+      {
+        "caption": "The World Premiere Food Court sign, the counters (Lyric, Grand and Roxy) under a ceiling full of theater lights, and the Roxy counter.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-food-court-sign-1600.jpg",
+            "small": "/images/resorts/all-star-movies-food-court-sign-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "The World Premiere Food Court sign with gold Art Deco lettering and stars, under a blue ceiling"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-food-court-roxy-1600.jpg",
+            "small": "/images/resorts/all-star-movies-food-court-roxy-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "Rows of round theater-style lights over the food court, with the Roxy counter and its queue lines below"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-food-court-counters-1600.jpg",
+            "small": "/images/resorts/all-star-movies-food-court-counters-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "The food court's ordering area, with the Lyric counter and its Allergy Requests Order Here sign on the left and the Grand and Roxy counters behind"
+          }
+        ]
+      },
+      {
+        "caption": "World Premiere Food Court: the entrance, the movie-theater-style dining room with booths and a mural of Disney films, and Silver Screen Spirits, the pool bar.",
+        "portrait": true,
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-food-court-1600.jpg",
+            "small": "/images/resorts/all-star-movies-food-court-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "The World Premiere Food Court's blue building with yellow awnings, glass doors and patio tables"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-food-court-seating-1600.jpg",
+            "small": "/images/resorts/all-star-movies-food-court-seating-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "Rows of wooden tables and metal chairs in the food court, with retro booths and the Silver Screen Spirits sign at the back"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-food-court-booths-1600.jpg",
+            "small": "/images/resorts/all-star-movies-food-court-booths-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "Gray-green booths under a long mural of classic Disney film scenes framed like a film strip"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-silver-screen-spirits-1600.jpg",
+            "small": "/images/resorts/all-star-movies-silver-screen-spirits-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "The Silver Screen Spirits pool bar with a marquee sign, yellow awning and a row of bar stools, under tall palm trees"
+          }
+        ]
+      },
+      {
+        "caption": "The marquee-style menu boards, and the drink station with Silver Screen Spirits behind it.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-menu-board-1600.jpg",
+            "small": "/images/resorts/all-star-movies-menu-board-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "Marquee-style menu boards ringed with light bulbs, listing Headliners and Kid's Meals"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-beverage-station-1600.jpg",
+            "small": "/images/resorts/all-star-movies-beverage-station-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A curved drink station with soda machines and stars on the counter, with tables and the Silver Screen Spirits sign behind"
+          }
+        ]
+      },
+      {
+        "caption": "The Reel Spot, a covered patio with tables, and a quieter lounge with armchairs and big windows.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-reel-spot-1600.jpg",
+            "small": "/images/resorts/all-star-movies-reel-spot-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "The Reel Spot, a covered outdoor pavilion with a green sign, tables and chairs, behind landscaped plants"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-food-court-lounge-1600.jpg",
+            "small": "/images/resorts/all-star-movies-food-court-lounge-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A bright lounge with orange armchairs, small round tables and big windows, under wavy red and yellow walls"
+          }
+        ]
+      }
+    ],
+    "allergies": [
+      {
+        "caption": "Jackie going through her order with the chef at the Lyric counter, under the Allergy Requests Order Here sign.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-allergy-chef-1600.jpg",
+            "small": "/images/resorts/all-star-movies-allergy-chef-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "Jackie, in a pink sweater, talking with a chef in a white jacket who writes down her order at the food court counter"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-allergy-sign-1600.jpg",
+            "small": "/images/resorts/all-star-movies-allergy-sign-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "The Lyric counter with an Allergy Requests Order Here sign on the wall beside it"
+          }
+        ]
+      },
+      {
+        "caption": "Jackie's gluten-free cheese pizza, and its box with the purple \"Requested to be made without\" sticker and gluten/wheat checked.",
+        "items": [
+          {
+            "src": "/images/resorts/all-star-movies-gluten-free-pizza-1600.jpg",
+            "small": "/images/resorts/all-star-movies-gluten-free-pizza-800.jpg",
+            "width": 1200,
+            "height": 1600,
+            "alt": "A gluten-free cheese pizza cut into slices in an open takeout box"
+          },
+          {
+            "src": "/images/resorts/all-star-movies-allergy-sticker-1600.jpg",
+            "small": "/images/resorts/all-star-movies-allergy-sticker-800.jpg",
+            "width": 1600,
+            "height": 1200,
+            "alt": "A pizza box marked Cheese Pizza in marker, with a purple Requested to be made without sticker and the gluten and wheat box checked"
+          }
+        ]
       }
     ]
-  }
+  },
+  "allergies": "<p>Disney is great with food allergies, and the World Premiere Food Court makes it easy. There's a sign that says <strong>\"Allergy Requests Order Here\"</strong> at the <strong>Lyric</strong> counter, so you know exactly where to go.</p><p>My wife Jackie ordered there and spoke with the head chef, who went through the order with her and wrote everything down to make sure it was safe. She got a <strong>gluten-free cheese pizza</strong>, which came in its own box with a purple <strong>\"Requested to be made without\"</strong> sticker, with gluten and wheat checked and \"Cheese Pizza\" written on the lid, so we could see at a glance it had been made for her.</p>",
+  "allergiesDetails": "<h3>How ordering works at the food court</h3><ul class=\"ticks\"><li><strong>Tell the cast member when you order.</strong> Mention every allergy in your party. If you can't find something that works, ask to speak with a special diets-trained cast member.</li><li><strong>Use the allergy-friendly menu.</strong> Disney's allergy-friendly menus cover the nine most common allergens: eggs, fish, milk, peanuts, sesame, shellfish, soy, tree nuts and wheat. Kitchens will also do their best with requests like gluten, corn or citrus.</li><li><strong>Mobile ordering works too.</strong> In the My Disney Experience app, tap the <strong>Allergy-friendly</strong> icon on the menu screen. When you pick up, you'll speak to a cast member so you can confirm the order.</li><li><strong>Look for the marker.</strong> Allergy orders come with a pick in the food, a designated tray or, for to-go meals, a sticker on the box and bag. If you don't see one, ask before you eat.</li></ul><h3>Before your trip</h3><ul class=\"ticks\"><li>If your party has <strong>four or more</strong> allergy requests, or someone has a medically restrictive diet, email Disney's special diets team at <a href=\"mailto:Special.Diets@DisneyWorld.com\">Special.Diets@DisneyWorld.com</a>, no more than 14 days before you arrive.</li><li>Disney takes steps to avoid cross-contact but can't guarantee any item is completely allergen-free, and kitchens aren't separate. For severe allergies, always talk it through with a cast member.</li><li>As of October 6, 2026, Disney follows the FDA's updated list and no longer treats coconut and a few other nuts as tree nuts. If you're allergic to coconut, say so specifically.</li></ul>"
 }

@@ -3,7 +3,7 @@
     those to show several captioned sets in one section. Ryan's own photos, no credit needed. -#}
 {%- set shots = shot if shot.length else [shot] %}
 {%- for s in shots %}{% if s and s.items and s.items.length %}
-    <figure class="guide-photos guide-photos-{{ s.items.length }}{% if s.portrait %} guide-photos-portrait{% endif %}">
+    <figure class="guide-photos guide-photos-{{ s.items.length }}{% if s.portrait %} guide-photos-portrait{% endif %}{% if s.pair %} guide-photos-pair{% endif %}">
       <div class="guide-photos-grid">
       {% for p in s.items %}<img src="{{ p.small }}" srcset="{{ p.small }} {{ p.width / 2 }}w, {{ p.src }} {{ p.width }}w" sizes="(max-width: 820px) 100vw, 720px" width="{{ p.width }}" height="{{ p.height }}" alt="{{ p.alt }}" loading="lazy" decoding="async">
       {% endfor %}</div>
