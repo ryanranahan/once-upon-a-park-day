@@ -112,10 +112,7 @@
       <p class="eyebrow">First trip? You are in the right place</p>
       <h1>Find the Disney resort or cruise that <em>fits your family.</em></h1>
       <p class="lead">Answer three questions and get a short list, with plain-English guides for each pick.</p>
-      <a class="btn btn-outline-light" id="intro-open" href="/videos/intro.mp4">
-        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M8 5v14l11-7z"/></svg>
-        Watch the intro
-      </a>
+      
       <p class="byline">Written by Ryan.</p>
     </div>
     <form class="finder" id="finder">
@@ -223,55 +220,6 @@
   </div>
 </section>
 
-<dialog class="intro-video" id="intro-video" aria-label="Intro video">
-  <button class="intro-close" type="button" id="intro-close" aria-label="Close video">
-    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
-  </button>
-  <video id="intro-player" controls playsinline muted preload="none" poster="/images/home/intro-poster.webp" width="1280" height="720">
-    <source src="/videos/intro.mp4" type="video/mp4">
-  </video>
-</dialog>
-
-<script>
-(function () {
-  var open = document.getElementById('intro-open');
-  var dlg = document.getElementById('intro-video');
-  var player = document.getElementById('intro-player');
-  // Background loop in the hero: wide screens only, and never for
-  // reduced motion or data saver. Everyone else keeps the photo.
-  var wide = window.matchMedia('(min-width: 900px)').matches;
-  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var saver = navigator.connection && navigator.connection.saveData;
-  if (wide && !still && !saver) {
-    var holder = document.querySelector('.home-hero-photo');
-    var bg = document.createElement('video');
-    bg.className = 'home-hero-video';
-    bg.muted = true; bg.loop = true; bg.autoplay = true; bg.playsInline = true;
-    bg.setAttribute('muted', ''); bg.setAttribute('playsinline', ''); bg.setAttribute('aria-hidden', 'true');
-    bg.poster = '/images/home/intro-loop-poster.webp';
-    bg.src = '/videos/intro.mp4';
-    bg.addEventListener('playing', function () { bg.classList.add('is-playing'); holder.classList.add('has-video'); });
-    holder.appendChild(bg);
-    if ('IntersectionObserver' in window) {
-      new IntersectionObserver(function (entries) {
-        var p = entries[0].isIntersecting ? bg.play() : bg.pause();
-        if (p && p.catch) { p.catch(function () {}); }
-      }).observe(holder);
-    }
-  }
-
-  if (!dlg.showModal) { return; }
-  open.addEventListener('click', function (e) {
-    e.preventDefault();
-    dlg.showModal();
-    var p = player.play();
-    if (p && p.catch) { p.catch(function () {}); }
-  });
-  document.getElementById('intro-close').addEventListener('click', function () { dlg.close(); });
-  dlg.addEventListener('click', function (e) { if (e.target === dlg) { dlg.close(); } });
-  dlg.addEventListener('close', function () { player.pause(); player.currentTime = 0; });
-})();
-</script>
 
 </main>
 

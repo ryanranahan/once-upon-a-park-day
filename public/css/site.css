@@ -44,9 +44,6 @@ p{margin:0}
 .hero{background:var(--blue);color:var(--white);position:relative;overflow:hidden}
 .home-hero-photo{position:absolute;inset:0}
 .home-hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 42%;max-width:none}
-.home-hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s ease}
-.home-hero-video.is-playing{opacity:1}
-.home-hero-photo.has-video::after{background:linear-gradient(100deg,rgba(14,27,54,.9) 0%,rgba(14,27,54,.8) 40%,rgba(14,27,54,.35) 64%,rgba(14,27,54,.15) 100%)}
 .home-hero-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,rgba(14,27,54,.92) 0%,rgba(14,27,54,.82) 40%,rgba(14,27,54,.5) 72%,rgba(14,27,54,.4) 100%)}
 .hero-row{position:relative;z-index:1;display:flex;flex-wrap:wrap;align-items:center;gap:48px;padding-top:64px;padding-bottom:72px}
 .hero-copy{flex:1 1 460px;display:flex;flex-direction:column;gap:20px;align-items:flex-start}
@@ -370,9 +367,3 @@ ul.benefits li{margin:8px 0}
 .prose .post-photo img,.guide .post-photo img{width:100%;height:auto;border-radius:16px}
 .prose .post-photo figcaption,.guide .post-photo figcaption{color:var(--muted);font-size:15px;margin-top:8px;max-width:44rem}
 .credits{padding-top:40px;padding-bottom:64px}
-
-/* Homepage intro video */
-.intro-video{width:min(960px,calc(100vw - 32px));padding:0;border:0;border-radius:16px;background:#000;overflow:visible}
-.intro-video::backdrop{background:rgba(14,27,54,.85)}
-.intro-video video{display:block;width:100%;height:auto;border-radius:16px}
-.intro-close{position:absolute;top:-52px;right:0;width:44px;height:44px;border-radius:50%;border:0;background:var(--white);color:var(--blue);display:flex;align-items:center;justify-content:center;cursor:pointer}
